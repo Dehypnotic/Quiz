@@ -72,11 +72,16 @@ export function useQuizEngine() {
   const guestSessionRef = useRef<GuestSession | null>(null);
   const hostStateRef = useRef<InternalHostState | null>(null);
   const timerRef = useRef<number | null>(null);
+  const hostSyncDelayRef = useRef<number | null>(null);
 
   const clearTimer = () => {
     if (timerRef.current !== null) {
       window.clearTimeout(timerRef.current);
       timerRef.current = null;
+    }
+    if (hostSyncDelayRef.current !== null) {
+      window.clearTimeout(hostSyncDelayRef.current);
+      hostSyncDelayRef.current = null;
     }
   };
 
@@ -117,12 +122,24 @@ export function useQuizEngine() {
   );
 
   const syncAll = useCallback(
-    (s: InternalHostState) => {
-      setPublicState(buildPublicStateFor(s, myPlayerId));
+    (s: InternalHostState, delayHostMs = 0) => {
       hostSessionRef.current?.broadcast((playerId) => ({
         type: 'state_sync',
         state: buildPublicStateFor(s, playerId),
       }));
+
+      const hostSnapshot = buildPublicStateFor(s, myPlayerId);
+      if (delayHostMs > 0) {
+        if (hostSyncDelayRef.current !== null) {
+          window.clearTimeout(hostSyncDelayRef.current);
+        }
+        hostSyncDelayRef.current = window.setTimeout(() => {
+          hostSyncDelayRef.current = null;
+          setPublicState(hostSnapshot);
+        }, delayHostMs);
+      } else {
+        setPublicState(hostSnapshot);
+      }
     },
     [buildPublicStateFor, myPlayerId]
   );
@@ -189,16 +206,17 @@ export function useQuizEngine() {
     (s: InternalHostState) => {
       clearTimer();
       s.phase = 'answering';
-      s.questionStartTime = Date.now();
+      s.questionStartTime = Date.now() + 300;
       s.currentAnswers = new Map();
-      syncAll(s);
+      // Broadcast to guests first, delay host UI slightly so options appear together
+      syncAll(s, 300);
 
       timerRef.current = window.setTimeout(() => {
         const current = hostStateRef.current;
         if (current && current.phase === 'answering') {
           finishQuestion(current);
         }
-      }, s.settings.timeLimitSeconds * 1000);
+      }, s.settings.timeLimitSeconds * 1000 + 1000);
     },
     [finishQuestion, syncAll]
   );
@@ -359,9 +377,16 @@ export function useQuizEngine() {
           if (s.phase !== 'answering' || s.questionStartTime === null) return;
           if (s.currentAnswers.has(msg.playerId)) return;
 
+          const limitMs = s.settings.timeLimitSeconds * 1000;
+          const fallbackElapsed = Math.max(0, Date.now() - s.questionStartTime);
+          const elapsedMs =
+            typeof msg.clientElapsedMs === 'number'
+              ? Math.max(0, Math.min(limitMs, msg.clientElapsedMs))
+              : Math.min(limitMs, fallbackElapsed);
+
           s.currentAnswers.set(msg.playerId, {
             choiceIndex: msg.choiceIndex,
-            elapsedMs: Math.max(0, Date.now() - s.questionStartTime),
+            elapsedMs,
           });
 
           const expectedAnswerers = s.players.filter((p) => p.connected);

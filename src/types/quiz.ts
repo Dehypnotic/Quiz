@@ -102,7 +102,7 @@ export type ClientMessage =
   | { type: 'pick_category'; playerId: string; category: string }
   | { type: 'start_answering'; playerId: string }
   | { type: 'toggle_double'; playerId: string }
-  | { type: 'submit_answer'; playerId: string; choiceIndex: number }
+  | { type: 'submit_answer'; playerId: string; choiceIndex: number; clientElapsedMs?: number }
   | { type: 'next_step'; playerId: string };
 
 export type HostMessage =

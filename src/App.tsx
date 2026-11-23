@@ -102,8 +102,13 @@ export function App() {
           onToggleDouble={() =>
             sendAction({ type: 'toggle_double', playerId: myPlayerId })
           }
-          onSubmitAnswer={(choiceIndex) =>
-            sendAction({ type: 'submit_answer', playerId: myPlayerId, choiceIndex })
+          onSubmitAnswer={(choiceIndex, clientElapsedMs) =>
+            sendAction({
+              type: 'submit_answer',
+              playerId: myPlayerId,
+              choiceIndex,
+              clientElapsedMs,
+            })
           }
         />
       )}

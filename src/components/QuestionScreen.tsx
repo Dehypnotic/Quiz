@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { CheckCircle2, Flame, Mic, Volume2 } from 'lucide-react';
 import type { PublicGameState } from '../types/quiz';
 
@@ -8,7 +8,7 @@ interface QuestionScreenProps {
   isHost: boolean;
   onStartAnswering: () => void;
   onToggleDouble: () => void;
-  onSubmitAnswer: (choiceIndex: number) => void;
+  onSubmitAnswer: (choiceIndex: number, clientElapsedMs: number) => void;
 }
 
 const OPTION_STYLES = [
@@ -32,6 +32,7 @@ export function QuestionScreen({
   const [remainingMs, setRemainingMs] = useState<number>(
     state.settings.timeLimitSeconds * 1000
   );
+  const renderedAtRef = useRef<number>(Date.now());
 
   const me = state.players.find((p) => p.id === myPlayerId);
   const quizmaster = state.players.find((p) => p.id === state.quizmasterId);
@@ -45,16 +46,17 @@ export function QuestionScreen({
   }, [state.currentRound, state.currentQuestionIndex, state.phase]);
 
   useEffect(() => {
-    if (state.phase !== 'answering' || state.questionStartTime === null) return;
+    if (state.phase !== 'answering') return;
+    renderedAtRef.current = Date.now();
     const limitMs = state.settings.timeLimitSeconds * 1000;
     const update = () => {
-      const elapsed = Date.now() - state.questionStartTime!;
+      const elapsed = Date.now() - renderedAtRef.current;
       setRemainingMs(Math.max(0, limitMs - elapsed));
     };
     update();
     const id = window.setInterval(update, 100);
     return () => window.clearInterval(id);
-  }, [state.phase, state.questionStartTime, state.settings.timeLimitSeconds]);
+  }, [state.phase, state.currentRound, state.currentQuestionIndex, state.settings.timeLimitSeconds]);
 
   const expectedAnswerers = state.players.filter((p) => p.connected).length;
 
@@ -173,7 +175,7 @@ export function QuestionScreen({
                   disabled={hasAnswered}
                   onClick={() => {
                     setSelectedChoice(idx);
-                    onSubmitAnswer(idx);
+                    onSubmitAnswer(idx, Math.max(0, Date.now() - renderedAtRef.current));
                   }}
                   className={`flex w-full items-center gap-3.5 rounded-2xl border p-4 text-left transition active:scale-[0.99] ${
                     isPicked
