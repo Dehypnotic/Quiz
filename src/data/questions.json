@@ -1,0 +1,290 @@
+[
+  {
+    "id": "hist-1",
+    "category": "Historie",
+    "question": "I hvilket år ble den norske Grunnloven undertegnet på Eidsvoll?",
+    "options": [
+      "1807",
+      "1814",
+      "1884",
+      "1905"
+    ],
+    "answerToken": "aGlzdC0xOjE="
+  },
+  {
+    "id": "hist-2",
+    "category": "Historie",
+    "question": "Hvem var den første statsministeren i et selvstendig Norge etter unionsoppløsningen i 1905?",
+    "options": [
+      "Christian Michelsen",
+      "Johan Sverdrup",
+      "Gunnar Knudsen",
+      "Einar Gerhardsen"
+    ],
+    "answerToken": "aGlzdC0yOjA="
+  },
+  {
+    "id": "hist-3",
+    "category": "Historie",
+    "question": "Hvilket skip sank på sin jomfrutur i april 1912?",
+    "options": [
+      "RMS Lusitania",
+      "RMS Titanic",
+      "SS Andrea Doria",
+      "HMS Hood"
+    ],
+    "answerToken": "aGlzdC0zOjE="
+  },
+  {
+    "id": "hist-4",
+    "category": "Historie",
+    "question": "Hvilken by var hovedstad i Østromerriket (Det bysantinske riket)?",
+    "options": [
+      "Athen",
+      "Roma",
+      "Konstantinopel",
+      "Alexandria"
+    ],
+    "answerToken": "aGlzdC00OjI="
+  },
+  {
+    "id": "geo-1",
+    "category": "Geografi",
+    "question": "Hvilken norsk elv er landets lengste?",
+    "options": [
+      "Drammenselva",
+      "Glomma",
+      "Lågen",
+      "Tana"
+    ],
+    "answerToken": "Z2VvLTE6MQ=="
+  },
+  {
+    "id": "geo-2",
+    "category": "Geografi",
+    "question": "Hva heter hovedstaden i Australia?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Brisbane"
+    ],
+    "answerToken": "Z2VvLTI6Mg=="
+  },
+  {
+    "id": "geo-3",
+    "category": "Geografi",
+    "question": "Hvilket land har flest tidssoner når man regner med oversjøiske territorier?",
+    "options": [
+      "Russland",
+      "USA",
+      "Frankrike",
+      "Canada"
+    ],
+    "answerToken": "Z2VvLTM6Mg=="
+  },
+  {
+    "id": "geo-4",
+    "category": "Geografi",
+    "question": "Hvilket hav ligger mellom Italia og Kroatia?",
+    "options": [
+      "Egeerhavet",
+      "Adriaterhavet",
+      "Tyrrenhavet",
+      "Svartehavet"
+    ],
+    "answerToken": "Z2VvLTQ6MQ=="
+  },
+  {
+    "id": "vit-1",
+    "category": "Vitenskap & Natur",
+    "question": "Hvilket grunnstoff har det kjemiske symbolet Au?",
+    "options": [
+      "Sølv",
+      "Argon",
+      "Gull",
+      "Aluminium"
+    ],
+    "answerToken": "dml0LTE6Mg=="
+  },
+  {
+    "id": "vit-2",
+    "category": "Vitenskap & Natur",
+    "question": "Omtrent hvor lang tid bruker lyset fra Solen til Jorden?",
+    "options": [
+      "8 sekunder",
+      "8 minutter",
+      "8 timer",
+      "8 dager"
+    ],
+    "answerToken": "dml0LTI6MQ=="
+  },
+  {
+    "id": "vit-3",
+    "category": "Vitenskap & Natur",
+    "question": "Hvilket dyr er verdens raskeste landpattedyr?",
+    "options": [
+      "Gepard",
+      "Pronghorn",
+      "Gaselle",
+      "Løve"
+    ],
+    "answerToken": "dml0LTM6MA=="
+  },
+  {
+    "id": "vit-4",
+    "category": "Vitenskap & Natur",
+    "question": "Hvor mange hjertekamre har et menneskehjerte?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answerToken": "dml0LTQ6Mg=="
+  },
+  {
+    "id": "pop-1",
+    "category": "Popkultur & Film",
+    "question": "Hvem regisserte den norske filmen «Flåklypa Grand Prix» fra 1975?",
+    "options": [
+      "Ivo Caprino",
+      "Knut Bohwim",
+      "Bent Hamer",
+      "Joachim Trier"
+    ],
+    "answerToken": "cG9wLTE6MA=="
+  },
+  {
+    "id": "pop-2",
+    "category": "Popkultur & Film",
+    "question": "Hvilket band ga ut albumet «Abbey Road» i 1969?",
+    "options": [
+      "The Rolling Stones",
+      "The Beatles",
+      "Pink Floyd",
+      "The Who"
+    ],
+    "answerToken": "cG9wLTI6MQ=="
+  },
+  {
+    "id": "pop-3",
+    "category": "Popkultur & Film",
+    "question": "Hva heter hovedpersonen i TV-serien «Breaking Bad»?",
+    "options": [
+      "Jesse Pinkman",
+      "Saul Goodman",
+      "Walter White",
+      "Hank Schrader"
+    ],
+    "answerToken": "cG9wLTM6Mg=="
+  },
+  {
+    "id": "pop-4",
+    "category": "Popkultur & Film",
+    "question": "Hvilken norsk artist vant Eurovision Song Contest i 2009 med «Fairytale»?",
+    "options": [
+      "Alexander Rybak",
+      "Margaret Berger",
+      "TIX",
+      "Ulrikke Brandstorp"
+    ],
+    "answerToken": "cG9wLTQ6MA=="
+  },
+  {
+    "id": "mat-1",
+    "category": "Mat & Drikke",
+    "question": "Hvilken ost er hovedingrediensen i en klassisk gresk salat?",
+    "options": [
+      "Mozzarella",
+      "Halloumi",
+      "Feta",
+      "Ricotta"
+    ],
+    "answerToken": "bWF0LTE6Mg=="
+  },
+  {
+    "id": "mat-2",
+    "category": "Mat & Drikke",
+    "question": "Hvilket land kommer kaffedrikken «Flat White» opprinnelig fra (omstridt mellom to naboland, vanligvis kreditert ett)?",
+    "options": [
+      "Italia",
+      "Australia / New Zealand",
+      "Frankrike",
+      "Brasil"
+    ],
+    "answerToken": "bWF0LTI6MQ=="
+  },
+  {
+    "id": "mat-3",
+    "category": "Mat & Drikke",
+    "question": "Hva heter krydderet som gir paella sin karakteristiske gule farge?",
+    "options": [
+      "Gurkemeie",
+      "Safran",
+      "Karri",
+      "Paprika"
+    ],
+    "answerToken": "bWF0LTM6MQ=="
+  },
+  {
+    "id": "mat-4",
+    "category": "Mat & Drikke",
+    "question": "Hvilken norsk rett lages tradisjonelt av lammekjøtt, hodekål og hel pepper?",
+    "options": [
+      "Pinnekjøtt",
+      "Fårikål",
+      "Lapskaus",
+      "Sodd"
+    ],
+    "answerToken": "bWF0LTQ6MQ=="
+  },
+  {
+    "id": "nor-1",
+    "category": "Norge & Norden",
+    "question": "Hvilket fjell er Norges høyeste?",
+    "options": [
+      "Glittertind",
+      "Snøhetta",
+      "Galdhøpiggen",
+      "Store Skagastølstind"
+    ],
+    "answerToken": "bm9yLTE6Mg=="
+  },
+  {
+    "id": "nor-2",
+    "category": "Norge & Norden",
+    "question": "Hvor mange fylker har Norge fra og med 1. januar 2024?",
+    "options": [
+      "11",
+      "15",
+      "18",
+      "19"
+    ],
+    "answerToken": "bm9yLTI6MQ=="
+  },
+  {
+    "id": "nor-3",
+    "category": "Norge & Norden",
+    "question": "Hvilken by kalles «Nordens Paris»?",
+    "options": [
+      "Bergen",
+      "Trondheim",
+      "Tromsø",
+      "Ålesund"
+    ],
+    "answerToken": "bm9yLTM6Mg=="
+  },
+  {
+    "id": "nor-4",
+    "category": "Norge & Norden",
+    "question": "Hva heter Danmarks lengste øy (etter areal)?",
+    "options": [
+      "Fyn",
+      "Sjælland",
+      "Bornholm",
+      "Lolland"
+    ],
+    "answerToken": "bm9yLTQ6MQ=="
+  }
+]
