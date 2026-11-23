@@ -23,6 +23,7 @@ export function App() {
     startGame,
     restartToLobby,
     sendAction,
+    reconnectGuest,
     leaveGame,
   } = useQuizEngine();
 
@@ -65,9 +66,22 @@ export function App() {
         </button>
       </header>
 
-      {connectionStatus === 'disconnected' && (
-        <div className="mb-4 rounded-2xl border border-rose-500/40 bg-rose-500/10 p-3 text-center text-xs text-rose-300">
-          {error || 'Mistet forbindelsen til verten.'}
+      {(connectionStatus === 'disconnected' || connectionStatus === 'connecting') && (
+        <div className="mb-4 flex items-center justify-between gap-3 rounded-2xl border border-rose-500/40 bg-rose-500/10 p-3 text-xs text-rose-200">
+          <span>
+            {connectionStatus === 'connecting'
+              ? 'Kobler til på nytt...'
+              : error || 'Mistet forbindelsen til verten.'}
+          </span>
+          {!isHost && connectionStatus === 'disconnected' && (
+            <button
+              type="button"
+              onClick={reconnectGuest}
+              className="shrink-0 rounded-xl bg-rose-500 px-3 py-1.5 font-bold text-white active:scale-95"
+            >
+              Koble til på nytt
+            </button>
+          )}
         </div>
       )}
 

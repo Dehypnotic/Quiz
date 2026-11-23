@@ -29,6 +29,37 @@ function makeClientId(prefix: string): string {
   return `${prefix}-${Math.random().toString(36).slice(2, 10)}`;
 }
 
+function setupWakeLock(): () => void {
+  let wakeLock: WakeLockSentinel | null = null;
+  let released = false;
+
+  const request = () => {
+    if (released || document.visibilityState !== 'visible') return;
+    if ('wakeLock' in navigator) {
+      navigator.wakeLock
+        .request('screen')
+        .then((wl) => {
+          wakeLock = wl;
+        })
+        .catch(() => {});
+    }
+  };
+
+  request();
+  const onVis = () => {
+    if (document.visibilityState === 'visible') {
+      request();
+    }
+  };
+  document.addEventListener('visibilitychange', onVis);
+
+  return () => {
+    released = true;
+    document.removeEventListener('visibilitychange', onVis);
+    wakeLock?.release().catch(() => {});
+  };
+}
+
 export interface HostSession {
   roomCode: string;
   sendToPlayer: (playerId: string, msg: HostMessage) => void;
@@ -49,24 +80,21 @@ export function createHostSession(callbacks: {
   let readyFired = false;
   let destroyed = false;
 
-  let wakeLock: WakeLockSentinel | null = null;
-  if ('wakeLock' in navigator) {
-    navigator.wakeLock
-      .request('screen')
-      .then((wl) => {
-        wakeLock = wl;
-      })
-      .catch(() => {
-        // Ignore if battery saver / unsupported
-      });
-  }
+  const releaseWakeLock = setupWakeLock();
 
   const client: MqttClient = mqtt.connect(BROKER_URL, {
     clientId: makeClientId(`sq-host-${roomCode}`),
     clean: true,
-    reconnectPeriod: 3000,
+    reconnectPeriod: 2000,
     connectTimeout: 8000,
   });
+
+  const onVisible = () => {
+    if (!destroyed && document.visibilityState === 'visible' && !client.connected) {
+      client.reconnect();
+    }
+  };
+  document.addEventListener('visibilitychange', onVisible);
 
   client.on('connect', () => {
     if (destroyed) return;
@@ -125,7 +153,8 @@ export function createHostSession(callbacks: {
     },
     destroy() {
       destroyed = true;
-      wakeLock?.release().catch(() => {});
+      document.removeEventListener('visibilitychange', onVisible);
+      releaseWakeLock();
       client.end(true);
     },
   };
@@ -133,6 +162,7 @@ export function createHostSession(callbacks: {
 
 export interface GuestSession {
   send: (msg: ClientMessage) => void;
+  reconnect: () => void;
   destroy: () => void;
 }
 
@@ -149,14 +179,27 @@ export function createGuestSession(params: {
   const toHostTopic = `${TOPIC_PREFIX}${cleanCode}/to-host`;
   const myTopic = `${TOPIC_PREFIX}${cleanCode}/to-guest/${params.playerId}`;
   let joined = false;
+  let isConnected = false;
   let destroyed = false;
+
+  const releaseWakeLock = setupWakeLock();
 
   const client: MqttClient = mqtt.connect(BROKER_URL, {
     clientId: makeClientId(`sq-guest-${cleanCode}`),
     clean: true,
-    reconnectPeriod: 3000,
+    reconnectPeriod: 2000,
     connectTimeout: 8000,
   });
+
+  const sendJoin = () => {
+    if (destroyed || !client.connected) return;
+    const joinMsg: ClientMessage = {
+      type: 'join',
+      playerId: params.playerId,
+      name: params.playerName.trim(),
+    };
+    client.publish(toHostTopic, JSON.stringify(joinMsg), { qos: 1 });
+  };
 
   const joinTimeout = window.setTimeout(() => {
     if (!joined && !destroyed) {
@@ -178,13 +221,7 @@ export function createGuestSession(params: {
         params.onDisconnected();
         return;
       }
-
-      const joinMsg: ClientMessage = {
-        type: 'join',
-        playerId: params.playerId,
-        name: params.playerName.trim(),
-      };
-      client.publish(toHostTopic, JSON.stringify(joinMsg), { qos: 1 });
+      sendJoin();
     });
   });
 
@@ -192,8 +229,9 @@ export function createGuestSession(params: {
     if (destroyed || topic !== myTopic) return;
     try {
       const msg = JSON.parse(payload.toString()) as HostMessage;
-      if (!joined) {
+      if (!joined || !isConnected) {
         joined = true;
+        isConnected = true;
         window.clearTimeout(joinTimeout);
         params.onConnected();
       }
@@ -205,15 +243,43 @@ export function createGuestSession(params: {
 
   client.on('offline', () => {
     if (!destroyed && joined) {
+      isConnected = false;
       params.onDisconnected();
     }
   });
 
+  client.on('close', () => {
+    if (!destroyed && joined && isConnected) {
+      isConnected = false;
+      params.onDisconnected();
+    }
+  });
+
+  const triggerReconnect = () => {
+    if (destroyed) return;
+    if (client.connected) {
+      sendJoin();
+    } else {
+      client.reconnect();
+    }
+  };
+
+  const onVisible = () => {
+    if (document.visibilityState === 'visible') {
+      triggerReconnect();
+    }
+  };
+
+  document.addEventListener('visibilitychange', onVisible);
+  window.addEventListener('online', triggerReconnect);
+
   client.on('error', (err) => {
     if (destroyed) return;
-    window.clearTimeout(joinTimeout);
-    params.onError(err.message || 'Kunne ikke koble til rommet.');
-    params.onDisconnected();
+    if (!joined) {
+      window.clearTimeout(joinTimeout);
+      params.onError(err.message || 'Kunne ikke koble til rommet.');
+      params.onDisconnected();
+    }
   });
 
   return {
@@ -222,9 +288,15 @@ export function createGuestSession(params: {
         client.publish(toHostTopic, JSON.stringify(msg), { qos: 1 });
       }
     },
+    reconnect() {
+      triggerReconnect();
+    },
     destroy() {
       destroyed = true;
       window.clearTimeout(joinTimeout);
+      document.removeEventListener('visibilitychange', onVisible);
+      window.removeEventListener('online', triggerReconnect);
+      releaseWakeLock();
       client.end(true);
     },
   };

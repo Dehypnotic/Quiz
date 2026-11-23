@@ -532,6 +532,7 @@ export function useQuizEngine() {
         playerId: myPlayerId,
         playerName,
         onConnected() {
+          setError(null);
           setConnectionStatus('connected');
         },
         onMessage(msg) {
@@ -604,6 +605,13 @@ export function useQuizEngine() {
     [handleClientMessage, role]
   );
 
+  const reconnectGuest = useCallback(() => {
+    if (role === 'guest') {
+      setConnectionStatus('connecting');
+      guestSessionRef.current?.reconnect();
+    }
+  }, [role]);
+
   const leaveGame = useCallback(() => {
     clearTimer();
     hostSessionRef.current?.destroy();
@@ -639,6 +647,7 @@ export function useQuizEngine() {
     startGame,
     restartToLobby,
     sendAction,
+    reconnectGuest,
     leaveGame,
   };
 }
