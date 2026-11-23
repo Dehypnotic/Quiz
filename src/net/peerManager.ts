@@ -4,6 +4,16 @@ import type { ClientMessage, HostMessage } from '../types/quiz';
 const PEER_PREFIX = 'selskapsquiz-v1-';
 const CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 
+const PEER_CONFIG = {
+  config: {
+    iceServers: [
+      { urls: 'stun:stun.l.google.com:19302' },
+      { urls: 'stun:stun1.l.google.com:19302' },
+      { urls: 'stun:stun.cloudflare.com:3478' },
+    ],
+  },
+};
+
 export function generateRoomCode(length = 4): string {
   let code = '';
   for (let i = 0; i < length; i++) {
@@ -39,9 +49,10 @@ export function createHostSession(callbacks: {
   onError: (err: string) => void;
 }): HostSession {
   const roomCode = generateRoomCode(4);
-  const peer = new Peer(`${PEER_PREFIX}${roomCode}`);
+  const peer = new Peer(`${PEER_PREFIX}${roomCode}`, PEER_CONFIG);
   const peerToPlayer = new Map<string, string>();
   const playerToConn = new Map<string, DataConnection>();
+  let destroyed = false;
 
   let wakeLock: WakeLockSentinel | null = null;
   if ('wakeLock' in navigator) {
@@ -81,6 +92,12 @@ export function createHostSession(callbacks: {
     });
   });
 
+  peer.on('disconnected', () => {
+    if (!destroyed) {
+      peer.reconnect();
+    }
+  });
+
   peer.on('error', (err) => {
     callbacks.onError(err.message || 'Tilkoblingsfeil hos verten');
   });
@@ -102,6 +119,7 @@ export function createHostSession(callbacks: {
       }
     },
     destroy() {
+      destroyed = true;
       wakeLock?.release().catch(() => {});
       peer.destroy();
     },
@@ -123,14 +141,30 @@ export function createGuestSession(params: {
   onError: (err: string) => void;
 }): GuestSession {
   const cleanCode = params.roomCode.trim().toUpperCase();
-  const peer = new Peer();
+  const peer = new Peer(PEER_CONFIG);
   let conn: DataConnection | null = null;
   let opened = false;
+  let destroyed = false;
+
+  const connectTimeout = window.setTimeout(() => {
+    if (!opened && !destroyed) {
+      destroyed = true;
+      peer.destroy();
+      params.onError(
+        'Tidsavbrudd ved tilkobling. Hvis PC og mobil er på ulike nett (f.eks. WiFi og 4G/5G), kan mobilnettet blokkere direkte tilkobling. Prøv å koble begge til samme WiFi.'
+      );
+      params.onDisconnected();
+    }
+  }, 12000);
 
   peer.on('open', () => {
-    conn = peer.connect(`${PEER_PREFIX}${cleanCode}`, { reliable: true });
+    conn = peer.connect(`${PEER_PREFIX}${cleanCode}`, {
+      reliable: true,
+      serialization: 'json',
+    });
 
     conn.on('open', () => {
+      window.clearTimeout(connectTimeout);
       opened = true;
       conn?.send({
         type: 'join',
@@ -145,15 +179,23 @@ export function createGuestSession(params: {
     });
 
     conn.on('close', () => {
-      params.onDisconnected();
+      window.clearTimeout(connectTimeout);
+      if (!destroyed) {
+        params.onDisconnected();
+      }
     });
 
     conn.on('error', () => {
-      params.onError('Mistet forbindelsen til verten.');
+      window.clearTimeout(connectTimeout);
+      if (!destroyed) {
+        params.onError('Mistet forbindelsen til verten.');
+      }
     });
   });
 
   peer.on('error', (err) => {
+    window.clearTimeout(connectTimeout);
+    if (destroyed) return;
     if (!opened) {
       params.onError(
         err.type === 'peer-unavailable'
@@ -172,6 +214,8 @@ export function createGuestSession(params: {
       }
     },
     destroy() {
+      destroyed = true;
+      window.clearTimeout(connectTimeout);
       peer.destroy();
     },
   };

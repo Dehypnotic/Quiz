@@ -452,6 +452,10 @@ export function useQuizEngine() {
   // Public actions
   const startHosting = useCallback(
     (hostName: string) => {
+      hostSessionRef.current?.destroy();
+      guestSessionRef.current?.destroy();
+      hostSessionRef.current = null;
+      guestSessionRef.current = null;
       setError(null);
       setRole('host');
       setConnectionStatus('connecting');
@@ -517,6 +521,10 @@ export function useQuizEngine() {
 
   const joinRoom = useCallback(
     (roomCode: string, playerName: string) => {
+      hostSessionRef.current?.destroy();
+      guestSessionRef.current?.destroy();
+      hostSessionRef.current = null;
+      guestSessionRef.current = null;
       setError(null);
       setRole('guest');
       setConnectionStatus('connecting');
