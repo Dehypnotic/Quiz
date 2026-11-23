@@ -154,9 +154,8 @@ export function useQuizEngine() {
         const doubled = s.doubledPlayerIds.has(player.id);
         let points = 0;
         if (isCorrect) {
-          const speedRatio = Math.max(0, 1 - ans.elapsedMs / limitMs);
-          const base = 500 + Math.round(speedRatio * 500);
-          points = doubled ? base * 2 : base;
+          points = doubled ? 2 : 1;
+          player.totalCorrectMs += ans.elapsedMs;
 
           if (!s.roundFastest || ans.elapsedMs < s.roundFastest.elapsedMs) {
             s.roundFastest = { playerName: player.name, elapsedMs: ans.elapsedMs };
@@ -321,6 +320,7 @@ export function useQuizEngine() {
               connected: true,
               totalScore: 0,
               roundScore: 0,
+              totalCorrectMs: 0,
               doubleAvailable: true,
             });
           }
@@ -447,6 +447,7 @@ export function useQuizEngine() {
                 connected: true,
                 totalScore: 0,
                 roundScore: 0,
+                totalCorrectMs: 0,
                 doubleAvailable: true,
               },
             ],
@@ -546,6 +547,7 @@ export function useQuizEngine() {
     s.players.forEach((p) => {
       p.totalScore = 0;
       p.roundScore = 0;
+      p.totalCorrectMs = 0;
       p.doubleAvailable = true;
     });
     prepareRoundCategoryPick(s, 1);
@@ -560,6 +562,7 @@ export function useQuizEngine() {
     s.players.forEach((p) => {
       p.totalScore = 0;
       p.roundScore = 0;
+      p.totalCorrectMs = 0;
       p.doubleAvailable = true;
     });
     syncAll(s);

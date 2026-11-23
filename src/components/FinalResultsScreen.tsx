@@ -12,8 +12,12 @@ export function FinalResultsScreen({
   isHost,
   onRestart,
 }: FinalResultsScreenProps) {
-  const ranked = [...state.players].sort((a, b) => b.totalScore - a.totalScore);
+  const ranked = [...state.players].sort(
+    (a, b) => b.totalScore - a.totalScore || a.totalCorrectMs - b.totalCorrectMs
+  );
   const winner = ranked[0];
+  const hasScoreTie =
+    ranked.length > 1 && ranked[0].totalScore === ranked[1].totalScore;
 
   return (
     <div className="space-y-6 pt-4 pb-8">
@@ -29,6 +33,7 @@ export function FinalResultsScreen({
         </h2>
         <p className="mt-1 text-base font-bold text-amber-200">
           {winner?.totalScore ?? 0} poeng
+          {hasScoreTie && winner ? ` • Raskest svartid (${(winner.totalCorrectMs / 1000).toFixed(1)}s)` : ''}
         </p>
       </div>
 

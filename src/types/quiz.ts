@@ -39,6 +39,7 @@ export interface Player {
   connected: boolean;
   totalScore: number;
   roundScore: number;
+  totalCorrectMs: number;
   doubleAvailable: boolean;
 }
 

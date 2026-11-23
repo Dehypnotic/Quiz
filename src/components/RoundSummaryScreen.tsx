@@ -19,8 +19,12 @@ export function RoundSummaryScreen({
   const canAdvance = isHost || isQuizmaster;
   const isFinalRound = state.currentRound >= state.settings.roundsCount;
 
-  const byRound = [...state.players].sort((a, b) => b.roundScore - a.roundScore);
-  const byTotal = [...state.players].sort((a, b) => b.totalScore - a.totalScore);
+  const byRound = [...state.players].sort(
+    (a, b) => b.roundScore - a.roundScore || a.totalCorrectMs - b.totalCorrectMs
+  );
+  const byTotal = [...state.players].sort(
+    (a, b) => b.totalScore - a.totalScore || a.totalCorrectMs - b.totalCorrectMs
+  );
 
   return (
     <div className="space-y-5 pb-8">
