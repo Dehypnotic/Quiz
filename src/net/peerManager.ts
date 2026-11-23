@@ -1,18 +1,9 @@
-import Peer, { type DataConnection } from 'peerjs';
+import mqtt, { type MqttClient } from 'mqtt';
 import type { ClientMessage, HostMessage } from '../types/quiz';
 
-const PEER_PREFIX = 'selskapsquiz-v1-';
+const BROKER_URL = 'wss://broker.emqx.io:8084/mqtt';
+const TOPIC_PREFIX = 'selskapsquiz/v1/';
 const CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
-
-const PEER_CONFIG = {
-  config: {
-    iceServers: [
-      { urls: 'stun:stun.l.google.com:19302' },
-      { urls: 'stun:stun1.l.google.com:19302' },
-      { urls: 'stun:stun.cloudflare.com:3478' },
-    ],
-  },
-};
 
 export function generateRoomCode(length = 4): string {
   let code = '';
@@ -34,6 +25,10 @@ export function getOrCreatePlayerId(): string {
   return id;
 }
 
+function makeClientId(prefix: string): string {
+  return `${prefix}-${Math.random().toString(36).slice(2, 10)}`;
+}
+
 export interface HostSession {
   roomCode: string;
   sendToPlayer: (playerId: string, msg: HostMessage) => void;
@@ -49,9 +44,9 @@ export function createHostSession(callbacks: {
   onError: (err: string) => void;
 }): HostSession {
   const roomCode = generateRoomCode(4);
-  const peer = new Peer(`${PEER_PREFIX}${roomCode}`, PEER_CONFIG);
-  const peerToPlayer = new Map<string, string>();
-  const playerToConn = new Map<string, DataConnection>();
+  const toHostTopic = `${TOPIC_PREFIX}${roomCode}/to-host`;
+  const knownPlayerIds = new Set<string>();
+  let readyFired = false;
   let destroyed = false;
 
   let wakeLock: WakeLockSentinel | null = null;
@@ -66,62 +61,72 @@ export function createHostSession(callbacks: {
       });
   }
 
-  peer.on('open', () => {
-    callbacks.onReady(roomCode);
+  const client: MqttClient = mqtt.connect(BROKER_URL, {
+    clientId: makeClientId(`sq-host-${roomCode}`),
+    clean: true,
+    reconnectPeriod: 3000,
+    connectTimeout: 8000,
   });
 
-  peer.on('connection', (conn) => {
-    conn.on('data', (raw) => {
-      const msg = raw as ClientMessage;
+  client.on('connect', () => {
+    if (destroyed) return;
+    client.subscribe(toHostTopic, { qos: 1 }, (err) => {
+      if (err) {
+        callbacks.onError('Kunne ikke abonnere på rom-kanal.');
+        return;
+      }
+      if (!readyFired) {
+        readyFired = true;
+        callbacks.onReady(roomCode);
+      }
+    });
+  });
+
+  client.on('message', (topic, payload) => {
+    if (destroyed || topic !== toHostTopic) return;
+    try {
+      const msg = JSON.parse(payload.toString()) as ClientMessage;
       if (msg && typeof msg === 'object' && 'playerId' in msg) {
-        peerToPlayer.set(conn.peer, msg.playerId);
-        playerToConn.set(msg.playerId, conn);
-        callbacks.onMessage(msg, conn.peer);
-      }
-    });
-
-    conn.on('close', () => {
-      const playerId = peerToPlayer.get(conn.peer);
-      if (playerId) {
-        if (playerToConn.get(playerId) === conn) {
-          playerToConn.delete(playerId);
-          callbacks.onPlayerDisconnect(playerId);
+        if (msg.playerId !== callbacks.hostPlayerId) {
+          knownPlayerIds.add(msg.playerId);
         }
-        peerToPlayer.delete(conn.peer);
+        callbacks.onMessage(msg, msg.playerId);
       }
-    });
-  });
-
-  peer.on('disconnected', () => {
-    if (!destroyed) {
-      peer.reconnect();
+    } catch {
+      // Ignore malformed payloads
     }
   });
 
-  peer.on('error', (err) => {
-    callbacks.onError(err.message || 'Tilkoblingsfeil hos verten');
+  client.on('error', (err) => {
+    if (!destroyed) {
+      callbacks.onError(err.message || 'Tilkoblingsfeil hos verten');
+    }
   });
 
   return {
     roomCode,
     sendToPlayer(playerId, msg) {
-      if (playerId === callbacks.hostPlayerId) return;
-      const conn = playerToConn.get(playerId);
-      if (conn && conn.open) {
-        conn.send(msg);
-      }
+      if (destroyed || playerId === callbacks.hostPlayerId) return;
+      client.publish(
+        `${TOPIC_PREFIX}${roomCode}/to-guest/${playerId}`,
+        JSON.stringify(msg),
+        { qos: 1 }
+      );
     },
     broadcast(buildMsg) {
-      for (const [playerId, conn] of playerToConn.entries()) {
-        if (conn.open) {
-          conn.send(buildMsg(playerId));
-        }
+      if (destroyed) return;
+      for (const playerId of knownPlayerIds) {
+        client.publish(
+          `${TOPIC_PREFIX}${roomCode}/to-guest/${playerId}`,
+          JSON.stringify(buildMsg(playerId)),
+          { qos: 1 }
+        );
       }
     },
     destroy() {
       destroyed = true;
       wakeLock?.release().catch(() => {});
-      peer.destroy();
+      client.end(true);
     },
   };
 }
@@ -141,82 +146,86 @@ export function createGuestSession(params: {
   onError: (err: string) => void;
 }): GuestSession {
   const cleanCode = params.roomCode.trim().toUpperCase();
-  const peer = new Peer(PEER_CONFIG);
-  let conn: DataConnection | null = null;
-  let opened = false;
+  const toHostTopic = `${TOPIC_PREFIX}${cleanCode}/to-host`;
+  const myTopic = `${TOPIC_PREFIX}${cleanCode}/to-guest/${params.playerId}`;
+  let joined = false;
   let destroyed = false;
 
-  const connectTimeout = window.setTimeout(() => {
-    if (!opened && !destroyed) {
+  const client: MqttClient = mqtt.connect(BROKER_URL, {
+    clientId: makeClientId(`sq-guest-${cleanCode}`),
+    clean: true,
+    reconnectPeriod: 3000,
+    connectTimeout: 8000,
+  });
+
+  const joinTimeout = window.setTimeout(() => {
+    if (!joined && !destroyed) {
       destroyed = true;
-      peer.destroy();
+      client.end(true);
       params.onError(
-        'Tidsavbrudd ved tilkobling. Hvis PC og mobil er på ulike nett (f.eks. WiFi og 4G/5G), kan mobilnettet blokkere direkte tilkobling. Prøv å koble begge til samme WiFi.'
+        `Fant ikke rom "${cleanCode}", eller verten svarte ikke. Sjekk koden og prøv igjen.`
       );
       params.onDisconnected();
     }
-  }, 12000);
+  }, 8000);
 
-  peer.on('open', () => {
-    conn = peer.connect(`${PEER_PREFIX}${cleanCode}`, {
-      reliable: true,
-      serialization: 'json',
-    });
+  client.on('connect', () => {
+    if (destroyed) return;
+    client.subscribe(myTopic, { qos: 1 }, (err) => {
+      if (err) {
+        window.clearTimeout(joinTimeout);
+        params.onError('Kunne ikke lytte til rommet.');
+        params.onDisconnected();
+        return;
+      }
 
-    conn.on('open', () => {
-      window.clearTimeout(connectTimeout);
-      opened = true;
-      conn?.send({
+      const joinMsg: ClientMessage = {
         type: 'join',
         playerId: params.playerId,
         name: params.playerName.trim(),
-      } satisfies ClientMessage);
-      params.onConnected();
-    });
-
-    conn.on('data', (raw) => {
-      params.onMessage(raw as HostMessage);
-    });
-
-    conn.on('close', () => {
-      window.clearTimeout(connectTimeout);
-      if (!destroyed) {
-        params.onDisconnected();
-      }
-    });
-
-    conn.on('error', () => {
-      window.clearTimeout(connectTimeout);
-      if (!destroyed) {
-        params.onError('Mistet forbindelsen til verten.');
-      }
+      };
+      client.publish(toHostTopic, JSON.stringify(joinMsg), { qos: 1 });
     });
   });
 
-  peer.on('error', (err) => {
-    window.clearTimeout(connectTimeout);
-    if (destroyed) return;
-    if (!opened) {
-      params.onError(
-        err.type === 'peer-unavailable'
-          ? `Fant ikke rom "${cleanCode}". Sjekk koden og prøv igjen.`
-          : err.message || 'Kunne ikke koble til rommet.'
-      );
-    } else {
-      params.onError(err.message || 'Nettverksfeil');
+  client.on('message', (topic, payload) => {
+    if (destroyed || topic !== myTopic) return;
+    try {
+      const msg = JSON.parse(payload.toString()) as HostMessage;
+      if (!joined) {
+        joined = true;
+        window.clearTimeout(joinTimeout);
+        params.onConnected();
+      }
+      params.onMessage(msg);
+    } catch {
+      // Ignore malformed payloads
     }
+  });
+
+  client.on('offline', () => {
+    if (!destroyed && joined) {
+      params.onDisconnected();
+    }
+  });
+
+  client.on('error', (err) => {
+    if (destroyed) return;
+    window.clearTimeout(joinTimeout);
+    params.onError(err.message || 'Kunne ikke koble til rommet.');
+    params.onDisconnected();
   });
 
   return {
     send(msg) {
-      if (conn && conn.open) {
-        conn.send(msg);
+      if (!destroyed && client.connected) {
+        client.publish(toHostTopic, JSON.stringify(msg), { qos: 1 });
       }
     },
     destroy() {
       destroyed = true;
-      window.clearTimeout(connectTimeout);
-      peer.destroy();
+      window.clearTimeout(joinTimeout);
+      client.end(true);
     },
   };
 }
