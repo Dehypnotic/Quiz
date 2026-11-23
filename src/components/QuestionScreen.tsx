@@ -56,11 +56,7 @@ export function QuestionScreen({
     return () => window.clearInterval(id);
   }, [state.phase, state.questionStartTime, state.settings.timeLimitSeconds]);
 
-  const expectedAnswerers = state.players.filter(
-    (p) =>
-      p.connected &&
-      !(state.settings.socialMode === 'quizmaster' && p.id === state.quizmasterId)
-  ).length;
+  const expectedAnswerers = state.players.filter((p) => p.connected).length;
 
   const progressPct = Math.max(
     0,
@@ -167,54 +163,46 @@ export function QuestionScreen({
             </p>
           </div>
 
-          {isQuizmaster ? (
-            <div className="rounded-3xl border border-slate-800 bg-slate-900/70 p-6 text-center space-y-2">
-              <p className="text-sm font-semibold text-amber-300">
-                Spillerne svarer nå...
-              </p>
-              <p className="text-2xl font-black text-white">
-                {state.answeredPlayerIds.length} / {expectedAnswerers}
-              </p>
-              <p className="text-xs text-slate-400">har avgitt svar</p>
-            </div>
-          ) : (
-            <div className="space-y-2.5">
-              {state.options?.map((opt, idx) => {
-                const isPicked = selectedChoice === idx;
-                return (
-                  <button
-                    key={idx}
-                    type="button"
-                    disabled={hasAnswered}
-                    onClick={() => {
-                      setSelectedChoice(idx);
-                      onSubmitAnswer(idx);
-                    }}
-                    className={`flex w-full items-center gap-3.5 rounded-2xl border p-4 text-left transition active:scale-[0.99] ${
-                      isPicked
-                        ? 'border-white bg-indigo-600 text-white shadow-lg'
-                        : hasAnswered
-                          ? 'border-slate-800 bg-slate-900/40 text-slate-500'
-                          : `${OPTION_STYLES[idx]} text-white`
-                    }`}
-                  >
-                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-slate-950/60 text-sm font-extrabold">
-                      {OPTION_LETTERS[idx]}
-                    </span>
-                    <span className="text-base font-semibold leading-tight">{opt}</span>
-                  </button>
-                );
-              })}
+          <div className="space-y-2.5">
+            {state.options?.map((opt, idx) => {
+              const isPicked = selectedChoice === idx;
+              return (
+                <button
+                  key={idx}
+                  type="button"
+                  disabled={hasAnswered}
+                  onClick={() => {
+                    setSelectedChoice(idx);
+                    onSubmitAnswer(idx);
+                  }}
+                  className={`flex w-full items-center gap-3.5 rounded-2xl border p-4 text-left transition active:scale-[0.99] ${
+                    isPicked
+                      ? 'border-white bg-indigo-600 text-white shadow-lg'
+                      : hasAnswered
+                        ? 'border-slate-800 bg-slate-900/40 text-slate-500'
+                        : `${OPTION_STYLES[idx]} text-white`
+                  }`}
+                >
+                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-slate-950/60 text-sm font-extrabold">
+                    {OPTION_LETTERS[idx]}
+                  </span>
+                  <span className="text-base font-semibold leading-tight">{opt}</span>
+                </button>
+              );
+            })}
 
-              {hasAnswered && (
-                <div className="flex items-center justify-center gap-2 pt-2 text-sm font-semibold text-emerald-400">
-                  <CheckCircle2 className="h-4 w-4" />
-                  Svar registrert! Venter på de andre ({state.answeredPlayerIds.length}/
-                  {expectedAnswerers})
-                </div>
-              )}
-            </div>
-          )}
+            {hasAnswered ? (
+              <div className="flex items-center justify-center gap-2 pt-2 text-sm font-semibold text-emerald-400">
+                <CheckCircle2 className="h-4 w-4" />
+                Svar registrert! Venter på de andre ({state.answeredPlayerIds.length}/
+                {expectedAnswerers})
+              </div>
+            ) : (
+              <p className="pt-1 text-center text-xs text-slate-400">
+                {state.answeredPlayerIds.length} / {expectedAnswerers} har svart
+              </p>
+            )}
+          </div>
         </div>
       )}
     </div>

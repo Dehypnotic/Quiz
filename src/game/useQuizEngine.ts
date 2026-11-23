@@ -137,9 +137,6 @@ export function useQuizEngine() {
       const limitMs = s.settings.timeLimitSeconds * 1000;
 
       for (const player of s.players) {
-        if (s.settings.socialMode === 'quizmaster' && player.id === s.quizmasterId) {
-          continue;
-        }
         const ans = s.currentAnswers.get(player.id);
         if (!ans) {
           records.push({
@@ -282,21 +279,6 @@ export function useQuizEngine() {
 
   const buildRoundSummary = useCallback(
     (s: InternalHostState) => {
-      // Award quizmaster the average round score of other players so they don't fall behind
-      if (s.settings.socialMode === 'quizmaster' && s.quizmasterId) {
-        const others = s.players.filter((p) => p.id !== s.quizmasterId);
-        if (others.length > 0) {
-          const avg = Math.round(
-            others.reduce((sum, p) => sum + p.roundScore, 0) / others.length
-          );
-          const qm = s.players.find((p) => p.id === s.quizmasterId);
-          if (qm) {
-            qm.roundScore = avg;
-            qm.totalScore += avg;
-          }
-        }
-      }
-
       const awards: RoundAward[] = [];
       const sortedRound = [...s.players].sort((a, b) => b.roundScore - a.roundScore);
       if (sortedRound[0] && sortedRound[0].roundScore > 0) {
@@ -364,9 +346,6 @@ export function useQuizEngine() {
           if (s.phase !== 'reading' && s.phase !== 'answering') return;
           const player = s.players.find((p) => p.id === msg.playerId);
           if (!player || !player.doubleAvailable) return;
-          if (s.settings.socialMode === 'quizmaster' && msg.playerId === s.quizmasterId) {
-            return;
-          }
           if (s.doubledPlayerIds.has(msg.playerId)) {
             s.doubledPlayerIds.delete(msg.playerId);
           } else {
@@ -378,9 +357,6 @@ export function useQuizEngine() {
 
         case 'submit_answer': {
           if (s.phase !== 'answering' || s.questionStartTime === null) return;
-          if (s.settings.socialMode === 'quizmaster' && msg.playerId === s.quizmasterId) {
-            return;
-          }
           if (s.currentAnswers.has(msg.playerId)) return;
 
           s.currentAnswers.set(msg.playerId, {
@@ -388,11 +364,7 @@ export function useQuizEngine() {
             elapsedMs: Math.max(0, Date.now() - s.questionStartTime),
           });
 
-          const expectedAnswerers = s.players.filter(
-            (p) =>
-              p.connected &&
-              !(s.settings.socialMode === 'quizmaster' && p.id === s.quizmasterId)
-          );
+          const expectedAnswerers = s.players.filter((p) => p.connected);
           if (
             expectedAnswerers.length > 0 &&
             expectedAnswerers.every((p) => s.currentAnswers.has(p.id))
