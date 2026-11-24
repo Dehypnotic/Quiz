@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { LogOut } from 'lucide-react';
 import { CategoryPickScreen } from './components/CategoryPickScreen';
 import { FinalResultsScreen } from './components/FinalResultsScreen';
@@ -6,6 +7,7 @@ import { LobbyScreen } from './components/LobbyScreen';
 import { QuestionScreen } from './components/QuestionScreen';
 import { RevealScreen } from './components/RevealScreen';
 import { RoundSummaryScreen } from './components/RoundSummaryScreen';
+import { saveHistoryEntry } from './data/historyStorage';
 import { useQuizEngine } from './game/useQuizEngine';
 
 export function App() {
@@ -26,6 +28,25 @@ export function App() {
     reconnectGuest,
     leaveGame,
   } = useQuizEngine();
+
+  useEffect(() => {
+    if (!state || state.phase !== 'final' || !state.finishedAt) return;
+    const ranked = [...state.players].sort(
+      (a, b) => b.totalScore - a.totalScore || a.totalCorrectMs - b.totalCorrectMs
+    );
+    saveHistoryEntry({
+      id: `${state.roomCode}-${state.finishedAt}`,
+      finishedAt: new Date(state.finishedAt).toISOString(),
+      roomCode: state.roomCode,
+      roundsCount: state.settings.roundsCount,
+      categories: state.usedCategories,
+      players: ranked.map((p) => ({
+        name: p.name,
+        totalScore: p.totalScore,
+        totalCorrectMs: p.totalCorrectMs,
+      })),
+    });
+  }, [state]);
 
   if (role === 'none' || !state) {
     return (

@@ -96,6 +96,8 @@ export interface PublicGameState {
   lastAnswers: AnswerRecord[];
   /** Populated during 'round_summary' */
   roundAwards: RoundAward[];
+  /** Epoch ms when phase became 'final' */
+  finishedAt: number | null;
 }
 
 export type ClientMessage =

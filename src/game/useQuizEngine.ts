@@ -53,6 +53,7 @@ interface InternalHostState {
   lastAnswers: AnswerRecord[];
   roundFastest: { playerName: string; elapsedMs: number } | null;
   roundAwards: RoundAward[];
+  finishedAt: number | null;
 }
 
 export type Role = 'none' | 'host' | 'guest';
@@ -118,6 +119,7 @@ export function useQuizEngine() {
         correctIndex: s.phase === 'reveal' && currentQ ? currentQ.correctIndex : null,
         lastAnswers: s.phase === 'reveal' ? s.lastAnswers : [],
         roundAwards: s.phase === 'round_summary' ? s.roundAwards : [],
+        finishedAt: s.finishedAt,
       };
     },
     []
@@ -422,6 +424,7 @@ export function useQuizEngine() {
             if (s.currentRound < s.settings.roundsCount) {
               prepareRoundCategoryPick(s, s.currentRound + 1);
             } else {
+              s.finishedAt = Date.now();
               s.phase = 'final';
               syncAll(s);
             }
@@ -486,6 +489,7 @@ export function useQuizEngine() {
             lastAnswers: [],
             roundFastest: null,
             roundAwards: [],
+            finishedAt: null,
           };
           hostStateRef.current = initial;
           setConnectionStatus('connected');
@@ -567,6 +571,7 @@ export function useQuizEngine() {
     if (!s || role !== 'host') return;
     s.usedQuestionIds = new Set();
     s.usedCategories = new Set();
+    s.finishedAt = null;
     s.players.forEach((p) => {
       p.totalScore = 0;
       p.roundScore = 0;
@@ -582,6 +587,7 @@ export function useQuizEngine() {
     clearTimer();
     s.phase = 'lobby';
     s.currentRound = 0;
+    s.finishedAt = null;
     s.players.forEach((p) => {
       p.totalScore = 0;
       p.roundScore = 0;
