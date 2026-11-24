@@ -42,6 +42,7 @@ interface InternalHostState {
   currentQuestionIndex: number;
   currentCategory: string | null;
   categoryChoices: string[];
+  usedCategories: Set<string>;
   categoryPickerId: string | null;
   quizmasterId: string | null;
   questionStartTime: number | null;
@@ -106,6 +107,7 @@ export function useQuizEngine() {
         currentQuestionIndex: s.currentQuestionIndex,
         currentCategory: s.currentCategory,
         categoryChoices: s.categoryChoices,
+        usedCategories: [...s.usedCategories],
         categoryPickerId: s.categoryPickerId,
         quizmasterId: s.quizmasterId,
         questionStartTime: s.questionStartTime,
@@ -235,6 +237,7 @@ export function useQuizEngine() {
       picked.forEach((q) => s.usedQuestionIds.add(q.id));
 
       s.currentCategory = category;
+      s.usedCategories.add(category);
       s.roundQuestions = picked;
       s.currentQuestionIndex = 0;
       s.currentAnswers = new Map();
@@ -279,15 +282,7 @@ export function useQuizEngine() {
         s.categoryPickerId = sorted[0].id;
       }
 
-      // Pick up to 3 categories that still have unused questions
-      const catsWithUnused = allCategoriesRef.current.filter((cat) =>
-        allQuestionsRef.current.some(
-          (q) => q.category === cat && !s.usedQuestionIds.has(q.id)
-        )
-      );
-      const sourceCats =
-        catsWithUnused.length >= 3 ? catsWithUnused : allCategoriesRef.current;
-      s.categoryChoices = shuffle(sourceCats).slice(0, 3);
+      s.categoryChoices = allCategoriesRef.current;
       s.phase = 'category_pick';
       syncAll(s);
     },
@@ -480,6 +475,7 @@ export function useQuizEngine() {
             currentQuestionIndex: 0,
             currentCategory: null,
             categoryChoices: [],
+            usedCategories: new Set(),
             categoryPickerId: null,
             quizmasterId: null,
             questionStartTime: null,
@@ -570,6 +566,7 @@ export function useQuizEngine() {
     const s = hostStateRef.current;
     if (!s || role !== 'host') return;
     s.usedQuestionIds = new Set();
+    s.usedCategories = new Set();
     s.players.forEach((p) => {
       p.totalScore = 0;
       p.roundScore = 0;

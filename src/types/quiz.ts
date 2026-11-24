@@ -78,6 +78,7 @@ export interface PublicGameState {
   currentQuestionIndex: number; // 0-indexed within round
   currentCategory: string | null;
   categoryChoices: string[];
+  usedCategories: string[];
   categoryPickerId: string | null;
   quizmasterId: string | null;
   questionStartTime: number | null; // epoch ms when answering started
