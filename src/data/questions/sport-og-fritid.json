@@ -1,0 +1,54 @@
+[
+  {
+    "id": "spo-vin-1",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "I hvilket år ble de olympiske vinterleker arrangert på Lillehammer?",
+    "options": [
+      "1992",
+      "1994",
+      "1998",
+      "2002"
+    ],
+    "answerToken": "c3BvLXZpbi0xOjE="
+  },
+  {
+    "id": "spo-som-1",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken norsk friidrettsutøver tok OL-gull på 400 meter hekk i Tokyo i 2021?",
+    "options": [
+      "Jakob Ingebrigtsen",
+      "Karsten Warholm",
+      "Sondre Guttormsen",
+      "Eivind Henriksen"
+    ],
+    "answerToken": "c3BvLXNvbS0xOjE="
+  },
+  {
+    "id": "spo-fot-1",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilket land vant herrenes fotball-VM i 2022?",
+    "options": [
+      "Frankrike",
+      "Brasil",
+      "Argentina",
+      "Kroatia"
+    ],
+    "answerToken": "c3BvLWZvdC0xOjI="
+  },
+  {
+    "id": "spo-bre-1",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvor mange ruter er det på et standard sjakkbrett?",
+    "options": [
+      "48",
+      "56",
+      "64",
+      "72"
+    ],
+    "answerToken": "c3BvLWJyZS0xOjI="
+  }
+]

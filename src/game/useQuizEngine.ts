@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { getCategories, loadAllQuestions } from '../data/questionLoader';
+import { getCategoryGroups, loadAllQuestions } from '../data/questionLoader';
 import {
   createGuestSession,
   createHostSession,
@@ -9,6 +9,7 @@ import {
 } from '../net/peerManager';
 import type {
   AnswerRecord,
+  CategoryGroup,
   ClientMessage,
   GameSettings,
   Player,
@@ -41,7 +42,7 @@ interface InternalHostState {
   currentRound: number;
   currentQuestionIndex: number;
   currentCategory: string | null;
-  categoryChoices: string[];
+  categoryChoices: CategoryGroup[];
   usedCategories: Set<string>;
   categoryPickerId: string | null;
   quizmasterId: string | null;
@@ -68,7 +69,9 @@ export function useQuizEngine() {
   const [publicState, setPublicState] = useState<PublicGameState | null>(null);
 
   const allQuestionsRef = useRef<Question[]>(loadAllQuestions());
-  const allCategoriesRef = useRef<string[]>(getCategories(allQuestionsRef.current));
+  const allCategoryGroupsRef = useRef<CategoryGroup[]>(
+    getCategoryGroups(allQuestionsRef.current)
+  );
 
   const hostSessionRef = useRef<HostSession | null>(null);
   const guestSessionRef = useRef<GuestSession | null>(null);
@@ -226,20 +229,44 @@ export function useQuizEngine() {
   );
 
   const startRoundWithCategory = useCallback(
-    (s: InternalHostState, category: string) => {
-      const pool = allQuestionsRef.current.filter(
-        (q) => q.category === category && !s.usedQuestionIds.has(q.id)
-      );
-      const fallbackPool =
-        pool.length >= s.settings.questionsPerRound
-          ? pool
-          : allQuestionsRef.current.filter((q) => q.category === category);
+    (s: InternalHostState, category: string, subcategory?: string | null) => {
+      const matches = (q: Question) =>
+        q.category === category && (!subcategory || q.subcategory === subcategory);
 
-      const picked = shuffle(fallbackPool).slice(0, s.settings.questionsPerRound);
+      const unusedDirect = allQuestionsRef.current.filter(
+        (q) => matches(q) && !s.usedQuestionIds.has(q.id)
+      );
+      const allDirect = allQuestionsRef.current.filter(matches);
+
+      let picked = shuffle(unusedDirect.length > 0 ? unusedDirect : allDirect).slice(
+        0,
+        s.settings.questionsPerRound
+      );
+
+      // If a narrow subcategory has fewer questions than questionsPerRound, top up from same main category
+      if (subcategory && picked.length < s.settings.questionsPerRound) {
+        const pickedIds = new Set(picked.map((q) => q.id));
+        const extraUnused = allQuestionsRef.current.filter(
+          (q) =>
+            q.category === category &&
+            !pickedIds.has(q.id) &&
+            !s.usedQuestionIds.has(q.id)
+        );
+        const extraAny = allQuestionsRef.current.filter(
+          (q) => q.category === category && !pickedIds.has(q.id)
+        );
+        const needed = s.settings.questionsPerRound - picked.length;
+        picked = [
+          ...picked,
+          ...shuffle(extraUnused.length >= needed ? extraUnused : extraAny).slice(0, needed),
+        ];
+      }
+
       picked.forEach((q) => s.usedQuestionIds.add(q.id));
 
-      s.currentCategory = category;
-      s.usedCategories.add(category);
+      const label = subcategory ? `${category} • ${subcategory}` : category;
+      s.currentCategory = label;
+      s.usedCategories.add(label);
       s.roundQuestions = picked;
       s.currentQuestionIndex = 0;
       s.currentAnswers = new Map();
@@ -284,7 +311,7 @@ export function useQuizEngine() {
         s.categoryPickerId = sorted[0].id;
       }
 
-      s.categoryChoices = allCategoriesRef.current;
+      s.categoryChoices = allCategoryGroupsRef.current;
       s.phase = 'category_pick';
       syncAll(s);
     },
@@ -346,7 +373,7 @@ export function useQuizEngine() {
         case 'pick_category': {
           if (s.phase !== 'category_pick') return;
           if (msg.playerId !== s.categoryPickerId && msg.playerId !== myPlayerId) return;
-          startRoundWithCategory(s, msg.category);
+          startRoundWithCategory(s, msg.category, msg.subcategory);
           break;
         }
 
@@ -643,7 +670,7 @@ export function useQuizEngine() {
     error,
     state: publicState,
     totalQuestionCount: allQuestionsRef.current.length,
-    categoryCount: allCategoriesRef.current.length,
+    categoryCount: allCategoryGroupsRef.current.length,
     startHosting,
     joinRoom,
     updateSettings,

@@ -13,12 +13,12 @@ For å teste på flere mobiler i samme rom kan du enten kjøre `npm run dev -- -
 
 ## Slik legger en LLM til nye spørsmål uten å avsløre fasit
 
-Spørsmålene ligger i `src/data/questions.json`. Hvert spørsmål har et `answerToken`-felt (Base64-kodet `<id>:<correctIndex>`), slik at riktig svar ikke står i klartekst.
+Spørsmålene ligger fordelt på én fil per hovedkategori i `src/data/questions/*.json` (f.eks. `musikk.json`, `historie.json`). Hvert spørsmål har `id`, `category`, `subcategory`, `question`, `options` (4 alternativer) og et forseglet `answerToken`-felt (Base64-kodet `<id>:<correctIndex>`), slik at riktig svar ikke står i klartekst.
 
 Når du ber en LLM legge til nye spørsmål:
-1. Be LLM-en legge til nye objekter i `src/data/questions.json` med `id`, `category`, `question`, `options` (4 alternativer) og `correctIndex` (0–3).
+1. Be LLM-en legge til nye objekter i ønsket fil i `src/data/questions/` med `id`, `category`, `subcategory`, `question`, `options` (4 alternativer) og `correctIndex` (0–3).
 2. Kjør kommandoen under **uten** å åpne filen:
    ```bash
    npm run seal-questions
    ```
-3. Skriptet konverterer `correctIndex` til `answerToken` og validerer alle spørsmålene, og skriver kun ut antall spørsmål per kategori (aldri spørsmålstekst eller fasit).
+3. Skriptet konverterer `correctIndex` til `answerToken` og validerer alle filene, og skriver kun ut antall spørsmål per hovedkategori og underkategori (aldri spørsmålstekst eller fasit).

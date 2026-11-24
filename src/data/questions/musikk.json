@@ -1,0 +1,132 @@
+[
+  {
+    "id": "mus-70-1",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket svensk band vant Eurovision Song Contest i 1974 med «Waterloo»?",
+    "options": [
+      "Roxette",
+      "ABBA",
+      "Ace of Base",
+      "Europe"
+    ],
+    "answerToken": "bXVzLTcwLTE6MQ=="
+  },
+  {
+    "id": "mus-70-2",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem ga ut klassikeren «Bohemian Rhapsody» i 1975?",
+    "options": [
+      "Led Zeppelin",
+      "Queen",
+      "Pink Floyd",
+      "David Bowie"
+    ],
+    "answerToken": "bXVzLTcwLTI6MQ=="
+  },
+  {
+    "id": "mus-80-1",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket norsk band fikk sitt store internasjonale gjennombrudd med «Take On Me» i 1985?",
+    "options": [
+      "deLillos",
+      "a-ha",
+      "DumDum Boys",
+      "Stage Dolls"
+    ],
+    "answerToken": "bXVzLTgwLTE6MQ=="
+  },
+  {
+    "id": "mus-80-2",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilken artist ga ut albumet «Thriller» i 1982?",
+    "options": [
+      "Prince",
+      "Michael Jackson",
+      "Madonna",
+      "George Michael"
+    ],
+    "answerToken": "bXVzLTgwLTI6MQ=="
+  },
+  {
+    "id": "mus-90-1",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket grungeband fra Seattle ga ut «Smells Like Teen Spirit» i 1991?",
+    "options": [
+      "Pearl Jam",
+      "Soundgarden",
+      "Nirvana",
+      "Alice in Chains"
+    ],
+    "answerToken": "bXVzLTkwLTE6Mg=="
+  },
+  {
+    "id": "mus-90-2",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilken britisk gruppe slo gjennom med «Wannabe» i 1996?",
+    "options": [
+      "Spice Girls",
+      "All Saints",
+      "Atomic Kitten",
+      "Destiny's Child"
+    ],
+    "answerToken": "bXVzLTkwLTI6MA=="
+  },
+  {
+    "id": "mus-00-1",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken kanadisk artist ga ut megahiten «Blinding Lights» i 2019?",
+    "options": [
+      "Drake",
+      "Justin Bieber",
+      "The Weeknd",
+      "Shawn Mendes"
+    ],
+    "answerToken": "bXVzLTAwLTE6Mg=="
+  },
+  {
+    "id": "mus-nor-1",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger om «Neste sommer» og «Smak av honning»?",
+    "options": [
+      "Jokke & Valentinerne",
+      "deLillos",
+      "Raga Rockers",
+      "Postgirobygget"
+    ],
+    "answerToken": "bXVzLW5vci0xOjE="
+  },
+  {
+    "id": "mus-esc-1",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken norsk artist vant Eurovision Song Contest i 2009 med «Fairytale»?",
+    "options": [
+      "Alexander Rybak",
+      "Margaret Berger",
+      "TIX",
+      "Ulrikke Brandstorp"
+    ],
+    "answerToken": "bXVzLWVzYy0xOjA="
+  },
+  {
+    "id": "mus-esc-2",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket år vant Bobbysocks Eurovision for Norge med «La det swinge»?",
+    "options": [
+      "1982",
+      "1985",
+      "1988",
+      "1995"
+    ],
+    "answerToken": "bXVzLWVzYy0yOjE="
+  }
+]

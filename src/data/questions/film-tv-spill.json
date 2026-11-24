@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ftv-kl-1",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvem regisserte den norske filmen «Flåklypa Grand Prix» fra 1975?",
+    "options": [
+      "Ivo Caprino",
+      "Knut Bohwim",
+      "Bent Hamer",
+      "Joachim Trier"
+    ],
+    "answerToken": "ZnR2LWtsLTE6MA=="
+  },
+  {
+    "id": "ftv-kl-2",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken film fra 1994 har sitatet «Life is like a box of chocolates»?",
+    "options": [
+      "Pulp Fiction",
+      "Forrest Gump",
+      "Frihetens regn",
+      "Løvenes konge"
+    ],
+    "answerToken": "ZnR2LWtsLTI6MQ=="
+  },
+  {
+    "id": "ftv-ny-1",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken sørkoreansk film vant Oscar for beste film i 2020?",
+    "options": [
+      "Oldboy",
+      "Parasitt",
+      "Minari",
+      "Train to Busan"
+    ],
+    "answerToken": "ZnR2LW55LTE6MQ=="
+  },
+  {
+    "id": "ftv-ser-1",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hva heter hovedpersonen i TV-serien «Breaking Bad»?",
+    "options": [
+      "Jesse Pinkman",
+      "Saul Goodman",
+      "Walter White",
+      "Hank Schrader"
+    ],
+    "answerToken": "ZnR2LXNlci0xOjI="
+  },
+  {
+    "id": "ftv-nor-1",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hva heter den fiktive bygda der TV-serien «Side om side» foregår?",
+    "options": [
+      "Granli",
+      "Fjellheim",
+      "Vesterålen",
+      "Solbakken"
+    ],
+    "answerToken": "ZnR2LW5vci0xOjA="
+  },
+  {
+    "id": "ftv-gam-1",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket svenskt studio skapte spillet «Minecraft»?",
+    "options": [
+      "DICE",
+      "Mojang",
+      "Paradox",
+      "King"
+    ],
+    "answerToken": "ZnR2LWdhbS0xOjE="
+  }
+]

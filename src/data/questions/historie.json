@@ -1,0 +1,67 @@
+[
+  {
+    "id": "hist-ant-1",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken by var hovedstad i Østromerriket (Det bysantinske riket)?",
+    "options": [
+      "Athen",
+      "Roma",
+      "Konstantinopel",
+      "Alexandria"
+    ],
+    "answerToken": "aGlzdC1hbnQtMToy"
+  },
+  {
+    "id": "hist-1800-1",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "I hvilket år ble den norske Grunnloven undertegnet på Eidsvoll?",
+    "options": [
+      "1807",
+      "1814",
+      "1884",
+      "1905"
+    ],
+    "answerToken": "aGlzdC0xODAwLTE6MQ=="
+  },
+  {
+    "id": "hist-1800-2",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvem var den første statsministeren i et selvstendig Norge i 1905?",
+    "options": [
+      "Christian Michelsen",
+      "Johan Sverdrup",
+      "Gunnar Knudsen",
+      "Einar Gerhardsen"
+    ],
+    "answerToken": "aGlzdC0xODAwLTI6MA=="
+  },
+  {
+    "id": "hist-ny-1",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "I hvilket år falt Berlinmuren?",
+    "options": [
+      "1987",
+      "1989",
+      "1991",
+      "1993"
+    ],
+    "answerToken": "aGlzdC1ueS0xOjE="
+  },
+  {
+    "id": "hist-opp-1",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvilket skip sank på sin jomfrutur i april 1912?",
+    "options": [
+      "RMS Lusitania",
+      "RMS Titanic",
+      "SS Andrea Doria",
+      "HMS Hood"
+    ],
+    "answerToken": "aGlzdC1vcHAtMTox"
+  }
+]

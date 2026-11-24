@@ -120,8 +120,13 @@ export function App() {
           state={state}
           myPlayerId={myPlayerId}
           isHost={isHost}
-          onPickCategory={(category) =>
-            sendAction({ type: 'pick_category', playerId: myPlayerId, category })
+          onPickCategory={(category, subcategory) =>
+            sendAction({
+              type: 'pick_category',
+              playerId: myPlayerId,
+              category,
+              subcategory,
+            })
           }
         />
       )}

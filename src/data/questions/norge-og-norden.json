@@ -1,0 +1,67 @@
+[
+  {
+    "id": "nor-geo-1",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilket fjell er Norges høyeste?",
+    "options": [
+      "Glittertind",
+      "Snøhetta",
+      "Galdhøpiggen",
+      "Store Skagastølstind"
+    ],
+    "answerToken": "bm9yLWdlby0xOjI="
+  },
+  {
+    "id": "nor-geo-2",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk elv er landets lengste?",
+    "options": [
+      "Drammenselva",
+      "Glomma",
+      "Lågen",
+      "Tana"
+    ],
+    "answerToken": "bm9yLWdlby0yOjE="
+  },
+  {
+    "id": "nor-sam-1",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvor mange fylker har Norge fra og med 1. januar 2024?",
+    "options": [
+      "11",
+      "15",
+      "18",
+      "19"
+    ],
+    "answerToken": "bm9yLXNhbS0xOjE="
+  },
+  {
+    "id": "nor-ord-1",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hvilken by kalles «Nordens Paris»?",
+    "options": [
+      "Bergen",
+      "Trondheim",
+      "Tromsø",
+      "Ålesund"
+    ],
+    "answerToken": "bm9yLW9yZC0xOjI="
+  },
+  {
+    "id": "nor-nor-1",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter Danmarks største øy (etter areal)?",
+    "options": [
+      "Fyn",
+      "Sjælland",
+      "Bornholm",
+      "Lolland"
+    ],
+    "answerToken": "bm9yLW5vci0xOjE="
+  }
+]

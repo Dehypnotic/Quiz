@@ -1,0 +1,67 @@
+[
+  {
+    "id": "geo-land-1",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Australia?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Brisbane"
+    ],
+    "answerToken": "Z2VvLWxhbmQtMToy"
+  },
+  {
+    "id": "geo-land-2",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hvilket land har flest tidssoner når man regner med oversjøiske territorier?",
+    "options": [
+      "Russland",
+      "USA",
+      "Frankrike",
+      "Canada"
+    ],
+    "answerToken": "Z2VvLWxhbmQtMjoy"
+  },
+  {
+    "id": "geo-flagg-1",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva heter valutaen i Japan?",
+    "options": [
+      "Won",
+      "Yuan",
+      "Yen",
+      "Baht"
+    ],
+    "answerToken": "Z2VvLWZsYWdnLTE6Mg=="
+  },
+  {
+    "id": "geo-nat-1",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilket hav ligger mellom Italia og Kroatia?",
+    "options": [
+      "Egeerhavet",
+      "Adriaterhavet",
+      "Tyrrenhavet",
+      "Svartehavet"
+    ],
+    "answerToken": "Z2VvLW5hdC0xOjE="
+  },
+  {
+    "id": "geo-bygg-1",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "I hvilket land ligger oldtidsbyen Petra?",
+    "options": [
+      "Egypt",
+      "Jordan",
+      "Marokko",
+      "Tyrkia"
+    ],
+    "answerToken": "Z2VvLWJ5Z2ctMTox"
+  }
+]

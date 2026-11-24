@@ -1,0 +1,54 @@
+[
+  {
+    "id": "lit-nor-1",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev skuespillet «Et dukkehjem»?",
+    "options": [
+      "Bjørnstjerne Bjørnson",
+      "Henrik Ibsen",
+      "Alexander Kielland",
+      "Jonas Lie"
+    ],
+    "answerToken": "bGl0LW5vci0xOjE="
+  },
+  {
+    "id": "lit-kri-1",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hva heter politietterforskeren i Jo Nesbøs kriminalromaner?",
+    "options": [
+      "Varg Veum",
+      "Harry Hole",
+      "William Wisting",
+      "Cato Isaksen"
+    ],
+    "answerToken": "bGl0LWtyaS0xOjE="
+  },
+  {
+    "id": "lit-myt-1",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter hammeren til tordenguden Tor i norrøn mytologi?",
+    "options": [
+      "Gungne",
+      "Mjølner",
+      "Gram",
+      "Sleipner"
+    ],
+    "answerToken": "bGl0LW15dC0xOjE="
+  },
+  {
+    "id": "lit-kun-1",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvem malte det verdenskjente bildet «Skrik»?",
+    "options": [
+      "Christian Krohg",
+      "Edvard Munch",
+      "Harald Sohlberg",
+      "Nikolai Astrup"
+    ],
+    "answerToken": "bGl0LWt1bi0xOjE="
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "mat-ver-1",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilken ost er hovedingrediensen i en klassisk gresk salat?",
+    "options": [
+      "Mozzarella",
+      "Halloumi",
+      "Feta",
+      "Ricotta"
+    ],
+    "answerToken": "bWF0LXZlci0xOjI="
+  },
+  {
+    "id": "mat-nor-1",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilken norsk rett lages tradisjonelt av lammekjøtt, hodekål og hel pepper?",
+    "options": [
+      "Pinnekjøtt",
+      "Fårikål",
+      "Lapskaus",
+      "Sodd"
+    ],
+    "answerToken": "bWF0LW5vci0xOjE="
+  },
+  {
+    "id": "mat-dri-1",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken brennevinstype er hovedbasen i en klassisk Mojito?",
+    "options": [
+      "Gin",
+      "Vodka",
+      "Lys rom",
+      "Tequila"
+    ],
+    "answerToken": "bWF0LWRyaS0xOjI="
+  },
+  {
+    "id": "mat-kaf-1",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva heter krydderet som gir paella sin karakteristiske gule farge?",
+    "options": [
+      "Gurkemeie",
+      "Safran",
+      "Karri",
+      "Paprika"
+    ],
+    "answerToken": "bWF0LWthZi0xOjE="
+  }
+]

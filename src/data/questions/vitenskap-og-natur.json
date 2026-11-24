@@ -1,0 +1,54 @@
+[
+  {
+    "id": "vit-rom-1",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Omtrent hvor lang tid bruker lyset fra Solen til Jorden?",
+    "options": [
+      "8 sekunder",
+      "8 minutter",
+      "8 timer",
+      "8 dager"
+    ],
+    "answerToken": "dml0LXJvbS0xOjE="
+  },
+  {
+    "id": "vit-dyr-1",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket dyr er verdens raskeste landpattedyr?",
+    "options": [
+      "Gepard",
+      "Pronghorn",
+      "Gaselle",
+      "Løve"
+    ],
+    "answerToken": "dml0LWR5ci0xOjA="
+  },
+  {
+    "id": "vit-kropp-1",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvor mange hjertekamre har et menneskehjerte?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answerToken": "dml0LWtyb3BwLTE6Mg=="
+  },
+  {
+    "id": "vit-fys-1",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvilket grunnstoff har det kjemiske symbolet Au?",
+    "options": [
+      "Sølv",
+      "Argon",
+      "Gull",
+      "Aluminium"
+    ],
+    "answerToken": "dml0LWZ5cy0xOjI="
+  }
+]

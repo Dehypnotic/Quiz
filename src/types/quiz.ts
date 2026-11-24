@@ -12,6 +12,7 @@ export type GamePhase =
 export interface QuestionRaw {
   id: string;
   category: string;
+  subcategory?: string;
   question: string;
   options: [string, string, string, string];
   answerToken: string;
@@ -20,9 +21,15 @@ export interface QuestionRaw {
 export interface Question {
   id: string;
   category: string;
+  subcategory: string;
   question: string;
   options: [string, string, string, string];
   correctIndex: number;
+}
+
+export interface CategoryGroup {
+  category: string;
+  subcategories: string[];
 }
 
 export interface GameSettings {
@@ -77,7 +84,7 @@ export interface PublicGameState {
   currentRound: number; // 1-indexed
   currentQuestionIndex: number; // 0-indexed within round
   currentCategory: string | null;
-  categoryChoices: string[];
+  categoryChoices: CategoryGroup[];
   usedCategories: string[];
   categoryPickerId: string | null;
   quizmasterId: string | null;
@@ -102,7 +109,7 @@ export interface PublicGameState {
 
 export type ClientMessage =
   | { type: 'join'; playerId: string; name: string }
-  | { type: 'pick_category'; playerId: string; category: string }
+  | { type: 'pick_category'; playerId: string; category: string; subcategory?: string | null }
   | { type: 'start_answering'; playerId: string }
   | { type: 'toggle_double'; playerId: string }
   | { type: 'submit_answer'; playerId: string; choiceIndex: number; clientElapsedMs?: number }
