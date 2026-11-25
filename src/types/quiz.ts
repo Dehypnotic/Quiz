@@ -16,6 +16,7 @@ export interface QuestionRaw {
   question: string;
   options: [string, string, string, string];
   answerToken: string;
+  addedAt?: string;
 }
 
 export interface Question {
@@ -25,6 +26,7 @@ export interface Question {
   question: string;
   options: [string, string, string, string];
   correctIndex: number;
+  addedAt?: string;
 }
 
 export interface SubcategoryInfo {

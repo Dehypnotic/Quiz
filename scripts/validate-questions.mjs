@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const QUESTIONS_DIR = path.resolve(__dirname, '../src/data/questions');
 const sealMode = process.argv.includes('--seal');
+const todayIso = new Date().toISOString().slice(0, 10);
 
 function encodeToken(id, correctIndex) {
   return Buffer.from(`${id}:${correctIndex}`, 'utf8').toString('base64');
@@ -53,6 +54,7 @@ for (const file of files) {
   }
 
   let fileSealed = 0;
+  let fileModified = 0;
   const updatedItems = items.map((item, i) => {
     const prefix = `${file} #${i + 1}`;
     if (!item || typeof item !== 'object') {
@@ -94,6 +96,13 @@ for (const file of files) {
     }
 
     const nextItem = { ...item };
+    let modified = false;
+
+    if (sealMode && !nextItem.addedAt) {
+      nextItem.addedAt = todayIso;
+      modified = true;
+    }
+
     if (sealMode && typeof item.correctIndex === 'number') {
       if (!Number.isInteger(item.correctIndex) || item.correctIndex < 0 || item.correctIndex > 3) {
         console.error(`${prefix}: Ugyldig "correctIndex" (må være 0-3).`);
@@ -103,6 +112,7 @@ for (const file of files) {
         delete nextItem.correctIndex;
         fileSealed++;
         totalSealed++;
+        modified = true;
       }
     } else if (
       typeof item.answerToken !== 'string' ||
@@ -112,6 +122,10 @@ for (const file of files) {
         `${prefix}: Mangler gyldig "answerToken" (kjør npm run seal-questions hvis du la inn correctIndex).`
       );
       errors++;
+    }
+
+    if (modified) {
+      fileModified++;
     }
 
     if (typeof item.category === 'string' && item.category.trim()) {
@@ -129,7 +143,7 @@ for (const file of files) {
     return nextItem;
   });
 
-  if (sealMode && fileSealed > 0 && errors === 0) {
+  if (sealMode && fileModified > 0 && errors === 0) {
     fs.writeFileSync(filePath, JSON.stringify(updatedItems, null, 2) + '\n', 'utf8');
   }
 }

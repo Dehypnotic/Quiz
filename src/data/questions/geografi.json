@@ -10,7 +10,8 @@
       "Canberra",
       "Brisbane"
     ],
-    "answerToken": "Z2VvLWxhbmQtMToy"
+    "answerToken": "Z2VvLWxhbmQtMToy",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "geo-land-2",
@@ -23,7 +24,8 @@
       "Frankrike",
       "Canada"
     ],
-    "answerToken": "Z2VvLWxhbmQtMjoy"
+    "answerToken": "Z2VvLWxhbmQtMjoy",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "geo-flagg-1",
@@ -36,7 +38,8 @@
       "Yen",
       "Baht"
     ],
-    "answerToken": "Z2VvLWZsYWdnLTE6Mg=="
+    "answerToken": "Z2VvLWZsYWdnLTE6Mg==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "geo-nat-1",
@@ -49,7 +52,8 @@
       "Tyrrenhavet",
       "Svartehavet"
     ],
-    "answerToken": "Z2VvLW5hdC0xOjE="
+    "answerToken": "Z2VvLW5hdC0xOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "geo-bygg-1",
@@ -62,6 +66,1337 @@
       "Marokko",
       "Tyrkia"
     ],
-    "answerToken": "Z2VvLWJ5Z2ctMTox"
+    "answerToken": "Z2VvLWJ5Z2ctMTox",
+    "addedAt": "2026-11-25"
+  },
+  {
+    "id": "geo-land-3",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Canada?",
+    "options": [
+      "Toronto",
+      "Vancouver",
+      "Ottawa",
+      "Montreal"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMzoy"
+  },
+  {
+    "id": "geo-land-4",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Brasil?",
+    "options": [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Brasília",
+      "Salvador"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtNDoy"
+  },
+  {
+    "id": "geo-land-5",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Sveits?",
+    "options": [
+      "Zürich",
+      "Genève",
+      "Bern",
+      "Basel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtNToy"
+  },
+  {
+    "id": "geo-land-6",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hvilket land har Lisboa som hovedstad?",
+    "options": [
+      "Spania",
+      "Portugal",
+      "Italia",
+      "Hellas"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtNjox"
+  },
+  {
+    "id": "geo-land-7",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Tyrkia?",
+    "options": [
+      "Istanbul",
+      "Ankara",
+      "Izmir",
+      "Antalya"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtNzox"
+  },
+  {
+    "id": "geo-land-8",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hvilket land er verdens minste målt i areal?",
+    "options": [
+      "Monaco",
+      "San Marino",
+      "Vatikanstaten",
+      "Liechtenstein"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtODoy"
+  },
+  {
+    "id": "geo-land-9",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Island?",
+    "options": [
+      "Akureyri",
+      "Reykjavík",
+      "Keflavík",
+      "Hafnarfjörður"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtOTox"
+  },
+  {
+    "id": "geo-land-10",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Sør-Korea?",
+    "options": [
+      "Busan",
+      "Incheon",
+      "Seoul",
+      "Daegu"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMTA6Mg=="
+  },
+  {
+    "id": "geo-land-11",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hvilket land har flest innbyggere i verden?",
+    "options": [
+      "Kina",
+      "India",
+      "USA",
+      "Indonesia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMTE6MQ=="
+  },
+  {
+    "id": "geo-land-12",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Egypt?",
+    "options": [
+      "Alexandria",
+      "Kairo",
+      "Luxor",
+      "Giza"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMTI6MQ=="
+  },
+  {
+    "id": "geo-land-13",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i New Zealand?",
+    "options": [
+      "Auckland",
+      "Christchurch",
+      "Wellington",
+      "Queenstown"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMTM6Mg=="
+  },
+  {
+    "id": "geo-land-14",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hvilket europeisk land har Praha som hovedstad?",
+    "options": [
+      "Slovakia",
+      "Tsjekkia",
+      "Ungarn",
+      "Polen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMTQ6MQ=="
+  },
+  {
+    "id": "geo-land-15",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Argentina?",
+    "options": [
+      "Santiago",
+      "Montevideo",
+      "Buenos Aires",
+      "Lima"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMTU6Mg=="
+  },
+  {
+    "id": "geo-land-16",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Irland?",
+    "options": [
+      "Cork",
+      "Galway",
+      "Dublin",
+      "Belfast"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMTY6Mg=="
+  },
+  {
+    "id": "geo-land-17",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hvilket land har Nairobi som hovedstad?",
+    "options": [
+      "Tanzania",
+      "Kenya",
+      "Uganda",
+      "Etiopia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMTc6MQ=="
+  },
+  {
+    "id": "geo-land-18",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Thailand?",
+    "options": [
+      "Phuket",
+      "Chiang Mai",
+      "Bangkok",
+      "Pattaya"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMTg6Mg=="
+  },
+  {
+    "id": "geo-land-19",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Østerrike?",
+    "options": [
+      "Salzburg",
+      "Wien",
+      "Graz",
+      "Innsbruck"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMTk6MQ=="
+  },
+  {
+    "id": "geo-land-20",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hvilket land ligger mellom Spania og Frankrike i Pyreneene?",
+    "options": [
+      "Monaco",
+      "Andorra",
+      "Luxembourg",
+      "San Marino"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMjA6MQ=="
+  },
+  {
+    "id": "geo-land-21",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Marokko?",
+    "options": [
+      "Casablanca",
+      "Marrakech",
+      "Rabat",
+      "Fès"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMjE6Mg=="
+  },
+  {
+    "id": "geo-land-22",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Polen?",
+    "options": [
+      "Kraków",
+      "Gdańsk",
+      "Warszawa",
+      "Wrocław"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMjI6Mg=="
+  },
+  {
+    "id": "geo-land-23",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hvilket land er verdens største målt i areal?",
+    "options": [
+      "Canada",
+      "Kina",
+      "USA",
+      "Russland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMjM6Mw=="
+  },
+  {
+    "id": "geo-land-24",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Vietnam?",
+    "options": [
+      "Ho Chi Minh-byen",
+      "Hanoi",
+      "Da Nang",
+      "Huế"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMjQ6MQ=="
+  },
+  {
+    "id": "geo-land-25",
+    "category": "Geografi & Verden",
+    "subcategory": "Land & hovedsteder",
+    "question": "Hva heter hovedstaden i Ungarn?",
+    "options": [
+      "Bukarest",
+      "Budapest",
+      "Sofia",
+      "Beograd"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWxhbmQtMjU6MQ=="
+  },
+  {
+    "id": "geo-flagg-2",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilket språk snakkes av flest mennesker i Brasil?",
+    "options": [
+      "Spansk",
+      "Portugisisk",
+      "Fransk",
+      "Italiensk"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTI6MQ=="
+  },
+  {
+    "id": "geo-flagg-3",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva heter valutaen i Storbritannia?",
+    "options": [
+      "Euro",
+      "Dollar",
+      "Pund sterling",
+      "Franc"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTM6Mg=="
+  },
+  {
+    "id": "geo-flagg-4",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilket blad er avbildet midt på Canadas flagg?",
+    "options": [
+      "Eikeblad",
+      "Lønneblad",
+      "Bjørkeblad",
+      "Bøkeblad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTQ6MQ=="
+  },
+  {
+    "id": "geo-flagg-5",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva heter valutaen i Sveits?",
+    "options": [
+      "Euro",
+      "Sveitserfranc",
+      "Mark",
+      "Krone"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTU6MQ=="
+  },
+  {
+    "id": "geo-flagg-6",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilken farge er det på sirkelen midt i Japans flagg?",
+    "options": [
+      "Blå",
+      "Rød",
+      "Gul",
+      "Grønn"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTY6MQ=="
+  },
+  {
+    "id": "geo-flagg-7",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva heter valutaen i USA?",
+    "options": [
+      "Peso",
+      "Dollar",
+      "Pund",
+      "Euro"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTc6MQ=="
+  },
+  {
+    "id": "geo-flagg-8",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilket land har et flagg som er helt kvadratisk (sammen med Vatikanstaten)?",
+    "options": [
+      "Østerrike",
+      "Sveits",
+      "Danmark",
+      "Belgia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTg6MQ=="
+  },
+  {
+    "id": "geo-flagg-9",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva heter valutaen i India?",
+    "options": [
+      "Rupi",
+      "Baht",
+      "Riyal",
+      "Dirham"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTk6MA=="
+  },
+  {
+    "id": "geo-flagg-10",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilke tre farger har det franske flagget (Trikoloren)?",
+    "options": [
+      "Svart, rød og gul",
+      "Blå, hvit og rød",
+      "Grønn, hvit og rød",
+      "Blå, gul og hvit"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTEwOjE="
+  },
+  {
+    "id": "geo-flagg-11",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilket land bruker valutaen «baht»?",
+    "options": [
+      "Vietnam",
+      "Thailand",
+      "Indonesia",
+      "Malaysia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTExOjE="
+  },
+  {
+    "id": "geo-flagg-12",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilket språk er offisielt i Østerrike?",
+    "options": [
+      "Østerriksk",
+      "Tysk",
+      "Italiensk",
+      "Ungarsk"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTEyOjE="
+  },
+  {
+    "id": "geo-flagg-13",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva kalles det eldste fortsatt brukte nasjonalflagget i verden, med hvitt kors på rød bunn?",
+    "options": [
+      "Union Jack",
+      "Dannebrog",
+      "Trikoloren",
+      "Stars and Stripes"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTEzOjE="
+  },
+  {
+    "id": "geo-flagg-14",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva heter valutaen i Polen?",
+    "options": [
+      "Euro",
+      "Złoty",
+      "Koruna",
+      "Forint"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTE0OjE="
+  },
+  {
+    "id": "geo-flagg-15",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilket land har 50 stjerner i sitt flagg?",
+    "options": [
+      "Australia",
+      "USA",
+      "Brasil",
+      "New Zealand"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTE1OjE="
+  },
+  {
+    "id": "geo-flagg-16",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilket språk snakkes i det meste av Sør-Amerika utenom Brasil?",
+    "options": [
+      "Portugisisk",
+      "Spansk",
+      "Fransk",
+      "Engelsk"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTE2OjE="
+  },
+  {
+    "id": "geo-flagg-17",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva heter valutaen i Mexico?",
+    "options": [
+      "Dollar",
+      "Peso",
+      "Real",
+      "Sol"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTE3OjE="
+  },
+  {
+    "id": "geo-flagg-18",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilke farger er det i det svenske flagget?",
+    "options": [
+      "Blå og hvit",
+      "Blå og gul",
+      "Rød og hvit",
+      "Grønn og gul"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTE4OjE="
+  },
+  {
+    "id": "geo-flagg-19",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva heter valutaen i Tyrkia?",
+    "options": [
+      "Dinar",
+      "Lira",
+      "Dirham",
+      "Riyal"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTE5OjE="
+  },
+  {
+    "id": "geo-flagg-20",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilket symbol er det på flagget til Israel?",
+    "options": [
+      "Halvmåne",
+      "Davidsstjerne",
+      "Kors",
+      "Sol"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTIwOjE="
+  },
+  {
+    "id": "geo-flagg-21",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva heter valutaen i Sør-Afrika?",
+    "options": [
+      "Rand",
+      "Shilling",
+      "Naira",
+      "Kwacha"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTIxOjA="
+  },
+  {
+    "id": "geo-flagg-22",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilket land har et flagg med grønn, hvit og rød vertikal stripe (uten emblem)?",
+    "options": [
+      "Irland",
+      "Italia",
+      "Ungarn",
+      "Bulgaria"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTIyOjE="
+  },
+  {
+    "id": "geo-flagg-23",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva heter valutaen i Russland?",
+    "options": [
+      "Rubel",
+      "Hryvnia",
+      "Tenget",
+      "Złoty"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTIzOjA="
+  },
+  {
+    "id": "geo-flagg-24",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hvilket europeisk land har hele fire offisielle språk: tysk, fransk, italiensk og retoromansk?",
+    "options": [
+      "Belgia",
+      "Sveits",
+      "Luxembourg",
+      "Østerrike"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTI0OjE="
+  },
+  {
+    "id": "geo-flagg-25",
+    "category": "Geografi & Verden",
+    "subcategory": "Flagg, språk & valuta",
+    "question": "Hva heter valutaen i Kina?",
+    "options": [
+      "Yen",
+      "Won",
+      "Yuan (Renminbi)",
+      "Ringgit"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWZsYWdnLTI1OjI="
+  },
+  {
+    "id": "geo-nat-2",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilket hav er verdens største?",
+    "options": [
+      "Atlanterhavet",
+      "Stillehavet",
+      "Indiahavet",
+      "Nordishavet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0yOjE="
+  },
+  {
+    "id": "geo-nat-3",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hva heter verdens høyeste fjell?",
+    "options": [
+      "K2",
+      "Mount Everest",
+      "Kilimanjaro",
+      "Mont Blanc"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0zOjE="
+  },
+  {
+    "id": "geo-nat-4",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilken elv renner gjennom Egypt og ut i Middelhavet?",
+    "options": [
+      "Amazonas",
+      "Nilen",
+      "Eufrat",
+      "Kongo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC00OjE="
+  },
+  {
+    "id": "geo-nat-5",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hva heter verdens største varme ørken?",
+    "options": [
+      "Gobiørkenen",
+      "Sahara",
+      "Kalahari",
+      "Mojave"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC01OjE="
+  },
+  {
+    "id": "geo-nat-6",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilket kontinent har flest selvstendige land?",
+    "options": [
+      "Asia",
+      "Afrika",
+      "Europa",
+      "Sør-Amerika"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC02OjE="
+  },
+  {
+    "id": "geo-nat-7",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hva heter verdens største øy (når man ser bort fra kontinenter)?",
+    "options": [
+      "Madagaskar",
+      "Grønland",
+      "Borneo",
+      "Ny-Guinea"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC03OjE="
+  },
+  {
+    "id": "geo-nat-8",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilken fjellkjede skiller Europa fra Asia?",
+    "options": [
+      "Alpene",
+      "Uralfjellene",
+      "Kaukasus",
+      "Karpatene"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC04OjE="
+  },
+  {
+    "id": "geo-nat-9",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hva heter verdens dypeste kjente havområde?",
+    "options": [
+      "Puerto Rico-gropen",
+      "Marianergropen",
+      "Javagropen",
+      "Tongagropen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC05OjE="
+  },
+  {
+    "id": "geo-nat-10",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilken elv i Sør-Amerika er verdens mest vannrike?",
+    "options": [
+      "Orinoco",
+      "Amazonas",
+      "Paraná",
+      "São Francisco"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0xMDox"
+  },
+  {
+    "id": "geo-nat-11",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hva heter Afrikas høyeste fjell?",
+    "options": [
+      "Mount Kenya",
+      "Kilimanjaro",
+      "Atlas",
+      "Ruwenzori"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0xMTox"
+  },
+  {
+    "id": "geo-nat-12",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilken innsjø er verdens dypeste (ligger i Sibir)?",
+    "options": [
+      "Victoriasjøen",
+      "Bajkalsjøen",
+      "Titicacasjøen",
+      "Øvresjøen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0xMjox"
+  },
+  {
+    "id": "geo-nat-13",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hva heter verdens største korallrev, som ligger utenfor kysten av Australia?",
+    "options": [
+      "Rødehavsrevet",
+      "Great Barrier Reef",
+      "Belize Barrier Reef",
+      "Ningaloo Reef"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0xMzox"
+  },
+  {
+    "id": "geo-nat-14",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilket sund skiller Spania fra Marokko?",
+    "options": [
+      "Bosporusstredet",
+      "Gibraltarstredet",
+      "Beringstredet",
+      "Hormuzstredet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0xNDox"
+  },
+  {
+    "id": "geo-nat-15",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hva heter den kjente, svært salte innsjøen mellom Israel og Jordan?",
+    "options": [
+      "Rødehavet",
+      "Dødehavet",
+      "Kaspihavet",
+      "Galileasjøen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0xNTox"
+  },
+  {
+    "id": "geo-nat-16",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilken foss ligger på grensen mellom USA og Canada?",
+    "options": [
+      "Victoriafallene",
+      "Niagarafallene",
+      "Iguazúfallene",
+      "Angelfallene"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0xNjox"
+  },
+  {
+    "id": "geo-nat-17",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilket fjell er det høyeste i Alpene?",
+    "options": [
+      "Matterhorn",
+      "Mont Blanc",
+      "Zugspitze",
+      "Grossglockner"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0xNzox"
+  },
+  {
+    "id": "geo-nat-18",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilken øygruppe i Stillehavet er berømt for Charles Darwins studier av evolusjon?",
+    "options": [
+      "Påskeøya",
+      "Galápagosøyene",
+      "Fiji",
+      "Hawaii"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0xODox"
+  },
+  {
+    "id": "geo-nat-19",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hva heter elven som renner gjennom London?",
+    "options": [
+      "Severn",
+      "Themsen",
+      "Mersey",
+      "Avon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0xOTox"
+  },
+  {
+    "id": "geo-nat-20",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilken aktiv vulkan ligger på Sicilia i Italia?",
+    "options": [
+      "Vesuv",
+      "Etna",
+      "Stromboli",
+      "Krakatau"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0yMDox"
+  },
+  {
+    "id": "geo-nat-21",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hva heter det kalde havområdet rundt Antarktis?",
+    "options": [
+      "Nordishavet",
+      "Sørishavet",
+      "Beringhavet",
+      "Tasmanhavet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0yMTox"
+  },
+  {
+    "id": "geo-nat-22",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilken elv renner gjennom Paris?",
+    "options": [
+      "Loire",
+      "Rhône",
+      "Seinen",
+      "Garonne"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0yMjoy"
+  },
+  {
+    "id": "geo-nat-23",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilket land har verdens lengste kystlinje?",
+    "options": [
+      "Russland",
+      "Indonesia",
+      "Canada",
+      "Australia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0yMzoy"
+  },
+  {
+    "id": "geo-nat-24",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hva heter den store fjellkjeden som strekker seg langs vestkysten av Sør-Amerika?",
+    "options": [
+      "Rocky Mountains",
+      "Andesfjellene",
+      "Appalachene",
+      "Sierra Madre"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0yNDox"
+  },
+  {
+    "id": "geo-nat-25",
+    "category": "Geografi & Verden",
+    "subcategory": "Natur & hav",
+    "question": "Hvilken innsjø er verdens største målt i overflateareal (ofte kalt et hav)?",
+    "options": [
+      "Øvresjøen",
+      "Kaspihavet",
+      "Victoriasjøen",
+      "Huronsjøen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLW5hdC0yNTox"
+  },
+  {
+    "id": "geo-bygg-2",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "I hvilken by står Eiffeltårnet?",
+    "options": [
+      "Lyon",
+      "Paris",
+      "Brussel",
+      "Marseille"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMjox"
+  },
+  {
+    "id": "geo-bygg-3",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "I hvilket land ligger inkaruinen Machu Picchu?",
+    "options": [
+      "Bolivia",
+      "Peru",
+      "Chile",
+      "Ecuador"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMzox"
+  },
+  {
+    "id": "geo-bygg-4",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hva heter det hvite mausoleet i Agra i India?",
+    "options": [
+      "Angkor Wat",
+      "Taj Mahal",
+      "Røde fort",
+      "Hawa Mahal"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctNDox"
+  },
+  {
+    "id": "geo-bygg-5",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "I hvilken italiensk by ligger Colosseum?",
+    "options": [
+      "Milano",
+      "Venezia",
+      "Roma",
+      "Napoli"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctNToy"
+  },
+  {
+    "id": "geo-bygg-6",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hvilken by er kjent for det hvite operahuset med tak som ligner seil?",
+    "options": [
+      "Melbourne",
+      "Sydney",
+      "Auckland",
+      "Singapore"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctNjox"
+  },
+  {
+    "id": "geo-bygg-7",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hvem ga Frihetsgudinnen i gave til USA på 1880-tallet?",
+    "options": [
+      "Storbritannia",
+      "Frankrike",
+      "Spania",
+      "Italia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctNzox"
+  },
+  {
+    "id": "geo-bygg-8",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "I hvilken by ligger den uferdige kirken Sagrada Família, tegnet av Antoni Gaudí?",
+    "options": [
+      "Madrid",
+      "Barcelona",
+      "Sevilla",
+      "Valencia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctODox"
+  },
+  {
+    "id": "geo-bygg-9",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hva heter verdens høyeste bygning, som ligger i Dubai?",
+    "options": [
+      "Shanghai Tower",
+      "Burj Khalifa",
+      "Taipei 101",
+      "One World Trade Center"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctOTox"
+  },
+  {
+    "id": "geo-bygg-10",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "I hvilket land ligger steinsirkelen Stonehenge?",
+    "options": [
+      "Irland",
+      "Skottland",
+      "England",
+      "Wales"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMTA6Mg=="
+  },
+  {
+    "id": "geo-bygg-11",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hva heter den berømte røde hengebroen i San Francisco?",
+    "options": [
+      "Brooklyn Bridge",
+      "Golden Gate Bridge",
+      "Tower Bridge",
+      "Sydney Harbour Bridge"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMTE6MQ=="
+  },
+  {
+    "id": "geo-bygg-12",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hvilken gresk høyde i Athen huser tempelet Parthenon?",
+    "options": [
+      "Olympen",
+      "Akropolis",
+      "Delfi",
+      "Knossos"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMTI6MQ=="
+  },
+  {
+    "id": "geo-bygg-13",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "I hvilken by ligger den kjente Kristusstatuen (Cristo Redentor) på fjellet Corcovado?",
+    "options": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Buenos Aires",
+      "Lisboa"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMTM6MQ=="
+  },
+  {
+    "id": "geo-bygg-14",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hvilket italiensk tårn er berømt for å helle kraftig til den ene siden?",
+    "options": [
+      "Markustårnet",
+      "Det skjeve tårn i Pisa",
+      "Torre del Mangia",
+      "Giotto-tårnet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMTQ6MQ=="
+  },
+  {
+    "id": "geo-bygg-15",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "I hvilket land ligger det enorme tempelkomplekset Angkor Wat?",
+    "options": [
+      "Thailand",
+      "Kambodsja",
+      "Laos",
+      "Myanmar"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMTU6MQ=="
+  },
+  {
+    "id": "geo-bygg-16",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hva heter den store sandsteinsklippen midt i Australia, også kjent som Ayers Rock?",
+    "options": [
+      "Uluru",
+      "Kakadu",
+      "Wave Rock",
+      "Kata Tjuta"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMTY6MA=="
+  },
+  {
+    "id": "geo-bygg-17",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hvilket kjent museum i Paris huser maleriet «Mona Lisa»?",
+    "options": [
+      "Musée d’Orsay",
+      "Louvre",
+      "Pompidou-senteret",
+      "Rodin-museet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMTc6MQ=="
+  },
+  {
+    "id": "geo-bygg-18",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hva heter den berømte plassen i Moskva der Kreml og Vasilijkatedralen ligger?",
+    "options": [
+      "Den røde plass",
+      "Trafalgar Square",
+      "Alexanderplatz",
+      "Wenzelsplassen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMTg6MA=="
+  },
+  {
+    "id": "geo-bygg-19",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "I hvilken amerikansk delstat ligger nasjonalparken Grand Canyon?",
+    "options": [
+      "Utah",
+      "Arizona",
+      "Nevada",
+      "Colorado"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMTk6MQ=="
+  },
+  {
+    "id": "geo-bygg-20",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hva heter den kjente kanalbyen i Italia der man bruker gondoler?",
+    "options": [
+      "Firenze",
+      "Venezia",
+      "Verona",
+      "Bologna"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMjA6MQ=="
+  },
+  {
+    "id": "geo-bygg-21",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hvilket land tilhører Påskeøya (Rapa Nui), kjent for sine enorme steinstatuer?",
+    "options": [
+      "Peru",
+      "Chile",
+      "Ecuador",
+      "New Zealand"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMjE6MQ=="
+  },
+  {
+    "id": "geo-bygg-22",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hva heter det kjente klokketårnet (egentlig klokken inni) ved Parlamentet i London?",
+    "options": [
+      "Big Ben",
+      "Tower of London",
+      "The Shard",
+      "London Eye"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMjI6MA=="
+  },
+  {
+    "id": "geo-bygg-23",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hvilket byggverk i Berlin var et symbol på byens deling under den kalde krigen, og står nær riksdagen?",
+    "options": [
+      "Brandenburger Tor",
+      "Checkpoint Charlie",
+      "TV-tårnet",
+      "Berliner Dom"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMjM6MA=="
+  },
+  {
+    "id": "geo-bygg-24",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hvor ligger de berømte pyramidene i Giza?",
+    "options": [
+      "Rett utenfor Kairo",
+      "I Luxor",
+      "I Alexandria",
+      "Ved Rødehavet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMjQ6MA=="
+  },
+  {
+    "id": "geo-bygg-25",
+    "category": "Geografi & Verden",
+    "subcategory": "Kjente byggverk & reisemål",
+    "question": "Hva heter den kjente skyskraperen i New York som var verdens høyeste fra 1931 til 1970?",
+    "options": [
+      "Chrysler Building",
+      "Empire State Building",
+      "Rockefeller Center",
+      "Flatiron Building"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "Z2VvLWJ5Z2ctMjU6MQ=="
   }
 ]

@@ -10,7 +10,8 @@
       "Feta",
       "Ricotta"
     ],
-    "answerToken": "bWF0LXZlci0xOjI="
+    "answerToken": "bWF0LXZlci0xOjI=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mat-nor-1",
@@ -23,7 +24,8 @@
       "Lapskaus",
       "Sodd"
     ],
-    "answerToken": "bWF0LW5vci0xOjE="
+    "answerToken": "bWF0LW5vci0xOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mat-dri-1",
@@ -36,7 +38,8 @@
       "Lys rom",
       "Tequila"
     ],
-    "answerToken": "bWF0LWRyaS0xOjI="
+    "answerToken": "bWF0LWRyaS0xOjI=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mat-kaf-1",
@@ -49,6 +52,7 @@
       "Karri",
       "Paprika"
     ],
-    "answerToken": "bWF0LWthZi0xOjE="
+    "answerToken": "bWF0LWthZi0xOjE=",
+    "addedAt": "2026-11-25"
   }
 ]

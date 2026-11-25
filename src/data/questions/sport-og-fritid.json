@@ -10,7 +10,8 @@
       "1998",
       "2002"
     ],
-    "answerToken": "c3BvLXZpbi0xOjE="
+    "answerToken": "c3BvLXZpbi0xOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "spo-som-1",
@@ -23,7 +24,8 @@
       "Sondre Guttormsen",
       "Eivind Henriksen"
     ],
-    "answerToken": "c3BvLXNvbS0xOjE="
+    "answerToken": "c3BvLXNvbS0xOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "spo-fot-1",
@@ -36,7 +38,8 @@
       "Argentina",
       "Kroatia"
     ],
-    "answerToken": "c3BvLWZvdC0xOjI="
+    "answerToken": "c3BvLWZvdC0xOjI=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "spo-bre-1",
@@ -49,6 +52,7 @@
       "64",
       "72"
     ],
-    "answerToken": "c3BvLWJyZS0xOjI="
+    "answerToken": "c3BvLWJyZS0xOjI=",
+    "addedAt": "2026-11-25"
   }
 ]

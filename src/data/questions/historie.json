@@ -10,7 +10,8 @@
       "Konstantinopel",
       "Alexandria"
     ],
-    "answerToken": "aGlzdC1hbnQtMToy"
+    "answerToken": "aGlzdC1hbnQtMToy",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "hist-1800-1",
@@ -23,7 +24,8 @@
       "1884",
       "1905"
     ],
-    "answerToken": "aGlzdC0xODAwLTE6MQ=="
+    "answerToken": "aGlzdC0xODAwLTE6MQ==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "hist-1800-2",
@@ -36,7 +38,8 @@
       "Gunnar Knudsen",
       "Einar Gerhardsen"
     ],
-    "answerToken": "aGlzdC0xODAwLTI6MA=="
+    "answerToken": "aGlzdC0xODAwLTI6MA==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "hist-ny-1",
@@ -49,7 +52,8 @@
       "1991",
       "1993"
     ],
-    "answerToken": "aGlzdC1ueS0xOjE="
+    "answerToken": "aGlzdC1ueS0xOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "hist-opp-1",
@@ -62,6 +66,7 @@
       "SS Andrea Doria",
       "HMS Hood"
     ],
-    "answerToken": "aGlzdC1vcHAtMTox"
+    "answerToken": "aGlzdC1vcHAtMTox",
+    "addedAt": "2026-11-25"
   }
 ]

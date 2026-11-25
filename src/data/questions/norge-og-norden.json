@@ -10,7 +10,8 @@
       "Galdhøpiggen",
       "Store Skagastølstind"
     ],
-    "answerToken": "bm9yLWdlby0xOjI="
+    "answerToken": "bm9yLWdlby0xOjI=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "nor-geo-2",
@@ -23,7 +24,8 @@
       "Lågen",
       "Tana"
     ],
-    "answerToken": "bm9yLWdlby0yOjE="
+    "answerToken": "bm9yLWdlby0yOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "nor-sam-1",
@@ -36,7 +38,8 @@
       "18",
       "19"
     ],
-    "answerToken": "bm9yLXNhbS0xOjE="
+    "answerToken": "bm9yLXNhbS0xOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "nor-ord-1",
@@ -49,7 +52,8 @@
       "Tromsø",
       "Ålesund"
     ],
-    "answerToken": "bm9yLW9yZC0xOjI="
+    "answerToken": "bm9yLW9yZC0xOjI=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "nor-nor-1",
@@ -62,6 +66,7 @@
       "Bornholm",
       "Lolland"
     ],
-    "answerToken": "bm9yLW5vci0xOjE="
+    "answerToken": "bm9yLW5vci0xOjE=",
+    "addedAt": "2026-11-25"
   }
 ]

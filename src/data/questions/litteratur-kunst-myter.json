@@ -10,7 +10,8 @@
       "Alexander Kielland",
       "Jonas Lie"
     ],
-    "answerToken": "bGl0LW5vci0xOjE="
+    "answerToken": "bGl0LW5vci0xOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "lit-kri-1",
@@ -23,7 +24,8 @@
       "William Wisting",
       "Cato Isaksen"
     ],
-    "answerToken": "bGl0LWtyaS0xOjE="
+    "answerToken": "bGl0LWtyaS0xOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "lit-myt-1",
@@ -36,7 +38,8 @@
       "Gram",
       "Sleipner"
     ],
-    "answerToken": "bGl0LW15dC0xOjE="
+    "answerToken": "bGl0LW15dC0xOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "lit-kun-1",
@@ -49,6 +52,7 @@
       "Harald Sohlberg",
       "Nikolai Astrup"
     ],
-    "answerToken": "bGl0LWt1bi0xOjE="
+    "answerToken": "bGl0LWt1bi0xOjE=",
+    "addedAt": "2026-11-25"
   }
 ]

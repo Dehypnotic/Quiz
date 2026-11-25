@@ -1,6 +1,11 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { getCategoryGroups, loadAllQuestions } from '../data/questionLoader';
 import {
+  loadQuestionQueue,
+  markQuestionsPlayed,
+  pickQueuedQuestions,
+} from '../data/questionQueueStorage';
+import {
   createGuestSession,
   createHostSession,
   getOrCreatePlayerId,
@@ -24,15 +29,6 @@ const DEFAULT_SETTINGS: GameSettings = {
   timeLimitSeconds: 20,
   socialMode: 'quizmaster',
 };
-
-function shuffle<T>(arr: T[]): T[] {
-  const copy = [...arr];
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
 
 interface InternalHostState {
   roomCode: string;
@@ -240,36 +236,29 @@ export function useQuizEngine() {
         q.category === category &&
         (allSelected || selectedSubs.includes(q.subcategory));
 
-      const unusedDirect = allQuestionsRef.current.filter(
-        (q) => matches(q) && !s.usedQuestionIds.has(q.id)
-      );
-      const allDirect = allQuestionsRef.current.filter(matches);
+      const queue = loadQuestionQueue();
+      const directMatches = allQuestionsRef.current.filter(matches);
 
-      let picked = shuffle(unusedDirect.length > 0 ? unusedDirect : allDirect).slice(
-        0,
-        s.settings.questionsPerRound
+      let picked = pickQueuedQuestions(
+        directMatches,
+        s.settings.questionsPerRound,
+        queue,
+        s.usedQuestionIds
       );
 
       // If selected subcategories have fewer questions than questionsPerRound, top up from same main category
       if (!allSelected && picked.length < s.settings.questionsPerRound) {
-        const pickedIds = new Set(picked.map((q) => q.id));
-        const extraUnused = allQuestionsRef.current.filter(
-          (q) =>
-            q.category === category &&
-            !pickedIds.has(q.id) &&
-            !s.usedQuestionIds.has(q.id)
-        );
-        const extraAny = allQuestionsRef.current.filter(
-          (q) => q.category === category && !pickedIds.has(q.id)
+        const pickedIds = new Set([...s.usedQuestionIds, ...picked.map((q) => q.id)]);
+        const categoryPool = allQuestionsRef.current.filter(
+          (q) => q.category === category
         );
         const needed = s.settings.questionsPerRound - picked.length;
-        picked = [
-          ...picked,
-          ...shuffle(extraUnused.length >= needed ? extraUnused : extraAny).slice(0, needed),
-        ];
+        const extras = pickQueuedQuestions(categoryPool, needed, queue, pickedIds);
+        picked = [...picked, ...extras];
       }
 
       picked.forEach((q) => s.usedQuestionIds.add(q.id));
+      markQuestionsPlayed(picked.map((q) => q.id));
 
       const label = allSelected
         ? category

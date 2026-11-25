@@ -10,7 +10,8 @@
       "8 timer",
       "8 dager"
     ],
-    "answerToken": "dml0LXJvbS0xOjE="
+    "answerToken": "dml0LXJvbS0xOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "vit-dyr-1",
@@ -23,7 +24,8 @@
       "Gaselle",
       "Løve"
     ],
-    "answerToken": "dml0LWR5ci0xOjA="
+    "answerToken": "dml0LWR5ci0xOjA=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "vit-kropp-1",
@@ -36,7 +38,8 @@
       "4",
       "6"
     ],
-    "answerToken": "dml0LWtyb3BwLTE6Mg=="
+    "answerToken": "dml0LWtyb3BwLTE6Mg==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "vit-fys-1",
@@ -49,6 +52,7 @@
       "Gull",
       "Aluminium"
     ],
-    "answerToken": "dml0LWZ5cy0xOjI="
+    "answerToken": "dml0LWZ5cy0xOjI=",
+    "addedAt": "2026-11-25"
   }
 ]

@@ -10,7 +10,8 @@
       "Ace of Base",
       "Europe"
     ],
-    "answerToken": "bXVzLTcwLTE6MQ=="
+    "answerToken": "bXVzLTcwLTE6MQ==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mus-70-2",
@@ -23,7 +24,8 @@
       "Pink Floyd",
       "David Bowie"
     ],
-    "answerToken": "bXVzLTcwLTI6MQ=="
+    "answerToken": "bXVzLTcwLTI6MQ==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mus-80-1",
@@ -36,7 +38,8 @@
       "DumDum Boys",
       "Stage Dolls"
     ],
-    "answerToken": "bXVzLTgwLTE6MQ=="
+    "answerToken": "bXVzLTgwLTE6MQ==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mus-80-2",
@@ -49,7 +52,8 @@
       "Madonna",
       "George Michael"
     ],
-    "answerToken": "bXVzLTgwLTI6MQ=="
+    "answerToken": "bXVzLTgwLTI6MQ==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mus-90-1",
@@ -62,7 +66,8 @@
       "Nirvana",
       "Alice in Chains"
     ],
-    "answerToken": "bXVzLTkwLTE6Mg=="
+    "answerToken": "bXVzLTkwLTE6Mg==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mus-90-2",
@@ -75,7 +80,8 @@
       "Atomic Kitten",
       "Destiny's Child"
     ],
-    "answerToken": "bXVzLTkwLTI6MA=="
+    "answerToken": "bXVzLTkwLTI6MA==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mus-00-1",
@@ -88,7 +94,8 @@
       "The Weeknd",
       "Shawn Mendes"
     ],
-    "answerToken": "bXVzLTAwLTE6Mg=="
+    "answerToken": "bXVzLTAwLTE6Mg==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mus-nor-1",
@@ -101,7 +108,8 @@
       "Raga Rockers",
       "Postgirobygget"
     ],
-    "answerToken": "bXVzLW5vci0xOjE="
+    "answerToken": "bXVzLW5vci0xOjE=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mus-esc-1",
@@ -114,7 +122,8 @@
       "TIX",
       "Ulrikke Brandstorp"
     ],
-    "answerToken": "bXVzLWVzYy0xOjA="
+    "answerToken": "bXVzLWVzYy0xOjA=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "mus-esc-2",
@@ -127,6 +136,7 @@
       "1988",
       "1995"
     ],
-    "answerToken": "bXVzLWVzYy0yOjE="
+    "answerToken": "bXVzLWVzYy0yOjE=",
+    "addedAt": "2026-11-25"
   }
 ]

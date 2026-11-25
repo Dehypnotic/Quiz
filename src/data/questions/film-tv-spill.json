@@ -10,7 +10,8 @@
       "Bent Hamer",
       "Joachim Trier"
     ],
-    "answerToken": "ZnR2LWtsLTE6MA=="
+    "answerToken": "ZnR2LWtsLTE6MA==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "ftv-kl-2",
@@ -23,7 +24,8 @@
       "Frihetens regn",
       "Løvenes konge"
     ],
-    "answerToken": "ZnR2LWtsLTI6MQ=="
+    "answerToken": "ZnR2LWtsLTI6MQ==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "ftv-ny-1",
@@ -36,7 +38,8 @@
       "Minari",
       "Train to Busan"
     ],
-    "answerToken": "ZnR2LW55LTE6MQ=="
+    "answerToken": "ZnR2LW55LTE6MQ==",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "ftv-ser-1",
@@ -49,7 +52,8 @@
       "Walter White",
       "Hank Schrader"
     ],
-    "answerToken": "ZnR2LXNlci0xOjI="
+    "answerToken": "ZnR2LXNlci0xOjI=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "ftv-nor-1",
@@ -62,7 +66,8 @@
       "Vesterålen",
       "Solbakken"
     ],
-    "answerToken": "ZnR2LW5vci0xOjA="
+    "answerToken": "ZnR2LW5vci0xOjA=",
+    "addedAt": "2026-11-25"
   },
   {
     "id": "ftv-gam-1",
@@ -75,6 +80,1673 @@
       "Paradox",
       "King"
     ],
-    "answerToken": "ZnR2LWdhbS0xOjE="
+    "answerToken": "ZnR2LWdhbS0xOjE=",
+    "addedAt": "2026-11-25"
+  },
+  {
+    "id": "ftv-kl-3",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken skuespiller spiller hovedrollen som Jack Dawson i filmen «Titanic» fra 1997?",
+    "options": [
+      "Brad Pitt",
+      "Leonardo DiCaprio",
+      "Matt Damon",
+      "Tom Cruise"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTM6MQ=="
+  },
+  {
+    "id": "ftv-kl-4",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvem regisserte haifilmen «Haisommer» (Jaws) fra 1975?",
+    "options": [
+      "George Lucas",
+      "Steven Spielberg",
+      "Martin Scorsese",
+      "Francis Ford Coppola"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTQ6MQ=="
+  },
+  {
+    "id": "ftv-kl-5",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hva heter løveungen som er hovedpersonen i Disneys «Løvenes konge» fra 1994?",
+    "options": [
+      "Mufasa",
+      "Scar",
+      "Simba",
+      "Timon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTU6Mg=="
+  },
+  {
+    "id": "ftv-kl-6",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken bil brukes som tidsmaskin i filmen «Tilbake til fremtiden» (1985)?",
+    "options": [
+      "Ford Mustang",
+      "DeLorean",
+      "Chevrolet Corvette",
+      "Pontiac Firebird"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTY6MQ=="
+  },
+  {
+    "id": "ftv-kl-7",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvem spiller rollen som Neo i «The Matrix» fra 1999?",
+    "options": [
+      "Keanu Reeves",
+      "Will Smith",
+      "Nicolas Cage",
+      "Johnny Depp"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTc6MA=="
+  },
+  {
+    "id": "ftv-kl-8",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken skuespiller er kjent for replikken «I’ll be back» i «The Terminator» (1984)?",
+    "options": [
+      "Sylvester Stallone",
+      "Bruce Willis",
+      "Arnold Schwarzenegger",
+      "Jean-Claude Van Damme"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTg6Mg=="
+  },
+  {
+    "id": "ftv-kl-9",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hva heter gutten som blir glemt igjen hjemme i filmen «Alene hjemme» (1990)?",
+    "options": [
+      "Kevin McCallister",
+      "Dennis Mitchell",
+      "Charlie Bucket",
+      "Andy Barclay"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTk6MA=="
+  },
+  {
+    "id": "ftv-kl-10",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken film fra 1972 handler om den italiensk-amerikanske mafiafamilien Corleone?",
+    "options": [
+      "Goodfellas",
+      "Gudfaren",
+      "Scarface",
+      "Casino"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTEwOjE="
+  },
+  {
+    "id": "ftv-kl-11",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvem spiller arkeologen Indiana Jones i filmene fra 1980-tallet?",
+    "options": [
+      "Harrison Ford",
+      "Mel Gibson",
+      "Kevin Costner",
+      "Kurt Russell"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTExOjA="
+  },
+  {
+    "id": "ftv-kl-12",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken kjent musikal fra 1978 har John Travolta og Olivia Newton-John i hovedrollene?",
+    "options": [
+      "Saturday Night Fever",
+      "Grease",
+      "Footloose",
+      "Dirty Dancing"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTEyOjE="
+  },
+  {
+    "id": "ftv-kl-13",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hva heter faren til Luke Skywalker i «Star Wars»?",
+    "options": [
+      "Obi-Wan Kenobi",
+      "Darth Vader",
+      "Han Solo",
+      "Keiser Palpatine"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTEzOjE="
+  },
+  {
+    "id": "ftv-kl-14",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken dinosaurpark-film fra 1993 ble regissert av Steven Spielberg?",
+    "options": [
+      "King Kong",
+      "Jurassic Park",
+      "Godzilla",
+      "The Lost World"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTE0OjE="
+  },
+  {
+    "id": "ftv-kl-15",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvem regisserte kultfilmen «Pulp Fiction» fra 1994?",
+    "options": [
+      "Quentin Tarantino",
+      "Guy Ritchie",
+      "Joel Coen",
+      "David Fincher"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTE1OjA="
+  },
+  {
+    "id": "ftv-kl-16",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hva heter cowboydukken som er hovedfiguren i «Toy Story» (1995)?",
+    "options": [
+      "Buzz Lightyear",
+      "Woody",
+      "Rex",
+      "Slinky"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTE2OjE="
+  },
+  {
+    "id": "ftv-kl-17",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken skuespiller spiller politimannen John McClane i «Die Hard» (1988)?",
+    "options": [
+      "Bruce Willis",
+      "Mel Gibson",
+      "Clint Eastwood",
+      "Harrison Ford"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTE3OjA="
+  },
+  {
+    "id": "ftv-kl-18",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken film fra 1990 har Julia Roberts og Richard Gere i hovedrollene?",
+    "options": [
+      "Notting Hill",
+      "Pretty Woman",
+      "Søvnløs i Seattle",
+      "Ghost"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTE4OjE="
+  },
+  {
+    "id": "ftv-kl-19",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hva heter den utenomjordiske skapningen i Steven Spielbergs film fra 1982 som vil «phone home»?",
+    "options": [
+      "Yoda",
+      "E.T.",
+      "ALF",
+      "Wall-E"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTE5OjE="
+  },
+  {
+    "id": "ftv-kl-20",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken Alfred Hitchcock-film fra 1960 inneholder den berømte dusjscenen?",
+    "options": [
+      "Vertigo",
+      "Fuglene",
+      "Psycho",
+      "Vinduet mot bakgården"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTIwOjI="
+  },
+  {
+    "id": "ftv-kl-21",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvem spiller hovedrollen i «Rocky»-filmene?",
+    "options": [
+      "Robert De Niro",
+      "Al Pacino",
+      "Sylvester Stallone",
+      "Mickey Rourke"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTIxOjI="
+  },
+  {
+    "id": "ftv-kl-22",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken film fra 1994 med Tim Robbins og Morgan Freeman ligger ofte øverst på IMDbs toppliste?",
+    "options": [
+      "Frihetens regn",
+      "Den grønne mil",
+      "Se7en",
+      "Braveheart"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTIyOjA="
+  },
+  {
+    "id": "ftv-kl-23",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken skuespiller spiller Hannibal Lecter i «Nattsvermeren» (1991)?",
+    "options": [
+      "Jack Nicholson",
+      "Anthony Hopkins",
+      "Gary Oldman",
+      "Jeremy Irons"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTIzOjE="
+  },
+  {
+    "id": "ftv-kl-24",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hva heter hotellet der familien Torrance overvintrer i skrekkfilmen «Ondskapens hotell» (The Shining)?",
+    "options": [
+      "Overlook Hotel",
+      "Bates Motel",
+      "Grand Budapest Hotel",
+      "Hotel California"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTI0OjA="
+  },
+  {
+    "id": "ftv-kl-25",
+    "category": "Film, TV & Spill",
+    "subcategory": "Filmklassikere (før 2000)",
+    "question": "Hvilken norsk-amerikansk skuespiller spiller i «Casablanca» og «Gasslys»?",
+    "options": [
+      "Greta Garbo",
+      "Ingrid Bergman",
+      "Liv Ullmann",
+      "Sonja Henie"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWtsLTI1OjE="
+  },
+  {
+    "id": "ftv-ny-2",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvem regisserte «Ringenes herre»-trilogien?",
+    "options": [
+      "Peter Jackson",
+      "Guillermo del Toro",
+      "James Cameron",
+      "Ridley Scott"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTI6MA=="
+  },
+  {
+    "id": "ftv-ny-3",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hva heter den blå planeten som «Avatar»-filmene foregår på?",
+    "options": [
+      "Tatooine",
+      "Pandora",
+      "Arrakis",
+      "Krypton"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTM6MQ=="
+  },
+  {
+    "id": "ftv-ny-4",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken skuespiller spiller Jokeren i «The Dark Knight» (2008)?",
+    "options": [
+      "Joaquin Phoenix",
+      "Jared Leto",
+      "Heath Ledger",
+      "Jack Nicholson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTQ6Mg=="
+  },
+  {
+    "id": "ftv-ny-5",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken film fra 2023 handlet om atombombens far, J. Robert Oppenheimer?",
+    "options": [
+      "Dunkirk",
+      "Oppenheimer",
+      "Tenet",
+      "Interstellar"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTU6MQ=="
+  },
+  {
+    "id": "ftv-ny-6",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvem spiller Barbie i filmen «Barbie» fra 2023?",
+    "options": [
+      "Emma Stone",
+      "Margot Robbie",
+      "Scarlett Johansson",
+      "Anne Hathaway"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTY6MQ=="
+  },
+  {
+    "id": "ftv-ny-7",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hva heter skolen Harry Potter går på?",
+    "options": [
+      "Beauxbatons",
+      "Galtvort",
+      "Durmstrang",
+      "Ilvermorny"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTc6MQ=="
+  },
+  {
+    "id": "ftv-ny-8",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvem spiller Jack Sparrow i «Pirates of the Caribbean»-filmene?",
+    "options": [
+      "Orlando Bloom",
+      "Johnny Depp",
+      "Javier Bardem",
+      "Geoffrey Rush"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTg6MQ=="
+  },
+  {
+    "id": "ftv-ny-9",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken Disney-film fra 2013 inneholder hitlåten «Let It Go»?",
+    "options": [
+      "Vaiana",
+      "Frost",
+      "To på rømmen",
+      "Encanto"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTk6MQ=="
+  },
+  {
+    "id": "ftv-ny-10",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken skuespiller spiller Iron Man i Marvel-filmene?",
+    "options": [
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Robert Downey Jr.",
+      "Mark Ruffalo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTEwOjI="
+  },
+  {
+    "id": "ftv-ny-11",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken film fra 2000 har Russell Crowe i hovedrollen som den romerske generalen Maximus?",
+    "options": [
+      "Troja",
+      "Gladiator",
+      "300",
+      "Alexander"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTExOjE="
+  },
+  {
+    "id": "ftv-ny-12",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hva heter den fiktive ørkenplaneten i «Dune»-filmene?",
+    "options": [
+      "Arrakis",
+      "Endor",
+      "Mustafar",
+      "Naboo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTEyOjA="
+  },
+  {
+    "id": "ftv-ny-13",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvem spiller James Bond i «Casino Royale» (2006) og «Skyfall» (2012)?",
+    "options": [
+      "Pierce Brosnan",
+      "Daniel Craig",
+      "Idris Elba",
+      "Henry Cavill"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTEzOjE="
+  },
+  {
+    "id": "ftv-ny-14",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken Pixar-film fra 2003 handler om klovnefisken Marlin som leter etter sønnen sin?",
+    "options": [
+      "Oppdrag Nemo",
+      "De utrolige",
+      "Biler",
+      "Rottatouille"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTE0OjA="
+  },
+  {
+    "id": "ftv-ny-15",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken film fra 2010 av Christopher Nolan handler om å plante ideer i folks drømmer?",
+    "options": [
+      "Memento",
+      "Inception",
+      "The Prestige",
+      "Insomnia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTE1OjE="
+  },
+  {
+    "id": "ftv-ny-16",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken svensk krimtrilogi startet med «Menn som hater kvinner» på kino i 2009?",
+    "options": [
+      "Wallander",
+      "Beck",
+      "Millennium",
+      "Snabba Cash"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTE2OjI="
+  },
+  {
+    "id": "ftv-ny-17",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvem spiller hovedrollen i «Top Gun: Maverick» fra 2022?",
+    "options": [
+      "Tom Cruise",
+      "Miles Teller",
+      "Glen Powell",
+      "Val Kilmer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTE3OjA="
+  },
+  {
+    "id": "ftv-ny-18",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken musikalfilm fra 2016 med Emma Stone og Ryan Gosling vant seks Oscar-priser?",
+    "options": [
+      "The Greatest Showman",
+      "La La Land",
+      "Mamma Mia!",
+      "Les Misérables"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTE4OjE="
+  },
+  {
+    "id": "ftv-ny-19",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hva heter det grønne trollet i animasjonsfilmen fra 2001 som bor i en sump?",
+    "options": [
+      "Shrek",
+      "Sully",
+      "Grinchen",
+      "Hulken"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTE5OjA="
+  },
+  {
+    "id": "ftv-ny-20",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken skuespiller spiller hovedrollen som Katniss Everdeen i «The Hunger Games»?",
+    "options": [
+      "Shailene Woodley",
+      "Jennifer Lawrence",
+      "Emma Watson",
+      "Zendaya"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTIwOjE="
+  },
+  {
+    "id": "ftv-ny-21",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken film fra 2018 handler om Queen-vokalisten Freddie Mercury?",
+    "options": [
+      "Rocketman",
+      "Bohemian Rhapsody",
+      "Elvis",
+      "A Star Is Born"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTIxOjE="
+  },
+  {
+    "id": "ftv-ny-22",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hva heter den lille rotta som drømmer om å bli mesterkokk i Paris i en Pixar-film fra 2007?",
+    "options": [
+      "Stuart Little",
+      "Remy",
+      "Jerry",
+      "Gus"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTIyOjE="
+  },
+  {
+    "id": "ftv-ny-23",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken skuespiller spiller hovedrollen i «The Revenant» (2015), som endelig ga ham hans første Oscar?",
+    "options": [
+      "Tom Hardy",
+      "Leonardo DiCaprio",
+      "Christian Bale",
+      "Joaquin Phoenix"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTIzOjE="
+  },
+  {
+    "id": "ftv-ny-24",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken fransk film fra 2001 har Audrey Tautou i rollen som en ung kvinne i Montmartre?",
+    "options": [
+      "De urørlige",
+      "Den fabelaktige Amélie fra Montmartre",
+      "Blå er den varmeste fargen",
+      "Sjokolade"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTI0OjE="
+  },
+  {
+    "id": "ftv-ny-25",
+    "category": "Film, TV & Spill",
+    "subcategory": "Nyere film (2000+)",
+    "question": "Hvilken superheltfilm fra 2018 foregår i det fiktive afrikanske landet Wakanda?",
+    "options": [
+      "Black Panther",
+      "Thor: Ragnarok",
+      "Doctor Strange",
+      "Aquaman"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW55LTI1OjA="
+  },
+  {
+    "id": "ftv-ser-2",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hva heter kafeen der gjengen i TV-serien «Friends» alltid møtes?",
+    "options": [
+      "Central Perk",
+      "Monk’s Café",
+      "MacLaren’s",
+      "Luke’s Diner"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0yOjA="
+  },
+  {
+    "id": "ftv-ser-3",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken fantasy-serie fra HBO har mottoet «Winter is Coming»?",
+    "options": [
+      "The Witcher",
+      "Game of Thrones",
+      "Ringenes herre: Maktens ringer",
+      "Vikings"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0zOjE="
+  },
+  {
+    "id": "ftv-ser-4",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hva heter papirfirmaet i den amerikanske versjonen av «The Office»?",
+    "options": [
+      "Wernham Hogg",
+      "Dunder Mifflin",
+      "Vance Refrigeration",
+      "Sabre"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci00OjE="
+  },
+  {
+    "id": "ftv-ser-5",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken britisk serie følger dronning Elizabeth IIs regjeringstid?",
+    "options": [
+      "Downton Abbey",
+      "The Crown",
+      "Bridgerton",
+      "Victoria"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci01OjE="
+  },
+  {
+    "id": "ftv-ser-6",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hva heter den lille byen i Indiana der «Stranger Things» foregår?",
+    "options": [
+      "Hawkins",
+      "Riverdale",
+      "Twin Peaks",
+      "Sunnydale"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci02OjA="
+  },
+  {
+    "id": "ftv-ser-7",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken spansk serie handler om en gjeng som raner Den kongelige mynt i Madrid?",
+    "options": [
+      "Narcos",
+      "Papirhuset (La Casa de Papel)",
+      "Élite",
+      "Vis a vis"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci03OjE="
+  },
+  {
+    "id": "ftv-ser-8",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hva heter den kyniske legen som spilles av Hugh Laurie i serien «House»?",
+    "options": [
+      "Gregory House",
+      "Derek Shepherd",
+      "Shaun Murphy",
+      "John Dorian"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci04OjA="
+  },
+  {
+    "id": "ftv-ser-9",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken sørkoreansk serie fra 2021 handler om dødelige barneleker for penger?",
+    "options": [
+      "All of Us Are Dead",
+      "Squid Game",
+      "Alice in Borderland",
+      "Kingdom"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci05OjE="
+  },
+  {
+    "id": "ftv-ser-10",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvem spiller hovedrollen som Tommy Shelby i «Peaky Blinders»?",
+    "options": [
+      "Tom Hardy",
+      "Cillian Murphy",
+      "Charlie Hunnam",
+      "Colin Farrell"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0xMDox"
+  },
+  {
+    "id": "ftv-ser-11",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken animasjonsserie har karakterene Homer, Marge, Bart, Lisa og Maggie?",
+    "options": [
+      "Family Guy",
+      "The Simpsons",
+      "South Park",
+      "Futurama"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0xMTox"
+  },
+  {
+    "id": "ftv-ser-12",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken sykehusserie med Ellen Pompeo i hovedrollen startet i 2005 og har gått i over 20 sesonger?",
+    "options": [
+      "Akutten (ER)",
+      "Grey’s Anatomy",
+      "Scrubs",
+      "The Good Doctor"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0xMjox"
+  },
+  {
+    "id": "ftv-ser-13",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hva heter FBI-agenten som etterforsker drapet på Laura Palmer i «Twin Peaks»?",
+    "options": [
+      "Dale Cooper",
+      "Fox Mulder",
+      "Seeley Booth",
+      "Hank Schrader"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0xMzow"
+  },
+  {
+    "id": "ftv-ser-14",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken serie handler om en amerikansk fotballtrener som blir ansatt for å trene et engelsk fotballag?",
+    "options": [
+      "Welcome to Wrexham",
+      "Ted Lasso",
+      "Succession",
+      "The Bear"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0xNDox"
+  },
+  {
+    "id": "ftv-ser-15",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken britisk komiserie fra 1970-tallet har John Cleese som den hissige hotelleieren Basil?",
+    "options": [
+      "Monty Python",
+      "Hotell i særklasse (Fawlty Towers)",
+      "Mr. Bean",
+      "Sorte Orm"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0xNTox"
+  },
+  {
+    "id": "ftv-ser-16",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hva heter advokaten i «Breaking Bad» som også fikk sin egen spin-off-serie?",
+    "options": [
+      "Mike Ehrmantraut",
+      "Saul Goodman",
+      "Gustavo Fring",
+      "Howard Hamlin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0xNjox"
+  },
+  {
+    "id": "ftv-ser-17",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken serie fra 2019 skildrer atomulykken i Sovjetunionen i 1986?",
+    "options": [
+      "The Americans",
+      "Chernobyl",
+      "Dark",
+      "Band of Brothers"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0xNzox"
+  },
+  {
+    "id": "ftv-ser-18",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken komiserie følger fire fysikere og vennene deres i Pasadena, inkludert Sheldon Cooper?",
+    "options": [
+      "How I Met Your Mother",
+      "The Big Bang Theory",
+      "Modern Family",
+      "New Girl"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0xODox"
+  },
+  {
+    "id": "ftv-ser-19",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hva heter den fiktive mediefamilien i HBO-serien «Succession»?",
+    "options": [
+      "Roy",
+      "Murdoch",
+      "Dutton",
+      "Byrde"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0xOTow"
+  },
+  {
+    "id": "ftv-ser-20",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken britisk detektivserie har Benedict Cumberbatch og Martin Freeman i hovedrollene?",
+    "options": [
+      "Luther",
+      "Sherlock",
+      "Broadchurch",
+      "Line of Duty"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0yMDox"
+  },
+  {
+    "id": "ftv-ser-21",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken serie fra 2022 handler om en ung kokk som overtar familiens sandwichsjappe i Chicago?",
+    "options": [
+      "The Bear",
+      "MasterChef",
+      "Chef’s Table",
+      "Emily in Paris"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0yMTow"
+  },
+  {
+    "id": "ftv-ser-22",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken «Star Wars»-serie introduserte figuren som på folkemunne ble kalt «Baby Yoda»?",
+    "options": [
+      "Andor",
+      "The Mandalorian",
+      "Obi-Wan Kenobi",
+      "Ahsoka"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0yMjox"
+  },
+  {
+    "id": "ftv-ser-23",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken serie handler om en maffiaboss i New Jersey som går til psykolog?",
+    "options": [
+      "The Wire",
+      "The Sopranos",
+      "Boardwalk Empire",
+      "Ozark"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0yMzox"
+  },
+  {
+    "id": "ftv-ser-24",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hva heter hovedpersonen i Netflix-serien «Wednesday»?",
+    "options": [
+      "Wednesday Addams",
+      "Sabrina Spellman",
+      "Enid Sinclair",
+      "Morticia Addams"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0yNDow"
+  },
+  {
+    "id": "ftv-ser-25",
+    "category": "Film, TV & Spill",
+    "subcategory": "Serier",
+    "question": "Hvilken norsk-produsert ungdomsserie fra NRK ble en internasjonal suksess med formatet «én uke i sanntid»?",
+    "options": [
+      "Exit",
+      "Skam",
+      "Rådebank",
+      "Pørni"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LXNlci0yNTox"
+  },
+  {
+    "id": "ftv-nor-2",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hva heter de tre hovedfigurene i «Olsenbanden»?",
+    "options": [
+      "Egon, Benny og Kjell",
+      "Egon, Dynamitt-Harry og Kjell",
+      "Benny, Kjell og Basse",
+      "Egon, Hermansen og Benny"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0yOjA="
+  },
+  {
+    "id": "ftv-nor-3",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk katastrofefilm fra 2015 handler om et fjellskred i Geirangerfjorden?",
+    "options": [
+      "Skjelvet",
+      "Bølgen",
+      "Tunnelen",
+      "Nordsjøen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0zOjE="
+  },
+  {
+    "id": "ftv-nor-4",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvem regisserte «Verdens verste menneske» (2021) med Renate Reinsve i hovedrollen?",
+    "options": [
+      "Eskil Vogt",
+      "Joachim Trier",
+      "Roar Uthaug",
+      "Morten Tyldum"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci00OjE="
+  },
+  {
+    "id": "ftv-nor-5",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk krigsfilm fra 2008 handler om motstandsmannen Max Manus?",
+    "options": [
+      "Kongens nei",
+      "Max Manus",
+      "Kampen om tungtvannet",
+      "Den 12. mann"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci01OjE="
+  },
+  {
+    "id": "ftv-nor-6",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk TV-serie fra NRK følger fire rike finansfolk i Oslo?",
+    "options": [
+      "Mammon",
+      "Exit",
+      "Lykkeland",
+      "Valkyrien"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci02OjE="
+  },
+  {
+    "id": "ftv-nor-7",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hva heter programlederen som ledet «Nytt på nytt» på NRK fra 1999 til 2016?",
+    "options": [
+      "Bård Tufte Johansen",
+      "Jon Almaas",
+      "Knut Nærum",
+      "Anne-Kat. Hærland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci03OjE="
+  },
+  {
+    "id": "ftv-nor-8",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk humorserie fra 1990-tallet hadde karakterer som «Narvestad»?",
+    "options": [
+      "Uti vår hage",
+      "Borettslaget",
+      "Lille Lørdag",
+      "Team Antonsen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci04OjE="
+  },
+  {
+    "id": "ftv-nor-9",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk julekalender på NRK foregår i «Blåfjell»?",
+    "options": [
+      "Jul i Skomakergata",
+      "Jul i Blåfjell",
+      "Snøfall",
+      "The Julekalender"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci05OjE="
+  },
+  {
+    "id": "ftv-nor-10",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvem spiller rollen som «Pørni» i den norske dramakomedien med samme navn?",
+    "options": [
+      "Ine Marie Wilmann",
+      "Henriette Steenstrup",
+      "Ingrid Bolsø Berdal",
+      "Linn Skåber"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0xMDox"
+  },
+  {
+    "id": "ftv-nor-11",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk film fra 2012 handler om Thor Heyerdahls flåteferd over Stillehavet?",
+    "options": [
+      "Kon-Tiki",
+      "Amundsen",
+      "Birkebeinerne",
+      "Trolljegeren"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0xMTow"
+  },
+  {
+    "id": "ftv-nor-12",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hva heter den norske filmen fra 2010 der Otto Jespersen spiller en hemmelig jeger?",
+    "options": [
+      "Død snø",
+      "Trolljegeren",
+      "Fritt vilt",
+      "Villmark"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0xMjox"
+  },
+  {
+    "id": "ftv-nor-13",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk dramaserie handler om oljeeventyret i Stavanger på slutten av 1960-tallet?",
+    "options": [
+      "Okkupert",
+      "Lykkeland",
+      "Nobel",
+      "State of Happiness"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0xMzox"
+  },
+  {
+    "id": "ftv-nor-14",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvem spilte skomaker Jens Petrus Andersen i «Jul i Skomakergata»?",
+    "options": [
+      "Rolv Wesenlund",
+      "Henki Kolstad",
+      "Arve Opsahl",
+      "Harald Heide-Steen jr."
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0xNDox"
+  },
+  {
+    "id": "ftv-nor-15",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk TV-serie handler om en bilinteressert gjeng i Bø i Telemark?",
+    "options": [
+      "Rådebank",
+      "Wisting",
+      "Hjem",
+      "Førstegangstjenesten"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0xNTow"
+  },
+  {
+    "id": "ftv-nor-16",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvem spiller hovedrollen som Elling i den norske filmen «Elling» fra 2001?",
+    "options": [
+      "Sven Nordin",
+      "Per Christian Ellefsen",
+      "Nicolai Cleve Broch",
+      "Kristoffer Joner"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0xNjox"
+  },
+  {
+    "id": "ftv-nor-17",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk skrekkfilm fra 2006 handler om ungdommer på snowboard i Jotunheimen?",
+    "options": [
+      "Villmark",
+      "Fritt vilt",
+      "Død snø",
+      "Rovdyr"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0xNzox"
+  },
+  {
+    "id": "ftv-nor-18",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilket kjent NRK-program ledes av Fredrik Solvang?",
+    "options": [
+      "Lindmo",
+      "Debatten",
+      "Dagsrevyen",
+      "Brennpunkt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0xODox"
+  },
+  {
+    "id": "ftv-nor-19",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hva heter oppfølgeren til «Bølgen» (2015), som handler om et jordskjelv i Oslo?",
+    "options": [
+      "Skjelvet",
+      "Nordsjøen",
+      "Tunnelen",
+      "Flodbølgen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0xOTow"
+  },
+  {
+    "id": "ftv-nor-20",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvem spiller hovedrollen som Jan Baalsrud i filmen «Den 12. mann» (2017)?",
+    "options": [
+      "Aksel Hennie",
+      "Thomas Gullestad",
+      "Tobias Santelmann",
+      "Pål Sverre Hagen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0yMDox"
+  },
+  {
+    "id": "ftv-nor-21",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk humoristisk julekalender blander norsk og engelsk («The Julekalender»)?",
+    "options": [
+      "KLM",
+      "Travellin’ Strawberries",
+      "Gitarkameratene",
+      "Prima Vera"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0yMTox"
+  },
+  {
+    "id": "ftv-nor-22",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk film fra 1975 har karakterene Solan Gundersen og Ludvig?",
+    "options": [
+      "Solan og Ludvig – Jul i Flåklypa",
+      "Flåklypa Grand Prix",
+      "Knutsen & Ludvigsen",
+      "Dyrene i Hakkebakkeskogen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0yMjox"
+  },
+  {
+    "id": "ftv-nor-23",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk realityserie går ut på at kjendiser skal gjennomføre harde militære øvelser?",
+    "options": [
+      "71° nord",
+      "Kompani Lauritzen",
+      "Farmen kjendis",
+      "Mesternes mester"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0yMzox"
+  },
+  {
+    "id": "ftv-nor-24",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk barnefilmserie handler om «Karsten og Petra»?",
+    "options": [
+      "Karsten og Petra",
+      "Knerten",
+      "Kaptein Sabeltann",
+      "Birkebeinerne"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0yNDow"
+  },
+  {
+    "id": "ftv-nor-25",
+    "category": "Film, TV & Spill",
+    "subcategory": "Norsk film & TV",
+    "question": "Hvilken norsk TV-serie fra 2019 handler om en tenåring som oppdager at han er en norrøn gud (Tor)?",
+    "options": [
+      "Beforeigners",
+      "Ragnarok",
+      "Vikingane",
+      "Post Mortem"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LW5vci0yNTox"
+  },
+  {
+    "id": "ftv-gam-2",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hva heter den italienske rørleggeren som er Nintendos mest kjente maskot?",
+    "options": [
+      "Luigi",
+      "Mario",
+      "Wario",
+      "Toad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0yOjE="
+  },
+  {
+    "id": "ftv-gam-3",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket spill går ut på at 100 spillere hopper ut fra en «Battle Bus» og kjemper om å stå igjen til slutt?",
+    "options": [
+      "PUBG",
+      "Fortnite",
+      "Apex Legends",
+      "Call of Duty: Warzone"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0zOjE="
+  },
+  {
+    "id": "ftv-gam-4",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hva heter hovedpersonen du spiller som i «The Legend of Zelda»-spillene?",
+    "options": [
+      "Zelda",
+      "Link",
+      "Ganon",
+      "Epona"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS00OjE="
+  },
+  {
+    "id": "ftv-gam-5",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket klassisk arkadespill fra 1984 (skapt i Sovjetunionen) går ut på å stable fallende klosser?",
+    "options": [
+      "Pac-Man",
+      "Tetris",
+      "Space Invaders",
+      "Pong"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS01OjE="
+  },
+  {
+    "id": "ftv-gam-6",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket selskap står bak spillkonsollen PlayStation?",
+    "options": [
+      "Microsoft",
+      "Sony",
+      "Nintendo",
+      "Sega"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS02OjE="
+  },
+  {
+    "id": "ftv-gam-7",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hva heter den gule, elektriske Pokémonen som er Ash Ketchums faste følgesvenn?",
+    "options": [
+      "Charmander",
+      "Pikachu",
+      "Bulbasaur",
+      "Squirtle"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS03OjE="
+  },
+  {
+    "id": "ftv-gam-8",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilken spillserie fra Rockstar Games foregår i fiktive byer som Los Santos og Vice City?",
+    "options": [
+      "Red Dead Redemption",
+      "Grand Theft Auto (GTA)",
+      "Mafia",
+      "Watch Dogs"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS04OjE="
+  },
+  {
+    "id": "ftv-gam-9",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket fotballspill skiftet navn fra «FIFA» til «EA Sports FC» i 2023?",
+    "options": [
+      "eFootball",
+      "FIFA",
+      "Football Manager",
+      "Rocket League"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS05OjE="
+  },
+  {
+    "id": "ftv-gam-10",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket spill handler om å bygge og styre hverdagen til virtuelle mennesker som snakker «Simlish»?",
+    "options": [
+      "Animal Crossing",
+      "The Sims",
+      "Stardew Valley",
+      "Cities: Skylines"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0xMDox"
+  },
+  {
+    "id": "ftv-gam-11",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hva heter det blå, superraske pinnsvinet som var Segas store maskot på 1990-tallet?",
+    "options": [
+      "Crash Bandicoot",
+      "Sonic the Hedgehog",
+      "Spyro",
+      "Rayman"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0xMTox"
+  },
+  {
+    "id": "ftv-gam-12",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "I hvilket spill kjører du gokart og kan kaste røde, grønne og blå skilpaddeskall?",
+    "options": [
+      "Crash Team Racing",
+      "Mario Kart",
+      "Need for Speed",
+      "Gran Turismo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0xMjox"
+  },
+  {
+    "id": "ftv-gam-13",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hva heter den kvinnelige eventyreren i «Tomb Raider»-spillene?",
+    "options": [
+      "Jill Valentine",
+      "Lara Croft",
+      "Ellie Williams",
+      "Aloy"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0xMzox"
+  },
+  {
+    "id": "ftv-gam-14",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket spill fra 2018 ble enormt populært under pandemien der man skal avsløre en «Impostor» om bord på et romskip?",
+    "options": [
+      "Fall Guys",
+      "Among Us",
+      "Roblox",
+      "Overwatch"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0xNDox"
+  },
+  {
+    "id": "ftv-gam-15",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket selskap produserer spillkonsollen Xbox?",
+    "options": [
+      "Sony",
+      "Microsoft",
+      "Nintendo",
+      "Valve"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0xNTox"
+  },
+  {
+    "id": "ftv-gam-16",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hva heter det gule, runde arkadespillet fra 1980 der du spiser prikker og rømmer fra spøkelser?",
+    "options": [
+      "Donkey Kong",
+      "Pac-Man",
+      "Galaga",
+      "Frogger"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0xNjox"
+  },
+  {
+    "id": "ftv-gam-17",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket skytespill fra Valve har lagene «Terrorists» og «Counter-Terrorists»?",
+    "options": [
+      "Valorant",
+      "Counter-Strike",
+      "Overwatch",
+      "Rainbow Six Siege"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0xNzox"
+  },
+  {
+    "id": "ftv-gam-18",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilken spillserie fra Naughty Dog følger Joel og Ellie i en postapokalyptisk verden?",
+    "options": [
+      "Uncharted",
+      "The Last of Us",
+      "Days Gone",
+      "Resident Evil"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0xODox"
+  },
+  {
+    "id": "ftv-gam-19",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket bilspill går ut på å spille fotball med rakettdrevne biler?",
+    "options": [
+      "Trackmania",
+      "Rocket League",
+      "Forza Horizon",
+      "Burnout"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0xOTox"
+  },
+  {
+    "id": "ftv-gam-20",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hva heter hovedpersonen i «Halo»-spillene?",
+    "options": [
+      "Marcus Fenix",
+      "Master Chief",
+      "Commander Shepard",
+      "Doomguy"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0yMDox"
+  },
+  {
+    "id": "ftv-gam-21",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket MMORPG-spill fra Blizzard Entertainment ble lansert i 2004 og foregår i verdenen Azeroth?",
+    "options": [
+      "Guild Wars",
+      "World of Warcraft",
+      "Final Fantasy XIV",
+      "RuneScape"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0yMTox"
+  },
+  {
+    "id": "ftv-gam-22",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hva heter den grønne, eksploderende fienden i «Minecraft»?",
+    "options": [
+      "Zombie",
+      "Creeper",
+      "Enderman",
+      "Skeleton"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0yMjox"
+  },
+  {
+    "id": "ftv-gam-23",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket norskutviklet eventyrspill fra 1999 (Funcom) har April Ryan i hovedrollen?",
+    "options": [
+      "Age of Conan",
+      "Den lengste reisen",
+      "Owlboy",
+      "Among the Sleep"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0yMzox"
+  },
+  {
+    "id": "ftv-gam-24",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hvilket spill fra 2011 i «The Elder Scrolls»-serien foregår i den snødekte provinsen Skyrim?",
+    "options": [
+      "Oblivion",
+      "Skyrim",
+      "Morrowind",
+      "Elden Ring"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0yNDox"
+  },
+  {
+    "id": "ftv-gam-25",
+    "category": "Film, TV & Spill",
+    "subcategory": "Gaming",
+    "question": "Hva heter den bærbare/stasjonære Nintendo-konsollen som ble lansert i 2017 med avtakbare Joy-Con-kontrollere?",
+    "options": [
+      "Wii U",
+      "Nintendo Switch",
+      "Nintendo 3DS",
+      "GameCube"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "ZnR2LWdhbS0yNTox"
   }
 ]

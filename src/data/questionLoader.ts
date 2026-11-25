@@ -34,6 +34,7 @@ export function loadAllQuestions(): Question[] {
         question: raw.question,
         options: raw.options,
         correctIndex: decodeAnswerToken(raw.answerToken, raw.id),
+        addedAt: raw.addedAt,
       });
     }
   }
