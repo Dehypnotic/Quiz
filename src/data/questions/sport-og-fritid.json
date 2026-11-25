@@ -54,5 +54,1349 @@
     ],
     "answerToken": "c3BvLWJyZS0xOjI=",
     "addedAt": "2026-11-25"
+  },
+  {
+    "id": "spo-vin-2",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken norsk langrennsløper har vunnet flest OL-gull i historien (8 gull)?",
+    "options": [
+      "Bjørn Dæhlie",
+      "Marit Bjørgen",
+      "Petter Northug",
+      "Johannes Høsflot Klæbo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0yOjE="
+  },
+  {
+    "id": "spo-vin-3",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken norsk skiskytter kalles «Kongen av skiskyting» etter 8 OL-gull og 20 VM-gull?",
+    "options": [
+      "Johannes Thingnes Bø",
+      "Ole Einar Bjørndalen",
+      "Emil Hegle Svendsen",
+      "Tarjei Bø"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0zOjE="
+  },
+  {
+    "id": "spo-vin-4",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilket kjent skirenn går fra Rena til Lillehammer over fjellet med sekk på ryggen?",
+    "options": [
+      "Vasaloppet",
+      "Birkebeinerrennet",
+      "Marcialonga",
+      "Skarverennet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi00OjE="
+  },
+  {
+    "id": "spo-vin-5",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hva heter den berømte hoppbakken i Oslo?",
+    "options": [
+      "Lysgårdsbakken",
+      "Holmenkollbakken",
+      "Granåsen",
+      "Vikersundbakken"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi01OjE="
+  },
+  {
+    "id": "spo-vin-6",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken norsk alpinist vant utfor-gull i OL i både 1994 og 2006 (og totalt 4 OL-gull)?",
+    "options": [
+      "Lasse Kjus",
+      "Kjetil André Aamodt",
+      "Aksel Lund Svindal",
+      "Aleksander Aamodt Kilde"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi02OjE="
+  },
+  {
+    "id": "spo-vin-7",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvor mange kilometer er det svenske klassikerrennet Vasaloppet?",
+    "options": [
+      "54 km",
+      "90 km",
+      "70 km",
+      "100 km"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi03OjE="
+  },
+  {
+    "id": "spo-vin-8",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken norsk skøyteløper vant tre OL-gull på hjemmebane under Lillehammer-OL i 1994?",
+    "options": [
+      "Ådne Søndrål",
+      "Johann Olav Koss",
+      "Knut Johannesen",
+      "Hjalmar Andersen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi04OjE="
+  },
+  {
+    "id": "spo-vin-9",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken idrett kalles ofte «sjakk på is» der man bruker koster og tunge steiner?",
+    "options": [
+      "Ishockey",
+      "Curling",
+      "Bandy",
+      "Kunstløp"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi05OjE="
+  },
+  {
+    "id": "spo-vin-10",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvor ligger verdens største skiflygingsbakke i Norge?",
+    "options": [
+      "Holmenkollen",
+      "Vikersund",
+      "Lillehammer",
+      "Trondheim"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0xMDox"
+  },
+  {
+    "id": "spo-vin-11",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken norsk langrennsstjerne fra Dalsbygda vant VM-gull og OL-gull, og er kjent for «Duracell-kanin»-ryktet?",
+    "options": [
+      "Heidi Weng",
+      "Therese Johaug",
+      "Ingvild Flugstad Østberg",
+      "Astrid Uhrenholdt Jacobsen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0xMTox"
+  },
+  {
+    "id": "spo-vin-12",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hva heter etappeløpet i langrenn som arrangeres rundt nyttår i Mellom-Europa?",
+    "options": [
+      "Ski Classics",
+      "Tour de Ski",
+      "World Cup",
+      "Raw Air"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0xMjox"
+  },
+  {
+    "id": "spo-vin-13",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilket år ble Vinter-OL arrangert i Oslo?",
+    "options": [
+      "1948",
+      "1952",
+      "1956",
+      "1960"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0xMzox"
+  },
+  {
+    "id": "spo-vin-14",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken norsk ishockeyspiller har spilt flest kamper i NHL og for New York Rangers?",
+    "options": [
+      "Espen Knutsen",
+      "Mats Zuccarello",
+      "Patrick Thoresen",
+      "Tore Vikingstad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0xNDox"
+  },
+  {
+    "id": "spo-vin-15",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken norsk kunstløper vant 3 OL-gull på 1920- og 1930-tallet og ble filmstjerne i Hollywood?",
+    "options": [
+      "Grete Waitz",
+      "Sonja Henie",
+      "Ingrid Kristiansen",
+      "Randi Thorvaldsen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0xNTox"
+  },
+  {
+    "id": "spo-vin-16",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hva heter den norske langrennsløperen som har dominert sprint og vunnet Tour de Ski flere ganger på 2020-tallet?",
+    "options": [
+      "Emil Iversen",
+      "Johannes Høsflot Klæbo",
+      "Simen Hegstad Krüger",
+      "Pål Golberg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0xNjox"
+  },
+  {
+    "id": "spo-vin-17",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilke to øvelser inngår i «kombinert»?",
+    "options": [
+      "Skiskyting og langrenn",
+      "Skihopp og langrenn",
+      "Slalåm og utfor",
+      "Skøyter og langrenn"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0xNzox"
+  },
+  {
+    "id": "spo-vin-18",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvor mange skudd er det i hver serie på standplass i skiskyting?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0xODox"
+  },
+  {
+    "id": "spo-vin-19",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken norsk skihopper er kjent for å ha flest verdenscupseire gjennom tidene for kvinner, eller vant OL-gull i 2018?",
+    "options": [
+      "Silje Opseth",
+      "Maren Lundby",
+      "Anna Odine Strøm",
+      "Line Jahr"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0xOTox"
+  },
+  {
+    "id": "spo-vin-20",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken by arrangerte Vinter-OL i 2022?",
+    "options": [
+      "Pyeongchang",
+      "Beijing",
+      "Sotsji",
+      "Milano"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0yMDox"
+  },
+  {
+    "id": "spo-vin-21",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hva heter den norske alpinisten som vant 2 OL-gull i 2014 og 2018 (blant annet utfor i 2018)?",
+    "options": [
+      "Kjetil Jansrud",
+      "Aksel Lund Svindal",
+      "Henrik Kristoffersen",
+      "Lucas Braathen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0yMTox"
+  },
+  {
+    "id": "spo-vin-22",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken norsk langrennsløper sa «Barneskirenn!» etter å ha spurtslått konkurrentene?",
+    "options": [
+      "Martin Johnsrud Sundby",
+      "Petter Northug",
+      "Odd-Bjørn Hjelmeset",
+      "Thomas Alsgaard"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0yMjox"
+  },
+  {
+    "id": "spo-vin-23",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilket norsk curlinglag ble kjent for sine fargerike klovnebukser i OL 2010?",
+    "options": [
+      "Lag Trulsen",
+      "Lag Ulsrud",
+      "Lag Ramsfjell",
+      "Lag Walstad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0yMzox"
+  },
+  {
+    "id": "spo-vin-24",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilket land arrangerer Vinter-OL i 2026 (Milano-Cortina)?",
+    "options": [
+      "Frankrike",
+      "Italia",
+      "Sveits",
+      "Østerrike"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0yNDox"
+  },
+  {
+    "id": "spo-vin-25",
+    "category": "Sport & Fritid",
+    "subcategory": "Vintersport",
+    "question": "Hvilken skistil bruker man når man går i oppkjørte spor uten å skøyte?",
+    "options": [
+      "Fristil",
+      "Klassisk",
+      "Telemark",
+      "Slalåm"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXZpbi0yNTox"
+  },
+  {
+    "id": "spo-som-2",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvem har verdensrekorden på 100 meter sprint for menn (9,58 sekunder)?",
+    "options": [
+      "Carl Lewis",
+      "Usain Bolt",
+      "Tyson Gay",
+      "Yohan Blake"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0yOjE="
+  },
+  {
+    "id": "spo-som-3",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken norsk friidrettsutøver tok OL-gull på 1500 meter i Tokyo 2021 og 5000 meter i Paris 2024?",
+    "options": [
+      "Filip Ingebrigtsen",
+      "Jakob Ingebrigtsen",
+      "Henrik Ingebrigtsen",
+      "Narve Gilje Nordås"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0zOjE="
+  },
+  {
+    "id": "spo-som-4",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken by arrangerte Sommer-OL i 2024?",
+    "options": [
+      "London",
+      "Paris",
+      "Los Angeles",
+      "Tokyo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS00OjE="
+  },
+  {
+    "id": "spo-som-5",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvor langt er et maratonløp?",
+    "options": [
+      "21,1 km",
+      "42,195 km",
+      "50 km",
+      "35,5 km"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS01OjE="
+  },
+  {
+    "id": "spo-som-6",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken norsk tennisspiller har vært i flere Grand Slam-finaler (blant annet Roland-Garros og US Open)?",
+    "options": [
+      "Christian Ruud",
+      "Casper Ruud",
+      "Viktor Durasovic",
+      "Nicolai Budkov Kjær"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS02OjE="
+  },
+  {
+    "id": "spo-som-7",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilket norsk sandvolleyballpar tok OL-gull i Tokyo i 2021?",
+    "options": [
+      "Mol og Sørum",
+      "Kildal og Berntsen",
+      "Høidalen og Kjemperud",
+      "Skarlund og Spinnangr"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS03OjA="
+  },
+  {
+    "id": "spo-som-8",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken amerikansk svømmer har vunnet flest OL-medaljer i historien (28 medaljer, hvorav 23 gull)?",
+    "options": [
+      "Ryan Lochte",
+      "Michael Phelps",
+      "Mark Spitz",
+      "Caeleb Dressel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS04OjE="
+  },
+  {
+    "id": "spo-som-9",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hva heter verdens mest kjente sykkelritt, som går gjennom Frankrike hver sommer?",
+    "options": [
+      "Giro d’Italia",
+      "Tour de France",
+      "Vuelta a España",
+      "Paris–Roubaix"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS05OjE="
+  },
+  {
+    "id": "spo-som-10",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken norsk golfspiller vant FedEx Cup i 2023 og har flere PGA-seire?",
+    "options": [
+      "Henrik Bjørnstad",
+      "Viktor Hovland",
+      "Kristoffer Ventura",
+      "Espen Kofstad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0xMDox"
+  },
+  {
+    "id": "spo-som-11",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilket norsk landslag har vunnet OL-gull i 2008, 2012 og 2024?",
+    "options": [
+      "Herrelandslaget i fotball",
+      "Håndballjentene",
+      "Håndballgutta",
+      "Roing"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0xMTox"
+  },
+  {
+    "id": "spo-som-12",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvor mange ringer er det i det olympiske flagget?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0xMjox"
+  },
+  {
+    "id": "spo-som-13",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken tennisturnering spilles på gress i London?",
+    "options": [
+      "US Open",
+      "Wimbledon",
+      "Roland-Garros",
+      "Australian Open"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0xMzox"
+  },
+  {
+    "id": "spo-som-14",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvem er den svenske stavhopperen som har satt verdensrekord over 6,20 meter en rekke ganger?",
+    "options": [
+      "Stefan Holm",
+      "Armand Duplantis",
+      "Patrik Sjöberg",
+      "Daniel Ståhl"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0xNDox"
+  },
+  {
+    "id": "spo-som-15",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken norsk løper vant New York Marathon ni ganger mellom 1978 og 1988?",
+    "options": [
+      "Ingrid Kristiansen",
+      "Grete Waitz",
+      "Karoline Bjerkeli Grøvdal",
+      "Trine Hattestad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0xNTox"
+  },
+  {
+    "id": "spo-som-16",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken idrett konkurrerer man i når man bruker «spyd», «diskos» og «slegge»?",
+    "options": [
+      "Turn",
+      "Friidrett (kastøvelser)",
+      "Fekting",
+      "Vektløfting"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0xNjox"
+  },
+  {
+    "id": "spo-som-17",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken norsk spydkaster vant OL-gull i Sydney i 2000?",
+    "options": [
+      "Andreas Thorkildsen",
+      "Trine Hattestad",
+      "Pål Arne Fagernes",
+      "Solfrid Koanda"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0xNzox"
+  },
+  {
+    "id": "spo-som-18",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken norsk vektløfter tok historisk OL-gull i Paris 2024?",
+    "options": [
+      "Ruth Kasirye",
+      "Solfrid Koanda",
+      "Stian Grimseth",
+      "Grace Bullen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0xODox"
+  },
+  {
+    "id": "spo-som-19",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hva heter den berømte amerikanske turneren som har vunnet flest VM- og OL-medaljer i turn?",
+    "options": [
+      "Nadia Comăneci",
+      "Simone Biles",
+      "Aly Raisman",
+      "Gabby Douglas"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0xOTox"
+  },
+  {
+    "id": "spo-som-20",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken norsk syklist vant grønn poengtrøye i Tour de France to ganger (2005 og 2009)?",
+    "options": [
+      "Edvald Boasson Hagen",
+      "Thor Hushovd",
+      "Alexander Kristoff",
+      "Kurt Asle Arvesen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0yMDox"
+  },
+  {
+    "id": "spo-som-21",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvor mange spillere er det på banen samtidig for ett lag i håndball?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0yMToy"
+  },
+  {
+    "id": "spo-som-22",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken by arrangerer Sommer-OL i 2028?",
+    "options": [
+      "Brisbane",
+      "Los Angeles",
+      "Madrid",
+      "Berlin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0yMjox"
+  },
+  {
+    "id": "spo-som-23",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken norsk roer vant OL-gull i singlesculler i både 2004 og 2008?",
+    "options": [
+      "Kjetil Borch",
+      "Olaf Tufte",
+      "Nils Jakob Hoff",
+      "Fredrik Bekken"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0yMzox"
+  },
+  {
+    "id": "spo-som-24",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hva heter de tre disiplinene i triatlon?",
+    "options": [
+      "Svømming, sykling og løping",
+      "Roing, sykling og løping",
+      "Svømming, løping og skyting",
+      "Sykling, klatring og løping"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0yNDow"
+  },
+  {
+    "id": "spo-som-25",
+    "category": "Sport & Fritid",
+    "subcategory": "Sommersport",
+    "question": "Hvilken norsk tikjemper tok OL-gull i Paris 2024?",
+    "options": [
+      "Sander Skotheim",
+      "Markus Rooth",
+      "Martin Roe",
+      "Benjamin Jensen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLXNvbS0yNTox"
+  },
+  {
+    "id": "spo-fot-2",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken norsk spiss spiller for Manchester City og har satt scoringsrekord i Premier League?",
+    "options": [
+      "Alexander Sørloth",
+      "Erling Braut Haaland",
+      "Martin Ødegaard",
+      "Joshua King"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0yOjE="
+  },
+  {
+    "id": "spo-fot-3",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken klubb er Martin Ødegaard kaptein for?",
+    "options": [
+      "Liverpool",
+      "Arsenal",
+      "Chelsea",
+      "Real Madrid"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0zOjE="
+  },
+  {
+    "id": "spo-fot-4",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilket land har vunnet herrenes fotball-VM flest ganger (5 ganger)?",
+    "options": [
+      "Tyskland",
+      "Brasil",
+      "Italia",
+      "Argentina"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC00OjE="
+  },
+  {
+    "id": "spo-fot-5",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvor mange spillere er det på banen for ett fotballag (inkludert keeper)?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC01OjI="
+  },
+  {
+    "id": "spo-fot-6",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken norsk klubb vant Eliteserien 13 ganger på rad mellom 1992 og 2004?",
+    "options": [
+      "Brann",
+      "Rosenborg",
+      "Molde",
+      "Vålerenga"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC02OjE="
+  },
+  {
+    "id": "spo-fot-7",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvem er den argentinske superstjernen som vant Gullballen (Ballon d’Or) åtte ganger?",
+    "options": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Diego Maradona",
+      "Neymar"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC03OjE="
+  },
+  {
+    "id": "spo-fot-8",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilket norsk kvinnelandslag vant OL-gull i fotball i år 2000?",
+    "options": [
+      "Sverige",
+      "Norge",
+      "USA",
+      "Tyskland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC04OjE="
+  },
+  {
+    "id": "spo-fot-9",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hva heter hjemmebanen til det norske herrelandslaget i fotball?",
+    "options": [
+      "Lerkendal",
+      "Ullevaal Stadion",
+      "Brann Stadion",
+      "Intility Arena"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC05OjE="
+  },
+  {
+    "id": "spo-fot-10",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken norsk kvinnelig fotballspiller vant den aller første Gullballen for kvinner i 2018?",
+    "options": [
+      "Caroline Graham Hansen",
+      "Ada Hegerberg",
+      "Ingrid Syrstad Engen",
+      "Guro Reiten"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0xMDox"
+  },
+  {
+    "id": "spo-fot-11",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken engelsk klubb kalles «The Red Devils» og spiller på Old Trafford?",
+    "options": [
+      "Liverpool",
+      "Manchester United",
+      "Arsenal",
+      "Nottingham Forest"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0xMTox"
+  },
+  {
+    "id": "spo-fot-12",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilket land vant herrenes EM i fotball i 2024?",
+    "options": [
+      "England",
+      "Spania",
+      "Frankrike",
+      "Tyskland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0xMjox"
+  },
+  {
+    "id": "spo-fot-13",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hva heter den øverste divisjonen i norsk herrefotball?",
+    "options": [
+      "OBOS-ligaen",
+      "Eliteserien",
+      "Tippeligaen",
+      "Toppserien"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0xMzox"
+  },
+  {
+    "id": "spo-fot-14",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken norsk fotballtrener trente Manchester United fra 2018 til 2021?",
+    "options": [
+      "Henning Berg",
+      "Ole Gunnar Solskjær",
+      "Ronny Deila",
+      "Ståle Solbakken"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0xNDox"
+  },
+  {
+    "id": "spo-fot-15",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken klubb har vunnet UEFA Champions League flest ganger?",
+    "options": [
+      "AC Milan",
+      "Real Madrid",
+      "Bayern München",
+      "Liverpool"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0xNTox"
+  },
+  {
+    "id": "spo-fot-16",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvor lenge varer en vanlig fotballkamp (to omganger uten tilleggstid)?",
+    "options": [
+      "80 minutter",
+      "90 minutter",
+      "100 minutter",
+      "60 minutter"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0xNjox"
+  },
+  {
+    "id": "spo-fot-17",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken norsk klubb fra Nord-Norge har vunnet Eliteserien flere ganger på 2020-tallet?",
+    "options": [
+      "Tromsø",
+      "Bodø/Glimt",
+      "Ranheim",
+      "Mjøndalen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0xNzox"
+  },
+  {
+    "id": "spo-fot-18",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hva skjer hvis en spiller får to gule kort i samme fotballkamp?",
+    "options": [
+      "Får advarsel",
+      "Får rødt kort og blir utvist",
+      "Må ta straffe",
+      "Byttes ut"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0xODox"
+  },
+  {
+    "id": "spo-fot-19",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken portugisisk stjerne har flest landslagsmål i herrefotball?",
+    "options": [
+      "Luís Figo",
+      "Cristiano Ronaldo",
+      "Eusébio",
+      "Bruno Fernandes"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0xOTox"
+  },
+  {
+    "id": "spo-fot-20",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilket år deltok det norske herrelandslaget sist i et fotball-VM (før 2026)?",
+    "options": [
+      "1994",
+      "1998",
+      "2002",
+      "2006"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0yMDox"
+  },
+  {
+    "id": "spo-fot-21",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hva heter den franske stjernespissen som vant VM i 2018 og scoret hat-trick i finalen i 2022?",
+    "options": [
+      "Antoine Griezmann",
+      "Kylian Mbappé",
+      "Karim Benzema",
+      "Olivier Giroud"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0yMTox"
+  },
+  {
+    "id": "spo-fot-22",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken engelsk klubb har sangen «You’ll Never Walk Alone» som sin kjente hymne?",
+    "options": [
+      "Everton",
+      "Liverpool",
+      "Chelsea",
+      "Tottenham"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0yMjox"
+  },
+  {
+    "id": "spo-fot-23",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hva kalles det når én spiller scorer tre mål i samme fotballkamp?",
+    "options": [
+      "Trippel",
+      "Hat-trick",
+      "Grand Slam",
+      "Eagle"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0yMzox"
+  },
+  {
+    "id": "spo-fot-24",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken norsk fotballtrener ledet Norge til VM i 1994 og 1998?",
+    "options": [
+      "Nils Johan Semb",
+      "Egil «Drillo» Olsen",
+      "Åge Hareide",
+      "Per-Mathias Høgmo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0yNDox"
+  },
+  {
+    "id": "spo-fot-25",
+    "category": "Sport & Fritid",
+    "subcategory": "Fotball",
+    "question": "Hvilken avstand er det fra straffemerket til mållinjen i fotball?",
+    "options": [
+      "9 meter",
+      "11 meter",
+      "13 meter",
+      "16 meter"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWZvdC0yNTox"
+  },
+  {
+    "id": "spo-bre-2",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvem er den norske sjakkspilleren som har vært verdensmester i klassisk sjakk, hurtigsjakk og lynsjakk?",
+    "options": [
+      "Aryan Tari",
+      "Magnus Carlsen",
+      "Simen Agdestein",
+      "Jon Ludvig Hammer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0yOjE="
+  },
+  {
+    "id": "spo-bre-3",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvor mange kort er det i en vanlig kortstokk (uten jokere)?",
+    "options": [
+      "48",
+      "52",
+      "54",
+      "56"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0zOjE="
+  },
+  {
+    "id": "spo-bre-4",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvilket brettspill går ut på å kjøpe gater, bygge hus og hoteller, og slå motstanderne konkurs?",
+    "options": [
+      "Risk",
+      "Monopol",
+      "Catan",
+      "Cluedo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS00OjE="
+  },
+  {
+    "id": "spo-bre-5",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hva heter spillet der man skal legge ord av bokstavbrikker på et brett for å få poeng?",
+    "options": [
+      "Boggle",
+      "Scrabble",
+      "Alias",
+      "Wordle"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS01OjE="
+  },
+  {
+    "id": "spo-bre-6",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hva heter den høyeste poengsummen på ett enkelt kast med én pil i dart (trippel 20)?",
+    "options": [
+      "40",
+      "50",
+      "60",
+      "100"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS02OjI="
+  },
+  {
+    "id": "spo-bre-7",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvor mange kjegler står på banen i bowling?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS03OjI="
+  },
+  {
+    "id": "spo-bre-8",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvilken sjakkbrikke kan bare flyttes diagonalt?",
+    "options": [
+      "Tårn",
+      "Løper",
+      "Springer",
+      "Bonde"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS04OjE="
+  },
+  {
+    "id": "spo-bre-9",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hva heter terningspillet der målet er å få fem like terninger («Yatzy»)?",
+    "options": [
+      "Ludo",
+      "Yatzy",
+      "Backgammon",
+      "Craps"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS05OjE="
+  },
+  {
+    "id": "spo-bre-10",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvilket kortspill går ut på å rope navnet på spillet når man bare har ett kort igjen på hånden?",
+    "options": [
+      "Vri åtter",
+      "UNO",
+      "Idiot",
+      "Poker"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0xMDox"
+  },
+  {
+    "id": "spo-bre-11",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hva heter den beste mulige hånden i vanlig poker (10, knekt, dame, konge, ess i samme farge)?",
+    "options": [
+      "Straight Flush",
+      "Royal Flush",
+      "Four of a Kind",
+      "Full House"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0xMTox"
+  },
+  {
+    "id": "spo-bre-12",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvilket brettspill handler om å løse et mord i et herskapshus ved å finne gjerningsperson, våpen og rom?",
+    "options": [
+      "Risk",
+      "Cluedo",
+      "Ticket to Ride",
+      "Pandemic"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0xMjox"
+  },
+  {
+    "id": "spo-bre-13",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvor mange ruter har en standard Rubiks kube på hver side?",
+    "options": [
+      "4 (2x2)",
+      "9 (3x3)",
+      "16 (4x4)",
+      "25 (5x5)"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0xMzox"
+  },
+  {
+    "id": "spo-bre-14",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hva heter spillet der man bygger togruter mellom byer på et kart?",
+    "options": [
+      "Catan",
+      "Ticket to Ride",
+      "Carcassonne",
+      "Risk"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0xNDox"
+  },
+  {
+    "id": "spo-bre-15",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvilket tall er alltid på motsatt side av 6 på en vanlig sekssidet terning?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0xNTow"
+  },
+  {
+    "id": "spo-bre-16",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hva heter det klassiske spillet der du skal fjerne treklosser fra et tårn uten at det velter?",
+    "options": [
+      "Mikado",
+      "Jenga",
+      "Twister",
+      "Domino"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0xNjox"
+  },
+  {
+    "id": "spo-bre-17",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvilken farge har den siste kulen som vanligvis skal senkes i biljard (8-ball)?",
+    "options": [
+      "Hvit",
+      "Svart",
+      "Rød",
+      "Blå"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0xNzox"
+  },
+  {
+    "id": "spo-bre-18",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hva heter spillet der man skal forklare ord for lagkameraten uten å bruke selve ordet?",
+    "options": [
+      "Pictionary",
+      "Alias",
+      "Trivial Pursuit",
+      "Bezzerwizzer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0xODox"
+  },
+  {
+    "id": "spo-bre-19",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hva kalles det i bowling når man slår ned alle 10 kjeglene på første kast?",
+    "options": [
+      "Spare",
+      "Strike",
+      "Split",
+      "Turkey"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0xOTox"
+  },
+  {
+    "id": "spo-bre-20",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvilket brettspill har ressurser som tre, murstein, sau, hvete og malm?",
+    "options": [
+      "Monopol",
+      "Catan (Settlers)",
+      "Risk",
+      "Carcassonne"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0yMDox"
+  },
+  {
+    "id": "spo-bre-21",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hva kalles det i sjakk når kongen står i sjakk og ikke kan komme seg unna?",
+    "options": [
+      "Patt",
+      "Sjakk matt",
+      "Rokade",
+      "Remis"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0yMTox"
+  },
+  {
+    "id": "spo-bre-22",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvilke fire farger (symboler) finnes i en vanlig kortstokk?",
+    "options": [
+      "Hjerter, ruter, kløver og spar",
+      "Hjerter, stjerne, kløver og spar",
+      "Rød, blå, grønn og gul",
+      "Krone, mynt, sverd og beger"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0yMjow"
+  },
+  {
+    "id": "spo-bre-23",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hva heter det klassiske brettspillet der man skal erobre verden med armeer?",
+    "options": [
+      "Stratego",
+      "Risk",
+      "Axis & Allies",
+      "Diplomacy"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0yMzox"
+  },
+  {
+    "id": "spo-bre-24",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hva heter det kjente norske brettspillet der man skal svare på spørsmål for å samle seks ulike fargede kakestykker?",
+    "options": [
+      "Bezzerwizzer",
+      "Trivial Pursuit",
+      "TP",
+      "Geni"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0yNDox"
+  },
+  {
+    "id": "spo-bre-25",
+    "category": "Sport & Fritid",
+    "subcategory": "Brettspill, kort & trivia",
+    "question": "Hvilken sjakkbrikke er den eneste som kan hoppe over andre brikker?",
+    "options": [
+      "Dronning",
+      "Springer (hest)",
+      "Tårn",
+      "Løper"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "c3BvLWJyZS0yNTox"
   }
 ]

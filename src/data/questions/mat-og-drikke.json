@@ -54,5 +54,1349 @@
     ],
     "answerToken": "bWF0LWthZi0xOjE=",
     "addedAt": "2026-11-25"
+  },
+  {
+    "id": "mat-ver-2",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilket land kommer matretten sushi opprinnelig fra?",
+    "options": [
+      "Kina",
+      "Japan",
+      "Sør-Korea",
+      "Thailand"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0yOjE="
+  },
+  {
+    "id": "mat-ver-3",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hva er hovedingrediensen i guacamole?",
+    "options": [
+      "Erter",
+      "Avokado",
+      "Agurk",
+      "Spinat"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0zOjE="
+  },
+  {
+    "id": "mat-ver-4",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilket land kommer pizza Margherita opprinnelig fra?",
+    "options": [
+      "Spania",
+      "Italia",
+      "USA",
+      "Hellas"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci00OjE="
+  },
+  {
+    "id": "mat-ver-5",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilke bønner eller erter er hovedingrediensen i hummus?",
+    "options": [
+      "Svarte bønner",
+      "Kikerter",
+      "Linser",
+      "Soyabønner"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci01OjE="
+  },
+  {
+    "id": "mat-ver-6",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hva heter den klassiske italienske desserten laget med fingerkjeks, kaffe og mascarpone?",
+    "options": [
+      "Panna cotta",
+      "Tiramisu",
+      "Gelato",
+      "Cannoli"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci02OjE="
+  },
+  {
+    "id": "mat-ver-7",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilket land kommer retten «Pad Thai» fra?",
+    "options": [
+      "Vietnam",
+      "Thailand",
+      "Malaysia",
+      "Indonesia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci03OjE="
+  },
+  {
+    "id": "mat-ver-8",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hva heter den tynne, franske pannekaken som ofte serveres med sukker og sitron eller Nutella?",
+    "options": [
+      "Galette",
+      "Crêpe",
+      "Brioche",
+      "Croissant"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci04OjE="
+  },
+  {
+    "id": "mat-ver-9",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilket kjøtt brukes i en klassisk italiensk «Ossobuco»?",
+    "options": [
+      "Kylling",
+      "Kalveskank",
+      "Svineribbe",
+      "Lam"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci05OjE="
+  },
+  {
+    "id": "mat-ver-10",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hva heter den vietnamesiske nudelsuppen som er blitt populær over hele verden?",
+    "options": [
+      "Ramen",
+      "Phở",
+      "Laksa",
+      "Tom Yum"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0xMDox"
+  },
+  {
+    "id": "mat-ver-11",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilket land forbindes med «Kimchi» (fermentert kål og grønnsaker)?",
+    "options": [
+      "Japan",
+      "Korea",
+      "Kina",
+      "Vietnam"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0xMTox"
+  },
+  {
+    "id": "mat-ver-12",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hva heter den spanske kalde tomatsuppen?",
+    "options": [
+      "Minestrone",
+      "Gazpacho",
+      "Bouillabaisse",
+      "Borsjtsj"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0xMjox"
+  },
+  {
+    "id": "mat-ver-13",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilken type pasta har form som små «ører» eller skjell, nei – hva betyr navnet «Spaghetti» på italiensk?",
+    "options": [
+      "Små bånd",
+      "Små snører/tråder",
+      "Små rør",
+      "Små puter"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0xMzox"
+  },
+  {
+    "id": "mat-ver-14",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilket indisk brød stekes tradisjonelt i en leireovn (tandoor)?",
+    "options": [
+      "Pita",
+      "Naan",
+      "Tortilla",
+      "Focaccia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0xNDox"
+  },
+  {
+    "id": "mat-ver-15",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hva heter den sveitsiske retten der man dypper brød i smeltet ost?",
+    "options": [
+      "Raclette",
+      "Ostefondue",
+      "Rösti",
+      "Tartiflette"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0xNTox"
+  },
+  {
+    "id": "mat-ver-16",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilket land kommer «Borsjtsj» (rødbetesuppe) opprinnelig fra (blant annet kjent fra Øst-Europa)?",
+    "options": [
+      "Ukraina",
+      "Hellas",
+      "Tyrkia",
+      "Tyskland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0xNjow"
+  },
+  {
+    "id": "mat-ver-17",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hva heter den grønne sausen fra Liguria i Italia laget av basilikum, pinjekjerner, hvitløk og parmesan?",
+    "options": [
+      "Salsa verde",
+      "Pesto",
+      "Chimichurri",
+      "Gremolata"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0xNzox"
+  },
+  {
+    "id": "mat-ver-18",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilken type ris brukes til å lage ekte italiensk risotto?",
+    "options": [
+      "Basmatiris",
+      "Jasminris",
+      "Arborioris",
+      "Villris"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0xODoy"
+  },
+  {
+    "id": "mat-ver-19",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hva heter den meksikanske retten der en tortilla rulles rundt fyll og gratineres med saus og ost i ovn?",
+    "options": [
+      "Taco",
+      "Enchilada",
+      "Quesadilla",
+      "Nachos"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0xOTox"
+  },
+  {
+    "id": "mat-ver-20",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilket land kommer den berømte pølsen «Bratwurst» fra?",
+    "options": [
+      "Østerrike",
+      "Tyskland",
+      "Polen",
+      "Sveits"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0yMDox"
+  },
+  {
+    "id": "mat-ver-21",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hva heter de friterte kikertbollene som ofte serveres i pitabrød i Midtøsten?",
+    "options": [
+      "Kebab",
+      "Falafel",
+      "Samosa",
+      "Pakora"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0yMTox"
+  },
+  {
+    "id": "mat-ver-22",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilken hovedingrediens brukes i den greske retten «Tzatziki» sammen med yoghurt og hvitløk?",
+    "options": [
+      "Tomat",
+      "Agurk",
+      "Aubergine",
+      "Paprika"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0yMjox"
+  },
+  {
+    "id": "mat-ver-23",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hva heter den argentinske grønne urtesausen som ofte serveres til grillet kjøtt?",
+    "options": [
+      "Pesto",
+      "Chimichurri",
+      "Harissa",
+      "Teriyaki"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0yMzox"
+  },
+  {
+    "id": "mat-ver-24",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hvilket land kommer «Dim sum» opprinnelig fra?",
+    "options": [
+      "Japan",
+      "Kina",
+      "Thailand",
+      "Korea"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0yNDox"
+  },
+  {
+    "id": "mat-ver-25",
+    "category": "Mat & Drikke",
+    "subcategory": "Verdens kjøkken",
+    "question": "Hva heter den italienske skinken som er lufttørket og ofte serveres med melon?",
+    "options": [
+      "Salami",
+      "Parmaskinke (Prosciutto di Parma)",
+      "Mortadella",
+      "Bresaola"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LXZlci0yNTox"
+  },
+  {
+    "id": "mat-nor-2",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilken norsk ost er brun, søtlig og lages av myse (ofte fra geit og ku)?",
+    "options": [
+      "Jarlsberg",
+      "Brunost",
+      "Norvegia",
+      "Gamalost"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0yOjE="
+  },
+  {
+    "id": "mat-nor-3",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva heter den norske julemiddagen som dampes over bjørkepinner?",
+    "options": [
+      "Ribbe",
+      "Pinnekjøtt",
+      "Lutefisk",
+      "Medisterkaker"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0zOjE="
+  },
+  {
+    "id": "mat-nor-4",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilket land er kjent for «Köttbullar» (svenske kjøttboller) med tyttebærsyltetøy og fløtesaus?",
+    "options": [
+      "Danmark",
+      "Sverige",
+      "Finland",
+      "Norge"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci00OjE="
+  },
+  {
+    "id": "mat-nor-5",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva er hovedingrediensen i «Raspeball» (også kalt komle eller klubb)?",
+    "options": [
+      "Mel",
+      "Potet",
+      "Byggryn",
+      "Kålrot"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci01OjE="
+  },
+  {
+    "id": "mat-nor-6",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilken dag i uken spises «grøt» tradisjonelt i Norge, ifølge gammel skikk?",
+    "options": [
+      "Onsdag",
+      "Lørdag",
+      "Søndag",
+      "Mandag"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci02OjE="
+  },
+  {
+    "id": "mat-nor-7",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva heter den danske lunsjretten med rugbrød og rikelig med pålegg?",
+    "options": [
+      "Smørbrød (Smørrebrød)",
+      "Koldtbord",
+      "Snitter",
+      "Røsti"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci03OjA="
+  },
+  {
+    "id": "mat-nor-8",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilken norsk festkake består av marengsbunn, vaniljekrem, pisket krem og mandler på toppen?",
+    "options": [
+      "Suksessterte",
+      "Verdens beste (Kvæfjordkake)",
+      "Kransekake",
+      "Marsipankake"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci04OjE="
+  },
+  {
+    "id": "mat-nor-9",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva heter den tradisjonelle trønderske suppen med kjøtt, boller og grønnsaker?",
+    "options": [
+      "Lapskaus",
+      "Sodd",
+      "Bidos",
+      "Betasuppe"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci05OjE="
+  },
+  {
+    "id": "mat-nor-10",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilken fisk brukes tradisjonelt til å lage norsk «Lutefisk»?",
+    "options": [
+      "Laks",
+      "Torsk (tørrfisk)",
+      "Makrell",
+      "Sild"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0xMDox"
+  },
+  {
+    "id": "mat-nor-11",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva heter den samiske tradisjonsretten med reinsdyrkjøtt, poteter og gulrøtter?",
+    "options": [
+      "Bidos",
+      "Sodd",
+      "Rømmegrøt",
+      "Rakfisk"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0xMTow"
+  },
+  {
+    "id": "mat-nor-12",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilket bær kalles ofte «viddas gull» i Norge?",
+    "options": [
+      "Blåbær",
+      "Multe",
+      "Tyttebær",
+      "Bringebær"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0xMjox"
+  },
+  {
+    "id": "mat-nor-13",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva heter den norske kaken som består av 18 ringer av mandeldeig stablet oppå hverandre?",
+    "options": [
+      "Krumkake",
+      "Kransekake",
+      "Fattigmann",
+      "Goro"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0xMzox"
+  },
+  {
+    "id": "mat-nor-14",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva serveres tradisjonelt sammen med «Rømmegrøt» i Norge?",
+    "options": [
+      "Ketchup og ost",
+      "Sukker, kanel og smørøye (ofte med spekemat)",
+      "Syltetøy og rømme",
+      "Sirup og nøtter"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0xNDox"
+  },
+  {
+    "id": "mat-nor-15",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilken svensk delikatesse er kjent for sin svært sterke lukt når boksen åpnes?",
+    "options": [
+      "Gravlaks",
+      "Surströmming",
+      "Janssons frestelse",
+      "Kräftor"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0xNTox"
+  },
+  {
+    "id": "mat-nor-16",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva heter den norske baksten som stekes på takke og smøres med smør, sukker og kanel?",
+    "options": [
+      "Skolebrød",
+      "Lefse",
+      "Skillingsbolle",
+      "Vaffel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0xNjox"
+  },
+  {
+    "id": "mat-nor-17",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilken norsk by er spesielt kjent for sine «Skillingsboller»?",
+    "options": [
+      "Oslo",
+      "Bergen",
+      "Trondheim",
+      "Stavanger"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0xNzox"
+  },
+  {
+    "id": "mat-nor-18",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva heter den norske gjærbollen med vaniljekrem i midten, melis og kokos rundt?",
+    "options": [
+      "Berlinerbolle",
+      "Skolebrød",
+      "Solskinnsbolle",
+      "Fastelavnsbolle"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0xODox"
+  },
+  {
+    "id": "mat-nor-19",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilken fisk brukes til å lage «Rakfisk»?",
+    "options": [
+      "Torsk",
+      "Ørret (eller røye)",
+      "Sei",
+      "Kveite"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0xOTox"
+  },
+  {
+    "id": "mat-nor-20",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva heter den finske nasjonalretten/baksten av rugdeig fylt med risengrynsgrøt?",
+    "options": [
+      "Karelsk pirog",
+      "Lohikeitto",
+      "Kalakukko",
+      "Mustikkapiirakka"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0yMDow"
+  },
+  {
+    "id": "mat-nor-21",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilket pålegg er Norges mest solgte gulost?",
+    "options": [
+      "Jarlsberg",
+      "Norvegia",
+      "Synnøve Gulost",
+      "Ridderost"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0yMTox"
+  },
+  {
+    "id": "mat-nor-22",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva heter den norske julekaken som lages med jern og rulles til et kremmerhus mens den er varm?",
+    "options": [
+      "Pepperkake",
+      "Krumkake",
+      "Serinakake",
+      "Sandkake"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0yMjox"
+  },
+  {
+    "id": "mat-nor-23",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilken dag i året spiser nordmenn aller mest «Fårikål» (Fårikålens dag)?",
+    "options": [
+      "Siste torsdag i september",
+      "Første søndag i november",
+      "17. mai",
+      "23. desember"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0yMzow"
+  },
+  {
+    "id": "mat-nor-24",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hva heter den norske kaken med mandelbunn og gul eggekrem på toppen?",
+    "options": [
+      "Verdens beste",
+      "Suksessterte",
+      "Fyrstekake",
+      "Daim-iskake"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0yNDox"
+  },
+  {
+    "id": "mat-nor-25",
+    "category": "Mat & Drikke",
+    "subcategory": "Norsk & nordisk mat",
+    "question": "Hvilken pølse- og lompe-tradisjon er unik for Norge sammenlignet med resten av verden?",
+    "options": [
+      "Pølse i vaffel (kjent fra Moss)",
+      "Pølse med sjokoladesaus",
+      "Pølse i pannekake med kaviar",
+      "Pølse med brunost"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LW5vci0yNTow"
+  },
+  {
+    "id": "mat-dri-2",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken region i Frankrike har enerett på navnet «Champagne»?",
+    "options": [
+      "Bordeaux",
+      "Champagne",
+      "Burgund",
+      "Alsace"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0yOjE="
+  },
+  {
+    "id": "mat-dri-3",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hva er de fire klassiske hovedingrediensene i øl?",
+    "options": [
+      "Vann, malt, humle og gjær",
+      "Vann, sukker, bygg og sitron",
+      "Vann, druer, gjær og krydder",
+      "Vann, hvete, honning og salt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0zOjA="
+  },
+  {
+    "id": "mat-dri-4",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilket krydder gir «Akevitt» sin karakteristiske smak?",
+    "options": [
+      "Kardemomme",
+      "Karve",
+      "Kanel",
+      "Anis"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS00OjE="
+  },
+  {
+    "id": "mat-dri-5",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken brennevinstype lages av blå agave-plante i Mexico?",
+    "options": [
+      "Rom",
+      "Tequila",
+      "Gin",
+      "Whisky"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS01OjE="
+  },
+  {
+    "id": "mat-dri-6",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken frukt eller bær gir «Gin» sin karakteristiske smak?",
+    "options": [
+      "Solbær",
+      "Einerbær",
+      "Blåbær",
+      "Bringebær"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS02OjE="
+  },
+  {
+    "id": "mat-dri-7",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hva heter den italienske musserende vinen som lages i Veneto-regionen?",
+    "options": [
+      "Cava",
+      "Prosecco",
+      "Crémant",
+      "Asti"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS03OjE="
+  },
+  {
+    "id": "mat-dri-8",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilke to ingredienser blandes i drinken «Screwdriver»?",
+    "options": [
+      "Gin og tonic",
+      "Vodka og appelsinjuice",
+      "Rom og cola",
+      "Tequila og lime"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS04OjE="
+  },
+  {
+    "id": "mat-dri-9",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hva står forkortelsen «IPA» for i ølverdenen?",
+    "options": [
+      "International Pale Ale",
+      "India Pale Ale",
+      "Irish Porter Ale",
+      "Imperial Pilsner Ale"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS05OjE="
+  },
+  {
+    "id": "mat-dri-10",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken drink består av prosecco, Aperol og soda?",
+    "options": [
+      "Negroni",
+      "Aperol Spritz",
+      "Bellini",
+      "Campari Soda"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0xMDox"
+  },
+  {
+    "id": "mat-dri-11",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilket land kommer det mørke ølet «Guinness» fra?",
+    "options": [
+      "Skottland",
+      "Irland",
+      "England",
+      "Wales"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0xMTox"
+  },
+  {
+    "id": "mat-dri-12",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hva heter den spanske rødvinsdrinken med oppskåret frukt?",
+    "options": [
+      "Margarita",
+      "Sangria",
+      "Daiquiri",
+      "Caipirinha"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0xMjox"
+  },
+  {
+    "id": "mat-dri-13",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken norsk akevitt sendes med skip over ekvator og tilbake før den tappes på flaske?",
+    "options": [
+      "Gammel Opland",
+      "Linie Aquavit",
+      "Lysholm",
+      "Løiten"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0xMzox"
+  },
+  {
+    "id": "mat-dri-14",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hva heter den kjente grønne urtelikøren som ofte forbindes med alpemunker, nei – hva er hovedingrediensen i «Pina Colada» sammen med rom og ananas?",
+    "options": [
+      "Mangosirup",
+      "Kokosmelk/kokoskrem",
+      "Fløte",
+      "Pasjonsfrukt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0xNDox"
+  },
+  {
+    "id": "mat-dri-15",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken drue er verdens mest brukte til hvitvin, kjent fra både Chablis og Champagne?",
+    "options": [
+      "Riesling",
+      "Chardonnay",
+      "Sauvignon Blanc",
+      "Pinot Grigio"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0xNTox"
+  },
+  {
+    "id": "mat-dri-16",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hva heter den klassiske drinken med vodka, kaffelikør (Kahlúa) og fløte?",
+    "options": [
+      "Espresso Martini",
+      "White Russian",
+      "Black Russian",
+      "Irish Coffee"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0xNjox"
+  },
+  {
+    "id": "mat-dri-17",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken brennevinstype brukes i en ekte «Irish Coffee»?",
+    "options": [
+      "Skotsk whisky",
+      "Irsk whiskey",
+      "Konjakk",
+      "Rom"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0xNzox"
+  },
+  {
+    "id": "mat-dri-18",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hva heter den spanske musserende vinen?",
+    "options": [
+      "Prosecco",
+      "Cava",
+      "Sekt",
+      "Spumante"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0xODox"
+  },
+  {
+    "id": "mat-dri-19",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken drink bestiller James Bond ofte «shaken, not stirred»?",
+    "options": [
+      "Manhattan",
+      "Dry Martini (Vodka Martini)",
+      "Old Fashioned",
+      "Negroni"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0xOTox"
+  },
+  {
+    "id": "mat-dri-20",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken frukt lages «Cider» tradisjonelt av?",
+    "options": [
+      "Druer",
+      "Epler (eller pærer)",
+      "Plommer",
+      "Kirsebær"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0yMDox"
+  },
+  {
+    "id": "mat-dri-21",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hva heter den italienske rødvinen som lages av tørkede druer i Valpolicella?",
+    "options": [
+      "Chianti",
+      "Amarone",
+      "Barolo",
+      "Brunello"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0yMTox"
+  },
+  {
+    "id": "mat-dri-22",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken drink lages av bourbon/whiskey, sukker, bitter og appelsinskall?",
+    "options": [
+      "Whiskey Sour",
+      "Old Fashioned",
+      "Mint Julep",
+      "Sazerac"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0yMjox"
+  },
+  {
+    "id": "mat-dri-23",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hva heter den japanske alkoholholdige drikken som ofte kalles «risvin»?",
+    "options": [
+      "Soju",
+      "Sake",
+      "Baijiu",
+      "Mirin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0yMzox"
+  },
+  {
+    "id": "mat-dri-24",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hvilken gresk brennevin smaker tydelig av anis og blir hvit når du tilsetter vann?",
+    "options": [
+      "Raki",
+      "Ouzo",
+      "Metaxa",
+      "Tsipouro"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0yNDox"
+  },
+  {
+    "id": "mat-dri-25",
+    "category": "Mat & Drikke",
+    "subcategory": "Vin, øl & drinker",
+    "question": "Hva kalles en vinflaske som rommer 1,5 liter (tilsvarer to vanlige flasker)?",
+    "options": [
+      "Jeroboam",
+      "Magnum",
+      "Double Magnum",
+      "Imperial"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWRyaS0yNTox"
+  },
+  {
+    "id": "mat-kaf-2",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilket land er verdens største produsent av kaffebønner?",
+    "options": [
+      "Colombia",
+      "Brasil",
+      "Vietnam",
+      "Etiopia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0yOjE="
+  },
+  {
+    "id": "mat-kaf-3",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva heter den italienske kaffedrikken som består av én shot espresso og mye varm, steamet melk?",
+    "options": [
+      "Macchiato",
+      "Caffè latte",
+      "Cortado",
+      "Americano"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0zOjE="
+  },
+  {
+    "id": "mat-kaf-4",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilket krydder brukes i norsk «Skillingsbolle» og på risengrynsgrøt?",
+    "options": [
+      "Kardemomme",
+      "Kanel",
+      "Nellik",
+      "Ingefær"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi00OjE="
+  },
+  {
+    "id": "mat-kaf-5",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva lages ekte marsipan hovedsakelig av (sammen med sukker)?",
+    "options": [
+      "Hasselnøtter",
+      "Mandler",
+      "Valnøtter",
+      "Pistasjnøtter"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi01OjE="
+  },
+  {
+    "id": "mat-kaf-6",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilken norsk sjokolade har slagordet «Et lite stykke Norge»?",
+    "options": [
+      "Stratos",
+      "Kvikk Lunsj",
+      "Freia Melkesjokolade",
+      "Troika"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi02OjI="
+  },
+  {
+    "id": "mat-kaf-7",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva heter den sterke, svarte kaffen som brygges under høyt trykk i en liten kopp?",
+    "options": [
+      "Filterkaffe",
+      "Espresso",
+      "Presskanne",
+      "Kokekaffe"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi03OjE="
+  },
+  {
+    "id": "mat-kaf-8",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilket krydder gir lakris sin karakteristiske smak?",
+    "options": [
+      "Koriander",
+      "Lakrisrot",
+      "Spisskummen",
+      "Muskat"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi04OjE="
+  },
+  {
+    "id": "mat-kaf-9",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilket land er berømt for sjokolademerker som Toblerone og Lindt?",
+    "options": [
+      "Belgia",
+      "Sveits",
+      "Tyskland",
+      "Frankrike"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi05OjE="
+  },
+  {
+    "id": "mat-kaf-10",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva heter de tre lagene i den norske sjokoladen «Troika»?",
+    "options": [
+      "Karamell, nøtter og marsipan",
+      "Gelé, trøffel og marsipan",
+      "Nougat, kjeks og gelé",
+      "Krokant, marsipan og krem"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0xMDox"
+  },
+  {
+    "id": "mat-kaf-11",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilken plante kommer vanilje opprinnelig fra?",
+    "options": [
+      "En kaktus",
+      "En orkidé",
+      "Et sitrustre",
+      "En bregne"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0xMTox"
+  },
+  {
+    "id": "mat-kaf-12",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva heter den japanske grønne teen som er malt til et fint pulver?",
+    "options": [
+      "Oolong",
+      "Matcha",
+      "Sencha",
+      "Earl Grey"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0xMjox"
+  },
+  {
+    "id": "mat-kaf-13",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilket krydder er vanligst å bruke i norske hveteboller?",
+    "options": [
+      "Kanel",
+      "Kardemomme",
+      "Anis",
+      "Safran"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0xMzox"
+  },
+  {
+    "id": "mat-kaf-14",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva heter verdens dyreste krydder, som høstes for hånd fra krokusblomster?",
+    "options": [
+      "Vanilje",
+      "Safran",
+      "Kardemomme",
+      "Stjerneanis"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0xNDox"
+  },
+  {
+    "id": "mat-kaf-15",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilken ingrediens gir «Earl Grey»-te sin karakteristiske smak?",
+    "options": [
+      "Lavendel",
+      "Bergamott (sitrusfrukt)",
+      "Peppermynte",
+      "Jasmine"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0xNTox"
+  },
+  {
+    "id": "mat-kaf-16",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva heter den klassiske norske tursjokoladen med fire kjeksstaver dekket av melkesjokolade?",
+    "options": [
+      "New Energy",
+      "Kvikk Lunsj",
+      "Smil",
+      "Crispo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0xNjox"
+  },
+  {
+    "id": "mat-kaf-17",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilket stoff i chili gir den brennende smaken?",
+    "options": [
+      "Koffein",
+      "Capsaicin",
+      "Piperin",
+      "Mentol"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0xNzox"
+  },
+  {
+    "id": "mat-kaf-18",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva heter den franske småkaken laget av mandelmel, eggehvite og sukker, med fyll mellom to halvdeler?",
+    "options": [
+      "Madeleine",
+      "Makron",
+      "Éclair",
+      "Canelé"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0xODox"
+  },
+  {
+    "id": "mat-kaf-19",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilken kaffedrikk består av espresso blandet med varmt vann?",
+    "options": [
+      "Cappuccino",
+      "Americano",
+      "Cortado",
+      "Ristretto"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0xOTox"
+  },
+  {
+    "id": "mat-kaf-20",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilket krydder brukes ofte i tacokrydder og gir en varm, jordaktig smak?",
+    "options": [
+      "Timian",
+      "Spisskummen",
+      "Rosmarin",
+      "Oregano"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0yMDox"
+  },
+  {
+    "id": "mat-kaf-21",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva heter den norske godteriposene med små fruktdrops som har eksistert siden 1912?",
+    "options": [
+      "Seigmenn",
+      "Knott",
+      "Kamferdrops",
+      "Kongen av Danmark"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0yMTox"
+  },
+  {
+    "id": "mat-kaf-22",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva er kakao laget av?",
+    "options": [
+      "Kaffebønner",
+      "Kakaobønner (frø fra kakaotreet)",
+      "Johannesbrød",
+      "Hasselnøtter"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0yMjox"
+  },
+  {
+    "id": "mat-kaf-23",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilken plante kommer både svart, grønn og hvit te fra?",
+    "options": [
+      "Kaffeplanten",
+      "Teplanten (Camellia sinensis)",
+      "Yerba mate",
+      "Rooibos"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0yMzox"
+  },
+  {
+    "id": "mat-kaf-24",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hva heter den italienske kaffedrikken med like deler espresso, varm melk og melkeskum?",
+    "options": [
+      "Latte macchiato",
+      "Cappuccino",
+      "Flat white",
+      "Mocha"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0yNDox"
+  },
+  {
+    "id": "mat-kaf-25",
+    "category": "Mat & Drikke",
+    "subcategory": "Kaffe, krydder & søtsaker",
+    "question": "Hvilket søtningsmiddel lages av nektar samlet inn av bier?",
+    "options": [
+      "Lønnesirup",
+      "Honning",
+      "Agavesirup",
+      "Melasse"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bWF0LWthZi0yNTox"
   }
 ]

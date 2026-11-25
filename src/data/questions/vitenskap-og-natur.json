@@ -54,5 +54,1349 @@
     ],
     "answerToken": "dml0LWZ5cy0xOjI=",
     "addedAt": "2026-11-25"
+  },
+  {
+    "id": "vit-rom-2",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvilken planet er nærmest Solen?",
+    "options": [
+      "Venus",
+      "Merkur",
+      "Mars",
+      "Jorden"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0yOjE="
+  },
+  {
+    "id": "vit-rom-3",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvilken planet i solsystemet vårt er størst?",
+    "options": [
+      "Saturn",
+      "Jupiter",
+      "Neptun",
+      "Uranus"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0zOjE="
+  },
+  {
+    "id": "vit-rom-4",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvilken planet kalles «Den røde planet»?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Merkur"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS00OjE="
+  },
+  {
+    "id": "vit-rom-5",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvilken planet er mest kjent for sine tydelige ringer?",
+    "options": [
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptun"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS01OjE="
+  },
+  {
+    "id": "vit-rom-6",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva heter galaksen som solsystemet vårt ligger i?",
+    "options": [
+      "Andromeda",
+      "Melkeveien",
+      "Sombrero",
+      "Triangulum"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS02OjE="
+  },
+  {
+    "id": "vit-rom-7",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvor mange planeter regnes det å være i solsystemet vårt (etter at Pluto ble dvergplanet)?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS03OjE="
+  },
+  {
+    "id": "vit-rom-8",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvilken planet er den varmeste i solsystemet vårt på grunn av en ekstrem drivhuseffekt?",
+    "options": [
+      "Merkur",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS04OjE="
+  },
+  {
+    "id": "vit-rom-9",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva heter den nærmeste stjernen til Jorden (etter Solen)?",
+    "options": [
+      "Sirius",
+      "Proxima Centauri",
+      "Betelgeuse",
+      "Polaris"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS05OjE="
+  },
+  {
+    "id": "vit-rom-10",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva heter romteleskopet som ble skutt opp i 2021 for å etterfølge Hubble?",
+    "options": [
+      "Kepler",
+      "James Webb-teleskopet",
+      "Spitzer",
+      "Chandra"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0xMDox"
+  },
+  {
+    "id": "vit-rom-11",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvilket fenomen oppstår når Månen passerer rett mellom Solen og Jorden?",
+    "options": [
+      "Måneformørkelse",
+      "Solformørkelse",
+      "Nordlys",
+      "Tidevann"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0xMTox"
+  },
+  {
+    "id": "vit-rom-12",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva heter den største månen til Saturn?",
+    "options": [
+      "Europa",
+      "Titan",
+      "Ganymedes",
+      "Io"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0xMjox"
+  },
+  {
+    "id": "vit-rom-13",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvilken planet ligger lengst unna Solen av de åtte planetene?",
+    "options": [
+      "Uranus",
+      "Neptun",
+      "Saturn",
+      "Pluto"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0xMzox"
+  },
+  {
+    "id": "vit-rom-14",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva kalles teorien om at universet oppsto i en enorm utvidelse for rundt 13,8 milliarder år siden?",
+    "options": [
+      "Relativitetsteorien",
+      "Big Bang",
+      "Strengteorien",
+      "Kvantemekanikk"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0xNDox"
+  },
+  {
+    "id": "vit-rom-15",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva heter den internasjonale romstasjonen som går i bane rundt Jorden?",
+    "options": [
+      "Mir",
+      "ISS (International Space Station)",
+      "Skylab",
+      "Tiangong"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0xNTox"
+  },
+  {
+    "id": "vit-rom-16",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvilken norsk-amerikansk eller amerikansk romfartsorganisasjon står bak Apollo- og Artemis-programmene?",
+    "options": [
+      "ESA",
+      "NASA",
+      "Roskosmos",
+      "SpaceX"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0xNjox"
+  },
+  {
+    "id": "vit-rom-17",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva forårsaker hovedsakelig tidevannet (flo og fjære) på Jorden?",
+    "options": [
+      "Vinden",
+      "Månens (og Solens) tyngdekraft",
+      "Jordens rotasjon alene",
+      "Havstrømmer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0xNzox"
+  },
+  {
+    "id": "vit-rom-18",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva kalles et himmellegeme der tyngdekraften er så sterk at ikke engang lys kan slippe ut?",
+    "options": [
+      "Nøytronstjerne",
+      "Svart hull",
+      "Hvit dverg",
+      "Supernova"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0xODox"
+  },
+  {
+    "id": "vit-rom-19",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvor lang tid bruker Jorden på én runde rundt Solen?",
+    "options": [
+      "24 timer",
+      "Omtrent 365,25 dager (ett år)",
+      "28 dager",
+      "100 dager"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0xOTox"
+  },
+  {
+    "id": "vit-rom-20",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva heter den kjente kometen som passerer Jorden omtrent hvert 75.–76. år?",
+    "options": [
+      "Hale-Bopp",
+      "Halleys komet",
+      "Shoemaker-Levy",
+      "Neowise"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0yMDox"
+  },
+  {
+    "id": "vit-rom-21",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvilket selskap grunnlagt av Elon Musk lager gjenbrukbare raketter som Falcon 9?",
+    "options": [
+      "Blue Origin",
+      "SpaceX",
+      "Virgin Galactic",
+      "Boeing"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0yMTox"
+  },
+  {
+    "id": "vit-rom-22",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva heter de to vanligste grunnstoffene som Solen består av?",
+    "options": [
+      "Oksygen og nitrogen",
+      "Hydrogen og helium",
+      "Karbon og jern",
+      "Neon og argon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0yMjox"
+  },
+  {
+    "id": "vit-rom-23",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva heter det fargerike lyset på nattehimmelen i nordområdene som skyldes solvind mot jordens magnetfelt?",
+    "options": [
+      "Regnbue",
+      "Nordlys (Aurora borealis)",
+      "Morild",
+      "Komet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0yMzox"
+  },
+  {
+    "id": "vit-rom-24",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hvilken stjerne brukes tradisjonelt til å finne retningen rett nord på den nordlige halvkule?",
+    "options": [
+      "Sirius",
+      "Polarstjernen (Nordstjernen)",
+      "Vega",
+      "Aldebaran"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0yNDox"
+  },
+  {
+    "id": "vit-rom-25",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Verdensrommet",
+    "question": "Hva heter måneprogrammet der NASA planlegger å sende mennesker tilbake til månen på 2020-tallet?",
+    "options": [
+      "Apollo",
+      "Artemis",
+      "Gemini",
+      "Mercury"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LXJvbS0yNTox"
+  },
+  {
+    "id": "vit-dyr-2",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket dyr er verdens største pattedyr (og største dyr som noen gang har levd)?",
+    "options": [
+      "Afrikansk elefant",
+      "Blåhval",
+      "Spermhval",
+      "Hvalhai"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0yOjE="
+  },
+  {
+    "id": "vit-dyr-3",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvor mange armer har en vanlig blekksprut (octopus)?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0zOjE="
+  },
+  {
+    "id": "vit-dyr-4",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket dyr er kjent for å være verdens høyeste landdyr?",
+    "options": [
+      "Elefant",
+      "Sjiraff",
+      "Struts",
+      "Kamel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci00OjE="
+  },
+  {
+    "id": "vit-dyr-5",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilken fugl kan ikke fly, men er verdens største og raskeste fugl på land?",
+    "options": [
+      "Pingvin",
+      "Struts",
+      "Emu",
+      "Kiwi"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci01OjE="
+  },
+  {
+    "id": "vit-dyr-6",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket pattedyr er det eneste som kan fly aktivt?",
+    "options": [
+      "Flygeekorn",
+      "Flaggermus",
+      "Sukkerflyger",
+      "Kolibri"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci02OjE="
+  },
+  {
+    "id": "vit-dyr-7",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hva lever kjempepandaen nesten utelukkende av?",
+    "options": [
+      "Eukalyptus",
+      "Bambus",
+      "Bær",
+      "Fisk"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci03OjE="
+  },
+  {
+    "id": "vit-dyr-8",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket norsk rovdyr er det største?",
+    "options": [
+      "Ulv",
+      "Brunbjørn",
+      "Gaupe",
+      "Jerv"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci04OjE="
+  },
+  {
+    "id": "vit-dyr-9",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvor mange hjerter har en blekksprut?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci05OjI="
+  },
+  {
+    "id": "vit-dyr-10",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket dyr i Australia bærer ungen sin i en pung på magen og hopper på bakbeina?",
+    "options": [
+      "Koala",
+      "Kenguru",
+      "Wombat",
+      "Nebbdyr"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0xMDox"
+  },
+  {
+    "id": "vit-dyr-11",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket sjødyr har en hann som «føder» ungene (bærer eggene i en rugepose)?",
+    "options": [
+      "Delfin",
+      "Sjøhest",
+      "Krabbe",
+      "Sjøstjerne"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0xMTox"
+  },
+  {
+    "id": "vit-dyr-12",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilken fugl kan fly baklengs og slå med vingene opptil 80 ganger i sekundet?",
+    "options": [
+      "Svale",
+      "Kolibri",
+      "Isfugl",
+      "Spurv"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0xMjox"
+  },
+  {
+    "id": "vit-dyr-13",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hva kalles en gruppe med ulver?",
+    "options": [
+      "Stime",
+      "Flokk",
+      "Sverm",
+      "Bøling"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0xMzox"
+  },
+  {
+    "id": "vit-dyr-14",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket dyr er kjent for å skifte farge for kamuflasje og kommunikasjon?",
+    "options": [
+      "Iguan",
+      "Kameleon",
+      "Gekko",
+      "Salamander"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0xNDox"
+  },
+  {
+    "id": "vit-dyr-15",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket hjortedyr i Norge har verdens største gevir blant hjortedyr?",
+    "options": [
+      "Hjort",
+      "Elg",
+      "Rådyr",
+      "Rein"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0xNTox"
+  },
+  {
+    "id": "vit-dyr-16",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvor mange bein har en edderkopp?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0xNjox"
+  },
+  {
+    "id": "vit-dyr-17",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket dyr legger egg selv om det er et pattedyr?",
+    "options": [
+      "Pinnsvin",
+      "Nebbdyr",
+      "Armadillo",
+      "Dovendyr"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0xNzox"
+  },
+  {
+    "id": "vit-dyr-18",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilken farge har huden til en isbjørn under den hvite pelsen?",
+    "options": [
+      "Rosa",
+      "Svart",
+      "Hvit",
+      "Grå"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0xODox"
+  },
+  {
+    "id": "vit-dyr-19",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket insekt produserer honning?",
+    "options": [
+      "Veps",
+      "Honningbie",
+      "Humle",
+      "Maur"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0xOTox"
+  },
+  {
+    "id": "vit-dyr-20",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hva heter Norges nasjonalfugl?",
+    "options": [
+      "Havørn",
+      "Fossekall",
+      "Lunde",
+      "Rype"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0yMDox"
+  },
+  {
+    "id": "vit-dyr-21",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket dyr er verdens største nålevende reptil?",
+    "options": [
+      "Komodovaran",
+      "Saltvannskrokodille",
+      "Grønn anakonda",
+      "Lærskilpadde"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0yMTox"
+  },
+  {
+    "id": "vit-dyr-22",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvor lenge kan en vanlig snegle sove i strekk hvis været er tørt?",
+    "options": [
+      "Opptil 1 uke",
+      "Opptil 3 år",
+      "Opptil 1 måned",
+      "Den sover aldri"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0yMjox"
+  },
+  {
+    "id": "vit-dyr-23",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilket dyr bruker ekkolokalisering for å finne mat både i mørket og under vann (f.eks. delfiner)?",
+    "options": [
+      "Hai",
+      "Delfin",
+      "Sel",
+      "Laks"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0yMzox"
+  },
+  {
+    "id": "vit-dyr-24",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hvilken fugl er kjent for å være et symbol på visdom i mange fortellinger?",
+    "options": [
+      "Kråke",
+      "Ugle",
+      "Falke",
+      "Svane"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0yNDox"
+  },
+  {
+    "id": "vit-dyr-25",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Dyreriket",
+    "question": "Hva heter verdens største landlevende dyr?",
+    "options": [
+      "Flodhest",
+      "Afrikansk savanneelefant",
+      "Neshorn",
+      "Sjiraff"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWR5ci0yNTox"
+  },
+  {
+    "id": "vit-kropp-2",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvor mange bein er det omtrent i skjelettet til et voksent menneske?",
+    "options": [
+      "156",
+      "206",
+      "256",
+      "306"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTI6MQ=="
+  },
+  {
+    "id": "vit-kropp-3",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hva er kroppens største organ?",
+    "options": [
+      "Leveren",
+      "Huden",
+      "Lungene",
+      "Tynntarmen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTM6MQ=="
+  },
+  {
+    "id": "vit-kropp-4",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvilken blodtype regnes som «universalgiver» av røde blodceller?",
+    "options": [
+      "AB+",
+      "0- (Null negativ)",
+      "A+",
+      "B-"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTQ6MQ=="
+  },
+  {
+    "id": "vit-kropp-5",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvilket vitamin danner kroppen vår når huden utsettes for sollys?",
+    "options": [
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin B12",
+      "Vitamin A"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTU6MQ=="
+  },
+  {
+    "id": "vit-kropp-6",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hva heter kroppens lengste og sterkeste knokkel?",
+    "options": [
+      "Overarmsbeinet",
+      "Lårbeinet",
+      "Leggbeinet",
+      "Ryggraden"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTY6MQ=="
+  },
+  {
+    "id": "vit-kropp-7",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvor i kroppen finner vi de tre minste knoklene (hammeren, ambolten og stigbøylen)?",
+    "options": [
+      "Nesen",
+      "Øret",
+      "Hånden",
+      "Foten"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTc6MQ=="
+  },
+  {
+    "id": "vit-kropp-8",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvor mange tenner har et voksent menneske normalt (inklusive visdomstenner)?",
+    "options": [
+      "28",
+      "32",
+      "36",
+      "24"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTg6MQ=="
+  },
+  {
+    "id": "vit-kropp-9",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hva heter proteinet i røde blodceller som frakter oksygen rundt i kroppen?",
+    "options": [
+      "Insulin",
+      "Hemoglobin",
+      "Kollagen",
+      "Keratin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTk6MQ=="
+  },
+  {
+    "id": "vit-kropp-10",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvilket organ produserer hormonet insulin?",
+    "options": [
+      "Leveren",
+      "Bukspyttkjertelen",
+      "Nyrene",
+      "Milten"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTEwOjE="
+  },
+  {
+    "id": "vit-kropp-11",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hva er normal kroppstemperatur for et friskt menneske?",
+    "options": [
+      "35,5 °C",
+      "Rundt 37 °C",
+      "38,5 °C",
+      "39,0 °C"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTExOjE="
+  },
+  {
+    "id": "vit-kropp-12",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvor mange kromosomer har en vanlig menneskecelle?",
+    "options": [
+      "23",
+      "46",
+      "48",
+      "52"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTEyOjE="
+  },
+  {
+    "id": "vit-kropp-13",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hva kalles kroppens største indre organ (som blant annet renser blodet og produserer galle)?",
+    "options": [
+      "Nyren",
+      "Leveren",
+      "Magesekken",
+      "Hjertet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTEzOjE="
+  },
+  {
+    "id": "vit-kropp-14",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvilken del av øyet gir øyet sin farge (blå, brun, grønn)?",
+    "options": [
+      "Hornhinnen",
+      "Regnbuehinnen (iris)",
+      "Netthinnen",
+      "Pupillen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTE0OjE="
+  },
+  {
+    "id": "vit-kropp-15",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvor mange liter blod har et voksent menneske omtrent i kroppen?",
+    "options": [
+      "2–3 liter",
+      "4,5–5,5 liter",
+      "8–9 liter",
+      "10–12 liter"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTE1OjE="
+  },
+  {
+    "id": "vit-kropp-16",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvilket mineral er viktigst for å bygge sterke bein og tenner?",
+    "options": [
+      "Jern",
+      "Kalsium",
+      "Kalium",
+      "Sink"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTE2OjE="
+  },
+  {
+    "id": "vit-kropp-17",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hva heter den store muskelen som skiller brysthulen fra bukhulen og styrer pusten?",
+    "options": [
+      "Biceps",
+      "Mellomgulvet (diafragma)",
+      "Triceps",
+      "Trapesmuskelen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTE3OjE="
+  },
+  {
+    "id": "vit-kropp-18",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvilke fem grunnsmaker kan tungen vår kjenne?",
+    "options": [
+      "Søtt, surt, salt, bittert og umami",
+      "Søtt, surt, sterkt, salt og bittert",
+      "Søtt, krydret, salt, fett og surt",
+      "Søtt, surt, salt, syrlig og varmt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTE4OjA="
+  },
+  {
+    "id": "vit-kropp-19",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hva heter syren som finnes i magesekken for å bryte ned mat og drepe bakterier?",
+    "options": [
+      "Sitronsyre",
+      "Saltsyre (magesyre)",
+      "Eddiksyre",
+      "Svovelsyre"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTE5OjE="
+  },
+  {
+    "id": "vit-kropp-20",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvilket stoff utskilles i kroppen når vi blir redde eller spente («fight or flight»)?",
+    "options": [
+      "Melatonin",
+      "Adrenalin",
+      "Serotonin",
+      "Østrogen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTIwOjE="
+  },
+  {
+    "id": "vit-kropp-21",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hva heter det harde stoffet som dekker utsiden av tennene våre?",
+    "options": [
+      "Dentin",
+      "Emalje",
+      "Keratin",
+      "Kalsitt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTIxOjE="
+  },
+  {
+    "id": "vit-kropp-22",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvor mange nyrer har et menneske vanligvis?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTIyOjE="
+  },
+  {
+    "id": "vit-kropp-23",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hva heter hormonet som gjør oss søvnige når det blir mørkt?",
+    "options": [
+      "Dopamin",
+      "Melatonin",
+      "Kortisol",
+      "Endorfin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTIzOjE="
+  },
+  {
+    "id": "vit-kropp-24",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hvilken del av kroppen produserer neglene og håret vårt (av proteinet keratin)?",
+    "options": [
+      "Skjelettet",
+      "Huden (hårsekker og negleseng)",
+      "Blodet",
+      "Musklene"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTI0OjE="
+  },
+  {
+    "id": "vit-kropp-25",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Menneskekroppen & helse",
+    "question": "Hva heter blodårene som fører blod *bort fra* hjertet?",
+    "options": [
+      "Vener",
+      "Arterier (pulsårer)",
+      "Kapillærer",
+      "Lymfeårer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWtyb3BwLTI1OjE="
+  },
+  {
+    "id": "vit-fys-2",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hva er den kjemiske formelen for vann?",
+    "options": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0yOjE="
+  },
+  {
+    "id": "vit-fys-3",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Ved hvilken temperatur koker rent vann ved normalt lufttrykk?",
+    "options": [
+      "90 °C",
+      "100 °C",
+      "110 °C",
+      "120 °C"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0zOjE="
+  },
+  {
+    "id": "vit-fys-4",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvilken gass utgjør omtrent 78 % av luften vi puster inn?",
+    "options": [
+      "Oksygen",
+      "Nitrogen",
+      "Karbondioksid",
+      "Argon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy00OjE="
+  },
+  {
+    "id": "vit-fys-5",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hva står «E», «m» og «c» for i Einsteins berømte formel E = mc²?",
+    "options": [
+      "Elektrisitet, masse og kraft",
+      "Energi, masse og lysets hastighet",
+      "Energi, meter og celsius",
+      "Effekt, masse og tid"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy01OjE="
+  },
+  {
+    "id": "vit-fys-6",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvilket grunnstoff har det kjemiske symbolet Fe?",
+    "options": [
+      "Fluor",
+      "Jern",
+      "Fosfor",
+      "Fermium"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy02OjE="
+  },
+  {
+    "id": "vit-fys-7",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hva måler man med enheten «volt»?",
+    "options": [
+      "Strømstyrke",
+      "Elektrisk spenning",
+      "Motstand",
+      "Effekt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy03OjE="
+  },
+  {
+    "id": "vit-fys-8",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvilket metall er flytende ved romtemperatur?",
+    "options": [
+      "Bly",
+      "Kvikksølv",
+      "Tinn",
+      "Sink"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy04OjE="
+  },
+  {
+    "id": "vit-fys-9",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hva er pH-verdien til rent, nøytralt vann?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "10"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy05OjE="
+  },
+  {
+    "id": "vit-fys-10",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hva står forkortelsen «CPU» for i en datamaskin?",
+    "options": [
+      "Central Power Unit",
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Core Program Unit"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0xMDox"
+  },
+  {
+    "id": "vit-fys-11",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvilket grunnstoff er verdens hardeste naturlige mineral (diamant) laget av?",
+    "options": [
+      "Silisium",
+      "Karbon",
+      "Bor",
+      "Titanium"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0xMTox"
+  },
+  {
+    "id": "vit-fys-12",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvor fort beveger lyset seg i vakuum (omtrent)?",
+    "options": [
+      "30 000 km/s",
+      "300 000 km/s",
+      "3 000 km/s",
+      "3 000 000 km/s"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0xMjox"
+  },
+  {
+    "id": "vit-fys-13",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hva står forkortelsen «USB» for?",
+    "options": [
+      "Universal System Bus",
+      "Universal Serial Bus",
+      "United Storage Bridge",
+      "Ultra Speed Byte"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0xMzox"
+  },
+  {
+    "id": "vit-fys-14",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvilken gass bruker planter i fotosyntesen (sammen med vann og sollys) for å lage sukker og oksygen?",
+    "options": [
+      "Metan",
+      "Karbondioksid (CO2)",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0xNDox"
+  },
+  {
+    "id": "vit-fys-15",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hva heter den minste byggesteinen i et grunnstoff?",
+    "options": [
+      "Molekyl",
+      "Atom",
+      "Celle",
+      "Ion"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0xNTox"
+  },
+  {
+    "id": "vit-fys-16",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hva måler man med enheten «watt»?",
+    "options": [
+      "Spenning",
+      "Effekt (energi per sekund)",
+      "Motstand",
+      "Ladning"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0xNjox"
+  },
+  {
+    "id": "vit-fys-17",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvilket år ble den første iPhone-modellen lansert av Apple?",
+    "options": [
+      "2005",
+      "2007",
+      "2009",
+      "2010"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0xNzox"
+  },
+  {
+    "id": "vit-fys-18",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hva er vanlig bordsalt laget av kjemisk sett?",
+    "options": [
+      "Kaliumklorid",
+      "Natriumklorid (NaCl)",
+      "Kalsiumkarbonat",
+      "Magnesiumsulfat"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0xODox"
+  },
+  {
+    "id": "vit-fys-19",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvilken teknologi bruker radiobølger over kort avstand og er oppkalt etter en dansk vikingkonge (Harald Blåtann)?",
+    "options": [
+      "Wi-Fi",
+      "Bluetooth",
+      "NFC",
+      "5G"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0xOTox"
+  },
+  {
+    "id": "vit-fys-20",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvor mange bits er det i én byte?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0yMDox"
+  },
+  {
+    "id": "vit-fys-21",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvilken farge har bølgelengde lengst ut i det synlige lysspekteret (lengst bølgelengde)?",
+    "options": [
+      "Blå",
+      "Rød",
+      "Fiolett",
+      "Grønn"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0yMTox"
+  },
+  {
+    "id": "vit-fys-22",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hva heter prosessen der vann går fra flytende form til gass (vanndamp)?",
+    "options": [
+      "Kondensasjon",
+      "Fordamping",
+      "Smelting",
+      "Sublimasjon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0yMjox"
+  },
+  {
+    "id": "vit-fys-23",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvilket grunnstoff har atomnummer 1 i periodesystemet?",
+    "options": [
+      "Helium",
+      "Hydrogen",
+      "Litium",
+      "Karbon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0yMzox"
+  },
+  {
+    "id": "vit-fys-24",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hva står forkortelsen «GPS» for?",
+    "options": [
+      "General Positioning System",
+      "Global Positioning System",
+      "Global Path Satellite",
+      "Geo Point Service"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0yNDox"
+  },
+  {
+    "id": "vit-fys-25",
+    "category": "Vitenskap & Natur",
+    "subcategory": "Fysikk, kjemi & teknologi",
+    "question": "Hvilken enhet brukes for å måle lydstyrke?",
+    "options": [
+      "Hertz",
+      "Desibel",
+      "Lumen",
+      "Kelvin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "dml0LWZ5cy0yNTox"
   }
 ]
