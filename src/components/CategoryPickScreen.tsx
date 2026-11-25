@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowLeft, Check, ChevronRight, Layers, Mic } from 'lucide-react';
+import { ArrowLeft, Check, Layers, Mic, SlidersHorizontal } from 'lucide-react';
 import type { CategoryGroup, PublicGameState } from '../types/quiz';
 
 interface CategoryPickScreenProps {
@@ -167,28 +167,24 @@ export function CategoryPickScreen({
           {state.categoryChoices.map((group) => {
             const isUsed = isGroupUsed(group);
             return (
-              <button
+              <div
                 key={group.category}
-                type="button"
-                disabled={!canPick}
-                onClick={() => {
-                  if (group.subcategories.length > 1) {
-                    openGroup(group);
-                  } else {
-                    onPickCategory(group.category, null);
-                  }
-                }}
-                className={`flex w-full items-center justify-between rounded-2xl border p-4 text-left transition ${
+                className={`flex w-full items-center justify-between gap-2 rounded-2xl border p-2 transition ${
                   canPick
                     ? isUsed
-                      ? 'border-slate-800 bg-slate-900/60 hover:border-indigo-500 hover:bg-slate-800 active:scale-[0.99]'
-                      : 'border-slate-700 bg-slate-900 hover:border-indigo-500 hover:bg-slate-800 active:scale-[0.99]'
+                      ? 'border-slate-800 bg-slate-900/60'
+                      : 'border-slate-700 bg-slate-900'
                     : isUsed
                       ? 'border-slate-800/60 bg-slate-900/35 opacity-60'
                       : 'border-slate-800/80 bg-slate-900/50 opacity-85'
                 }`}
               >
-                <div className="flex items-center gap-3">
+                <button
+                  type="button"
+                  disabled={!canPick}
+                  onClick={() => onPickCategory(group.category, null)}
+                  className="flex min-w-0 flex-1 items-center gap-3 rounded-xl p-2 text-left transition hover:bg-slate-800/70 active:scale-[0.99] disabled:pointer-events-none"
+                >
                   <div
                     className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ${
                       isUsed
@@ -198,22 +194,35 @@ export function CategoryPickScreen({
                   >
                     {isUsed ? <Check className="h-5 w-5" /> : <Layers className="h-5 w-5" />}
                   </div>
-                  <div>
+                  <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-2">
-                      <span className="text-base font-bold text-white">{group.category}</span>
+                      <span className="truncate text-base font-bold text-white">
+                        {group.category}
+                      </span>
                       {isUsed && (
-                        <span className="inline-block rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-emerald-300">
+                        <span className="shrink-0 rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-emerald-300">
                           Spilt
                         </span>
                       )}
                     </div>
-                    <p className="mt-0.5 text-xs text-slate-400 line-clamp-1">
+                    <p className="mt-0.5 truncate text-xs text-slate-400">
                       {group.subcategories.join(' • ')}
                     </p>
                   </div>
-                </div>
-                {canPick && <ChevronRight className="h-5 w-5 shrink-0 text-indigo-400" />}
-              </button>
+                </button>
+
+                {canPick && group.subcategories.length > 1 && (
+                  <button
+                    type="button"
+                    onClick={() => openGroup(group)}
+                    className="flex shrink-0 flex-col items-center justify-center gap-0.5 rounded-xl border border-slate-700/80 bg-slate-800/70 px-3 py-2 text-[10px] font-semibold text-indigo-300 transition hover:border-indigo-500 hover:bg-slate-800 active:scale-95"
+                    title="Velg underkategorier"
+                  >
+                    <SlidersHorizontal className="h-4 w-4" />
+                    <span>Filter</span>
+                  </button>
+                )}
+              </div>
             );
           })}
         </div>
