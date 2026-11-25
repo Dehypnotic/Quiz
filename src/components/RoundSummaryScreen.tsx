@@ -1,11 +1,13 @@
 import { Award, Trophy } from 'lucide-react';
 import type { PublicGameState } from '../types/quiz';
+import { TransferHostCard } from './TransferHostCard';
 
 interface RoundSummaryScreenProps {
   state: PublicGameState;
   myPlayerId: string;
   isHost: boolean;
   onNext: () => void;
+  onTransferHost: (targetPlayerId: string) => void;
 }
 
 export function RoundSummaryScreen({
@@ -13,6 +15,7 @@ export function RoundSummaryScreen({
   myPlayerId,
   isHost,
   onNext,
+  onTransferHost,
 }: RoundSummaryScreenProps) {
   const isQuizmaster =
     state.settings.socialMode === 'quizmaster' && myPlayerId === state.quizmasterId;
@@ -110,6 +113,13 @@ export function RoundSummaryScreen({
           ))}
         </div>
       </div>
+
+      {isHost && (
+        <TransferHostCard
+          players={state.players}
+          onTransferHost={onTransferHost}
+        />
+      )}
 
       {canAdvance ? (
         <button

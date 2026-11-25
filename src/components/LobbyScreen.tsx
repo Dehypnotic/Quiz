@@ -2,12 +2,14 @@ import { useEffect, useState } from 'react';
 import QRCode from 'qrcode';
 import { Check, Copy, Crown, Mic, Smartphone, Users } from 'lucide-react';
 import type { GameSettings, PublicGameState } from '../types/quiz';
+import { TransferHostCard } from './TransferHostCard';
 
 interface LobbyScreenProps {
   state: PublicGameState;
   isHost: boolean;
   onUpdateSettings: (patch: Partial<GameSettings>) => void;
   onStartGame: () => void;
+  onTransferHost: (targetPlayerId: string) => void;
 }
 
 export function LobbyScreen({
@@ -15,6 +17,7 @@ export function LobbyScreen({
   isHost,
   onUpdateSettings,
   onStartGame,
+  onTransferHost,
 }: LobbyScreenProps) {
   const [qrDataUrl, setQrDataUrl] = useState<string>('');
   const [copied, setCopied] = useState(false);
@@ -96,6 +99,14 @@ export function LobbyScreen({
             </div>
           ))}
         </div>
+        {isHost && (
+          <div className="mt-3">
+            <TransferHostCard
+              players={state.players}
+              onTransferHost={onTransferHost}
+            />
+          </div>
+        )}
       </div>
 
       <div className="rounded-3xl border border-slate-800 bg-slate-900/90 p-5 space-y-4">

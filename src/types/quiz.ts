@@ -1,3 +1,5 @@
+import type { SerializedHostState } from '../data/sessionStorage';
+
 export type SocialMode = 'quizmaster' | 'simultaneous';
 
 export type GamePhase =
@@ -127,4 +129,5 @@ export type ClientMessage =
 
 export type HostMessage =
   | { type: 'state_sync'; state: PublicGameState }
+  | { type: 'host_handover'; hostState: SerializedHostState }
   | { type: 'error'; message: string };

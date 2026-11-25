@@ -30,6 +30,7 @@ export function App() {
     resumableSession,
     resumeSession,
     dismissResumableSession,
+    transferHost,
   } = useQuizEngine();
 
   useEffect(() => {
@@ -118,6 +119,7 @@ export function App() {
           isHost={isHost}
           onUpdateSettings={updateSettings}
           onStartGame={startGame}
+          onTransferHost={transferHost}
         />
       )}
 
@@ -174,6 +176,7 @@ export function App() {
           myPlayerId={myPlayerId}
           isHost={isHost}
           onNext={() => sendAction({ type: 'next_step', playerId: myPlayerId })}
+          onTransferHost={transferHost}
         />
       )}
 
@@ -182,6 +185,7 @@ export function App() {
           state={state}
           isHost={isHost}
           onRestart={restartToLobby}
+          onTransferHost={transferHost}
         />
       )}
     </div>

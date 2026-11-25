@@ -12,6 +12,7 @@ import {
   saveActiveSession,
   saveSerializedHostState,
   type ActiveSessionInfo,
+  type SerializedHostState,
 } from '../data/sessionStorage';
 import {
   createGuestSession,
@@ -59,6 +60,61 @@ interface InternalHostState {
   roundFastest: { playerName: string; elapsedMs: number } | null;
   roundAwards: RoundAward[];
   finishedAt: number | null;
+}
+
+function serializeHostState(s: InternalHostState): Omit<SerializedHostState, 'savedAt'> {
+  return {
+    roomCode: s.roomCode,
+    phase: s.phase,
+    settings: s.settings,
+    players: s.players,
+    currentRound: s.currentRound,
+    currentQuestionIndex: s.currentQuestionIndex,
+    currentCategory: s.currentCategory,
+    categoryChoices: s.categoryChoices,
+    usedCategories: [...s.usedCategories],
+    categoryPickerId: s.categoryPickerId,
+    quizmasterId: s.quizmasterId,
+    questionStartTime: s.questionStartTime,
+    roundQuestions: s.roundQuestions,
+    usedQuestionIds: [...s.usedQuestionIds],
+    currentAnswers: [...s.currentAnswers.entries()],
+    doubledPlayerIds: [...s.doubledPlayerIds],
+    lastAnswers: s.lastAnswers,
+    roundFastest: s.roundFastest,
+    roundAwards: s.roundAwards,
+    finishedAt: s.finishedAt,
+  };
+}
+
+function deserializeHostState(
+  rawHost: SerializedHostState,
+  myPlayerId: string
+): InternalHostState {
+  return {
+    roomCode: rawHost.roomCode,
+    phase: rawHost.phase,
+    settings: rawHost.settings,
+    players: rawHost.players.map((p) =>
+      p.id === myPlayerId ? { ...p, connected: true } : p
+    ),
+    currentRound: rawHost.currentRound,
+    currentQuestionIndex: rawHost.currentQuestionIndex,
+    currentCategory: rawHost.currentCategory,
+    categoryChoices: rawHost.categoryChoices,
+    usedCategories: new Set(rawHost.usedCategories),
+    categoryPickerId: rawHost.categoryPickerId,
+    quizmasterId: rawHost.quizmasterId,
+    questionStartTime: rawHost.questionStartTime,
+    roundQuestions: rawHost.roundQuestions,
+    usedQuestionIds: new Set(rawHost.usedQuestionIds),
+    currentAnswers: new Map(rawHost.currentAnswers),
+    doubledPlayerIds: new Set(rawHost.doubledPlayerIds),
+    lastAnswers: rawHost.lastAnswers,
+    roundFastest: rawHost.roundFastest,
+    roundAwards: rawHost.roundAwards,
+    finishedAt: rawHost.finishedAt,
+  };
 }
 
 export type Role = 'none' | 'host' | 'guest';
@@ -137,28 +193,7 @@ export function useQuizEngine() {
 
   const syncAll = useCallback(
     (s: InternalHostState, delayHostMs = 0) => {
-      saveSerializedHostState({
-        roomCode: s.roomCode,
-        phase: s.phase,
-        settings: s.settings,
-        players: s.players,
-        currentRound: s.currentRound,
-        currentQuestionIndex: s.currentQuestionIndex,
-        currentCategory: s.currentCategory,
-        categoryChoices: s.categoryChoices,
-        usedCategories: [...s.usedCategories],
-        categoryPickerId: s.categoryPickerId,
-        quizmasterId: s.quizmasterId,
-        questionStartTime: s.questionStartTime,
-        roundQuestions: s.roundQuestions,
-        usedQuestionIds: [...s.usedQuestionIds],
-        currentAnswers: [...s.currentAnswers.entries()],
-        doubledPlayerIds: [...s.doubledPlayerIds],
-        lastAnswers: s.lastAnswers,
-        roundFastest: s.roundFastest,
-        roundAwards: s.roundAwards,
-        finishedAt: s.finishedAt,
-      });
+      saveSerializedHostState(serializeHostState(s));
 
       hostSessionRef.current?.broadcast((playerId) => ({
         type: 'state_sync',
@@ -512,6 +547,77 @@ export function useQuizEngine() {
     ]
   );
 
+  const startHostFromRestoredState = useCallback(
+    (rawHost: SerializedHostState) => {
+      const restored = deserializeHostState(rawHost, myPlayerId);
+      const myName =
+        restored.players.find((p) => p.id === myPlayerId)?.name || 'Vert';
+
+      hostSessionRef.current?.destroy();
+      guestSessionRef.current?.destroy();
+      hostSessionRef.current = null;
+      guestSessionRef.current = null;
+      setError(null);
+      setRole('host');
+      setConnectionStatus('connecting');
+
+      const session = createHostSession({
+        hostPlayerId: myPlayerId,
+        roomCode: restored.roomCode,
+        initialKnownPlayerIds: restored.players.map((p) => p.id),
+        onReady() {
+          hostStateRef.current = restored;
+          setConnectionStatus('connected');
+          saveActiveSession({
+            role: 'host',
+            roomCode: restored.roomCode,
+            playerName: myName,
+          });
+          setResumableSession(null);
+          syncAll(restored);
+
+          if (restored.phase === 'answering' && restored.questionStartTime !== null) {
+            const remainingMs = Math.max(
+              0,
+              restored.settings.timeLimitSeconds * 1000 +
+                1000 -
+                (Date.now() - restored.questionStartTime)
+            );
+            if (remainingMs > 0) {
+              clearTimer();
+              timerRef.current = window.setTimeout(() => {
+                const current = hostStateRef.current;
+                if (current && current.phase === 'answering') {
+                  finishQuestion(current);
+                }
+              }, remainingMs);
+            } else {
+              finishQuestion(restored);
+            }
+          }
+        },
+        onMessage(msg) {
+          handleClientMessage(msg);
+        },
+        onPlayerDisconnect(playerId) {
+          const s = hostStateRef.current;
+          if (!s) return;
+          const p = s.players.find((pl) => pl.id === playerId);
+          if (p) {
+            p.connected = false;
+            syncAll(s);
+          }
+        },
+        onError(err) {
+          setError(err);
+        },
+      });
+
+      hostSessionRef.current = session;
+    },
+    [finishQuestion, handleClientMessage, myPlayerId, syncAll]
+  );
+
   // Public actions
   const startHosting = useCallback(
     (hostName: string) => {
@@ -618,6 +724,8 @@ export function useQuizEngine() {
         onMessage(msg) {
           if (msg.type === 'state_sync') {
             setPublicState(msg.state);
+          } else if (msg.type === 'host_handover') {
+            startHostFromRestoredState(msg.hostState);
           } else if (msg.type === 'error') {
             setError(msg.message);
           }
@@ -633,7 +741,7 @@ export function useQuizEngine() {
 
       guestSessionRef.current = session;
     },
-    [myPlayerId]
+    [myPlayerId, startHostFromRestoredState]
   );
 
   const updateSettings = useCallback(
@@ -734,88 +842,46 @@ export function useQuizEngine() {
       return;
     }
 
-    const restored: InternalHostState = {
-      roomCode: rawHost.roomCode,
-      phase: rawHost.phase,
-      settings: rawHost.settings,
-      players: rawHost.players.map((p) =>
-        p.id === myPlayerId ? { ...p, connected: true } : p
-      ),
-      currentRound: rawHost.currentRound,
-      currentQuestionIndex: rawHost.currentQuestionIndex,
-      currentCategory: rawHost.currentCategory,
-      categoryChoices: rawHost.categoryChoices,
-      usedCategories: new Set(rawHost.usedCategories),
-      categoryPickerId: rawHost.categoryPickerId,
-      quizmasterId: rawHost.quizmasterId,
-      questionStartTime: rawHost.questionStartTime,
-      roundQuestions: rawHost.roundQuestions,
-      usedQuestionIds: new Set(rawHost.usedQuestionIds),
-      currentAnswers: new Map(rawHost.currentAnswers),
-      doubledPlayerIds: new Set(rawHost.doubledPlayerIds),
-      lastAnswers: rawHost.lastAnswers,
-      roundFastest: rawHost.roundFastest,
-      roundAwards: rawHost.roundAwards,
-      finishedAt: rawHost.finishedAt,
-    };
+    startHostFromRestoredState(rawHost);
+  }, [joinRoom, startHostFromRestoredState]);
 
-    hostSessionRef.current?.destroy();
-    guestSessionRef.current?.destroy();
-    hostSessionRef.current = null;
-    guestSessionRef.current = null;
-    setError(null);
-    setRole('host');
-    setConnectionStatus('connecting');
+  const transferHost = useCallback(
+    (targetPlayerId: string) => {
+      const s = hostStateRef.current;
+      if (!s || role !== 'host') return;
+      if (s.phase !== 'lobby' && s.phase !== 'round_summary' && s.phase !== 'final') {
+        return;
+      }
+      const target = s.players.find(
+        (p) => p.id === targetPlayerId && p.connected && p.id !== myPlayerId
+      );
+      if (!target) return;
 
-    const session = createHostSession({
-      hostPlayerId: myPlayerId,
-      roomCode: restored.roomCode,
-      initialKnownPlayerIds: restored.players.map((p) => p.id),
-      onReady() {
-        hostStateRef.current = restored;
-        setConnectionStatus('connected');
-        setResumableSession(null);
-        syncAll(restored);
+      const myName = s.players.find((p) => p.id === myPlayerId)?.name || 'Spiller';
+      const roomCode = s.roomCode;
 
-        if (restored.phase === 'answering' && restored.questionStartTime !== null) {
-          const remainingMs = Math.max(
-            0,
-            restored.settings.timeLimitSeconds * 1000 +
-              1000 -
-              (Date.now() - restored.questionStartTime)
-          );
-          if (remainingMs > 0) {
-            clearTimer();
-            timerRef.current = window.setTimeout(() => {
-              const current = hostStateRef.current;
-              if (current && current.phase === 'answering') {
-                finishQuestion(current);
-              }
-            }, remainingMs);
-          } else {
-            finishQuestion(restored);
-          }
-        }
-      },
-      onMessage(msg) {
-        handleClientMessage(msg);
-      },
-      onPlayerDisconnect(playerId) {
-        const s = hostStateRef.current;
-        if (!s) return;
-        const p = s.players.find((pl) => pl.id === playerId);
-        if (p) {
-          p.connected = false;
-          syncAll(s);
-        }
-      },
-      onError(err) {
-        setError(err);
-      },
-    });
+      s.players.forEach((p) => {
+        p.isHost = p.id === targetPlayerId;
+      });
 
-    hostSessionRef.current = session;
-  }, [finishQuestion, handleClientMessage, joinRoom, myPlayerId, syncAll]);
+      hostSessionRef.current?.sendToPlayer(targetPlayerId, {
+        type: 'host_handover',
+        hostState: {
+          ...serializeHostState(s),
+          savedAt: Date.now(),
+        },
+      });
+
+      // Give the QoS 1 MQTT publish a brief moment to flush before handing off
+      window.setTimeout(() => {
+        hostSessionRef.current?.destroy();
+        hostSessionRef.current = null;
+        hostStateRef.current = null;
+        joinRoom(roomCode, myName);
+      }, 350);
+    },
+    [joinRoom, myPlayerId, role]
+  );
 
   useEffect(() => {
     return () => {
@@ -844,5 +910,6 @@ export function useQuizEngine() {
     resumableSession,
     resumeSession,
     dismissResumableSession,
+    transferHost,
   };
 }

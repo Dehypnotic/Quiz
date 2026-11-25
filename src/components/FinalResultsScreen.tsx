@@ -2,17 +2,20 @@ import { useState } from 'react';
 import { Check, Copy, RotateCcw, Trophy } from 'lucide-react';
 import { formatHistoryEntryAsText } from '../data/historyStorage';
 import type { PublicGameState } from '../types/quiz';
+import { TransferHostCard } from './TransferHostCard';
 
 interface FinalResultsScreenProps {
   state: PublicGameState;
   isHost: boolean;
   onRestart: () => void;
+  onTransferHost: (targetPlayerId: string) => void;
 }
 
 export function FinalResultsScreen({
   state,
   isHost,
   onRestart,
+  onTransferHost,
 }: FinalResultsScreenProps) {
   const [copied, setCopied] = useState(false);
 
@@ -116,14 +119,20 @@ export function FinalResultsScreen({
       </button>
 
       {isHost ? (
-        <button
-          type="button"
-          onClick={onRestart}
-          className="flex w-full items-center justify-center gap-2 rounded-2xl bg-emerald-500 py-4 text-base font-extrabold text-slate-950 shadow-lg transition active:scale-[0.99]"
-        >
-          <RotateCcw className="h-5 w-5" />
-          Spill en ny runde (tilbake til lobby)
-        </button>
+        <div className="space-y-3">
+          <TransferHostCard
+            players={state.players}
+            onTransferHost={onTransferHost}
+          />
+          <button
+            type="button"
+            onClick={onRestart}
+            className="flex w-full items-center justify-center gap-2 rounded-2xl bg-emerald-500 py-4 text-base font-extrabold text-slate-950 shadow-lg transition active:scale-[0.99]"
+          >
+            <RotateCcw className="h-5 w-5" />
+            Spill en ny runde (tilbake til lobby)
+          </button>
+        </div>
       ) : (
         <p className="text-center text-xs text-slate-400">
           Venter på at verten starter et nytt spill...
