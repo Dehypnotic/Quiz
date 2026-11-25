@@ -1398,5 +1398,1405 @@
     ],
     "addedAt": "2026-11-25",
     "answerToken": "bGl0LWt1bi0yNTox"
+  },
+  {
+    "id": "lit-nor-26",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Gift» og «Skipper Worse»?",
+    "options": [
+      "Jonas Lie",
+      "Alexander Kielland",
+      "Henrik Ibsen",
+      "Bjørnstjerne Bjørnson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0yNjox"
+  },
+  {
+    "id": "lit-nor-27",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev romanen «Pan» og «Victoria»?",
+    "options": [
+      "Knut Hamsun",
+      "Sigrid Undset",
+      "Aksel Sandemose",
+      "Tarjei Vesaas"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0yNzow"
+  },
+  {
+    "id": "lit-nor-28",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Fuglane» og «Is-slottet» på nynorsk?",
+    "options": [
+      "Olav Duun",
+      "Tarjei Vesaas",
+      "Halldis Moren Vesaas",
+      "Jon Fosse"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0yODox"
+  },
+  {
+    "id": "lit-nor-29",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Appelsinpiken» og «Kabalmysteriet»?",
+    "options": [
+      "Erlend Loe",
+      "Jostein Gaarder",
+      "Klaus Hagerup",
+      "Tor Åge Bringsværd"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0yOTox"
+  },
+  {
+    "id": "lit-nor-30",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Genanse og verdighet» og «Gymnaslærer Pedersens beretning»?",
+    "options": [
+      "Kjell Askildsen",
+      "Dag Solstad",
+      "Jan Kjærstad",
+      "Ketil Bjørnstad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0zMDox"
+  },
+  {
+    "id": "lit-nor-31",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvilken norsk forfatter skrev «Arv og miljø» (2016)?",
+    "options": [
+      "Nina Lykke",
+      "Vigdis Hjorth",
+      "Linn Ullmann",
+      "Trude Marstein"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0zMTox"
+  },
+  {
+    "id": "lit-nor-32",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Full spredning» og «Nei og atter nei»?",
+    "options": [
+      "Vigdis Hjorth",
+      "Nina Lykke",
+      "Agnes Ravatn",
+      "Helene Uri"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0zMjox"
+  },
+  {
+    "id": "lit-nor-33",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «En sjøens helt»-serien om norske krigsseilere?",
+    "options": [
+      "Roy Jacobsen",
+      "Jon Michelet",
+      "Edvard Hoem",
+      "Gert Nygårdshaug"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0zMzox"
+  },
+  {
+    "id": "lit-nor-34",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Mengele Zoo»?",
+    "options": [
+      "Ingvar Ambjørnsen",
+      "Gert Nygårdshaug",
+      "Tom Egeland",
+      "Torgrim Eggen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0zNDox"
+  },
+  {
+    "id": "lit-nor-35",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Hellemyrsfolket»?",
+    "options": [
+      "Camilla Collett",
+      "Amalie Skram",
+      "Cora Sandel",
+      "Nini Roll Anker"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0zNTox"
+  },
+  {
+    "id": "lit-nor-36",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Alberte»-trilogien?",
+    "options": [
+      "Amalie Skram",
+      "Cora Sandel",
+      "Sigrid Undset",
+      "Herbjørg Wassmo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0zNjox"
+  },
+  {
+    "id": "lit-nor-37",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «En flyktning krysser sitt spor», der Janteloven ble formulert?",
+    "options": [
+      "Jens Bjørneboe",
+      "Aksel Sandemose",
+      "Sigurd Hoel",
+      "Agnar Mykle"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0zNzox"
+  },
+  {
+    "id": "lit-nor-38",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Sangen om den røde rubin» og «Lasso rundt fru Luna»?",
+    "options": [
+      "Jens Bjørneboe",
+      "Agnar Mykle",
+      "Axel Jensen",
+      "Knut Faldbakken"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0zODox"
+  },
+  {
+    "id": "lit-nor-39",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Haiene» og «Stillheten»?",
+    "options": [
+      "Aksel Sandemose",
+      "Jens Bjørneboe",
+      "Johan Borgen",
+      "Sigurd Hoel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci0zOTox"
+  },
+  {
+    "id": "lit-nor-40",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Lillelord»?",
+    "options": [
+      "Tarjei Vesaas",
+      "Johan Borgen",
+      "Olav Duun",
+      "Gabriel Scott"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci00MDox"
+  },
+  {
+    "id": "lit-nor-41",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Fugletribunalet»?",
+    "options": [
+      "Maria Parr",
+      "Agnes Ravatn",
+      "Maja Lunde",
+      "Brit Bildøen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci00MTox"
+  },
+  {
+    "id": "lit-nor-42",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Karius og Baktus»?",
+    "options": [
+      "Alf Prøysen",
+      "Thorbjørn Egner",
+      "Anne-Cath. Vestly",
+      "André Bjerke"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci00Mjox"
+  },
+  {
+    "id": "lit-nor-43",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev barneboken «Doktor Proktors prompepulver»?",
+    "options": [
+      "Erlend Loe",
+      "Jo Nesbø",
+      "Klaus Hagerup",
+      "Bjørn F. Rørvik"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci00Mzox"
+  },
+  {
+    "id": "lit-nor-44",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Til ungdommen» («Kringsatt av fiender»)?",
+    "options": [
+      "Arnulf Øverland",
+      "Nordahl Grieg",
+      "Inger Hagerup",
+      "Jens Bjørneboe"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci00NDox"
+  },
+  {
+    "id": "lit-nor-45",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «De fire store» – hvilke fire forfattere regnes som «De fire store» i norsk litteratur?",
+    "options": [
+      "Ibsen, Bjørnson, Kielland og Lie",
+      "Ibsen, Hamsun, Undset og Bjørnson",
+      "Wergeland, Welhaven, Collett og Skram",
+      "Hamsun, Vesaas, Solstad og Fosse"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci00NTow"
+  },
+  {
+    "id": "lit-nor-46",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Synnøve Solbakken» og «En glad gutt»?",
+    "options": [
+      "Henrik Ibsen",
+      "Bjørnstjerne Bjørnson",
+      "Jonas Lie",
+      "Alexander Kielland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci00Njox"
+  },
+  {
+    "id": "lit-nor-47",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Familien på Gilje»?",
+    "options": [
+      "Alexander Kielland",
+      "Jonas Lie",
+      "Amalie Skram",
+      "Camilla Collett"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci00Nzox"
+  },
+  {
+    "id": "lit-nor-48",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Morgon og kveld» og «Septologien»?",
+    "options": [
+      "Karl Ove Knausgård",
+      "Jon Fosse",
+      "Dag Solstad",
+      "Roy Jacobsen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci00ODox"
+  },
+  {
+    "id": "lit-nor-49",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev diktsamlingen «Det er den draumen»?",
+    "options": [
+      "Rolf Jacobsen",
+      "Olav H. Hauge",
+      "Stein Mehren",
+      "Jan Erik Vold"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci00OTox"
+  },
+  {
+    "id": "lit-nor-50",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Norsk litteratur",
+    "question": "Hvem skrev «Julekveldsvisa» og «Du skal få en dag i mårå»?",
+    "options": [
+      "Thorbjørn Egner",
+      "Alf Prøysen",
+      "Erik Bye",
+      "Vidar Sandbeck"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW5vci01MDox"
+  },
+  {
+    "id": "lit-kri-26",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Og så var det ingen» (Ten Little Niggers / And Then There Were None)?",
+    "options": [
+      "Arthur Conan Doyle",
+      "Agatha Christie",
+      "P.D. James",
+      "Ruth Rendell"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0yNjox"
+  },
+  {
+    "id": "lit-kri-27",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Hunden fra Baskerville»?",
+    "options": [
+      "Agatha Christie",
+      "Arthur Conan Doyle",
+      "Edgar Allan Poe",
+      "Wilkie Collins"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0yNzox"
+  },
+  {
+    "id": "lit-kri-28",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hva heter den kvinnelige journalisten som samarbeider med etterforskeren i Camilla Läckbergs bøker fra Fjällbacka?",
+    "options": [
+      "Saga Norén",
+      "Erica Falck",
+      "Annika Bengtzon",
+      "Lisbeth Salander"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0yODox"
+  },
+  {
+    "id": "lit-kri-29",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev bøkene om den danske politimannen Carl Mørck og «Avdeling Q»?",
+    "options": [
+      "Henning Mankell",
+      "Jussi Adler-Olsen",
+      "Jo Nesbø",
+      "Håkan Nesser"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0yOTox"
+  },
+  {
+    "id": "lit-kri-30",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Piken på toget» (The Girl on the Train)?",
+    "options": [
+      "Gillian Flynn",
+      "Paula Hawkins",
+      "Liane Moriarty",
+      "Harlan Coben"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0zMDox"
+  },
+  {
+    "id": "lit-kri-31",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hva heter detektiven i Raymond Chandlers klassiske krimbøker (blant annet «Den lange søvnen»)?",
+    "options": [
+      "Sam Spade",
+      "Philip Marlowe",
+      "Mike Hammer",
+      "Lew Archer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0zMTox"
+  },
+  {
+    "id": "lit-kri-32",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Engler og demoner» og «Inferno» med Robert Langdon?",
+    "options": [
+      "Ken Follett",
+      "Dan Brown",
+      "John Grisham",
+      "Michael Crichton"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0zMjox"
+  },
+  {
+    "id": "lit-kri-33",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hva heter den norske krimforfatteren som skriver om etterforskeren K2 (Kolbjørn Kristiansen) i Oslo på 1960- og 70-tallet?",
+    "options": [
+      "Jørn Lier Horst",
+      "Hans Olav Lahlum",
+      "Tom Egeland",
+      "Knut Nærum"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0zMzox"
+  },
+  {
+    "id": "lit-kri-34",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Dracula» (1897)?",
+    "options": [
+      "Mary Shelley",
+      "Bram Stoker",
+      "Robert Louis Stevenson",
+      "Oscar Wilde"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0zNDox"
+  },
+  {
+    "id": "lit-kri-35",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Frankenstein» (1818)?",
+    "options": [
+      "Bram Stoker",
+      "Mary Shelley",
+      "Jane Austen",
+      "Emily Brontë"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0zNTox"
+  },
+  {
+    "id": "lit-kri-36",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Firmaets mann» (The Firm) og flere andre juridiske thrillere?",
+    "options": [
+      "Tom Clancy",
+      "John Grisham",
+      "David Baldacci",
+      "Scott Turow"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0zNjox"
+  },
+  {
+    "id": "lit-kri-37",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hva heter den norske krimforfatteren som skrev «De dødes tjern» under pseudonymet Bernhard Borge?",
+    "options": [
+      "Sven Elvestad",
+      "André Bjerke",
+      "Gunnar Staalesen",
+      "Jon Michelet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0zNzox"
+  },
+  {
+    "id": "lit-kri-38",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Jakten på Rød Oktober» med CIA-analytikeren Jack Ryan?",
+    "options": [
+      "John le Carré",
+      "Tom Clancy",
+      "Robert Ludlum",
+      "Lee Child"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0zODox"
+  },
+  {
+    "id": "lit-kri-39",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skapte agenten Jason Bourne i «Hvem var Jason Bourne?»?",
+    "options": [
+      "Tom Clancy",
+      "Robert Ludlum",
+      "Ian Fleming",
+      "Frederick Forsyth"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS0zOTox"
+  },
+  {
+    "id": "lit-kri-40",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev den svenske krimboken «Nobels testamente» med journalisten Annika Bengtzon?",
+    "options": [
+      "Camilla Läckberg",
+      "Liza Marklund",
+      "Åsa Larsson",
+      "Mari Jungstedt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS00MDox"
+  },
+  {
+    "id": "lit-kri-41",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Det henger en engel alene i skogen» (under pseudonymet Samuel Bjørk)?",
+    "options": [
+      "Frode Sander Øien",
+      "Thomas Enger",
+      "Jan-Erik Fjell",
+      "Gard Sveen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS00MTow"
+  },
+  {
+    "id": "lit-kri-42",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hva heter den franske politidetektiven som røyker pipe i Georges Simenons bøker?",
+    "options": [
+      "Hercule Poirot",
+      "Jules Maigret",
+      "Arsène Lupin",
+      "Inspektør Clouseau"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS00Mjox"
+  },
+  {
+    "id": "lit-kri-43",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Rosens navn», en middelalderkrim lagt til et italiensk kloster?",
+    "options": [
+      "Dan Brown",
+      "Umberto Eco",
+      "Italo Calvino",
+      "Ken Follett"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS00Mzox"
+  },
+  {
+    "id": "lit-kri-44",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Sjakalen» (The Day of the Jackal)?",
+    "options": [
+      "John le Carré",
+      "Frederick Forsyth",
+      "Ken Follett",
+      "Alistair MacLean"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS00NDox"
+  },
+  {
+    "id": "lit-kri-45",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev spenningsboken «Ørnen har landet» og «Kanonene på Navarone» (Alistair MacLean skrev Navarone – hvem skrev «Ørnen har landet»)?",
+    "options": [
+      "Ken Follett",
+      "Jack Higgins",
+      "Wilbur Smith",
+      "Clive Cussler"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS00NTox"
+  },
+  {
+    "id": "lit-kri-46",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev krimbøkene «Tysteren» og «Heks» om Anton Brekke?",
+    "options": [
+      "Gard Sveen",
+      "Jan-Erik Fjell",
+      "Thomas Enger",
+      "Jørgen Jæger"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS00Njox"
+  },
+  {
+    "id": "lit-kri-47",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Den talentfulle mr. Ripley»?",
+    "options": [
+      "Agatha Christie",
+      "Patricia Highsmith",
+      "Daphne du Maurier",
+      "Shirley Jackson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS00Nzox"
+  },
+  {
+    "id": "lit-kri-48",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev «Psycho» (1959), som Alfred Hitchcock filmatiserte året etter?",
+    "options": [
+      "Stephen King",
+      "Robert Bloch",
+      "Ira Levin",
+      "Richard Matheson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS00ODox"
+  },
+  {
+    "id": "lit-kri-49",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev spenningsromanen «Jurassic Park»?",
+    "options": [
+      "Stephen King",
+      "Michael Crichton",
+      "Dan Brown",
+      "Dean Koontz"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS00OTox"
+  },
+  {
+    "id": "lit-kri-50",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Krim & spenning",
+    "question": "Hvem skrev spenningsboken «Nålen» (Eye of the Needle)?",
+    "options": [
+      "Frederick Forsyth",
+      "Ken Follett",
+      "John le Carré",
+      "Len Deighton"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWtyaS01MDox"
+  },
+  {
+    "id": "lit-myt-26",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter den enorme sjøormen som ligger rundt hele verden i norrøn mytologi?",
+    "options": [
+      "Nidhogg",
+      "Midgardsormen",
+      "Fenrisulven",
+      "Fåvne"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0yNjox"
+  },
+  {
+    "id": "lit-myt-27",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvem er visdommens og krigskunstens gudinne i gresk mytologi (som byen Athen er oppkalt etter)?",
+    "options": [
+      "Hera",
+      "Athene",
+      "Artemis",
+      "Afrodite"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0yNzox"
+  },
+  {
+    "id": "lit-myt-28",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter den hellige boken i jødedommen (de fem Mosebøkene)?",
+    "options": [
+      "Koranen",
+      "Toraen",
+      "Vedaene",
+      "Tripitaka"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0yODox"
+  },
+  {
+    "id": "lit-myt-29",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvem er gudinnen for kjærlighet og fruktbarhet i norrøn mytologi (av vanenes ætt)?",
+    "options": [
+      "Frigg",
+      "Frøya",
+      "Idunn",
+      "Siv"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0yOTox"
+  },
+  {
+    "id": "lit-myt-30",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter den trehodede hunden som vokter inngangen til dødsriket i gresk mytologi?",
+    "options": [
+      "Minotauros",
+      "Kerberos",
+      "Hydra",
+      "Kentaur"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0zMDox"
+  },
+  {
+    "id": "lit-myt-31",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvor mange disipler hadde Jesus nærmest seg (de tolv apostlene)?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "7"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0zMTox"
+  },
+  {
+    "id": "lit-myt-32",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter den norrøne guden som vokter Bifrost og kan høre gresset gro?",
+    "options": [
+      "Tyr",
+      "Heimdall",
+      "Balder",
+      "Brage"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0zMjox"
+  },
+  {
+    "id": "lit-myt-33",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvem var den greske helten som måtte utføre tolv storverk (blant annet å drepe den nemeiske løven)?",
+    "options": [
+      "Akilles",
+      "Herkules (Herakles)",
+      "Thesevs",
+      "Jason"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0zMzox"
+  },
+  {
+    "id": "lit-myt-34",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter den viktigste pilegrimsbyen i islam (dit muslimer vender seg i bønn)?",
+    "options": [
+      "Medina",
+      "Mekka",
+      "Jerusalem",
+      "Damaskus"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0zNDox"
+  },
+  {
+    "id": "lit-myt-35",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvem er den romerske motparten til den greske guden Zevs?",
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Neptun",
+      "Saturn"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0zNTox"
+  },
+  {
+    "id": "lit-myt-36",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter de gylne eplene i norrøn mytologi som holder gudene evig unge, og hvem vokter dem?",
+    "options": [
+      "Frøya",
+      "Idunn",
+      "Skade",
+      "Nanna"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0zNjox"
+  },
+  {
+    "id": "lit-myt-37",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvilken elv i India regnes som hellig i hinduismen?",
+    "options": [
+      "Indus",
+      "Ganges",
+      "Brahmaputra",
+      "Yamuna"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0zNzox"
+  },
+  {
+    "id": "lit-myt-38",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvem er budbringeren blant de greske gudene, kjent for sine bevingede sandaler?",
+    "options": [
+      "Apollon",
+      "Hermes",
+      "Ares",
+      "Dionysos"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0zODox"
+  },
+  {
+    "id": "lit-myt-39",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter den største lysfesten i hinduismen?",
+    "options": [
+      "Holi",
+      "Diwali",
+      "Pongal",
+      "Navratri"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC0zOTox"
+  },
+  {
+    "id": "lit-myt-40",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvilken ukedag er oppkalt etter den norrøne guden Tor?",
+    "options": [
+      "Tirsdag",
+      "Torsdag",
+      "Onsdag",
+      "Fredag"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC00MDox"
+  },
+  {
+    "id": "lit-myt-41",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvem fløy for nær solen med vinger festet med voks, slik at voksen smeltet og han falt i havet?",
+    "options": [
+      "Daidalos",
+      "Ikaros",
+      "Persevs",
+      "Bellerofon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC00MTox"
+  },
+  {
+    "id": "lit-myt-42",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter den katolske kirkens øverste leder, som bor i Vatikanet?",
+    "options": [
+      "Erkebiskopen",
+      "Paven",
+      "Kardinalen",
+      "Patriarken"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC00Mjox"
+  },
+  {
+    "id": "lit-myt-43",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter den vakre og gode guden i norrøn mytologi som ble drept av en pil laget av misteltein?",
+    "options": [
+      "Hod",
+      "Balder",
+      "Frøy",
+      "Forsete"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC00Mzox"
+  },
+  {
+    "id": "lit-myt-44",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvem var den greske kongen av Itaka som brukte ti år på å komme seg hjem etter Trojakrigen?",
+    "options": [
+      "Agamemnon",
+      "Odyssevs",
+      "Menelaos",
+      "Akhilles"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC00NDox"
+  },
+  {
+    "id": "lit-myt-45",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter den egyptiske solguden med falkehode?",
+    "options": [
+      "Anubis",
+      "Ra (eller Horus)",
+      "Osiris",
+      "Set"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC00NTox"
+  },
+  {
+    "id": "lit-myt-46",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvilken ukedag er oppkalt etter Odin?",
+    "options": [
+      "Tirsdag",
+      "Onsdag",
+      "Torsdag",
+      "Fredag"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC00Njox"
+  },
+  {
+    "id": "lit-myt-47",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter fabeldyret i gresk mytologi som er halvt menneske og halvt hest?",
+    "options": [
+      "Minotauros",
+      "Kentaur",
+      "Satyr",
+      "Pegasus"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC00Nzox"
+  },
+  {
+    "id": "lit-myt-48",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvilken reformasjon på 1500-tallet ble startet av Martin Luther i Tyskland?",
+    "options": [
+      "Motreformasjonen",
+      "Den protestantiske reformasjonen",
+      "Den franske revolusjonen",
+      "Opplysningstiden"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC00ODox"
+  },
+  {
+    "id": "lit-myt-49",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hva heter den bevingede hesten i gresk mytologi?",
+    "options": [
+      "Sleipner",
+      "Pegasus",
+      "Bukefalos",
+      "Chiron"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC00OTox"
+  },
+  {
+    "id": "lit-myt-50",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Mytologi & religion",
+    "question": "Hvor mange dager varer fasten før påske i kristen tradisjon (fra askeonsdag til påskeaften, unntatt søndagene)?",
+    "options": [
+      "30 dager",
+      "40 dager",
+      "50 dager",
+      "14 dager"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LW15dC01MDox"
+  },
+  {
+    "id": "lit-kun-26",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvilken norsk kunstner malte «Syk pike» og «Madonna»?",
+    "options": [
+      "Christian Krohg",
+      "Edvard Munch",
+      "Harald Sohlberg",
+      "Nikolai Astrup"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0yNjox"
+  },
+  {
+    "id": "lit-kun-27",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hva heter den lille, sinte gutteskulpturen av bronse i Vigelandsparken?",
+    "options": [
+      "Monolitten",
+      "Sinnataggen",
+      "Livshjulet",
+      "Mannen og kvinnen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0yNzox"
+  },
+  {
+    "id": "lit-kun-28",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvilken belgisk surrealist malte en pipe med teksten «Ceci n’est pas une pipe» (Dette er ikke en pipe)?",
+    "options": [
+      "Salvador Dalí",
+      "René Magritte",
+      "Joan Miró",
+      "Marc Chagall"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0yODox"
+  },
+  {
+    "id": "lit-kun-29",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvem malte «Venus’ fødsel» i renessansen?",
+    "options": [
+      "Leonardo da Vinci",
+      "Sandro Botticelli",
+      "Tizian",
+      "Rafael"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0yOTox"
+  },
+  {
+    "id": "lit-kun-30",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvilken norsk kunstner er berømt for sine fargesterke malerier fra Jølster i Sunnfjord?",
+    "options": [
+      "Harald Sohlberg",
+      "Nikolai Astrup",
+      "J.C. Dahl",
+      "Lars Hertervig"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0zMDox"
+  },
+  {
+    "id": "lit-kun-31",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hva heter den danske arkitekten som tegnet Operahuset i Sydney?",
+    "options": [
+      "Arne Jacobsen",
+      "Jørn Utzon",
+      "Bjarke Ingels",
+      "Henning Larsen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0zMTox"
+  },
+  {
+    "id": "lit-kun-32",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvem malte «Dansetimen» og var kjent for sine mange malerier av ballettdansere?",
+    "options": [
+      "Claude Monet",
+      "Edgar Degas",
+      "Pierre-Auguste Renoir",
+      "Henri Matisse"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0zMjox"
+  },
+  {
+    "id": "lit-kun-33",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvilken norsk kunstner regnes som «norsk malerkunsts far» og malte «Fra Stalheim»?",
+    "options": [
+      "Adolph Tidemand",
+      "J.C. Dahl",
+      "Hans Gude",
+      "Peder Balke"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0zMzox"
+  },
+  {
+    "id": "lit-kun-34",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hva heter det nye Munchmuseet i Bjørvika i Oslo (åpnet i 2021) ofte kalt i arkitekturen på grunn av toppen som lener seg?",
+    "options": [
+      "Isfjellet",
+      "Lambda",
+      "Fjorden",
+      "Monolitten"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0zNDox"
+  },
+  {
+    "id": "lit-kun-35",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvem malte «Skolen i Athen» i Vatikanet?",
+    "options": [
+      "Michelangelo",
+      "Rafael",
+      "Leonardo da Vinci",
+      "Caravaggio"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0zNTox"
+  },
+  {
+    "id": "lit-kun-36",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvilken stilretning i arkitektur og kunst rundt 1900 er kjent for organiske, bølgete linjer (som i Ålesund)?",
+    "options": [
+      "Brutalisme",
+      "Jugendstil (Art Nouveau)",
+      "Funkis",
+      "Rokokkko"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0zNjox"
+  },
+  {
+    "id": "lit-kun-37",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvem malte «Soft City» og «Hariton Pushwagner»-verkene?",
+    "options": [
+      "Bjarne Melgaard",
+      "Pushwagner (Terje Brofos)",
+      "Odd Nerdrum",
+      "Håkon Gullvåg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0zNzox"
+  },
+  {
+    "id": "lit-kun-38",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvilken amerikansk kunstner malte «Nighthawks» (fire personer på en diner om natten)?",
+    "options": [
+      "Norman Rockwell",
+      "Edward Hopper",
+      "Jackson Pollock",
+      "Georgia O’Keeffe"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0zODox"
+  },
+  {
+    "id": "lit-kun-39",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvem var kjent for «dryppmalerier» (action painting) der han helte maling på lerret på gulvet?",
+    "options": [
+      "Mark Rothko",
+      "Jackson Pollock",
+      "Willem de Kooning",
+      "Piet Mondrian"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi0zOTox"
+  },
+  {
+    "id": "lit-kun-40",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvilken nederlandsk kunstner er kjent for abstrakte bilder med svarte linjer og firkanter i rødt, gult og blått?",
+    "options": [
+      "Vincent van Gogh",
+      "Piet Mondrian",
+      "M.C. Escher",
+      "Karel Appel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi00MDox"
+  },
+  {
+    "id": "lit-kun-41",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hva heter den norske kunstneren som maler i klassisk stil inspirert av Rembrandt (blant annet «Skumring»)?",
+    "options": [
+      "Håkon Bleken",
+      "Odd Nerdrum",
+      "Jakob Weidemann",
+      "Frans Widerberg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi00MTox"
+  },
+  {
+    "id": "lit-kun-42",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvilken bygning i Oslo fra 1950 er kjent for sine to høye tårn i rød teglstein ved fjorden?",
+    "options": [
+      "Stortinget",
+      "Oslo rådhus",
+      "Slottet",
+      "Akershus festning"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi00Mjox"
+  },
+  {
+    "id": "lit-kun-43",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvem tegnet det berømte Guggenheim-museet i Bilbao i Spania (dekket av titanplater)?",
+    "options": [
+      "Norman Foster",
+      "Frank Gehry",
+      "Zaha Hadid",
+      "Renzo Piano"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi00Mzox"
+  },
+  {
+    "id": "lit-kun-44",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvilken kunstner er kjent for sine «umulige» trapper og optiske illusjoner (som «Relativity»)?",
+    "options": [
+      "René Magritte",
+      "M.C. Escher",
+      "Salvador Dalí",
+      "Victor Vasarely"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi00NDox"
+  },
+  {
+    "id": "lit-kun-45",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvem malte det kjente bildet «Blå interiør» i 1883?",
+    "options": [
+      "Kitty Kielland",
+      "Harriet Backer",
+      "Asta Nørregaard",
+      "Oda Krohg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi00NTox"
+  },
+  {
+    "id": "lit-kun-46",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hva kalles den arkitekturstilen i Norge på 1930-tallet som fokuserte på rene linjer, flate tak og funksjon (f.eks. Ekebergrestauranten)?",
+    "options": [
+      "Dragestil",
+      "Funksjonalisme (Funkis)",
+      "Nybarokk",
+      "Sveitserstil"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi00Njox"
+  },
+  {
+    "id": "lit-kun-47",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvem malte «Solsikker» (Sunflowers) i Arles i 1888?",
+    "options": [
+      "Paul Gauguin",
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Henri de Toulouse-Lautrec"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi00Nzox"
+  },
+  {
+    "id": "lit-kun-48",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvilken spansk arkitekt tegnet både Sagrada Família og Park Güell i Barcelona?",
+    "options": [
+      "Santiago Calatrava",
+      "Antoni Gaudí",
+      "Ricardo Bofill",
+      "Rafael Moneo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi00ODox"
+  },
+  {
+    "id": "lit-kun-49",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hvem laget den store skulpturen av en elg i blankt stål («Storelgen») i Østerdalen?",
+    "options": [
+      "Gustav Vigeland",
+      "Linda Bakke",
+      "Nico Widerberg",
+      "Aase Texmon Rygh"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi00OTox"
+  },
+  {
+    "id": "lit-kun-50",
+    "category": "Litteratur, Kunst & Myter",
+    "subcategory": "Kunst & arkitektur",
+    "question": "Hva heter det nye Nasjonalmuseet i Oslo som åpnet i 2022 ved Aker Brygge?",
+    "options": [
+      "Nasjonalgalleriet",
+      "Nasjonalmuseet (Vestbanen)",
+      "Astrup Fearnley",
+      "Henie Onstad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bGl0LWt1bi01MDox"
   }
 ]
