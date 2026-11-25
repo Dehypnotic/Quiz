@@ -229,9 +229,18 @@ export function useQuizEngine() {
   );
 
   const startRoundWithCategory = useCallback(
-    (s: InternalHostState, category: string, subcategory?: string | null) => {
+    (s: InternalHostState, category: string, subcategories?: string[] | null) => {
+      const group = allCategoryGroupsRef.current.find((g) => g.category === category);
+      const selectedSubs =
+        subcategories && subcategories.length > 0
+          ? subcategories
+          : group?.subcategories ?? [];
+      const allSelected =
+        !group || selectedSubs.length >= group.subcategories.length;
+
       const matches = (q: Question) =>
-        q.category === category && (!subcategory || q.subcategory === subcategory);
+        q.category === category &&
+        (allSelected || selectedSubs.includes(q.subcategory));
 
       const unusedDirect = allQuestionsRef.current.filter(
         (q) => matches(q) && !s.usedQuestionIds.has(q.id)
@@ -243,8 +252,8 @@ export function useQuizEngine() {
         s.settings.questionsPerRound
       );
 
-      // If a narrow subcategory has fewer questions than questionsPerRound, top up from same main category
-      if (subcategory && picked.length < s.settings.questionsPerRound) {
+      // If selected subcategories have fewer questions than questionsPerRound, top up from same main category
+      if (!allSelected && picked.length < s.settings.questionsPerRound) {
         const pickedIds = new Set(picked.map((q) => q.id));
         const extraUnused = allQuestionsRef.current.filter(
           (q) =>
@@ -264,9 +273,17 @@ export function useQuizEngine() {
 
       picked.forEach((q) => s.usedQuestionIds.add(q.id));
 
-      const label = subcategory ? `${category} • ${subcategory}` : category;
+      const label = allSelected
+        ? category
+        : selectedSubs.length === 1
+          ? `${category} • ${selectedSubs[0]}`
+          : `${category} (${selectedSubs.join(', ')})`;
+
       s.currentCategory = label;
-      s.usedCategories.add(label);
+      if (allSelected) {
+        s.usedCategories.add(category);
+      }
+      selectedSubs.forEach((sub) => s.usedCategories.add(`${category} • ${sub}`));
       s.roundQuestions = picked;
       s.currentQuestionIndex = 0;
       s.currentAnswers = new Map();
@@ -373,7 +390,7 @@ export function useQuizEngine() {
         case 'pick_category': {
           if (s.phase !== 'category_pick') return;
           if (msg.playerId !== s.categoryPickerId && msg.playerId !== myPlayerId) return;
-          startRoundWithCategory(s, msg.category, msg.subcategory);
+          startRoundWithCategory(s, msg.category, msg.subcategories);
           break;
         }
 

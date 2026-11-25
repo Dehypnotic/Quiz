@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import { ArrowLeft, Check, ChevronRight, Layers, Mic, Shuffle } from 'lucide-react';
+import { ArrowLeft, Check, ChevronRight, Layers, Mic } from 'lucide-react';
 import type { CategoryGroup, PublicGameState } from '../types/quiz';
 
 interface CategoryPickScreenProps {
   state: PublicGameState;
   myPlayerId: string;
   isHost: boolean;
-  onPickCategory: (category: string, subcategory?: string | null) => void;
+  onPickCategory: (category: string, subcategories?: string[] | null) => void;
 }
 
 export function CategoryPickScreen({
@@ -16,6 +16,7 @@ export function CategoryPickScreen({
   onPickCategory,
 }: CategoryPickScreenProps) {
   const [expandedGroup, setExpandedGroup] = useState<CategoryGroup | null>(null);
+  const [selectedSubs, setSelectedSubs] = useState<string[]>([]);
 
   const picker = state.players.find((p) => p.id === state.categoryPickerId);
   const quizmaster = state.players.find((p) => p.id === state.quizmasterId);
@@ -27,6 +28,17 @@ export function CategoryPickScreen({
     group.subcategories.every((sub) =>
       state.usedCategories.includes(`${group.category} • ${sub}`)
     );
+
+  const openGroup = (group: CategoryGroup) => {
+    setExpandedGroup(group);
+    setSelectedSubs([...group.subcategories]);
+  };
+
+  const toggleSub = (sub: string) => {
+    setSelectedSubs((prev) =>
+      prev.includes(sub) ? prev.filter((s) => s !== sub) : [...prev, sub]
+    );
+  };
 
   return (
     <div className="space-y-5 pt-4 pb-8">
@@ -42,7 +54,7 @@ export function CategoryPickScreen({
             </h2>
             <p className="mt-1.5 text-sm font-medium text-emerald-300">
               {expandedGroup
-                ? 'Velg blanding eller en spesifikk underkategori'
+                ? 'Huk av eller på underkategoriene du vil ha med'
                 : 'Din tur til å velge!'}
             </p>
           </>
@@ -68,82 +80,87 @@ export function CategoryPickScreen({
       </div>
 
       {expandedGroup ? (
-        <div className="space-y-2.5">
-          <button
-            type="button"
-            onClick={() => setExpandedGroup(null)}
-            className="inline-flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-900 px-3 py-2 text-xs font-semibold text-slate-300 hover:bg-slate-800"
-          >
-            <ArrowLeft className="h-3.5 w-3.5" />
-            Alle hovedkategorier
-          </button>
+        <div className="space-y-3">
+          <div className="flex items-center justify-between gap-2">
+            <button
+              type="button"
+              onClick={() => setExpandedGroup(null)}
+              className="inline-flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-900 px-3 py-2 text-xs font-semibold text-slate-300 hover:bg-slate-800"
+            >
+              <ArrowLeft className="h-3.5 w-3.5" />
+              Alle hovedkategorier
+            </button>
+
+            <button
+              type="button"
+              onClick={() =>
+                setSelectedSubs(
+                  selectedSubs.length === expandedGroup.subcategories.length
+                    ? []
+                    : [...expandedGroup.subcategories]
+                )
+              }
+              className="rounded-xl border border-slate-800 bg-slate-900 px-3 py-2 text-xs font-semibold text-indigo-300 hover:bg-slate-800"
+            >
+              {selectedSubs.length === expandedGroup.subcategories.length
+                ? 'Fjern alle'
+                : 'Velg alle'}
+            </button>
+          </div>
+
+          <div className="space-y-2">
+            {expandedGroup.subcategories.map((sub) => {
+              const checked = selectedSubs.includes(sub);
+              const isUsed = state.usedCategories.includes(
+                `${expandedGroup.category} • ${sub}`
+              );
+              return (
+                <button
+                  key={sub}
+                  type="button"
+                  onClick={() => toggleSub(sub)}
+                  className={`flex w-full items-center justify-between rounded-2xl border p-4 text-left transition active:scale-[0.99] ${
+                    checked
+                      ? 'border-indigo-500/60 bg-indigo-500/10'
+                      : 'border-slate-800 bg-slate-900/50 opacity-65'
+                  }`}
+                >
+                  <div className="flex items-center gap-3">
+                    <span
+                      className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-lg border transition ${
+                        checked
+                          ? 'border-indigo-500 bg-indigo-500 text-white'
+                          : 'border-slate-600 bg-slate-950 text-transparent'
+                      }`}
+                    >
+                      <Check className="h-4 w-4 stroke-[3]" />
+                    </span>
+                    <div>
+                      <span className="text-sm font-bold text-white">{sub}</span>
+                      {isUsed && (
+                        <span className="ml-2 inline-block rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-emerald-300">
+                          Spilt
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
 
           <button
             type="button"
-            disabled={!canPick}
-            onClick={() => onPickCategory(expandedGroup.category, null)}
-            className="flex w-full items-center justify-between rounded-2xl border border-indigo-500/50 bg-indigo-500/15 p-4 text-left transition hover:bg-indigo-500/25 active:scale-[0.99]"
+            disabled={!canPick || selectedSubs.length === 0}
+            onClick={() => onPickCategory(expandedGroup.category, selectedSubs)}
+            className="w-full rounded-2xl bg-emerald-500 py-4 text-base font-extrabold text-slate-950 shadow-lg shadow-emerald-500/20 transition active:scale-[0.99] disabled:opacity-40"
           >
-            <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-500/25 text-indigo-300">
-                <Shuffle className="h-5 w-5" />
-              </div>
-              <div>
-                <span className="text-base font-bold text-white">
-                  Blanding (alle underkategorier)
-                </span>
-                {state.usedCategories.includes(expandedGroup.category) && (
-                  <span className="ml-2 inline-block rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-emerald-300">
-                    Spilt
-                  </span>
-                )}
-              </div>
-            </div>
-            <span className="text-xs font-semibold uppercase tracking-wider text-indigo-300">
-              Velg →
-            </span>
+            {selectedSubs.length === 0
+              ? 'Velg minst én underkategori'
+              : selectedSubs.length === expandedGroup.subcategories.length
+                ? `Start runde (alle ${selectedSubs.length})`
+                : `Start runde (${selectedSubs.length} valgte)`}
           </button>
-
-          {expandedGroup.subcategories.map((sub) => {
-            const key = `${expandedGroup.category} • ${sub}`;
-            const isUsed = state.usedCategories.includes(key);
-            return (
-              <button
-                key={sub}
-                type="button"
-                disabled={!canPick}
-                onClick={() => onPickCategory(expandedGroup.category, sub)}
-                className={`flex w-full items-center justify-between rounded-2xl border p-4 text-left transition ${
-                  isUsed
-                    ? 'border-slate-800 bg-slate-900/60 hover:border-indigo-500 hover:bg-slate-800'
-                    : 'border-slate-700 bg-slate-900 hover:border-indigo-500 hover:bg-slate-800'
-                } active:scale-[0.99]`}
-              >
-                <div className="flex items-center gap-3">
-                  <div
-                    className={`flex h-9 w-9 items-center justify-center rounded-xl ${
-                      isUsed
-                        ? 'bg-emerald-500/15 text-emerald-400'
-                        : 'bg-slate-800 text-slate-300'
-                    }`}
-                  >
-                    {isUsed ? <Check className="h-4 w-4" /> : <Layers className="h-4 w-4" />}
-                  </div>
-                  <div>
-                    <span className="text-sm font-bold text-white">{sub}</span>
-                    {isUsed && (
-                      <span className="ml-2 inline-block rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-emerald-300">
-                        Spilt
-                      </span>
-                    )}
-                  </div>
-                </div>
-                <span className="text-xs font-semibold uppercase tracking-wider text-indigo-400">
-                  Velg →
-                </span>
-              </button>
-            );
-          })}
         </div>
       ) : (
         <div className="space-y-2.5">
@@ -156,7 +173,7 @@ export function CategoryPickScreen({
                 disabled={!canPick}
                 onClick={() => {
                   if (group.subcategories.length > 1) {
-                    setExpandedGroup(group);
+                    openGroup(group);
                   } else {
                     onPickCategory(group.category, null);
                   }

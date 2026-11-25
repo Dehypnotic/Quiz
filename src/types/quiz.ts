@@ -109,7 +109,7 @@ export interface PublicGameState {
 
 export type ClientMessage =
   | { type: 'join'; playerId: string; name: string }
-  | { type: 'pick_category'; playerId: string; category: string; subcategory?: string | null }
+  | { type: 'pick_category'; playerId: string; category: string; subcategories?: string[] | null }
   | { type: 'start_answering'; playerId: string }
   | { type: 'toggle_double'; playerId: string }
   | { type: 'submit_answer'; playerId: string; choiceIndex: number; clientElapsedMs?: number }
