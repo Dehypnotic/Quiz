@@ -231,12 +231,10 @@ export function useQuizEngine() {
   const startRoundWithCategory = useCallback(
     (s: InternalHostState, category: string, subcategories?: string[] | null) => {
       const group = allCategoryGroupsRef.current.find((g) => g.category === category);
+      const allSubNames = group?.subcategories.map((sub) => sub.name) ?? [];
       const selectedSubs =
-        subcategories && subcategories.length > 0
-          ? subcategories
-          : group?.subcategories ?? [];
-      const allSelected =
-        !group || selectedSubs.length >= group.subcategories.length;
+        subcategories && subcategories.length > 0 ? subcategories : allSubNames;
+      const allSelected = !group || selectedSubs.length >= allSubNames.length;
 
       const matches = (q: Question) =>
         q.category === category &&
@@ -328,7 +326,10 @@ export function useQuizEngine() {
         s.categoryPickerId = sorted[0].id;
       }
 
-      s.categoryChoices = allCategoryGroupsRef.current;
+      s.categoryChoices = getCategoryGroups(
+        allQuestionsRef.current,
+        s.usedQuestionIds
+      );
       s.phase = 'category_pick';
       syncAll(s);
     },

@@ -40,19 +40,50 @@ export function loadAllQuestions(): Question[] {
   return all;
 }
 
-export function getCategoryGroups(questions: Question[]): CategoryGroup[] {
-  const map = new Map<string, Set<string>>();
+export function getCategoryGroups(
+  questions: Question[],
+  usedQuestionIds: Set<string> = new Set()
+): CategoryGroup[] {
+  const map = new Map<
+    string,
+    Map<string, { total: number; available: number }>
+  >();
+
   for (const q of questions) {
     if (!map.has(q.category)) {
-      map.set(q.category, new Set());
+      map.set(q.category, new Map());
     }
-    map.get(q.category)!.add(q.subcategory);
+    const subMap = map.get(q.category)!;
+    const entry = subMap.get(q.subcategory) ?? { total: 0, available: 0 };
+    entry.total += 1;
+    if (!usedQuestionIds.has(q.id)) {
+      entry.available += 1;
+    }
+    subMap.set(q.subcategory, entry);
   }
 
   return [...map.entries()]
     .sort((a, b) => a[0].localeCompare(b[0], 'nb'))
-    .map(([category, subs]) => ({
-      category,
-      subcategories: [...subs].sort((a, b) => a.localeCompare(b, 'nb')),
-    }));
+    .map(([category, subMap]) => {
+      const subcategories = [...subMap.entries()]
+        .sort((a, b) => a[0].localeCompare(b[0], 'nb'))
+        .map(([name, counts]) => ({
+          name,
+          availableCount: counts.available,
+          totalCount: counts.total,
+        }));
+
+      const totalCount = subcategories.reduce((s, sub) => s + sub.totalCount, 0);
+      const availableCount = subcategories.reduce(
+        (s, sub) => s + sub.availableCount,
+        0
+      );
+
+      return {
+        category,
+        availableCount,
+        totalCount,
+        subcategories,
+      };
+    });
 }

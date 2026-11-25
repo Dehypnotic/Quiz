@@ -27,9 +27,17 @@ export interface Question {
   correctIndex: number;
 }
 
+export interface SubcategoryInfo {
+  name: string;
+  availableCount: number;
+  totalCount: number;
+}
+
 export interface CategoryGroup {
   category: string;
-  subcategories: string[];
+  availableCount: number;
+  totalCount: number;
+  subcategories: SubcategoryInfo[];
 }
 
 export interface GameSettings {

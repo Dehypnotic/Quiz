@@ -9,6 +9,10 @@ interface CategoryPickScreenProps {
   onPickCategory: (category: string, subcategories?: string[] | null) => void;
 }
 
+function formatCount(available: number, total: number): string {
+  return available === total ? `${total} spm` : `${available}/${total} spm`;
+}
+
 export function CategoryPickScreen({
   state,
   myPlayerId,
@@ -26,19 +30,25 @@ export function CategoryPickScreen({
   const isGroupUsed = (group: CategoryGroup) =>
     state.usedCategories.includes(group.category) ||
     group.subcategories.every((sub) =>
-      state.usedCategories.includes(`${group.category} • ${sub}`)
+      state.usedCategories.includes(`${group.category} • ${sub.name}`)
     );
 
   const openGroup = (group: CategoryGroup) => {
     setExpandedGroup(group);
-    setSelectedSubs([...group.subcategories]);
+    setSelectedSubs(group.subcategories.map((s) => s.name));
   };
 
-  const toggleSub = (sub: string) => {
+  const toggleSub = (subName: string) => {
     setSelectedSubs((prev) =>
-      prev.includes(sub) ? prev.filter((s) => s !== sub) : [...prev, sub]
+      prev.includes(subName) ? prev.filter((s) => s !== subName) : [...prev, subName]
     );
   };
+
+  const selectedQuestionCount = expandedGroup
+    ? expandedGroup.subcategories
+        .filter((sub) => selectedSubs.includes(sub.name))
+        .reduce((sum, sub) => sum + sub.availableCount, 0)
+    : 0;
 
   return (
     <div className="space-y-5 pt-4 pb-8">
@@ -97,7 +107,7 @@ export function CategoryPickScreen({
                 setSelectedSubs(
                   selectedSubs.length === expandedGroup.subcategories.length
                     ? []
-                    : [...expandedGroup.subcategories]
+                    : expandedGroup.subcategories.map((s) => s.name)
                 )
               }
               className="rounded-xl border border-slate-800 bg-slate-900 px-3 py-2 text-xs font-semibold text-indigo-300 hover:bg-slate-800"
@@ -110,15 +120,15 @@ export function CategoryPickScreen({
 
           <div className="space-y-2">
             {expandedGroup.subcategories.map((sub) => {
-              const checked = selectedSubs.includes(sub);
+              const checked = selectedSubs.includes(sub.name);
               const isUsed = state.usedCategories.includes(
-                `${expandedGroup.category} • ${sub}`
+                `${expandedGroup.category} • ${sub.name}`
               );
               return (
                 <button
-                  key={sub}
+                  key={sub.name}
                   type="button"
-                  onClick={() => toggleSub(sub)}
+                  onClick={() => toggleSub(sub.name)}
                   className={`flex w-full items-center justify-between rounded-2xl border p-4 text-left transition active:scale-[0.99] ${
                     checked
                       ? 'border-indigo-500/60 bg-indigo-500/10'
@@ -136,7 +146,7 @@ export function CategoryPickScreen({
                       <Check className="h-4 w-4 stroke-[3]" />
                     </span>
                     <div>
-                      <span className="text-sm font-bold text-white">{sub}</span>
+                      <span className="text-sm font-bold text-white">{sub.name}</span>
                       {isUsed && (
                         <span className="ml-2 inline-block rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-emerald-300">
                           Spilt
@@ -144,6 +154,9 @@ export function CategoryPickScreen({
                       )}
                     </div>
                   </div>
+                  <span className="shrink-0 rounded-full bg-slate-950/70 px-2.5 py-1 text-xs font-semibold text-slate-300">
+                    {formatCount(sub.availableCount, sub.totalCount)}
+                  </span>
                 </button>
               );
             })}
@@ -157,9 +170,7 @@ export function CategoryPickScreen({
           >
             {selectedSubs.length === 0
               ? 'Velg minst én underkategori'
-              : selectedSubs.length === expandedGroup.subcategories.length
-                ? `Start runde (alle ${selectedSubs.length})`
-                : `Start runde (${selectedSubs.length} valgte)`}
+              : `Start runde (${selectedQuestionCount} ledige spm)`}
           </button>
         </div>
       ) : (
@@ -199,6 +210,9 @@ export function CategoryPickScreen({
                       <span className="truncate text-base font-bold text-white">
                         {group.category}
                       </span>
+                      <span className="shrink-0 rounded-full bg-slate-800 px-2 py-0.5 text-[11px] font-semibold text-slate-300">
+                        {formatCount(group.availableCount, group.totalCount)}
+                      </span>
                       {isUsed && (
                         <span className="shrink-0 rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-emerald-300">
                           Spilt
@@ -206,7 +220,7 @@ export function CategoryPickScreen({
                       )}
                     </div>
                     <p className="mt-0.5 truncate text-xs text-slate-400">
-                      {group.subcategories.join(' • ')}
+                      {group.subcategories.map((s) => s.name).join(' • ')}
                     </p>
                   </div>
                 </button>
