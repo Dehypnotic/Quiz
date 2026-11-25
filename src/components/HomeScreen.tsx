@@ -5,10 +5,13 @@ import {
   Copy,
   History,
   Play,
+  RotateCcw,
   Sparkles,
   Trash2,
   Users,
+  X,
 } from 'lucide-react';
+import type { ActiveSessionInfo } from '../data/sessionStorage';
 import {
   clearHistory,
   deleteHistoryEntry,
@@ -23,6 +26,9 @@ interface HomeScreenProps {
   categoryCount: number;
   error: string | null;
   connecting: boolean;
+  resumableSession: ActiveSessionInfo | null;
+  onResume: () => void;
+  onDismissResume: () => void;
   onHost: (name: string) => void;
   onJoin: (roomCode: string, name: string) => void;
 }
@@ -32,6 +38,9 @@ export function HomeScreen({
   categoryCount,
   error,
   connecting,
+  resumableSession,
+  onResume,
+  onDismissResume,
   onHost,
   onJoin,
 }: HomeScreenProps) {
@@ -190,12 +199,44 @@ export function HomeScreen({
             SelskapsQuiz
           </h1>
           <p className="mt-2 text-sm text-slate-400">
-            Sosial quiz på mobil – uten serverlagring.{' '}
             <span className="text-slate-300">
               {totalQuestions} spørsmål i {categoryCount} kategorier.
             </span>
           </p>
         </div>
+
+        {resumableSession && (
+          <div className="mb-5 flex items-center justify-between gap-3 rounded-2xl border border-emerald-500/40 bg-emerald-500/10 p-3.5">
+            <div className="min-w-0">
+              <p className="text-xs font-bold uppercase tracking-wider text-emerald-300">
+                Pågående quiz funnet
+              </p>
+              <p className="truncate text-sm font-semibold text-white">
+                Rom {resumableSession.roomCode} • {resumableSession.playerName}{' '}
+                {resumableSession.role === 'host' ? '(Vert)' : ''}
+              </p>
+            </div>
+            <div className="flex shrink-0 items-center gap-1.5">
+              <button
+                type="button"
+                disabled={connecting}
+                onClick={onResume}
+                className="inline-flex items-center gap-1.5 rounded-xl bg-emerald-500 px-3 py-2 text-xs font-bold text-slate-950 transition hover:bg-emerald-400 active:scale-95 disabled:opacity-50"
+              >
+                <RotateCcw className="h-3.5 w-3.5" />
+                Gjenoppta
+              </button>
+              <button
+                type="button"
+                onClick={onDismissResume}
+                className="rounded-xl border border-slate-700 bg-slate-800/80 p-2 text-slate-400 hover:text-white"
+                title="Avvis"
+              >
+                <X className="h-3.5 w-3.5" />
+              </button>
+            </div>
+          </div>
+        )}
 
         <div className="mb-6 grid grid-cols-2 gap-2 rounded-2xl bg-slate-900 p-1.5 border border-slate-800">
           <button

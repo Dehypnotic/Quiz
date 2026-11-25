@@ -27,6 +27,9 @@ export function App() {
     sendAction,
     reconnectGuest,
     leaveGame,
+    resumableSession,
+    resumeSession,
+    dismissResumableSession,
   } = useQuizEngine();
 
   useEffect(() => {
@@ -55,6 +58,9 @@ export function App() {
         categoryCount={categoryCount}
         error={error}
         connecting={connectionStatus === 'connecting'}
+        resumableSession={resumableSession}
+        onResume={resumeSession}
+        onDismissResume={dismissResumableSession}
         onHost={startHosting}
         onJoin={joinRoom}
       />

@@ -15,13 +15,16 @@ export function generateRoomCode(length = 4): string {
 
 export function getOrCreatePlayerId(): string {
   const key = 'selskapsquiz_player_id';
-  const existing = sessionStorage.getItem(key);
-  if (existing) return existing;
+  const existing = localStorage.getItem(key) ?? sessionStorage.getItem(key);
+  if (existing) {
+    localStorage.setItem(key, existing);
+    return existing;
+  }
   const id =
     typeof crypto !== 'undefined' && 'randomUUID' in crypto
       ? crypto.randomUUID()
       : `p-${Math.random().toString(36).slice(2, 10)}`;
-  sessionStorage.setItem(key, id);
+  localStorage.setItem(key, id);
   return id;
 }
 
@@ -69,14 +72,18 @@ export interface HostSession {
 
 export function createHostSession(callbacks: {
   hostPlayerId: string;
+  roomCode?: string;
+  initialKnownPlayerIds?: string[];
   onReady: (roomCode: string) => void;
   onMessage: (msg: ClientMessage, peerId: string) => void;
   onPlayerDisconnect: (playerId: string) => void;
   onError: (err: string) => void;
 }): HostSession {
-  const roomCode = generateRoomCode(4);
+  const roomCode = callbacks.roomCode ?? generateRoomCode(4);
   const toHostTopic = `${TOPIC_PREFIX}${roomCode}/to-host`;
-  const knownPlayerIds = new Set<string>();
+  const knownPlayerIds = new Set<string>(
+    (callbacks.initialKnownPlayerIds ?? []).filter((id) => id !== callbacks.hostPlayerId)
+  );
   let readyFired = false;
   let destroyed = false;
 
