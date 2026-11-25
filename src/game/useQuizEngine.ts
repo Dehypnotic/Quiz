@@ -27,7 +27,7 @@ const DEFAULT_SETTINGS: GameSettings = {
   roundsCount: 3,
   questionsPerRound: 4,
   timeLimitSeconds: 20,
-  socialMode: 'quizmaster',
+  socialMode: 'simultaneous',
 };
 
 interface InternalHostState {
