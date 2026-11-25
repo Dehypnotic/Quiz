@@ -2798,5 +2798,2805 @@
     ],
     "addedAt": "2026-11-25",
     "answerToken": "bm9yLW5vci01MDox"
+  },
+  {
+    "id": "nor-geo-51",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk by kalles «Plankebyen»?",
+    "options": [
+      "Sarpsborg",
+      "Fredrikstad",
+      "Halden",
+      "Moss"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby01MTox"
+  },
+  {
+    "id": "nor-geo-52",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges største nasjonalpark (ligger på Hardangervidda)?",
+    "options": [
+      "Jotunheimen nasjonalpark",
+      "Hardangervidda nasjonalpark",
+      "Rondane nasjonalpark",
+      "Dovrefjell nasjonalpark"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby01Mjox"
+  },
+  {
+    "id": "nor-geo-53",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk by ligger ved utløpet av elva Otra og har dyreparken med Kaptein Sabeltann?",
+    "options": [
+      "Arendal",
+      "Kristiansand",
+      "Grimstad",
+      "Mandal"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby01Mzox"
+  },
+  {
+    "id": "nor-geo-54",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter den kjente øya i Oslofjorden som har et gammelt kloster fra middelalderen?",
+    "options": [
+      "Bygdøy",
+      "Hovedøya",
+      "Gressholmen",
+      "Langøyene"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby01NDox"
+  },
+  {
+    "id": "nor-geo-55",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilket fjell ligger rett bak Bergen sentrum og har svevebanen Ulriksbanen?",
+    "options": [
+      "Fløyen",
+      "Ulriken",
+      "Løvstakken",
+      "Sandviksfjellet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby01NTox"
+  },
+  {
+    "id": "nor-geo-56",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges nest største øy på kysten (etter Hinnøya)?",
+    "options": [
+      "Langøya",
+      "Senja",
+      "Sørøya",
+      "Kvaløya"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby01Njox"
+  },
+  {
+    "id": "nor-geo-57",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk by er kjent for festningen Fredriksten og ligger helt ved svenskegrensen?",
+    "options": [
+      "Sarpsborg",
+      "Halden",
+      "Kongsvinger",
+      "Narvik"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby01Nzox"
+  },
+  {
+    "id": "nor-geo-58",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter den kjente brearmen av Jostedalsbreen i Stryn?",
+    "options": [
+      "Nigardsbreen",
+      "Briksdalsbreen",
+      "Svartisen",
+      "Folgefonna"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby01ODox"
+  },
+  {
+    "id": "nor-geo-59",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk by er kjent for sine hvite trehus og kalles «Den hvite by ved Skagerrak»?",
+    "options": [
+      "Kragerø",
+      "Risør",
+      "Grimstad",
+      "Lillesand"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby01OTox"
+  },
+  {
+    "id": "nor-geo-60",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter verdens sterkeste tidevannsstrøm (malstrøm), som ligger rett utenfor Bodø?",
+    "options": [
+      "Moskstraumen",
+      "Saltstraumen",
+      "Skarberget",
+      "Tjeldsundet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby02MDox"
+  },
+  {
+    "id": "nor-geo-61",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk by har fått navn etter sølvgruvene som ble funnet der i 1623?",
+    "options": [
+      "Røros",
+      "Kongsberg",
+      "Modum",
+      "Løkken"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby02MTox"
+  },
+  {
+    "id": "nor-geo-62",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter den kjente fjellkjeden mellom Gudbrandsdalen og Østerdalen?",
+    "options": [
+      "Jotunheimen",
+      "Rondane",
+      "Dovrefjell",
+      "Trollheimen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby02Mjox"
+  },
+  {
+    "id": "nor-geo-63",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk by ligger helt nordøst i Finnmark, ved grensen til Russland?",
+    "options": [
+      "Vadsø",
+      "Kirkenes",
+      "Vardø",
+      "Alta"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby02Mzox"
+  },
+  {
+    "id": "nor-geo-64",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges største innlandskommune (etter areal, ligger i Finnmark)?",
+    "options": [
+      "Karasjok",
+      "Kautokeino",
+      "Alta",
+      "Tana"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby02NDox"
+  },
+  {
+    "id": "nor-geo-65",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk fjord ligger innerst i Vestland og har den bratte Flåmsbana ved enden?",
+    "options": [
+      "Geirangerfjorden",
+      "Aurlandsfjorden (arm av Sognefjorden)",
+      "Hardangerfjorden",
+      "Nordfjorden"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby02NTox"
+  },
+  {
+    "id": "nor-geo-66",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter det kjente fjellet i Romsdalen som er kjent for sin loddrette fjellvegg (Europas høyeste loddrette fjellvegg)?",
+    "options": [
+      "Romsdalshorn",
+      "Trollveggen",
+      "Kjerag",
+      "Preikestolen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby02Njox"
+  },
+  {
+    "id": "nor-geo-67",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk by er kjent for verdens nordligste bryggeri (Mack)?",
+    "options": [
+      "Alta",
+      "Tromsø",
+      "Bodø",
+      "Narvik"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby02Nzox"
+  },
+  {
+    "id": "nor-geo-68",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter den kjente øya utenfor Trøndelagskysten som er kjent for oppdrettslaks og hjort?",
+    "options": [
+      "Smøla",
+      "Hitra (og Frøya)",
+      "Leka",
+      "Vega"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby02ODox"
+  },
+  {
+    "id": "nor-geo-69",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk innsjø i Telemark er kjent for Telemarkskanalen?",
+    "options": [
+      "Tinnsjå",
+      "Norsjø (og Bandak/Kviteseidvatnet)",
+      "Møsvatn",
+      "Bygdin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby02OTox"
+  },
+  {
+    "id": "nor-geo-70",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges vestligste punkt på fastlandet (ligger i Solund / Vestland)?",
+    "options": [
+      "Stad",
+      "Vardetangen",
+      "Lindesnes",
+      "Karmøy"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby03MDox"
+  },
+  {
+    "id": "nor-geo-71",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk by ligger ved Mjøsa og er kjent for OL i 1994?",
+    "options": [
+      "Gjøvik",
+      "Lillehammer",
+      "Hamar",
+      "Moelv"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby03MTox"
+  },
+  {
+    "id": "nor-geo-72",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter den kjente skøytehallen i Hamar som er formet som et opp-ned vikingskip?",
+    "options": [
+      "Håkons Hall",
+      "Vikingskipet",
+      "Spektrum",
+      "Telenor Arena"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby03Mjox"
+  },
+  {
+    "id": "nor-geo-73",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk dal strekker seg fra Mjøsa ved Lillehammer og nordover mot Dovrefjell?",
+    "options": [
+      "Østerdalen",
+      "Gudbrandsdalen",
+      "Valdres",
+      "Hallingdal"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby03Mzox"
+  },
+  {
+    "id": "nor-geo-74",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges tredje største by?",
+    "options": [
+      "Stavanger",
+      "Trondheim",
+      "Drammen",
+      "Kristiansand"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby03NDox"
+  },
+  {
+    "id": "nor-geo-75",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken øygruppe i Nordland står på UNESCOs verdensarvliste for sin unike kultur med ærfugldun?",
+    "options": [
+      "Lofoten",
+      "Vegaøyene",
+      "Træna",
+      "Røst"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby03NTox"
+  },
+  {
+    "id": "nor-sam-51",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter Norges nåværende dronning?",
+    "options": [
+      "Dronning Maud",
+      "Dronning Sonja",
+      "Dronning Astrid",
+      "Dronning Märtha"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS01MTox"
+  },
+  {
+    "id": "nor-sam-52",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble den første kvinnelige presten ordinert i Den norske kirke (Ingrid Bjerkås)?",
+    "options": [
+      "1951",
+      "1961",
+      "1971",
+      "1981"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS01Mjox"
+  },
+  {
+    "id": "nor-sam-53",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter det norske politiske partiet som ble stiftet i 1884 som Norges første politiske parti?",
+    "options": [
+      "Arbeiderpartiet",
+      "Venstre",
+      "Høyre",
+      "Senterpartiet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS01Mzox"
+  },
+  {
+    "id": "nor-sam-54",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble «røykeloven» (forbud mot røyking på restauranter og utesteder) innført i Norge?",
+    "options": [
+      "1998",
+      "2004",
+      "2008",
+      "2012"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS01NDox"
+  },
+  {
+    "id": "nor-sam-55",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvor mange øre går det på én norsk krone?",
+    "options": [
+      "50 øre",
+      "100 øre",
+      "1000 øre",
+      "10 øre"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS01NTox"
+  },
+  {
+    "id": "nor-sam-56",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilken norsk seddel (kroneverdi) er grønn og har et motiv av Utvær fyr?",
+    "options": [
+      "50-lappen",
+      "100-lappen",
+      "200-lappen",
+      "500-lappen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS01Njow"
+  },
+  {
+    "id": "nor-sam-57",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble «Altinn» lansert i Norge?",
+    "options": [
+      "1999",
+      "2003",
+      "2008",
+      "2012"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS01Nzox"
+  },
+  {
+    "id": "nor-sam-58",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter Norges største fagorganisasjon (stiftet i 1899)?",
+    "options": [
+      "NHO",
+      "LO (Landsorganisasjonen)",
+      "YS",
+      "Unio"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS01ODox"
+  },
+  {
+    "id": "nor-sam-59",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble «TV 2» lansert som Norges første kommersielle riksdekkende TV-kanal?",
+    "options": [
+      "1988",
+      "1992",
+      "1995",
+      "1998"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS01OTox"
+  },
+  {
+    "id": "nor-sam-60",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter den norske kongen som regjerte fra 1905 til 1957?",
+    "options": [
+      "Kong Olav V",
+      "Kong Haakon VII",
+      "Kong Harald V",
+      "Oscar II"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS02MDox"
+  },
+  {
+    "id": "nor-sam-61",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år fikk Norge sin første kvinnelige høyesterettsjustitiarius (Toril Marie Øie)?",
+    "options": [
+      "2006",
+      "2016",
+      "2020",
+      "2010"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS02MTox"
+  },
+  {
+    "id": "nor-sam-62",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter det norske redningsselskapets nødnummer til politiet?",
+    "options": [
+      "110",
+      "112",
+      "113",
+      "120"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS02Mjox"
+  },
+  {
+    "id": "nor-sam-63",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket nødnummer ringer man til ambulanse/medisinsk nødhjelp i Norge?",
+    "options": [
+      "110",
+      "113",
+      "112",
+      "116117"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS02Mzox"
+  },
+  {
+    "id": "nor-sam-64",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter den norske nasjonale tjenesten for digital post fra det offentlige?",
+    "options": [
+      "Vipps",
+      "Digipost (og e-Boks)",
+      "Altinn",
+      "MinID"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS02NDox"
+  },
+  {
+    "id": "nor-sam-65",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble «Svalbardtraktaten» undertegnet (som ga Norge suverenitet over Svalbard)?",
+    "options": [
+      "1905",
+      "1920",
+      "1945",
+      "1972"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS02NTox"
+  },
+  {
+    "id": "nor-sam-66",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter det norske statlige oljeselskapet som byttet navn fra Statoil i 2018?",
+    "options": [
+      "Aker BP",
+      "Equinor",
+      "Vår Energi",
+      "Petoro"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS02Njox"
+  },
+  {
+    "id": "nor-sam-67",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble «påbud om bilbelte» i forsetet innført i Norge?",
+    "options": [
+      "1965",
+      "1975",
+      "1985",
+      "1990"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS02Nzox"
+  },
+  {
+    "id": "nor-sam-68",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter den kjente norske oppfinneren av «Lærdal-dukken» (Anne-dukken) for hjerte-lungeredning?",
+    "options": [
+      "Thor Bjørklund",
+      "Åsmund S. Lærdal",
+      "Kristian Birkeland",
+      "Johan Vaaler"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS02ODox"
+  },
+  {
+    "id": "nor-sam-69",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble 18-årsgrensen for stemmerett i Norge innført?",
+    "options": [
+      "1968",
+      "1978",
+      "1988",
+      "1994"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS02OTox"
+  },
+  {
+    "id": "nor-sam-70",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter den norske hovedgaten i Oslo som går fra Oslo S opp til Slottet?",
+    "options": [
+      "Bogstadveien",
+      "Karl Johans gate",
+      "Torggata",
+      "Akersgata"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS03MDox"
+  },
+  {
+    "id": "nor-sam-71",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år fikk Oslo (Kristiania) sin første elektriske trikk?",
+    "options": [
+      "1874",
+      "1894",
+      "1914",
+      "1924"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS03MTox"
+  },
+  {
+    "id": "nor-sam-72",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter Norges første kvinnelige politiker som ble stortingsrepresentant på fast plass (1922)?",
+    "options": [
+      "Gro Harlem Brundtland",
+      "Karen Platou",
+      "Anna Rogstad",
+      "Aase Lionæs"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS03Mjox"
+  },
+  {
+    "id": "nor-sam-73",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble «Posten» i Norge grunnlagt (Norges eldste bedrift)?",
+    "options": [
+      "1547",
+      "1647",
+      "1747",
+      "1847"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS03Mzox"
+  },
+  {
+    "id": "nor-sam-74",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter den norske øya i Sør-Atlanteren (ved Antarktis) som er norsk biland?",
+    "options": [
+      "Svalbard",
+      "Bouvetøya (og Peter I øy)",
+      "Jan Mayen",
+      "Bjørnøya"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS03NDox"
+  },
+  {
+    "id": "nor-sam-75",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år passerte Norge 5 millioner innbyggere?",
+    "options": [
+      "2005",
+      "2012",
+      "2018",
+      "2022"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLXNhbS03NTox"
+  },
+  {
+    "id": "nor-ord-51",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å ta seg vann over hodet»?",
+    "options": [
+      "Å svømme",
+      "Å påta seg en oppgave som er større enn man klarer",
+      "Å dusje",
+      "Å bli sint"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC01MTox"
+  },
+  {
+    "id": "nor-ord-52",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske ordet «pussig»?",
+    "options": [
+      "Ren",
+      "Rart / merkelig / morsomt",
+      "Trist",
+      "Stor"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC01Mjox"
+  },
+  {
+    "id": "nor-ord-53",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å ha en høne å plukke med noen»?",
+    "options": [
+      "Å lage kyllingmiddag",
+      "Å ha noe uoppgjort eller en sak å diskutere med noen",
+      "Å være på bondegård",
+      "Å leke"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC01Mzox"
+  },
+  {
+    "id": "nor-ord-54",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det når noen sier «Det er midt i smørøyet»?",
+    "options": [
+      "At det er i grøten",
+      "At det er helt perfekt plassert / midt i blinken",
+      "At det er fett",
+      "At det er kaldt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC01NDox"
+  },
+  {
+    "id": "nor-ord-55",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske ordet «foreldet»?",
+    "options": [
+      "At noen er gamle",
+      "At noe er utdatert eller ikke gjelder lenger",
+      "At man har foreldre",
+      "At noe er ødelagt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC01NTox"
+  },
+  {
+    "id": "nor-ord-56",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å legge kortene på bordet»?",
+    "options": [
+      "Å spille poker",
+      "Å være helt ærlig og fortelle alt som det er",
+      "Å rydde opp",
+      "Å gi opp"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC01Njox"
+  },
+  {
+    "id": "nor-ord-57",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske ordet «snørrhoven»?",
+    "options": [
+      "Forkjølet",
+      "Arrogant / overlegen",
+      "Trøtt",
+      "Sulten"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC01Nzox"
+  },
+  {
+    "id": "nor-ord-58",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å gå på tverke»?",
+    "options": [
+      "Å gå sidelengs",
+      "Å gå galt / ikke gå som planlagt",
+      "Å gå fort",
+      "Å gå i fjellet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC01ODox"
+  },
+  {
+    "id": "nor-ord-59",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva heter den norske tradisjonen med å pynte med fastelavnsris og spise boller i februar/mars?",
+    "options": [
+      "Påske",
+      "Fastelavn",
+      "Pinse",
+      "Kristi himmelfart"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC01OTox"
+  },
+  {
+    "id": "nor-ord-60",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det trønderske ordet «sjø» (brukt på slutten av en setning, f.eks. «Det e itj så enkelt, sjø»)?",
+    "options": [
+      "Havet",
+      "Skjønner du / ser du (forsterkende ord)",
+      "Alltid",
+      "Kanskje"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC02MDox"
+  },
+  {
+    "id": "nor-ord-61",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å få kalde føtter»?",
+    "options": [
+      "Å glemme ullsokker",
+      "Å bli nervøs og trekke seg i siste liten",
+      "Å gå i snøen",
+      "Å være syk"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC02MTox"
+  },
+  {
+    "id": "nor-ord-62",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske ordet «kjepphøy»?",
+    "options": [
+      "Veldig høy",
+      "Selvsikker på en litt arrogant måte",
+      "Glad i å gå tur",
+      "Sint"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC02Mjox"
+  },
+  {
+    "id": "nor-ord-63",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å snakke rett fra levra»?",
+    "options": [
+      "Å være lege",
+      "Å si meningen sin helt ærlig og uten omsvøp",
+      "Å snakke lavt",
+      "Å lyve"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC02Mzox"
+  },
+  {
+    "id": "nor-ord-64",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det når noen sier «Det er ikke gull alt som glimrer»?",
+    "options": [
+      "At gull er dyrt",
+      "At noe kan se flott ut på utsiden uten å være verdifullt",
+      "At det er mørkt",
+      "At man liker smykker"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC02NDox"
+  },
+  {
+    "id": "nor-ord-65",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske ordet «tåkeprat»?",
+    "options": [
+      "Å snakke i tåke",
+      "Uklart og svevende prat uten konkret innhold",
+      "Å hviske",
+      "Å rope"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC02NTox"
+  },
+  {
+    "id": "nor-ord-66",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å ha en finger med i spillet»?",
+    "options": [
+      "Å spille piano",
+      "Å være delaktig eller ha påvirket noe som skjer",
+      "Å skade fingeren",
+      "Å jukse"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC02Njox"
+  },
+  {
+    "id": "nor-ord-67",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske ordet «hyggelig»?",
+    "options": [
+      "Skummelt",
+      "Trivelig / hyggelig / vennlig",
+      "Kjedelig",
+      "Dyrt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC02Nzox"
+  },
+  {
+    "id": "nor-ord-68",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å male fanden på veggen»?",
+    "options": [
+      "Å være kunstner",
+      "Å se ekstra mørkt på situasjonen og vente det verste",
+      "Å pusse opp",
+      "Å være glad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC02ODox"
+  },
+  {
+    "id": "nor-ord-69",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske ordet «sludd»?",
+    "options": [
+      "Regnbue",
+      "Blanding av regn og snø",
+      "Torden",
+      "Tåke"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC02OTox"
+  },
+  {
+    "id": "nor-ord-70",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å stikke fingeren i jorda»?",
+    "options": [
+      "Å plante blomster",
+      "Å orientere seg og se realistisk på situasjonen",
+      "Å bli skitten",
+      "Å grave"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC03MDox"
+  },
+  {
+    "id": "nor-ord-71",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva heter den norske tradisjonen der man tenner fire lys i en krans før jul, ett for hver søndag?",
+    "options": [
+      "Luciakrans",
+      "Adventsstake / Adventskrans",
+      "Julekrans",
+      "Påskekrans"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC03MTox"
+  },
+  {
+    "id": "nor-ord-72",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det når noen sier «Det er som å banne i kjerka»?",
+    "options": [
+      "At man er religiøs",
+      "At man sier noe helt upassende eller tabu",
+      "At man synger høyt",
+      "At man er stille"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC03Mjox"
+  },
+  {
+    "id": "nor-ord-73",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske ordet «smørblid»?",
+    "options": [
+      "Veldig sur",
+      "Veldig blid og fornøyd",
+      "Sulten",
+      "Trøtt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC03Mzox"
+  },
+  {
+    "id": "nor-ord-74",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å gå som varmt hvetebrød»?",
+    "options": [
+      "Å bake brød",
+      "Å selge veldig raskt og være svært populært",
+      "Å gå sakte",
+      "Å være varmt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC03NDox"
+  },
+  {
+    "id": "nor-ord-75",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske ordet «blåmandag»?",
+    "options": [
+      "En mandag med blå himmel",
+      "En tung og litt trist mandag etter helgen",
+      "En fridag",
+      "En festdag"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC03NTox"
+  },
+  {
+    "id": "nor-nor-51",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den svenske forfatteren som fikk Nobelprisen i litteratur i 1909 (skrev «Nils Holgerssons forunderlige reise»)?",
+    "options": [
+      "Astrid Lindgren",
+      "Selma Lagerlöf",
+      "August Strindberg",
+      "Karin Boye"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci01MTox"
+  },
+  {
+    "id": "nor-nor-52",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilken dansk øy er København hovedsakelig bygget på?",
+    "options": [
+      "Fyn",
+      "Sjælland (og Amager)",
+      "Jylland",
+      "Bornholm"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci01Mjox"
+  },
+  {
+    "id": "nor-nor-53",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den svenske skuespilleren som spiller i «Dune», «Mamma Mia!» og «Chernobyl»?",
+    "options": [
+      "Alexander Skarsgård",
+      "Stellan Skarsgård",
+      "Joel Kinnaman",
+      "Michael Nyqvist"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci01Mzox"
+  },
+  {
+    "id": "nor-nor-54",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilket nordisk land har «rød og hvit» som farger i sitt flagg?",
+    "options": [
+      "Sverige",
+      "Danmark",
+      "Finland",
+      "Island"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci01NDox"
+  },
+  {
+    "id": "nor-nor-55",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den finske komponisten som skrev «Finlandia»?",
+    "options": [
+      "Edvard Grieg",
+      "Jean Sibelius",
+      "Carl Nielsen",
+      "Hugo Alfvén"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci01NTox"
+  },
+  {
+    "id": "nor-nor-56",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilken dansk øy ligger mellom Sjælland og Jylland (der Odense ligger)?",
+    "options": [
+      "Bornholm",
+      "Fyn",
+      "Lolland",
+      "Falster"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci01Njox"
+  },
+  {
+    "id": "nor-nor-57",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den svenske høytiden som feires i juni med blomsterkrans, dans rundt maistang og sild?",
+    "options": [
+      "Valborg",
+      "Midsommar (Midtsommer)",
+      "Kräftskiva",
+      "Lucia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci01Nzox"
+  },
+  {
+    "id": "nor-nor-58",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilken islandsk by er verdens nordligste hovedstad i en selvstendig stat?",
+    "options": [
+      "Oslo",
+      "Reykjavík",
+      "Helsingfors",
+      "Stockholm"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci01ODox"
+  },
+  {
+    "id": "nor-nor-59",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den danske filosofen som regnes som eksistensialismens far («Enten – Eller»)?",
+    "options": [
+      "N.F.S. Grundtvig",
+      "Søren Kierkegaard",
+      "Georg Brandes",
+      "Ludvig Holberg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci01OTox"
+  },
+  {
+    "id": "nor-nor-60",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilket svensk selskap grunnlagt av Daniel Ek og Martin Lorentzon i 2006 endret musikkbransjen? (Tenk strømming)",
+    "options": [
+      "SoundCloud",
+      "Spotify",
+      "Klarna",
+      "Skype"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci02MDox"
+  },
+  {
+    "id": "nor-nor-61",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den kjente danske designstolen «Egget» (og «Syveren») sin designer?",
+    "options": [
+      "Poul Henningsen",
+      "Arne Jacobsen",
+      "Hans J. Wegner",
+      "Børge Mogensen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci02MTox"
+  },
+  {
+    "id": "nor-nor-62",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilket år ble Kalmarunionen oppløst da Gustav Vasa ble valgt til konge i Sverige?",
+    "options": [
+      "1450",
+      "1523",
+      "1600",
+      "1814"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci02Mjox"
+  },
+  {
+    "id": "nor-nor-63",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den svenske filmen eller boken om «Hundreåringen som klatret ut gjennom vinduet og forsvant» sin forfatter?",
+    "options": [
+      "Fredrik Backman",
+      "Jonas Jonasson",
+      "Henning Mankell",
+      "Stieg Larsson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci02Mzox"
+  },
+  {
+    "id": "nor-nor-64",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilken dansk ølprodusent bruker slagordet «Probably the best beer in the world»?",
+    "options": [
+      "Tuborg",
+      "Carlsberg",
+      "Royal Unibrew",
+      "Mikkeller"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci02NDox"
+  },
+  {
+    "id": "nor-nor-65",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den finske julenissens offisielle hjemby i Lappland?",
+    "options": [
+      "Oulu",
+      "Rovaniemi",
+      "Tampere",
+      "Turku"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci02NTox"
+  },
+  {
+    "id": "nor-nor-66",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilken svensk skuespiller spilte Lisbeth Salander i den svenske «Millennium»-trilogien (2009)?",
+    "options": [
+      "Alicia Vikander",
+      "Noomi Rapace",
+      "Rebecca Ferguson",
+      "Tuva Novotny"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci02Njox"
+  },
+  {
+    "id": "nor-nor-67",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den største byen på Jylland i Danmark?",
+    "options": [
+      "Aalborg",
+      "Aarhus",
+      "Esbjerg",
+      "Vejle"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci02Nzox"
+  },
+  {
+    "id": "nor-nor-68",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilket nordisk land har «kronprinsesse Victoria» som tronarving?",
+    "options": [
+      "Danmark",
+      "Sverige",
+      "Norge",
+      "Island"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci02ODox"
+  },
+  {
+    "id": "nor-nor-69",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den kjente svenske dramatikeren som skrev «Frøken Julie»?",
+    "options": [
+      "Henrik Ibsen",
+      "August Strindberg",
+      "Ingmar Bergman",
+      "Hjalmar Söderberg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci02OTox"
+  },
+  {
+    "id": "nor-nor-70",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilken dansk filmregissør laget «Festen» (1998) og «Et glass til» (2020)?",
+    "options": [
+      "Lars von Trier",
+      "Thomas Vinterberg",
+      "Susanne Bier",
+      "Nicolas Winding Refn"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci03MDox"
+  },
+  {
+    "id": "nor-nor-71",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter det svenske ordet for «akkurat passe – ikke for mye, ikke for lite»?",
+    "options": [
+      "Fika",
+      "Lagom",
+      "Hygge",
+      "Sisu"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci03MTox"
+  },
+  {
+    "id": "nor-nor-72",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilket nordisk land har ingen hær (forsvar), men er medlem av NATO?",
+    "options": [
+      "Luxembourg",
+      "Island",
+      "Finland",
+      "Danmark"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci03Mjox"
+  },
+  {
+    "id": "nor-nor-73",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den kjente svenske skuespilleren som vant Oscar for beste kvinnelige birolle i «The Danish Girl» (2015)?",
+    "options": [
+      "Rebecca Ferguson",
+      "Alicia Vikander",
+      "Noomi Rapace",
+      "Malin Åkerman"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci03Mzox"
+  },
+  {
+    "id": "nor-nor-74",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilken finsk arkitekt og designer er berømt for «Aalto-vasen» (Savoy-vasen)?",
+    "options": [
+      "Eero Saarinen",
+      "Alvar Aalto",
+      "Tapio Wirkkala",
+      "Kaj Franck"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci03NDox"
+  },
+  {
+    "id": "nor-nor-75",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den berømte svenske regissøren bak «Det syvende segl» og «Fanny og Alexander»?",
+    "options": [
+      "Lukas Moodysson",
+      "Ingmar Bergman",
+      "Ruben Östlund",
+      "Lasse Hallström"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vci03NTox"
+  },
+  {
+    "id": "nor-geo-76",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges høyeste fjell?",
+    "options": [
+      "Store Skagastølstind",
+      "Snøhetta",
+      "Galdhøpiggen",
+      "Glittertind"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby03Njoy"
+  },
+  {
+    "id": "nor-geo-77",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges lengste elv?",
+    "options": [
+      "Numedalslågen",
+      "Pasvikelva",
+      "Glomma",
+      "Drammenselva"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby03Nzoy"
+  },
+  {
+    "id": "nor-geo-78",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges største innsjø etter areal?",
+    "options": [
+      "Femunden",
+      "Mjøsa",
+      "Røssvatnet",
+      "Tyrifjorden"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby03ODox"
+  },
+  {
+    "id": "nor-geo-79",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken fjord er Norges lengste og dypeste?",
+    "options": [
+      "Geirangerfjorden",
+      "Hardangerfjorden",
+      "Trondheimsfjorden",
+      "Sognefjorden"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby03OToz"
+  },
+  {
+    "id": "nor-geo-80",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter den største isbreen på det norske fastlandet?",
+    "options": [
+      "Hardangerjøkulen",
+      "Folgefonna",
+      "Svartisen",
+      "Jostedalsbreen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby04MDoz"
+  },
+  {
+    "id": "nor-geo-81",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilket fylke ligger Preikestolen i?",
+    "options": [
+      "Møre og Romsdal",
+      "Vestland",
+      "Agder",
+      "Rogaland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby04MToz"
+  },
+  {
+    "id": "nor-geo-82",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "I hvilket fylke ligger Trollstigen?",
+    "options": [
+      "Trøndelag",
+      "Innlandet",
+      "Vestland",
+      "Møre og Romsdal"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby04Mjoz"
+  },
+  {
+    "id": "nor-geo-83",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges nordligste fastlandspunkt?",
+    "options": [
+      "Vardø",
+      "Kinnarodden",
+      "Knivskjelodden",
+      "Nordkapp"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby04Mzox"
+  },
+  {
+    "id": "nor-geo-84",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges sørligste fastlandspunkt?",
+    "options": [
+      "Farsund",
+      "Mandal",
+      "Lista",
+      "Lindesnes"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby04NDoz"
+  },
+  {
+    "id": "nor-geo-85",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken by kalles ofte «Nordens Paris»?",
+    "options": [
+      "Bodø",
+      "Alta",
+      "Tromsø",
+      "Harstad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby04NToy"
+  },
+  {
+    "id": "nor-geo-86",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter den største øya i Norge (utenom Svalbard)?",
+    "options": [
+      "Langøya",
+      "Hinnøya",
+      "Senja",
+      "Kvaløya"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby04Njox"
+  },
+  {
+    "id": "nor-geo-87",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges dypeste innsjø?",
+    "options": [
+      "Mjøsa",
+      "Hornindalsvatnet",
+      "Salvatnet",
+      "Tinnsjå"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby04Nzox"
+  },
+  {
+    "id": "nor-geo-88",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken nasjonalpark ligger Snøhetta i?",
+    "options": [
+      "Rondane",
+      "Dovrefjell-Sunndalsfjella",
+      "Jotunheimen",
+      "Hardangervidda"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby04ODox"
+  },
+  {
+    "id": "nor-geo-89",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter verdens lengste veitunnel, som ligger mellom Aurland og Lærdal?",
+    "options": [
+      "Ryfast",
+      "Lærdalstunnelen",
+      "Gudvangatunnelen",
+      "Folgefonntunnelen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby04OTox"
+  },
+  {
+    "id": "nor-geo-90",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilke tre land grenser Norge til på fastlandet?",
+    "options": [
+      "Sverige, Danmark og Finland",
+      "Sverige, Finland og Russland",
+      "Sverige, Russland og Estland",
+      "Sverige, Finland og Island"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby05MDox"
+  },
+  {
+    "id": "nor-geo-91",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter den kjente fjellformasjonen i Kjerag som henger fastklemt mellom to fjellvegger?",
+    "options": [
+      "Preikestolen",
+      "Kjeragbolten",
+      "Besseggen",
+      "Trolltunga"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby05MTox"
+  },
+  {
+    "id": "nor-geo-92",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk by ligger ved utløpet av Nidelva?",
+    "options": [
+      "Trondheim",
+      "Bergen",
+      "Stavanger",
+      "Ålesund"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby05Mjow"
+  },
+  {
+    "id": "nor-geo-93",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter det største tettstedet på Svalbard?",
+    "options": [
+      "Longyearbyen",
+      "Barentsburg",
+      "Sveagruva",
+      "Ny-Ålesund"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby05Mzow"
+  },
+  {
+    "id": "nor-geo-94",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk øygruppe i Nordland er kjent for spisse fjelltopper og rikt torskefiske?",
+    "options": [
+      "Lyngen",
+      "Helgelandskysten",
+      "Lofoten",
+      "Vesterålen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby05NDoy"
+  },
+  {
+    "id": "nor-geo-95",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter Norges høyeste foss (totalt fall)?",
+    "options": [
+      "Kjosfossen",
+      "Mardalsfossen",
+      "Vøringsfossen",
+      "Vinnufossen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby05NToz"
+  },
+  {
+    "id": "nor-geo-96",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilket fjellområde er Nord-Europas største høyfjellsplatå?",
+    "options": [
+      "Jotunheimen",
+      "Saltfjellet",
+      "Rondane",
+      "Hardangervidda"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby05Njoz"
+  },
+  {
+    "id": "nor-geo-97",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk by er kjent som «Plankebyen»?",
+    "options": [
+      "Drammen",
+      "Fredrikstad",
+      "Sarpsborg",
+      "Skien"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby05Nzox"
+  },
+  {
+    "id": "nor-geo-98",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk by er kjent for sin jugendstilarkitektur etter bybrannen i 1904?",
+    "options": [
+      "Haugesund",
+      "Molde",
+      "Ålesund",
+      "Kristiansund"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby05ODoy"
+  },
+  {
+    "id": "nor-geo-99",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hva heter elven som danner grensen mellom Norge og Russland i deler av sitt løp?",
+    "options": [
+      "Neidenelva",
+      "Pasvikelva",
+      "Tanaelva",
+      "Altaelva"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby05OTox"
+  },
+  {
+    "id": "nor-geo-100",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk geografi & natur",
+    "question": "Hvilken norsk kommune er størst i areal?",
+    "options": [
+      "Rana",
+      "Karasjok",
+      "Kautokeino",
+      "Tana"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWdlby0xMDA6Mg=="
+  },
+  {
+    "id": "nor-hist-76",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble Grunnloven vedtatt på Eidsvoll?",
+    "options": [
+      "1905",
+      "1814",
+      "1884",
+      "1945"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtNzY6MQ=="
+  },
+  {
+    "id": "nor-hist-77",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvem ble valgt til norsk konge etter unionsoppløsningen i 1905?",
+    "options": [
+      "Christian Frederik",
+      "Olav V",
+      "Haakon VII",
+      "Oscar II"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtNzc6Mg=="
+  },
+  {
+    "id": "nor-hist-78",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilken dato ble Norge angrepet av Tyskland i 1940?",
+    "options": [
+      "7. juni",
+      "8. mai",
+      "9. april",
+      "17. mai"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtNzg6Mg=="
+  },
+  {
+    "id": "nor-hist-79",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvem var Norges første kvinnelige statsminister?",
+    "options": [
+      "Gro Harlem Brundtland",
+      "Kaci Kullmann Five",
+      "Erna Solberg",
+      "Anne Enger"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtNzk6MA=="
+  },
+  {
+    "id": "nor-hist-80",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvor mange år er én stortingsperiode i Norge?",
+    "options": [
+      "5 år",
+      "2 år",
+      "3 år",
+      "4 år"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtODA6Mw=="
+  },
+  {
+    "id": "nor-hist-81",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år fikk kvinner allmenn stemmerett i Norge?",
+    "options": [
+      "1905",
+      "1920",
+      "1913",
+      "1898"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtODE6Mg=="
+  },
+  {
+    "id": "nor-hist-82",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva het det første oljefeltet som ble funnet på norsk sokkel i 1969?",
+    "options": [
+      "Gullfaks",
+      "Ekofisk",
+      "Statfjord",
+      "Troll"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtODI6MQ=="
+  },
+  {
+    "id": "nor-hist-83",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble Olav Haraldsson (Olav den hellige) drept i slaget ved Stiklestad?",
+    "options": [
+      "872",
+      "1066",
+      "1030",
+      "1000"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtODM6Mg=="
+  },
+  {
+    "id": "nor-hist-84",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvem regnes som kongen som samlet Norge til ett rike etter slaget i Hafrsfjord?",
+    "options": [
+      "Håkon den gode",
+      "Olav Tryggvason",
+      "Magnus Lagabøte",
+      "Harald Hårfagre"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtODQ6Mw=="
+  },
+  {
+    "id": "nor-hist-85",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år stemte Norge nei til medlemskap i EF/EU for andre gang?",
+    "options": [
+      "1972",
+      "1989",
+      "1994",
+      "2001"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtODU6Mg=="
+  },
+  {
+    "id": "nor-hist-86",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble Harald V konge av Norge?",
+    "options": [
+      "1985",
+      "1991",
+      "1993",
+      "1989"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtODY6MQ=="
+  },
+  {
+    "id": "nor-hist-87",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva het den norske polfareren som ledet den første ekspedisjonen til Sydpolen i 1911?",
+    "options": [
+      "Helge Ingstad",
+      "Fridtjof Nansen",
+      "Roald Amundsen",
+      "Otto Sverdrup"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtODc6Mg=="
+  },
+  {
+    "id": "nor-hist-88",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter vikingskipet som ble funnet i Vestfold i 1904 og er utstilt på Bygdøy?",
+    "options": [
+      "Tuneskipet",
+      "Kvalsundskipet",
+      "Osebergskipet",
+      "Gokstadskipet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtODg6Mg=="
+  },
+  {
+    "id": "nor-hist-89",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble parlamentarismen innført i Norge?",
+    "options": [
+      "1905",
+      "1898",
+      "1814",
+      "1884"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtODk6Mw=="
+  },
+  {
+    "id": "nor-hist-90",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvem var statsminister i Norge under mesteparten av etterkrigstiden (1945–1965 med korte avbrudd)?",
+    "options": [
+      "Per Borten",
+      "Trygve Bratteli",
+      "Oscar Torp",
+      "Einar Gerhardsen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtOTA6Mw=="
+  },
+  {
+    "id": "nor-hist-91",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter det samiske parlamentet i Norge, som åpnet i 1989?",
+    "options": [
+      "Samelandsrådet",
+      "Finnmarkstinget",
+      "Samerådet",
+      "Sametinget"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtOTE6Mw=="
+  },
+  {
+    "id": "nor-hist-92",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble Svalbardtraktaten undertegnet, som ga Norge suverenitet over Svalbard?",
+    "options": [
+      "1920",
+      "1905",
+      "1945",
+      "1952"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtOTI6MA=="
+  },
+  {
+    "id": "nor-hist-93",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva het den norske motstandsmannen som ledet tungtvannsaksjonen på Vemork i 1943?",
+    "options": [
+      "Gunnar Sønsteby",
+      "Leif Tronstad",
+      "Max Manus",
+      "Joachim Rønneberg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtOTM6Mw=="
+  },
+  {
+    "id": "nor-hist-94",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilken norsk by var hovedstad i Norge i middelalderen før Oslo overtok?",
+    "options": [
+      "Stavanger",
+      "Bergen (og tidligere Nidaros/Trondheim)",
+      "Hamar",
+      "Tønsberg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtOTQ6MQ=="
+  },
+  {
+    "id": "nor-hist-95",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter Norges første nasjonalforsamling, som møttes i 1814?",
+    "options": [
+      "Stortinget i Christiania",
+      "Lagtinget i Bergen",
+      "Odelstinget",
+      "Riksforsamlingen på Eidsvoll"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtOTU6Mw=="
+  },
+  {
+    "id": "nor-hist-96",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble den siste dødsdommen fullbyrdet i Norge (etter landssvikoppgjøret)?",
+    "options": [
+      "1948",
+      "1955",
+      "1979",
+      "1945"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtOTY6MA=="
+  },
+  {
+    "id": "nor-hist-97",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter den norske velferdsordningen som samler alderspensjon, sykepenger og uføretrygd?",
+    "options": [
+      "Statens pensjonskasse",
+      "NAV-loven",
+      "Folketrygden",
+      "Arbeidsmiljøloven"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtOTc6Mg=="
+  },
+  {
+    "id": "nor-hist-98",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilket år ble NRK grunnlagt?",
+    "options": [
+      "1945",
+      "1960",
+      "1925",
+      "1933"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtOTg6Mw=="
+  },
+  {
+    "id": "nor-hist-99",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hva heter Norges høyeste domstol?",
+    "options": [
+      "Tingretten",
+      "Riksretten",
+      "Lagmannsretten",
+      "Høyesterett"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtOTk6Mw=="
+  },
+  {
+    "id": "nor-hist-100",
+    "category": "Norge & Norden",
+    "subcategory": "Norsk historie & samfunn",
+    "question": "Hvilken norsk konge ga ut Norges første landsdekkende lovbok i 1274?",
+    "options": [
+      "Eirik Magnusson",
+      "Sverre Sigurdsson",
+      "Magnus Lagabøte",
+      "Håkon Håkonsson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLWhpc3QtMTAwOjI="
+  },
+  {
+    "id": "nor-ord-76",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske uttrykket «å gå rundt grøten»?",
+    "options": [
+      "Å lage mat sakte",
+      "Å unngå å komme til poenget",
+      "Å gå seg vill",
+      "Å være veldig sulten"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC03Njox"
+  },
+  {
+    "id": "nor-ord-77",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr ordet «dugnad»?",
+    "options": [
+      "Frivillig fellesarbeid",
+      "En gammel dans",
+      "Et rettsmøte",
+      "En type festmat"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC03Nzow"
+  },
+  {
+    "id": "nor-ord-78",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva heter den norske tradisjonen med å gå i tog og feire grunnloven 17. mai?",
+    "options": [
+      "Olsok",
+      "St. Hans",
+      "Jonsok",
+      "Nasjonaldagen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC03ODoz"
+  },
+  {
+    "id": "nor-ord-79",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hvilken dato feires Olsok til minne om Olav den hellige?",
+    "options": [
+      "23. juni",
+      "17. mai",
+      "29. juli",
+      "24. desember"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC03OToy"
+  },
+  {
+    "id": "nor-ord-80",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva kalles bålet som tennes 23. juni om kvelden i Norge?",
+    "options": [
+      "Påskebål",
+      "Vinterbål",
+      "Olsokbål",
+      "Sankthansbål"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC04MDoz"
+  },
+  {
+    "id": "nor-ord-81",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske ordet «koselig»?",
+    "options": [
+      "Raskt og effektivt",
+      "Strengt og alvorlig",
+      "Hyggelig, varmt og behagelig",
+      "Kaldt og vått"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC04MToy"
+  },
+  {
+    "id": "nor-ord-82",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva er en «bunad»?",
+    "options": [
+      "En tradisjonell norsk festdrakt",
+      "En gammel båttype",
+      "En type trehytte",
+      "Et musikkinstrument"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC04Mjow"
+  },
+  {
+    "id": "nor-ord-83",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å gå over bekken etter vann»?",
+    "options": [
+      "Å spare penger",
+      "Å gjøre noe unødvendig tungvint",
+      "Å være veldig tørst",
+      "Å gå seg vill i skogen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC04Mzox"
+  },
+  {
+    "id": "nor-ord-84",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr «å ta noen på kornet»?",
+    "options": [
+      "Å gi noen mat",
+      "Å avsløre en løgn",
+      "Å bli sint på noen",
+      "Å treffe blink med en beskrivelse eller etterligning"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC04NDoz"
+  },
+  {
+    "id": "nor-ord-85",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva kalles det når nordmenn går fra hus til hus i romjulen utkledd og synger julesanger for godteri?",
+    "options": [
+      "Fastelavn",
+      "Julebukk",
+      "Påskekrim",
+      "Lucia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC04NTox"
+  },
+  {
+    "id": "nor-ord-86",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva er en «matpakke»?",
+    "options": [
+      "En stor middagskurv",
+      "En pakke med tørrfisk",
+      "Smurte brødskiver pakket inn til lunsj",
+      "En pose med godteri"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC04Njoy"
+  },
+  {
+    "id": "nor-ord-87",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske uttrykket «på bærtur»?",
+    "options": [
+      "Å være helt på villspor eller ta feil",
+      "Å være i skogen om høsten",
+      "Å være sliten",
+      "Å være veldig glad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC04Nzow"
+  },
+  {
+    "id": "nor-ord-88",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva er «påskekrim»?",
+    "options": [
+      "En skitur i fjellet",
+      "Den norske tradisjonen med å lese og se krim i påsken",
+      "En spesiell påskemiddag",
+      "Et påskeegg med gåter"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC04ODox"
+  },
+  {
+    "id": "nor-ord-89",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr ordet «friluftsliv»?",
+    "options": [
+      "Opphold og aktivitet i naturen",
+      "Å fly med fallskjerm",
+      "Å bo på landet",
+      "Å sove med åpent vindu"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC04OTow"
+  },
+  {
+    "id": "nor-ord-90",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva kalles den norske tradisjonen med å spise boller med krem og syltetøy på søndagen før fasten?",
+    "options": [
+      "Pinse",
+      "Palmesøndag",
+      "Kristi himmelfartsdag",
+      "Fastelavn"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC05MDoz"
+  },
+  {
+    "id": "nor-ord-91",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å gjøre noen en bjørnetjeneste»?",
+    "options": [
+      "Å gi noen en gave",
+      "Å ville hjelpe, men ende opp med å gjøre skade",
+      "Å jobbe hardt for noen",
+      "Å gjøre en veldig stor tjeneste"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC05MTox"
+  },
+  {
+    "id": "nor-ord-92",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva er en «hardingfele»?",
+    "options": [
+      "En tradisjonell norsk fele med understrenger",
+      "En stor kirkeklokke",
+      "Et blåseinstrument av tre",
+      "En type trekkspill"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC05Mjow"
+  },
+  {
+    "id": "nor-ord-93",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr ordet «utepils»?",
+    "options": [
+      "En spesiell type juleøl",
+      "Å drikke øl utendørs, gjerne på vår- eller sommerdag",
+      "Å brygge øl i skogen",
+      "En alkoholfri øl"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC05Mzox"
+  },
+  {
+    "id": "nor-ord-94",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å ha is i magen»?",
+    "options": [
+      "Å holde seg rolig og avventende i en presset situasjon",
+      "Å være redd",
+      "Å være kald og frossen",
+      "Å spise for mye iskrem"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC05NDow"
+  },
+  {
+    "id": "nor-ord-95",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva er en «ostehøvel», oppfunnet av Thor Bjørklund i 1925?",
+    "options": [
+      "Et redskap til å skjære tynne skiver av fast ost",
+      "En maskin til å rive ost",
+      "En boks til å oppbevare ost i",
+      "Et redskap til å lage brunost"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC05NTow"
+  },
+  {
+    "id": "nor-ord-96",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr det norske uttrykket «å skyte spurv med kanoner»?",
+    "options": [
+      "Å lage mye bråk",
+      "Å være dårlig til å sikte",
+      "Å jakte om vinteren",
+      "Å bruke altfor sterke virkemidler på en liten sak"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC05Njoz"
+  },
+  {
+    "id": "nor-ord-97",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva kalles den norske tradisjonelle sangformen til samene?",
+    "options": [
+      "Stev",
+      "Kveding",
+      "Kulokk",
+      "Joik"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC05Nzoz"
+  },
+  {
+    "id": "nor-ord-98",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr ordet «russetid»?",
+    "options": [
+      "Første uke på universitetet",
+      "Feiringen for avgangselever på videregående skole før eksamen",
+      "En gammel høstfest",
+      "Tiden før jul"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC05ODox"
+  },
+  {
+    "id": "nor-ord-99",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva betyr uttrykket «å falle mellom to stoler»?",
+    "options": [
+      "Å ikke passe inn i noen av kategoriene eller gå glipp av begge deler",
+      "Å være klønete",
+      "Å velge feil jobb",
+      "Å sitte ukomfortabelt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC05OTow"
+  },
+  {
+    "id": "nor-ord-100",
+    "category": "Norge & Norden",
+    "subcategory": "Norske ord & tradisjoner",
+    "question": "Hva kalles den norske tradisjonen med å gå fra dør til dør med lys i håret og synge 13. desember?",
+    "options": [
+      "Luciadagen",
+      "Kyndelsmesse",
+      "Allehelgensdag",
+      "Mikkelsmess"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW9yZC0xMDA6MA=="
+  },
+  {
+    "id": "nor-norden-76",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilke fem selvstendige stater utgjør Norden?",
+    "options": [
+      "Norge, Sverige, Danmark, Finland og Island",
+      "Norge, Sverige, Danmark, Estland og Island",
+      "Norge, Sverige, Danmark, Finland og Skottland",
+      "Norge, Sverige, Finland, Island og Grønland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi03Njow"
+  },
+  {
+    "id": "nor-norden-77",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter hovedstaden på Island?",
+    "options": [
+      "Akureyri",
+      "Tórshavn",
+      "Reykjavík",
+      "Nuuk"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi03Nzoy"
+  },
+  {
+    "id": "nor-norden-78",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter hovedstaden på Færøyene?",
+    "options": [
+      "Nuuk",
+      "Tórshavn",
+      "Reykjavík",
+      "Mariehamn"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi03ODox"
+  },
+  {
+    "id": "nor-norden-79",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter hovedstaden på Grønland?",
+    "options": [
+      "Nuuk",
+      "Ilulissat",
+      "Tórshavn",
+      "Sisimiut"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi03OTow"
+  },
+  {
+    "id": "nor-norden-80",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilket nordisk land har verdens eldste fortsatt eksisterende nasjonalforsamling (Alltinget)?",
+    "options": [
+      "Danmark",
+      "Sverige",
+      "Island",
+      "Norge"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi04MDoy"
+  },
+  {
+    "id": "nor-norden-81",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter Sveriges største innsjø?",
+    "options": [
+      "Vättern",
+      "Hjälmaren",
+      "Vänern",
+      "Mälaren"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi04MToy"
+  },
+  {
+    "id": "nor-norden-82",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilket nordisk land kalles ofte «de tusen sjøers land»?",
+    "options": [
+      "Sverige",
+      "Finland",
+      "Island",
+      "Norge"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi04Mjox"
+  },
+  {
+    "id": "nor-norden-83",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter broen som forbinder København i Danmark med Malmö i Sverige?",
+    "options": [
+      "Lillebæltsbroen",
+      "Svinesundsbrua",
+      "Øresundsbroen",
+      "Storebæltsbroen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi04Mzoy"
+  },
+  {
+    "id": "nor-norden-84",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter Danmarks nåværende konge som overtok tronen i januar 2024?",
+    "options": [
+      "Margrethe II",
+      "Frederik X",
+      "Joachim",
+      "Christian X"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi04NDox"
+  },
+  {
+    "id": "nor-norden-85",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter Sveriges konge?",
+    "options": [
+      "Carl XVI Gustaf",
+      "Oscar II",
+      "Gustav VI Adolf",
+      "Carl XV"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi04NTow"
+  },
+  {
+    "id": "nor-norden-86",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilken valuta bruker Finland?",
+    "options": [
+      "Svensk krone",
+      "Dansk krone",
+      "Finsk mark",
+      "Euro"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi04Njoz"
+  },
+  {
+    "id": "nor-norden-87",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilket selvstyrt område tilhører Finland, men har svensk som eneste offisielle språk?",
+    "options": [
+      "Færøyene",
+      "Åland",
+      "Gotland",
+      "Bornholm"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi04Nzox"
+  },
+  {
+    "id": "nor-norden-88",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter Sveriges nest største øy, som ligger rett ved Kalmar?",
+    "options": [
+      "Hisingen",
+      "Orust",
+      "Gotland",
+      "Öland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi04ODoz"
+  },
+  {
+    "id": "nor-norden-89",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den danske øya som ligger øst for Skåne i Østersjøen og er kjent for keramikk og røkt sild?",
+    "options": [
+      "Bornholm",
+      "Falster",
+      "Fyn",
+      "Lolland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi04OTow"
+  },
+  {
+    "id": "nor-norden-90",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilken by er Finlands nest største by etter Helsingfors (storbyområde) eller kjent som kulturhovedstad?",
+    "options": [
+      "Tammerfors (Tampere)",
+      "Uleåborg (Oulu)",
+      "Åbo (Turku)",
+      "Lahtis"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi05MDow"
+  },
+  {
+    "id": "nor-norden-91",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den svenske forfatteren som skapte Pippi Langstrømpe og Emil i Lønneberget?",
+    "options": [
+      "Tove Jansson",
+      "Selma Lagerlöf",
+      "Camilla Läckberg",
+      "Astrid Lindgren"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi05MToz"
+  },
+  {
+    "id": "nor-norden-92",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den finlandssvenske forfatteren og kunstneren som skapte Mummitrollet?",
+    "options": [
+      "Tove Jansson",
+      "Mika Waltari",
+      "Astrid Lindgren",
+      "Sofi Oksanen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi05Mjow"
+  },
+  {
+    "id": "nor-norden-93",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilket nordisk land ble først i verden med å gi kvinner full stemmerett og valgbarhet i 1906?",
+    "options": [
+      "Norge",
+      "Danmark",
+      "Sverige",
+      "Finland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi05Mzoz"
+  },
+  {
+    "id": "nor-norden-94",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter Sveriges høyeste fjell?",
+    "options": [
+      "Sarektjåkkå",
+      "Helagsfjället",
+      "Kebnekaise",
+      "Åreskutan"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi05NDoy"
+  },
+  {
+    "id": "nor-norden-95",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter Danmarks høyeste naturlige punkt?",
+    "options": [
+      "Ejer Bavnehøj",
+      "Yding Skovhøj",
+      "Møllehøj",
+      "Himmelbjerget"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi05NToy"
+  },
+  {
+    "id": "nor-norden-96",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilket nordisk land er medlem av EU, men ikke NATO? (Ingen etter 2024, men hvilket ble medlem av NATO sist i 2024?)",
+    "options": [
+      "Island",
+      "Danmark",
+      "Sverige",
+      "Finland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi05Njoy"
+  },
+  {
+    "id": "nor-norden-97",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den svenske møbelkjeden som ble grunnlagt av Ingvar Kamprad i 1943?",
+    "options": [
+      "Skeidar",
+      "Mio",
+      "IKEA",
+      "JYSK"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi05Nzoy"
+  },
+  {
+    "id": "nor-norden-98",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilket dansk leketøysmerke ble grunnlagt av Ole Kirk Christiansen i Billund?",
+    "options": [
+      "Playmobil",
+      "Brio",
+      "LEGO",
+      "Duplo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi05ODoy"
+  },
+  {
+    "id": "nor-norden-99",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hva heter den islandske sangerinnen som slo gjennom internasjonalt med The Sugarcubes og senere som soloartist?",
+    "options": [
+      "Ásgeir",
+      "Björk",
+      "Emilíana Torrini",
+      "Laufey"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi05OTox"
+  },
+  {
+    "id": "nor-norden-100",
+    "category": "Norge & Norden",
+    "subcategory": "Norden",
+    "question": "Hvilken svensk by er kjent som «Nordens Venezia» på grunn av sine mange øyer og broer?",
+    "options": [
+      "Uppsala",
+      "Göteborg",
+      "Stockholm",
+      "Malmö"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bm9yLW5vcmRlbi0xMDA6Mg=="
   }
 ]

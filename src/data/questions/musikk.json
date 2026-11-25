@@ -4198,5 +4198,4205 @@
     ],
     "addedAt": "2026-11-25",
     "answerToken": "bXVzLWVzYy01MDox"
+  },
+  {
+    "id": "mus-70-51",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Goodbye Yellow Brick Road» i 1973?",
+    "options": [
+      "David Bowie",
+      "Elton John",
+      "Billy Joel",
+      "Rod Stewart"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTUxOjE="
+  },
+  {
+    "id": "mus-70-52",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Walk This Way» i 1975?",
+    "options": [
+      "Led Zeppelin",
+      "Aerosmith",
+      "KISS",
+      "Queen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTUyOjE="
+  },
+  {
+    "id": "mus-70-53",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Hot Stuff» i 1979?",
+    "options": [
+      "Gloria Gaynor",
+      "Donna Summer",
+      "Diana Ross",
+      "Tina Turner"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTUzOjE="
+  },
+  {
+    "id": "mus-70-54",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «We Are the Champions» i 1977?",
+    "options": [
+      "The Who",
+      "Queen",
+      "Deep Purple",
+      "AC/DC"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTU0OjE="
+  },
+  {
+    "id": "mus-70-55",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Maggie May» i 1971?",
+    "options": [
+      "Elton John",
+      "Rod Stewart",
+      "Eric Clapton",
+      "Joe Cocker"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTU1OjE="
+  },
+  {
+    "id": "mus-70-56",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Paranoid» i 1970 (med Ozzy Osbourne som vokalist)?",
+    "options": [
+      "Deep Purple",
+      "Black Sabbath",
+      "Led Zeppelin",
+      "Judas Priest"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTU2OjE="
+  },
+  {
+    "id": "mus-70-57",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Ain’t No Sunshine» i 1971?",
+    "options": [
+      "Marvin Gaye",
+      "Bill Withers",
+      "Al Green",
+      "Otis Redding"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTU3OjE="
+  },
+  {
+    "id": "mus-70-58",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Baba O’Riley» i 1971?",
+    "options": [
+      "The Rolling Stones",
+      "The Who",
+      "The Kinks",
+      "Pink Floyd"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTU4OjE="
+  },
+  {
+    "id": "mus-70-59",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Let’s Stay Together» i 1971?",
+    "options": [
+      "Stevie Wonder",
+      "Al Green",
+      "Barry White",
+      "Curtis Mayfield"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTU5OjE="
+  },
+  {
+    "id": "mus-70-60",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Mamma Mia» i 1975?",
+    "options": [
+      "Boney M.",
+      "ABBA",
+      "Bee Gees",
+      "Blondie"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTYwOjE="
+  },
+  {
+    "id": "mus-70-61",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Starman» i 1972?",
+    "options": [
+      "Elton John",
+      "David Bowie",
+      "Marc Bolan",
+      "Lou Reed"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTYxOjE="
+  },
+  {
+    "id": "mus-70-62",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Carry On Wayward Son» i 1976?",
+    "options": [
+      "Boston",
+      "Kansas",
+      "Styx",
+      "Journey"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTYyOjE="
+  },
+  {
+    "id": "mus-70-63",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «You’re the First, the Last, My Everything» i 1974?",
+    "options": [
+      "Isaac Hayes",
+      "Barry White",
+      "Marvin Gaye",
+      "Lionel Richie"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTYzOjE="
+  },
+  {
+    "id": "mus-70-64",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Free Bird» i 1973?",
+    "options": [
+      "Eagles",
+      "Lynyrd Skynyrd",
+      "Allman Brothers Band",
+      "ZZ Top"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTY0OjE="
+  },
+  {
+    "id": "mus-70-65",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Me and Bobby McGee» (utgitt posthumt i 1971)?",
+    "options": [
+      "Joni Mitchell",
+      "Janis Joplin",
+      "Grace Slick",
+      "Stevie Nicks"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTY1OjE="
+  },
+  {
+    "id": "mus-70-66",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Wish You Were Here» i 1975?",
+    "options": [
+      "Led Zeppelin",
+      "Pink Floyd",
+      "Genesis",
+      "Yes"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTY2OjE="
+  },
+  {
+    "id": "mus-70-67",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Night Fever» i 1977 (til filmen «Saturday Night Fever»)?",
+    "options": [
+      "ABBA",
+      "Bee Gees",
+      "Kool & the Gang",
+      "Village People"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTY3OjE="
+  },
+  {
+    "id": "mus-70-68",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Blitzkrieg Bop» i 1976?",
+    "options": [
+      "The Clash",
+      "Ramones",
+      "Sex Pistols",
+      "Television"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTY4OjE="
+  },
+  {
+    "id": "mus-70-69",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Isn’t She Lovely» i 1976?",
+    "options": [
+      "Marvin Gaye",
+      "Stevie Wonder",
+      "Michael Jackson",
+      "Billy Joel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTY5OjE="
+  },
+  {
+    "id": "mus-70-70",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Riders on the Storm» i 1971?",
+    "options": [
+      "The Rolling Stones",
+      "The Doors",
+      "Creedence Clearwater Revival",
+      "Jefferson Airplane"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTcwOjE="
+  },
+  {
+    "id": "mus-70-71",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Baker Street» i 1978, berømt for saksofonsoloen?",
+    "options": [
+      "Al Stewart",
+      "Gerry Rafferty",
+      "Supertramp",
+      "Chris Rea"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTcxOjE="
+  },
+  {
+    "id": "mus-70-72",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Go Your Own Way» i 1977?",
+    "options": [
+      "Eagles",
+      "Fleetwood Mac",
+      "America",
+      "Tom Petty"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTcyOjE="
+  },
+  {
+    "id": "mus-70-73",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Lean on Me» i 1972?",
+    "options": [
+      "Stevie Wonder",
+      "Bill Withers",
+      "Otis Redding",
+      "Sam Cooke"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTczOjE="
+  },
+  {
+    "id": "mus-70-74",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «My Sharona» i 1979?",
+    "options": [
+      "Blondie",
+      "The Knack",
+      "The Cars",
+      "Devo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTc0OjE="
+  },
+  {
+    "id": "mus-70-75",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «I’m Not in Love» i 1975?",
+    "options": [
+      "Supertramp",
+      "10cc",
+      "ELO",
+      "Roxy Music"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTc1OjE="
+  },
+  {
+    "id": "mus-80-51",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Billie Jean» og «Beat It» på albumet «Thriller»?",
+    "options": [
+      "Prince",
+      "Michael Jackson",
+      "Lionel Richie",
+      "Stevie Wonder"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTUxOjE="
+  },
+  {
+    "id": "mus-80-52",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Another One Bites the Dust» i 1980?",
+    "options": [
+      "AC/DC",
+      "Queen",
+      "The Rolling Stones",
+      "KISS"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTUyOjE="
+  },
+  {
+    "id": "mus-80-53",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Papa Don’t Preach» i 1986?",
+    "options": [
+      "Cyndi Lauper",
+      "Madonna",
+      "Whitney Houston",
+      "Janet Jackson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTUzOjE="
+  },
+  {
+    "id": "mus-80-54",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Sunday Bloody Sunday» i 1983?",
+    "options": [
+      "Simple Minds",
+      "U2",
+      "The Clash",
+      "R.E.M."
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTU0OjE="
+  },
+  {
+    "id": "mus-80-55",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «When Doves Cry» i 1984?",
+    "options": [
+      "Michael Jackson",
+      "Prince",
+      "George Michael",
+      "David Bowie"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTU1OjE="
+  },
+  {
+    "id": "mus-80-56",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Rosanna» i 1982?",
+    "options": [
+      "Journey",
+      "Toto",
+      "Foreigner",
+      "Chicago"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTU2OjE="
+  },
+  {
+    "id": "mus-80-57",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Saving All My Love for You» i 1985?",
+    "options": [
+      "Tina Turner",
+      "Whitney Houston",
+      "Anita Baker",
+      "Toni Braxton"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTU3OjE="
+  },
+  {
+    "id": "mus-80-58",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «You Give Love a Bad Name» i 1986?",
+    "options": [
+      "Def Leppard",
+      "Bon Jovi",
+      "Guns N’ Roses",
+      "Whitesnake"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTU4OjE="
+  },
+  {
+    "id": "mus-80-59",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Time After Time» i 1984?",
+    "options": [
+      "Madonna",
+      "Cyndi Lauper",
+      "Belinda Carlisle",
+      "Pat Benatar"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTU5OjE="
+  },
+  {
+    "id": "mus-80-60",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Welcome to the Jungle» i 1987?",
+    "options": [
+      "Metallica",
+      "Guns N’ Roses",
+      "Mötley Crüe",
+      "Aerosmith"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTYwOjE="
+  },
+  {
+    "id": "mus-80-61",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «The Sun Always Shines on T.V.» i 1985?",
+    "options": [
+      "Duran Duran",
+      "a-ha",
+      "Alphaville",
+      "Tears for Fears"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTYxOjE="
+  },
+  {
+    "id": "mus-80-62",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Blue Monday» i 1983 (verdens mest solgte 12-tommers singel)?",
+    "options": [
+      "Depeche Mode",
+      "New Order",
+      "Pet Shop Boys",
+      "The Human League"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTYyOjE="
+  },
+  {
+    "id": "mus-80-63",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Dancing in the Dark» i 1984?",
+    "options": [
+      "John Mellencamp",
+      "Bruce Springsteen",
+      "Bryan Adams",
+      "Billy Joel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTYzOjE="
+  },
+  {
+    "id": "mus-80-64",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «The Best» (Simply the Best) i 1989?",
+    "options": [
+      "Bonnie Tyler",
+      "Tina Turner",
+      "Cher",
+      "Aretha Franklin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTY0OjE="
+  },
+  {
+    "id": "mus-80-65",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem ga ut «Heaven» i 1984?",
+    "options": [
+      "Richard Marx",
+      "Bryan Adams",
+      "Phil Collins",
+      "Rod Stewart"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTY1OjE="
+  },
+  {
+    "id": "mus-80-66",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Shout» i 1984?",
+    "options": [
+      "Duran Duran",
+      "Tears for Fears",
+      "Simple Minds",
+      "Depeche Mode"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTY2OjE="
+  },
+  {
+    "id": "mus-80-67",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «I’m Still Standing» i 1983?",
+    "options": [
+      "Billy Joel",
+      "Elton John",
+      "George Michael",
+      "Phil Collins"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTY3OjE="
+  },
+  {
+    "id": "mus-80-68",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Walk Like an Egyptian» i 1986?",
+    "options": [
+      "Go-Go’s",
+      "The Bangles",
+      "Bananarama",
+      "Blondie"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTY4OjE="
+  },
+  {
+    "id": "mus-80-69",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Let’s Dance» i 1983?",
+    "options": [
+      "Elton John",
+      "David Bowie",
+      "Billy Idol",
+      "Robert Palmer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTY5OjE="
+  },
+  {
+    "id": "mus-80-70",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Back in Black» i 1980?",
+    "options": [
+      "KISS",
+      "AC/DC",
+      "Iron Maiden",
+      "Judas Priest"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTcwOjE="
+  },
+  {
+    "id": "mus-80-71",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Faith» i 1987?",
+    "options": [
+      "Rick Astley",
+      "George Michael",
+      "Robbie Williams",
+      "Boy George"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTcxOjE="
+  },
+  {
+    "id": "mus-80-72",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Master of Puppets» i 1986?",
+    "options": [
+      "Megadeth",
+      "Metallica",
+      "Slayer",
+      "Anthrax"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTcyOjE="
+  },
+  {
+    "id": "mus-80-73",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Venus» i 1986 (cover av Shocking Blue)?",
+    "options": [
+      "The Bangles",
+      "Bananarama",
+      "Salt-N-Pepa",
+      "Wilson Phillips"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTczOjE="
+  },
+  {
+    "id": "mus-80-74",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Big in Japan» i 1984?",
+    "options": [
+      "a-ha",
+      "Alphaville",
+      "Modern Talking",
+      "Camouflage"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTc0OjE="
+  },
+  {
+    "id": "mus-80-75",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Upside Down» i 1980?",
+    "options": [
+      "Donna Summer",
+      "Diana Ross",
+      "Gloria Gaynor",
+      "Chaka Khan"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTc1OjE="
+  },
+  {
+    "id": "mus-90-51",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Don’t Look Back in Anger» i 1996?",
+    "options": [
+      "Blur",
+      "Oasis",
+      "Pulp",
+      "The Verve"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTUxOjE="
+  },
+  {
+    "id": "mus-90-52",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Crazy» i 1999?",
+    "options": [
+      "Christina Aguilera",
+      "Britney Spears",
+      "Jessica Simpson",
+      "Mandy Moore"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTUyOjE="
+  },
+  {
+    "id": "mus-90-53",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Say You’ll Be There» i 1996?",
+    "options": [
+      "All Saints",
+      "Spice Girls",
+      "TLC",
+      "Destiny’s Child"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTUzOjE="
+  },
+  {
+    "id": "mus-90-54",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Because You Loved Me» i 1996?",
+    "options": [
+      "Whitney Houston",
+      "Céline Dion",
+      "Mariah Carey",
+      "Toni Braxton"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTU0OjE="
+  },
+  {
+    "id": "mus-90-55",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket boyband ga ut «Everybody (Backstreet’s Back)» i 1997?",
+    "options": [
+      "NSYNC",
+      "Backstreet Boys",
+      "Five",
+      "Westlife"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTU1OjE="
+  },
+  {
+    "id": "mus-90-56",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Come As You Are» i 1992?",
+    "options": [
+      "Pearl Jam",
+      "Nirvana",
+      "Soundgarden",
+      "Alice in Chains"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTU2OjE="
+  },
+  {
+    "id": "mus-90-57",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Black or White» i 1991?",
+    "options": [
+      "Prince",
+      "Michael Jackson",
+      "George Michael",
+      "Seal"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTU3OjE="
+  },
+  {
+    "id": "mus-90-58",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Everybody Hurts» i 1993?",
+    "options": [
+      "U2",
+      "R.E.M.",
+      "Radiohead",
+      "Coldplay"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTU4OjE="
+  },
+  {
+    "id": "mus-90-59",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Kiss from a Rose» til filmen «Batman Forever» i 1995?",
+    "options": [
+      "George Michael",
+      "Seal",
+      "Lenny Kravitz",
+      "Sting"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTU5OjE="
+  },
+  {
+    "id": "mus-90-60",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Under the Bridge» i 1992?",
+    "options": [
+      "Green Day",
+      "Red Hot Chili Peppers",
+      "Foo Fighters",
+      "Jane’s Addiction"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTYwOjE="
+  },
+  {
+    "id": "mus-90-61",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Waterfalls» i 1995?",
+    "options": [
+      "En Vogue",
+      "TLC",
+      "Destiny’s Child",
+      "Salt-N-Pepa"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTYxOjE="
+  },
+  {
+    "id": "mus-90-62",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Tubthumping» («I get knocked down, but I get up again») i 1997?",
+    "options": [
+      "Smash Mouth",
+      "Chumbawamba",
+      "The Offspring",
+      "Beck"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTYyOjE="
+  },
+  {
+    "id": "mus-90-63",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Frozen» i 1998?",
+    "options": [
+      "Cher",
+      "Madonna",
+      "Kylie Minogue",
+      "Björk"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTYzOjE="
+  },
+  {
+    "id": "mus-90-64",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «No Limit» i 1993?",
+    "options": [
+      "Snap!",
+      "2 Unlimited",
+      "Culture Beat",
+      "Haddaway"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTY0OjE="
+  },
+  {
+    "id": "mus-90-65",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «It’s My Life» (eurodance-hiten fra 1992, ikke Bon Jovi)?",
+    "options": [
+      "Haddaway",
+      "Dr. Alban",
+      "Scatman John",
+      "Captain Hollywood"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTY1OjE="
+  },
+  {
+    "id": "mus-90-66",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «One» i 1991 (på albumet «Achtung Baby»)?",
+    "options": [
+      "R.E.M.",
+      "U2",
+      "Depeche Mode",
+      "INXS"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTY2OjE="
+  },
+  {
+    "id": "mus-90-67",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Tears in Heaven» i 1992?",
+    "options": [
+      "Phil Collins",
+      "Eric Clapton",
+      "Sting",
+      "Elton John"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTY3OjE="
+  },
+  {
+    "id": "mus-90-68",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Pretty Fly (For a White Guy)» i 1998?",
+    "options": [
+      "Green Day",
+      "The Offspring",
+      "Blink-182",
+      "Sum 41"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTY4OjE="
+  },
+  {
+    "id": "mus-90-69",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «You Oughta Know» i 1995?",
+    "options": [
+      "Sheryl Crow",
+      "Alanis Morissette",
+      "Meredith Brooks",
+      "Natalie Imbruglia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTY5OjE="
+  },
+  {
+    "id": "mus-90-70",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Karma Police» i 1997?",
+    "options": [
+      "Oasis",
+      "Radiohead",
+      "Blur",
+      "Muse"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTcwOjE="
+  },
+  {
+    "id": "mus-90-71",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Bailamos» i 1999?",
+    "options": [
+      "Ricky Martin",
+      "Enrique Iglesias",
+      "Marc Anthony",
+      "Julio Iglesias"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTcxOjE="
+  },
+  {
+    "id": "mus-90-72",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «The Unforgiven» i 1991?",
+    "options": [
+      "Megadeth",
+      "Metallica",
+      "Guns N’ Roses",
+      "Pantera"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTcyOjE="
+  },
+  {
+    "id": "mus-90-73",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Scatman (Ski-Ba-Bop-Ba-Dop-Bop)» i 1994?",
+    "options": [
+      "Dr. Alban",
+      "Scatman John",
+      "Lou Bega",
+      "2 Unlimited"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTczOjE="
+  },
+  {
+    "id": "mus-90-74",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «MMMBop» i 1997?",
+    "options": [
+      "Backstreet Boys",
+      "Hanson",
+      "NSYNC",
+      "98 Degrees"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTc0OjE="
+  },
+  {
+    "id": "mus-90-75",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Thank You» (samples av Dido i Eminems «Stan»)?",
+    "options": [
+      "Natalie Imbruglia",
+      "Dido",
+      "Sarah McLachlan",
+      "Jewel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTc1OjE="
+  },
+  {
+    "id": "mus-00-51",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Born This Way» i 2011?",
+    "options": [
+      "Katy Perry",
+      "Lady Gaga",
+      "Madonna",
+      "Pink"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTUxOjE="
+  },
+  {
+    "id": "mus-00-52",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem ga ut «Castle on the Hill» og «Perfect» i 2017?",
+    "options": [
+      "Shawn Mendes",
+      "Ed Sheeran",
+      "Sam Smith",
+      "Lewis Capaldi"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTUyOjE="
+  },
+  {
+    "id": "mus-00-53",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken artist ga ut «Hello» i 2015?",
+    "options": [
+      "Beyoncé",
+      "Adele",
+      "Sia",
+      "Taylor Swift"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTUzOjE="
+  },
+  {
+    "id": "mus-00-54",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Cruel Summer» (utgitt i 2019, stor hit igjen i 2023)?",
+    "options": [
+      "Ariana Grande",
+      "Taylor Swift",
+      "Selena Gomez",
+      "Dua Lipa"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTU0OjE="
+  },
+  {
+    "id": "mus-00-55",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilket band ga ut «Clocks» og «Yellow» på 2000-tallet?",
+    "options": [
+      "Keane",
+      "Coldplay",
+      "Travis",
+      "U2"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTU1OjE="
+  },
+  {
+    "id": "mus-00-56",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Diamonds» i 2012?",
+    "options": [
+      "Beyoncé",
+      "Rihanna",
+      "Alicia Keys",
+      "Katy Perry"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTU2OjE="
+  },
+  {
+    "id": "mus-00-57",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken artist ga ut «Hey Brother» i 2013?",
+    "options": [
+      "Kygo",
+      "Avicii",
+      "David Guetta",
+      "Calvin Harris"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTU3OjE="
+  },
+  {
+    "id": "mus-00-58",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Birds of a Feather» i 2024?",
+    "options": [
+      "Olivia Rodrigo",
+      "Billie Eilish",
+      "Sabrina Carpenter",
+      "Gracie Abrams"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTU4OjE="
+  },
+  {
+    "id": "mus-00-59",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken artist ga ut «Halo» i 2008?",
+    "options": [
+      "Rihanna",
+      "Beyoncé",
+      "Leona Lewis",
+      "Adele"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTU5OjE="
+  },
+  {
+    "id": "mus-00-60",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Locked Out of Heaven» og «24K Magic»?",
+    "options": [
+      "The Weeknd",
+      "Bruno Mars",
+      "Justin Timberlake",
+      "Pharrell Williams"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTYwOjE="
+  },
+  {
+    "id": "mus-00-61",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem ga ut «Physical» og «Houdini»?",
+    "options": [
+      "Rita Ora",
+      "Dua Lipa",
+      "Ava Max",
+      "Miley Cyrus"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTYxOjE="
+  },
+  {
+    "id": "mus-00-62",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Wrecking Ball» i 2013?",
+    "options": [
+      "Demi Lovato",
+      "Miley Cyrus",
+      "Katy Perry",
+      "Pink"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTYyOjE="
+  },
+  {
+    "id": "mus-00-63",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken rapper ga ut «The Real Slim Shady» i 2000?",
+    "options": [
+      "50 Cent",
+      "Eminem",
+      "Snoop Dogg",
+      "Dr. Dre"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTYzOjE="
+  },
+  {
+    "id": "mus-00-64",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Watermelon Sugar» i 2019?",
+    "options": [
+      "Shawn Mendes",
+      "Harry Styles",
+      "Justin Bieber",
+      "Niall Horan"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTY0OjE="
+  },
+  {
+    "id": "mus-00-65",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem ga ut «Titanium» sammen med Sia i 2011?",
+    "options": [
+      "Calvin Harris",
+      "David Guetta",
+      "Avicii",
+      "Tiësto"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTY1OjE="
+  },
+  {
+    "id": "mus-00-66",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Counting Stars» med bandet OneRepublic i 2013?",
+    "options": [
+      "Adam Levine",
+      "Ryan Tedder",
+      "Dan Reynolds",
+      "Chris Martin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTY2OjE="
+  },
+  {
+    "id": "mus-00-67",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem ga ut «Good 4 U» i 2021?",
+    "options": [
+      "Billie Eilish",
+      "Olivia Rodrigo",
+      "Dua Lipa",
+      "Tate McRae"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTY3OjE="
+  },
+  {
+    "id": "mus-00-68",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Somebody That I Used to Know» i 2011 (sammen med Kimbra)?",
+    "options": [
+      "Hozier",
+      "Gotye",
+      "Passenger",
+      "Vance Joy"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTY4OjE="
+  },
+  {
+    "id": "mus-00-69",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem ga ut «Let Her Go» i 2012?",
+    "options": [
+      "Ed Sheeran",
+      "Passenger",
+      "James Blunt",
+      "Jason Mraz"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTY5OjE="
+  },
+  {
+    "id": "mus-00-70",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Riptide» i 2013?",
+    "options": [
+      "George Ezra",
+      "Vance Joy",
+      "Lumineers",
+      "Mumford & Sons"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTcwOjE="
+  },
+  {
+    "id": "mus-00-71",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem ga ut «Budapest» og «Shotgun»?",
+    "options": [
+      "Ed Sheeran",
+      "George Ezra",
+      "Sam Fender",
+      "Tom Odell"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTcxOjE="
+  },
+  {
+    "id": "mus-00-72",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Can’t Stop the Feeling!» i 2016 (til filmen «Trolls»)?",
+    "options": [
+      "Bruno Mars",
+      "Justin Timberlake",
+      "Pharrell Williams",
+      "Shawn Mendes"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTcyOjE="
+  },
+  {
+    "id": "mus-00-73",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem ga ut «Chasing Cars» i 2006?",
+    "options": [
+      "Coldplay",
+      "Snow Patrol",
+      "Keane",
+      "The Fray"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTczOjE="
+  },
+  {
+    "id": "mus-00-74",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Greedy» i 2023?",
+    "options": [
+      "Sabrina Carpenter",
+      "Tate McRae",
+      "Dua Lipa",
+      "Olivia Rodrigo"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTc0OjE="
+  },
+  {
+    "id": "mus-00-75",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken gruppe står bak «How You Like That» og «Pink Venom» (K-pop)?",
+    "options": [
+      "BTS",
+      "BLACKPINK",
+      "TWICE",
+      "NewJeans"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTAwLTc1OjE="
+  },
+  {
+    "id": "mus-nor-51",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Min første kjærlighet» og «Kokken Tor»?",
+    "options": [
+      "Postgirobygget",
+      "deLillos",
+      "Di Derre",
+      "Trang Fødsel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci01MTox"
+  },
+  {
+    "id": "mus-nor-52",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Det vakreste som fins» (1988)?",
+    "options": [
+      "Åge Aleksandersen",
+      "Jahn Teigen",
+      "Jan Eggum",
+      "Finn Kalvik"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci01Mjox"
+  },
+  {
+    "id": "mus-nor-53",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Englefjes» og «Stjernestøv»?",
+    "options": [
+      "CC Cowboys",
+      "DumDum Boys",
+      "Raga Rockers",
+      "Seigmen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci01Mzox"
+  },
+  {
+    "id": "mus-nor-54",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilket norsk band synger «E6» og «Vinsjan på kaia»?",
+    "options": [
+      "Åge Aleksandersen",
+      "D.D.E.",
+      "Vassendgutane",
+      "Sie Gubba"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci01NDox"
+  },
+  {
+    "id": "mus-nor-55",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Gunerius» og «Lett å være rebell i kjellerleiligheten din»?",
+    "options": [
+      "Klovner i Kamp",
+      "Karpe",
+      "Lars Vaular",
+      "Cezinando"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci01NTox"
+  },
+  {
+    "id": "mus-nor-56",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk artist ga ut «Alone» i 2016?",
+    "options": [
+      "Kygo",
+      "Alan Walker",
+      "Matoma",
+      "Seeb"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci01Njox"
+  },
+  {
+    "id": "mus-nor-57",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem sang «I Took a Pill in Ibiza» (remixen som ble en global hit i 2016 var laget av den norske duoen...)?",
+    "options": [
+      "Broiler",
+      "Seeb",
+      "Kream",
+      "Röyksopp"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci01Nzox"
+  },
+  {
+    "id": "mus-nor-58",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Rett opp og ned» og «Klovner i Kamp»-klassikeren «Nattens sønner»?",
+    "options": [
+      "Karpe",
+      "Klovner i Kamp",
+      "Gatas Parlament",
+      "Tungtvann"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci01ODox"
+  },
+  {
+    "id": "mus-nor-59",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Fy faen»)?",
+    "options": [
+      "Katastrofe",
+      "Hkeem (og Temur)",
+      "Arif",
+      "Kamelen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci01OTox"
+  },
+  {
+    "id": "mus-nor-60",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Svalestup» eller «Hvite netter» – hvem synger «En natt forbi»?",
+    "options": [
+      "Ole Paus",
+      "Jan Eggum",
+      "Halvdan Sivertsen",
+      "Bjørn Eidsvåg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci02MDox"
+  },
+  {
+    "id": "mus-nor-61",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilket norsk rockeband fra Bergen synger «Natten er vår» eller «Mjød» og «Blodtørst»?",
+    "options": [
+      "Turboneger",
+      "Kvelertak",
+      "Enslaved",
+      "Satyricon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci02MTox"
+  },
+  {
+    "id": "mus-nor-62",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «21» og «Think Before I Talk»?",
+    "options": [
+      "Sigrid",
+      "Astrid S",
+      "Dagny",
+      "Julie Bergan"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci02Mjox"
+  },
+  {
+    "id": "mus-nor-63",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk artist ga ut «The Seed» og «Exist for Love»?",
+    "options": [
+      "Sigrid",
+      "Aurora",
+      "Ane Brun",
+      "Susanne Sundfør"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci02Mzox"
+  },
+  {
+    "id": "mus-nor-64",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Mysteriet deg» (sammen med Lisa Nilsson)?",
+    "options": [
+      "Åge Aleksandersen",
+      "Bjørn Eidsvåg",
+      "Jan Eggum",
+      "Ole Paus"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci02NDox"
+  },
+  {
+    "id": "mus-nor-65",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilket norsk band synger «Maestro» og «Kontroll på kontinentet»?",
+    "options": [
+      "Madrugada",
+      "Kaizers Orchestra",
+      "Kvelertak",
+      "Bigbang"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci02NTox"
+  },
+  {
+    "id": "mus-nor-66",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Sommeren som var» / «Bohem» / «Gammel gris» – hvem synger «Surfing i det blå» eller «Badehåndkle»? Hvem synger «Tidløs»?",
+    "options": [
+      "Postgirobygget",
+      "Postgirobygget (Tidløs / Idyll)",
+      "Di Derre",
+      "Trang Fødsel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci02Njox"
+  },
+  {
+    "id": "mus-nor-67",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem sang «Aldri i livet» (1981)?",
+    "options": [
+      "Jahn Teigen",
+      "Finn Kalvik",
+      "Halvdan Sivertsen",
+      "Lillebjørn Nilsen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci02Nzox"
+  },
+  {
+    "id": "mus-nor-68",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk artist synger «Slå hjerte, slå» og «If You Were Mine»?",
+    "options": [
+      "Chris Holsten",
+      "Christian Ingebrigtsen (A1)",
+      "Kurt Nilsen",
+      "Espen Lind"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci02ODow"
+  },
+  {
+    "id": "mus-nor-69",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilket norsk band hadde med seg britiske Ben Adams, Paul Marazzi og Mark Read på 1990/2000-tallet?",
+    "options": [
+      "Boyzone",
+      "a1",
+      "Westlife",
+      "Blue"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci02OTox"
+  },
+  {
+    "id": "mus-nor-70",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Alt du vil ha» og «Dans på bordet»?",
+    "options": [
+      "Freddy Kalas",
+      "Ballinciaga (og David Mokel)",
+      "TIX",
+      "Katastrofe"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci03MDox"
+  },
+  {
+    "id": "mus-nor-71",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk artist synger «Norge i rødt, hvitt og blått» (kjent innspilling) eller «Mitt lille land» (originalen fra 1994)?",
+    "options": [
+      "Bjørn Eidsvåg",
+      "Ole Paus (senere Maria Mena)",
+      "Halvdan Sivertsen",
+      "Åge Aleksandersen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci03MTox"
+  },
+  {
+    "id": "mus-nor-72",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Høyere» / «Kanskje kommer kongen»?",
+    "options": [
+      "deLillos",
+      "Knutsen & Ludvigsen",
+      "DumDum Boys",
+      "Raga Rockers"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci03Mjox"
+  },
+  {
+    "id": "mus-nor-73",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilket norsk band synger «Hallo! Hallo!» og «Grevling i taket»?",
+    "options": [
+      "Dollie de Luxe",
+      "Knutsen & Ludvigsen",
+      "Prima Vera",
+      "Vazelina Bilopphøggers"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci03Mzox"
+  },
+  {
+    "id": "mus-nor-74",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «Fem på tolv» eller «Surfbrett» og «Bilopphøggerboogie»?",
+    "options": [
+      "Øystein Sunde",
+      "Vazelina Bilopphøggers",
+      "D.D.E.",
+      "Hellbillies"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci03NDox"
+  },
+  {
+    "id": "mus-nor-75",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem synger «I’m in Love with a Girl» / «Hodelykt» / «Det går likar no»?",
+    "options": [
+      "D.D.E.",
+      "D.D.E. (Det går likar no)",
+      "Åge Aleksandersen",
+      "Vassendgutane"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vci03NTox"
+  },
+  {
+    "id": "mus-esc-51",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision i 2009 i Moskva?",
+    "options": [
+      "Island",
+      "Norge",
+      "Aserbajdsjan",
+      "Tyrkia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy01MTox"
+  },
+  {
+    "id": "mus-esc-52",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem representerte Norge i Eurovision 2014 med «Silent Storm»?",
+    "options": [
+      "Margaret Berger",
+      "Carl Espen",
+      "Mørland",
+      "Agnete"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy01Mjox"
+  },
+  {
+    "id": "mus-esc-53",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision i 2011 med duoen Ell & Nikki («Running Scared»)?",
+    "options": [
+      "Italia",
+      "Aserbajdsjan",
+      "Sverige",
+      "Ukraina"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy01Mzox"
+  },
+  {
+    "id": "mus-esc-54",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken norsk artist deltok i Eurovision 2010 på hjemmebane med «My Heart Is Yours»?",
+    "options": [
+      "Alexander Rybak",
+      "Didrik Solli-Tangen",
+      "Stella Mwangi",
+      "Tooji"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy01NDox"
+  },
+  {
+    "id": "mus-esc-55",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision i 2007 med Marija Šerifović og «Molitva»?",
+    "options": [
+      "Ukraina",
+      "Serbia",
+      "Russland",
+      "Hellas"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy01NTox"
+  },
+  {
+    "id": "mus-esc-56",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision i 2005 med Helena Paparizou og «My Number One»?",
+    "options": [
+      "Malta",
+      "Hellas",
+      "Romania",
+      "Israel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy01Njox"
+  },
+  {
+    "id": "mus-esc-57",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem representerte Norge i 2006 med «Alvedansen» (på norsk)?",
+    "options": [
+      "Guri Schanke",
+      "Christine Guldbrandsen",
+      "Maria Haukaas Storeng",
+      "Wig Wam"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy01Nzox"
+  },
+  {
+    "id": "mus-esc-58",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land har vunnet Eurovision 7 ganger (delt rekord med Irland)?",
+    "options": [
+      "Norge",
+      "Sverige",
+      "Storbritannia",
+      "Frankrike"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy01ODox"
+  },
+  {
+    "id": "mus-esc-59",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken irsk artist vant Eurovision hele to ganger som sanger (1980 og 1987) og én gang som låtskriver?",
+    "options": [
+      "Dana",
+      "Johnny Logan",
+      "Linda Martin",
+      "Niamh Kavanagh"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy01OTox"
+  },
+  {
+    "id": "mus-esc-60",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision i 2008 med Dima Bilan og «Believe»?",
+    "options": [
+      "Ukraina",
+      "Russland",
+      "Hellas",
+      "Armenia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy02MDox"
+  },
+  {
+    "id": "mus-esc-61",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem representerte Norge i 2017 med «Grab the Moment»?",
+    "options": [
+      "Agnete",
+      "JOWST (med Aleksander Walmann)",
+      "Alexander Rybak",
+      "KEiiNO"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy02MTox"
+  },
+  {
+    "id": "mus-esc-62",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision i 2003 med Sertab Erener og «Everyway That I Can»?",
+    "options": [
+      "Belgia",
+      "Tyrkia",
+      "Russland",
+      "Norge"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy02Mjox"
+  },
+  {
+    "id": "mus-esc-63",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken norsk artist deltok i 2018 med «That’s How You Write a Song»?",
+    "options": [
+      "JOWST",
+      "Alexander Rybak",
+      "KEiiNO",
+      "Ulrikke"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy02Mzox"
+  },
+  {
+    "id": "mus-esc-64",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land arrangerte Eurovision i 2023 på vegne av Ukraina (i Liverpool)?",
+    "options": [
+      "Polen",
+      "Storbritannia",
+      "Sverige",
+      "Tyskland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy02NDox"
+  },
+  {
+    "id": "mus-esc-65",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hva het den berømte pausen-innslaget «Riverdance» som ble vist for første gang i Eurovision-pausen i 1994 i...",
+    "options": [
+      "London",
+      "Dublin",
+      "Oslo",
+      "Stockholm"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy02NTox"
+  },
+  {
+    "id": "mus-esc-66",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken norsk sangduo bestående av Hanne Krogh og Elisabeth Andreassen vant i 1985?",
+    "options": [
+      "Dollie de Luxe",
+      "Bobbysocks",
+      "Secret Garden",
+      "Kikki, Bettan & Lotta"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy02Njox"
+  },
+  {
+    "id": "mus-esc-67",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision i 1999 med Charlotte Nilsson og «Take Me to Your Heaven»?",
+    "options": [
+      "Island",
+      "Sverige",
+      "Tyskland",
+      "Kroatia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy02Nzox"
+  },
+  {
+    "id": "mus-esc-68",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision i 2001 med «Everybody» (Tanel Padar, Dave Benton & 2XL)?",
+    "options": [
+      "Danmark",
+      "Estland",
+      "Latvia",
+      "Litauen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy02ODox"
+  },
+  {
+    "id": "mus-esc-69",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem representerte Norge i 2003 med «I’m Not Afraid to Move On» og kom på 4. plass?",
+    "options": [
+      "Knut Anders Sørum",
+      "Jostein Hasselgård",
+      "Wig Wam",
+      "Charmed"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy02OTox"
+  },
+  {
+    "id": "mus-esc-70",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land arrangerte Eurovision i 1974 da ABBA vant med «Waterloo»?",
+    "options": [
+      "Sverige",
+      "Storbritannia (Brighton)",
+      "Luxembourg",
+      "Nederland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy03MDox"
+  },
+  {
+    "id": "mus-esc-71",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken by arrangerte Eurovision i 2025 etter Nemos seier i 2024?",
+    "options": [
+      "Zürich",
+      "Basel",
+      "Genève",
+      "Bern"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy03MTox"
+  },
+  {
+    "id": "mus-esc-72",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision i 1997 med Katrina and the Waves («Love Shine a Light»)?",
+    "options": [
+      "Irland",
+      "Storbritannia",
+      "Italia",
+      "Tyrkia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy03Mjox"
+  },
+  {
+    "id": "mus-esc-73",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem representerte Norge i 1966 med «Intet er nytt under solen» og kom på 3. plass?",
+    "options": [
+      "Wenche Myhre",
+      "Åse Kleveland",
+      "Nora Brockstedt",
+      "Kirsti Sparboe"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy03Mzox"
+  },
+  {
+    "id": "mus-esc-74",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken norsk artist deltok i Eurovision 1960 (Norges aller første deltakelse) med «Voi Voi»?",
+    "options": [
+      "Åse Kleveland",
+      "Nora Brockstedt",
+      "Wenche Myhre",
+      "Anita Thallaug"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy03NDox"
+  },
+  {
+    "id": "mus-esc-75",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision i 1979 med «Hallelujah»?",
+    "options": [
+      "Spania",
+      "Israel",
+      "Frankrike",
+      "Tyskland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWVzYy03NTox"
+  },
+  {
+    "id": "mus-70-76",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Take It Easy» i 1972?",
+    "options": [
+      "America",
+      "Fleetwood Mac",
+      "Lynyrd Skynyrd",
+      "Eagles"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTc2OjM="
+  },
+  {
+    "id": "mus-70-77",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Stayin’ Alive» fra filmen «Saturday Night Fever»?",
+    "options": [
+      "KC and the Sunshine Band",
+      "ABBA",
+      "Bee Gees",
+      "Chic"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTc3OjI="
+  },
+  {
+    "id": "mus-70-78",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band hadde en stor hit med «Bohemian Rhapsody» i 1975?",
+    "options": [
+      "Queen",
+      "Deep Purple",
+      "Pink Floyd",
+      "Led Zeppelin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTc4OjA="
+  },
+  {
+    "id": "mus-70-79",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem ga ut «Imagine» i 1971?",
+    "options": [
+      "Elton John",
+      "Paul McCartney",
+      "George Harrison",
+      "John Lennon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTc5OjM="
+  },
+  {
+    "id": "mus-70-80",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilken svensk gruppe hadde en enorm hit med «Dancing Queen» i 1976?",
+    "options": [
+      "Roxette",
+      "Ace of Base",
+      "Europe",
+      "ABBA"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTgwOjM="
+  },
+  {
+    "id": "mus-70-81",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Rocket Man» og «Your Song» på 1970-tallet?",
+    "options": [
+      "Elton John",
+      "David Bowie",
+      "Billy Joel",
+      "Rod Stewart"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTgxOjA="
+  },
+  {
+    "id": "mus-70-82",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket album fra Pink Floyd kom ut i 1973 og har et prisme på coveret?",
+    "options": [
+      "Animals",
+      "The Wall",
+      "Wish You Were Here",
+      "The Dark Side of the Moon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTgyOjM="
+  },
+  {
+    "id": "mus-70-83",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem hadde en stor hit med «Superstition» i 1972?",
+    "options": [
+      "Barry White",
+      "Marvin Gaye",
+      "Al Green",
+      "Stevie Wonder"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTgzOjM="
+  },
+  {
+    "id": "mus-70-84",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Stairway to Heaven» i 1971?",
+    "options": [
+      "Deep Purple",
+      "Aerosmith",
+      "Black Sabbath",
+      "Led Zeppelin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTg0OjM="
+  },
+  {
+    "id": "mus-70-85",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Hot Stuff» i 1979?",
+    "options": [
+      "Aretha Franklin",
+      "Gloria Gaynor",
+      "Diana Ross",
+      "Donna Summer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTg1OjM="
+  },
+  {
+    "id": "mus-70-86",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilken gruppe sto bak disco-klassikeren «Y.M.C.A.»?",
+    "options": [
+      "Village People",
+      "Boney M.",
+      "Earth, Wind & Fire",
+      "Kool & the Gang"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTg2OjA="
+  },
+  {
+    "id": "mus-70-87",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem ga ut albumet «Rumours» i 1977 med låter som «Dreams» og «Go Your Own Way»?",
+    "options": [
+      "Eagles",
+      "Fleetwood Mac",
+      "Blondie",
+      "Heart"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTg3OjE="
+  },
+  {
+    "id": "mus-70-88",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilken artist ga ut «Starman» og «Heroes» på 1970-tallet?",
+    "options": [
+      "Marc Bolan",
+      "David Bowie",
+      "Lou Reed",
+      "Iggy Pop"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTg4OjE="
+  },
+  {
+    "id": "mus-70-89",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Sultans of Swing» i 1978?",
+    "options": [
+      "The Police",
+      "Dire Straits",
+      "Supertramp",
+      "Genesis"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTg5OjE="
+  },
+  {
+    "id": "mus-70-90",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band hadde en hit med «Smoke on the Water» i 1972?",
+    "options": [
+      "Uriah Heep",
+      "Led Zeppelin",
+      "Deep Purple",
+      "Black Sabbath"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTkwOjI="
+  },
+  {
+    "id": "mus-70-91",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Piano Man» i 1973?",
+    "options": [
+      "Elton John",
+      "James Taylor",
+      "Cat Stevens",
+      "Billy Joel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTkxOjM="
+  },
+  {
+    "id": "mus-70-92",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilken artist hadde en stor hit med «Jolene» i 1973?",
+    "options": [
+      "Emmylou Harris",
+      "Loretta Lynn",
+      "Dolly Parton",
+      "Tammy Wynette"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTkyOjI="
+  },
+  {
+    "id": "mus-70-93",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem ga ut «Born to Run» i 1975?",
+    "options": [
+      "Neil Young",
+      "Bob Dylan",
+      "Bruce Springsteen",
+      "Tom Petty"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTkzOjI="
+  },
+  {
+    "id": "mus-70-94",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band hadde en hit med «Sweet Home Alabama» i 1974?",
+    "options": [
+      "Lynyrd Skynyrd",
+      "ZZ Top",
+      "The Allman Brothers Band",
+      "Creedence Clearwater Revival"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTk0OjA="
+  },
+  {
+    "id": "mus-70-95",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Heart of Glass» i 1979?",
+    "options": [
+      "Patti Smith",
+      "Blondie",
+      "The Pretenders",
+      "Siouxsie and the Banshees"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTk1OjE="
+  },
+  {
+    "id": "mus-70-96",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilken gruppe hadde en hit med «September» i 1978?",
+    "options": [
+      "Earth, Wind & Fire",
+      "Kool & the Gang",
+      "The Commodores",
+      "Sister Sledge"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTk2OjA="
+  },
+  {
+    "id": "mus-70-97",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «Let’s Get It On» i 1973?",
+    "options": [
+      "Marvin Gaye",
+      "Al Green",
+      "Isaac Hayes",
+      "Stevie Wonder"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTk3OjA="
+  },
+  {
+    "id": "mus-70-98",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «London Calling» i 1979?",
+    "options": [
+      "Sex Pistols",
+      "Ramones",
+      "The Jam",
+      "The Clash"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTk4OjM="
+  },
+  {
+    "id": "mus-70-99",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvem sang «No Woman, No Cry» på 1970-tallet?",
+    "options": [
+      "Bob Marley & The Wailers",
+      "Jimmy Cliff",
+      "Peter Tosh",
+      "UB40"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTk5OjA="
+  },
+  {
+    "id": "mus-70-100",
+    "category": "Musikk",
+    "subcategory": "70-tallshits",
+    "question": "Hvilket band ga ut «Carry On Wayward Son» i 1976?",
+    "options": [
+      "Styx",
+      "Journey",
+      "Kansas",
+      "Boston"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTcwLTEwMDoy"
+  },
+  {
+    "id": "mus-80-76",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem ga ut «Thriller» i 1982, verdens mest solgte album?",
+    "options": [
+      "Michael Jackson",
+      "Madonna",
+      "Prince",
+      "Lionel Richie"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTc2OjA="
+  },
+  {
+    "id": "mus-80-77",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilken låt av a-ha var tittelsporet til James Bond-filmen i 1987?",
+    "options": [
+      "The Living Daylights",
+      "The Sun Always Shines on T.V.",
+      "Hunting High and Low",
+      "Cry Wolf"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTc3OjA="
+  },
+  {
+    "id": "mus-80-78",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Like a Virgin» i 1984?",
+    "options": [
+      "Cyndi Lauper",
+      "Janet Jackson",
+      "Whitney Houston",
+      "Madonna"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTc4OjM="
+  },
+  {
+    "id": "mus-80-79",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band hadde en stor hit med «Every Breath You Take» i 1983?",
+    "options": [
+      "U2",
+      "Tears for Fears",
+      "Duran Duran",
+      "The Police"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTc5OjM="
+  },
+  {
+    "id": "mus-80-80",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Purple Rain» i 1984?",
+    "options": [
+      "Prince",
+      "Michael Jackson",
+      "Stevie Wonder",
+      "George Michael"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTgwOjA="
+  },
+  {
+    "id": "mus-80-81",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «The Final Countdown» i 1986?",
+    "options": [
+      "Europe",
+      "Scorpions",
+      "Def Leppard",
+      "Bon Jovi"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTgxOjA="
+  },
+  {
+    "id": "mus-80-82",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Time After Time» i 1983?",
+    "options": [
+      "Madonna",
+      "Pat Benatar",
+      "Kim Wilde",
+      "Cyndi Lauper"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTgyOjM="
+  },
+  {
+    "id": "mus-80-83",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band hadde en hit med «Livin’ on a Prayer» i 1986?",
+    "options": [
+      "Bon Jovi",
+      "Guns N’ Roses",
+      "Van Halen",
+      "Whitesnake"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTgzOjA="
+  },
+  {
+    "id": "mus-80-84",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «I Wanna Dance with Somebody (Who Loves Me)» i 1987?",
+    "options": [
+      "Tina Turner",
+      "Whitney Houston",
+      "Mariah Carey",
+      "Janet Jackson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTg0OjE="
+  },
+  {
+    "id": "mus-80-85",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket irsk band ga ut «With or Without You» i 1987?",
+    "options": [
+      "The Smiths",
+      "INXS",
+      "Simple Minds",
+      "U2"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTg1OjM="
+  },
+  {
+    "id": "mus-80-86",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem hadde en stor hit med «Sweet Child o’ Mine» i 1987?",
+    "options": [
+      "Mötley Crüe",
+      "AC/DC",
+      "Guns N’ Roses",
+      "Metallica"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTg2OjI="
+  },
+  {
+    "id": "mus-80-87",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilken duo sto bak juleklassikeren «Last Christmas» i 1984?",
+    "options": [
+      "Wham!",
+      "Eurythmics",
+      "Soft Cell",
+      "Pet Shop Boys"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTg3OjA="
+  },
+  {
+    "id": "mus-80-88",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Here Comes the Rain Again» i 1984?",
+    "options": [
+      "Human League",
+      "Depeche Mode",
+      "Yazoo",
+      "Eurythmics"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTg4OjM="
+  },
+  {
+    "id": "mus-80-89",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Africa» i 1982?",
+    "options": [
+      "Toto",
+      "Journey",
+      "Foreigner",
+      "Chicago"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTg5OjA="
+  },
+  {
+    "id": "mus-80-90",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «The Best» (Simply the Best) i 1989?",
+    "options": [
+      "Tina Turner",
+      "Chaka Khan",
+      "Diana Ross",
+      "Aretha Franklin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTkwOjA="
+  },
+  {
+    "id": "mus-80-91",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band hadde en stor hit med «Don’t Stop Believin’» i 1981?",
+    "options": [
+      "REO Speedwagon",
+      "Styx",
+      "Toto",
+      "Journey"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTkxOjM="
+  },
+  {
+    "id": "mus-80-92",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Together Forever» i 1988?",
+    "options": [
+      "Jason Donovan",
+      "Nik Kershaw",
+      "Rick Astley",
+      "Howard Jones"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTkyOjI="
+  },
+  {
+    "id": "mus-80-93",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «You Shook Me All Night Long» i 1980?",
+    "options": [
+      "Judas Priest",
+      "Iron Maiden",
+      "AC/DC",
+      "Motörhead"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTkzOjI="
+  },
+  {
+    "id": "mus-80-94",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «In the Air Tonight» i 1981?",
+    "options": [
+      "Peter Gabriel",
+      "Sting",
+      "Bryan Adams",
+      "Phil Collins"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTk0OjM="
+  },
+  {
+    "id": "mus-80-95",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilken kanadisk artist sang «Summer of ’69»?",
+    "options": [
+      "Bruce Springsteen",
+      "Bryan Adams",
+      "John Mellencamp",
+      "Tom Petty"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTk1OjE="
+  },
+  {
+    "id": "mus-80-96",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem ga ut «Wake Me Up Before You Go-Go» i 1984?",
+    "options": [
+      "Spandau Ballet",
+      "Culture Club",
+      "Wham!",
+      "Duran Duran"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTk2OjI="
+  },
+  {
+    "id": "mus-80-97",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band hadde en hit med «Karma Chameleon» i 1983?",
+    "options": [
+      "Duran Duran",
+      "ABC",
+      "Frankie Goes to Hollywood",
+      "Culture Club"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTk3OjM="
+  },
+  {
+    "id": "mus-80-98",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Rock Me Amadeus» i 1985?",
+    "options": [
+      "Sandra",
+      "Falco",
+      "Nena",
+      "Alphaville"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTk4OjE="
+  },
+  {
+    "id": "mus-80-99",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvilket band ga ut «Forever Young» i 1984?",
+    "options": [
+      "Alphaville",
+      "Depeche Mode",
+      "New Order",
+      "Orchestral Manoeuvres in the Dark"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTk5OjA="
+  },
+  {
+    "id": "mus-80-100",
+    "category": "Musikk",
+    "subcategory": "80-tallshits",
+    "question": "Hvem sang «Running Up That Hill» i 1985?",
+    "options": [
+      "Annie Lennox",
+      "Siouxsie Sioux",
+      "Kate Bush",
+      "Belinda Carlisle"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTgwLTEwMDoy"
+  },
+  {
+    "id": "mus-90-76",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Smells Like Teen Spirit» i 1991?",
+    "options": [
+      "Soundgarden",
+      "Nirvana",
+      "Alice in Chains",
+      "Pearl Jam"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTc2OjE="
+  },
+  {
+    "id": "mus-90-77",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilken britisk jentegruppe slo gjennom med «Wannabe» i 1996?",
+    "options": [
+      "TLC",
+      "Destiny’s Child",
+      "Spice Girls",
+      "All Saints"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTc3OjI="
+  },
+  {
+    "id": "mus-90-78",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Because You Loved Me» i 1996?",
+    "options": [
+      "Mariah Carey",
+      "Toni Braxton",
+      "Céline Dion",
+      "Whitney Houston"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTc4OjI="
+  },
+  {
+    "id": "mus-90-79",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket britisk band hadde en megahit med «Wonderwall» i 1995?",
+    "options": [
+      "Oasis",
+      "Blur",
+      "Pulp",
+      "The Verve"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTc5OjA="
+  },
+  {
+    "id": "mus-90-80",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Oops!... I Did It Again» i 2000?",
+    "options": [
+      "Jessica Simpson",
+      "Britney Spears",
+      "Christina Aguilera",
+      "Mandy Moore"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTgwOjE="
+  },
+  {
+    "id": "mus-90-81",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket boyband ga ut «Bye Bye Bye» i 2000?",
+    "options": [
+      "Backstreet Boys",
+      "Westlife",
+      "NSYNC",
+      "Boyzone"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTgxOjI="
+  },
+  {
+    "id": "mus-90-82",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem hadde en stor hit med «Losing My Religion» i 1991?",
+    "options": [
+      "The Cranberries",
+      "Radiohead",
+      "R.E.M.",
+      "U2"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTgyOjI="
+  },
+  {
+    "id": "mus-90-83",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket dansk-norsk popband ga ut «Barbie Girl» i 1997?",
+    "options": [
+      "Aqua",
+      "Ace of Base",
+      "Cartoons",
+      "Vengaboys"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTgzOjA="
+  },
+  {
+    "id": "mus-90-84",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Bitch» i 1997?",
+    "options": [
+      "Sheryl Crow",
+      "Jewel",
+      "Meredith Brooks",
+      "Alanis Morissette"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTg0OjI="
+  },
+  {
+    "id": "mus-90-85",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilken artist ga ut albumet «Jagged Little Pill» i 1995 med låter som «Ironic»?",
+    "options": [
+      "Alanis Morissette",
+      "Tori Amos",
+      "Sinéad O’Connor",
+      "Fiona Apple"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTg1OjA="
+  },
+  {
+    "id": "mus-90-86",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band hadde en stor hit med «Zombie» i 1994?",
+    "options": [
+      "The Cranberries",
+      "Cardigans",
+      "Garbage",
+      "No Doubt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTg2OjA="
+  },
+  {
+    "id": "mus-90-87",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Believe» i 1998, en av de første store pophitene med tydelig Auto-Tune?",
+    "options": [
+      "Madonna",
+      "Geri Halliwell",
+      "Kylie Minogue",
+      "Cher"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTg3OjM="
+  },
+  {
+    "id": "mus-90-88",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Enter Sandman» i 1991?",
+    "options": [
+      "Pantera",
+      "Metallica",
+      "Megadeth",
+      "Slayer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTg4OjE="
+  },
+  {
+    "id": "mus-90-89",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem skrev opprinnelig «Nothing Compares 2 U»?",
+    "options": [
+      "Sinéad O’Connor",
+      "Sting",
+      "George Michael",
+      "Prince"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTg5OjM="
+  },
+  {
+    "id": "mus-90-90",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band hadde en hit med «Bitter Sweet Symphony» i 1997?",
+    "options": [
+      "Suede",
+      "Oasis",
+      "The Verve",
+      "Blur"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTkwOjI="
+  },
+  {
+    "id": "mus-90-91",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem ga ut «California Love» i 1995 sammen med Dr. Dre?",
+    "options": [
+      "Snoop Dogg",
+      "The Notorious B.I.G.",
+      "2Pac",
+      "Coolio"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTkxOjI="
+  },
+  {
+    "id": "mus-90-92",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilken gruppe sang «Waterfalls» og «No Scrubs» på 1990-tallet?",
+    "options": [
+      "En Vogue",
+      "TLC",
+      "SWV",
+      "Destiny’s Child"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTkyOjE="
+  },
+  {
+    "id": "mus-90-93",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem hadde en hit med «Creep» i 1992?",
+    "options": [
+      "Travis",
+      "Radiohead",
+      "Muse",
+      "Coldplay"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTkzOjE="
+  },
+  {
+    "id": "mus-90-94",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilken svensk gruppe ga ut «The Sign» i 1993?",
+    "options": [
+      "Roxette",
+      "Army of Lovers",
+      "The Cardigans",
+      "Ace of Base"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTk0OjM="
+  },
+  {
+    "id": "mus-90-95",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Heal the World» i 1991?",
+    "options": [
+      "Seal",
+      "George Michael",
+      "Michael Jackson",
+      "Prince"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTk1OjI="
+  },
+  {
+    "id": "mus-90-96",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Under the Bridge» i 1991?",
+    "options": [
+      "Pearl Jam",
+      "Green Day",
+      "Foo Fighters",
+      "Red Hot Chili Peppers"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTk2OjM="
+  },
+  {
+    "id": "mus-90-97",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «Kiss from a Rose» i 1994?",
+    "options": [
+      "Boyz II Men",
+      "Babyface",
+      "Seal",
+      "R. Kelly"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTk3OjI="
+  },
+  {
+    "id": "mus-90-98",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band hadde en hit med «Basket Case» i 1994?",
+    "options": [
+      "The Offspring",
+      "Blink-182",
+      "Green Day",
+      "Weezer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTk4OjI="
+  },
+  {
+    "id": "mus-90-99",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvem sang «I Will Always Love You» til filmen «The Bodyguard» i 1992?",
+    "options": [
+      "Whitney Houston",
+      "Mariah Carey",
+      "Céline Dion",
+      "Dolly Parton"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTk5OjA="
+  },
+  {
+    "id": "mus-90-100",
+    "category": "Musikk",
+    "subcategory": "90-tallshits",
+    "question": "Hvilket band ga ut «Don’t Speak» i 1996?",
+    "options": [
+      "Garbage",
+      "Sixpence None the Richer",
+      "The Cardigans",
+      "No Doubt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTkwLTEwMDoz"
+  },
+  {
+    "id": "mus-2000-76",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem ga ut «Blinding Lights» i 2019, en av tidenes største strømmehits?",
+    "options": [
+      "Bruno Mars",
+      "Drake",
+      "The Weeknd",
+      "Post Malone"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtNzY6Mg=="
+  },
+  {
+    "id": "mus-2000-77",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken artist slo gjennom med «Bad Guy» i 2019?",
+    "options": [
+      "Dua Lipa",
+      "Olivia Rodrigo",
+      "Lorde",
+      "Billie Eilish"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtNzc6Mw=="
+  },
+  {
+    "id": "mus-2000-78",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Rolling in the Deep» i 2010?",
+    "options": [
+      "Florence Welch",
+      "Duffy",
+      "Amy Winehouse",
+      "Adele"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtNzg6Mw=="
+  },
+  {
+    "id": "mus-2000-79",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken artist hadde en enorm hit med «Shape of You» i 2017?",
+    "options": [
+      "Shawn Mendes",
+      "Ed Sheeran",
+      "Lewis Capaldi",
+      "Sam Smith"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtNzk6MQ=="
+  },
+  {
+    "id": "mus-2000-80",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Shallow» sammen med Bradley Cooper i 2018?",
+    "options": [
+      "Kesha",
+      "Rihanna",
+      "Lady Gaga",
+      "Katy Perry"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtODA6Mg=="
+  },
+  {
+    "id": "mus-2000-81",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken artist ga ut «Umbrella» i 2007 sammen med Jay-Z?",
+    "options": [
+      "Alicia Keys",
+      "Beyoncé",
+      "Rihanna",
+      "Ciara"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtODE6Mg=="
+  },
+  {
+    "id": "mus-2000-82",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Crazy in Love» i 2003?",
+    "options": [
+      "Shakira",
+      "Jennifer Lopez",
+      "Beyoncé",
+      "Nelly Furtado"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtODI6Mg=="
+  },
+  {
+    "id": "mus-2000-83",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilket band ga ut «Viva la Vida» i 2008?",
+    "options": [
+      "Coldplay",
+      "Keane",
+      "Snow Patrol",
+      "Muse"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtODM6MA=="
+  },
+  {
+    "id": "mus-2000-84",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem hadde en stor hit med «Lose Yourself» i 2002 fra filmen «8 Mile»?",
+    "options": [
+      "50 Cent",
+      "Eminem",
+      "Lil Wayne",
+      "Kanye West"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtODQ6MQ=="
+  },
+  {
+    "id": "mus-2000-85",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken sørkoreansk artist fikk en global hit med «Gangnam Style» i 2012?",
+    "options": [
+      "Blackpink",
+      "Stray Kids",
+      "Psy",
+      "BTS"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtODU6Mg=="
+  },
+  {
+    "id": "mus-2000-86",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Uptown Funk» sammen med Mark Ronson i 2014?",
+    "options": [
+      "Justin Timberlake",
+      "Jason Derulo",
+      "Bruno Mars",
+      "Pharrell Williams"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtODY6Mg=="
+  },
+  {
+    "id": "mus-2000-87",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken artist ga ut «Shake It Off» i 2014 og «Anti-Hero» i 2022?",
+    "options": [
+      "Taylor Swift",
+      "Miley Cyrus",
+      "Ariana Grande",
+      "Selena Gomez"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtODc6MA=="
+  },
+  {
+    "id": "mus-2000-88",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Wrecking Ball» i 2013?",
+    "options": [
+      "Katy Perry",
+      "Miley Cyrus",
+      "Taylor Swift",
+      "Dua Lipa"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtODg6MQ=="
+  },
+  {
+    "id": "mus-2000-89",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken svensk DJ og produsent sto bak «Wake Me Up» i 2013?",
+    "options": [
+      "Alesso",
+      "Swedish House Mafia",
+      "Avicii",
+      "Eric Prydz"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtODk6Mg=="
+  },
+  {
+    "id": "mus-2000-90",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem hadde en stor hit med «As It Was» i 2022?",
+    "options": [
+      "Charlie Puth",
+      "Zayn Malik",
+      "Niall Horan",
+      "Harry Styles"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtOTA6Mw=="
+  },
+  {
+    "id": "mus-2000-91",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken artist sang «Back to Black» og «Rehab» på 2000-tallet?",
+    "options": [
+      "Adele",
+      "Lana Del Rey",
+      "Paloma Faith",
+      "Amy Winehouse"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtOTE6Mw=="
+  },
+  {
+    "id": "mus-2000-92",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem ga ut «Despacito» i 2017 sammen med Daddy Yankee?",
+    "options": [
+      "Enrique Iglesias",
+      "Ricky Martin",
+      "Maluma",
+      "Luis Fonsi"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtOTI6Mw=="
+  },
+  {
+    "id": "mus-2000-93",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilket band ga ut «Mr. Brightside» i 2003?",
+    "options": [
+      "Arctic Monkeys",
+      "Franz Ferdinand",
+      "The Killers",
+      "The Strokes"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtOTM6Mg=="
+  },
+  {
+    "id": "mus-2000-94",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Hips Don’t Lie» i 2006?",
+    "options": [
+      "Camila Cabello",
+      "Jennifer Lopez",
+      "Shakira",
+      "Rosalía"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtOTQ6Mg=="
+  },
+  {
+    "id": "mus-2000-95",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken fransk elektronika-duo ga ut «Get Lucky» i 2013 sammen med Pharrell Williams?",
+    "options": [
+      "Disclosure",
+      "Daft Punk",
+      "Air",
+      "Justice"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtOTU6MQ=="
+  },
+  {
+    "id": "mus-2000-96",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem slo gjennom med «Drivers License» i 2021?",
+    "options": [
+      "Sabrina Carpenter",
+      "Olivia Rodrigo",
+      "Tate McRae",
+      "Gracie Abrams"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtOTY6MQ=="
+  },
+  {
+    "id": "mus-2000-97",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken artist ga ut «Espresso» i 2024?",
+    "options": [
+      "Chappell Roan",
+      "Sabrina Carpenter",
+      "Dua Lipa",
+      "Ariana Grande"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtOTc6MQ=="
+  },
+  {
+    "id": "mus-2000-98",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Before You Go» i 2019?",
+    "options": [
+      "Calum Scott",
+      "Tom Odell",
+      "Lewis Capaldi",
+      "James Arthur"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtOTg6Mg=="
+  },
+  {
+    "id": "mus-2000-99",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvilken artist ga ut «Levitating» og «Don’t Start Now»?",
+    "options": [
+      "Ava Max",
+      "Rita Ora",
+      "Bebe Rexha",
+      "Dua Lipa"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtOTk6Mw=="
+  },
+  {
+    "id": "mus-2000-100",
+    "category": "Musikk",
+    "subcategory": "2000-tallet og nyere",
+    "question": "Hvem sang «Old Town Road» i 2019?",
+    "options": [
+      "Post Malone",
+      "Tyler, the Creator",
+      "Lil Nas X",
+      "Travis Scott"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLTIwMDAtMTAwOjI="
+  },
+  {
+    "id": "mus-norsk-76",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem ga ut «Neste sommer» i 1993?",
+    "options": [
+      "Raga Rockers",
+      "deLillos",
+      "Jokke & Valentinerne",
+      "DumDum Boys"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTc2OjE="
+  },
+  {
+    "id": "mus-norsk-77",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilket trøndersk band hadde en stor hit med «Splitter pine» i 1989?",
+    "options": [
+      "DumDum Boys",
+      "D.D.E.",
+      "Tre Små Kinesere",
+      "Åge Aleksandersen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTc3OjA="
+  },
+  {
+    "id": "mus-norsk-78",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem sang «Levva livet» i 1984?",
+    "options": [
+      "Åge Aleksandersen",
+      "Hans Rotmo",
+      "Bjarne Brøndbo",
+      "Terje Tysland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTc4OjA="
+  },
+  {
+    "id": "mus-norsk-79",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilket norsk band ga ut «Rai-Rai» og «Rompa mi»?",
+    "options": [
+      "Vassendgutane",
+      "Sie Gubba",
+      "Hellbillies",
+      "D.D.E."
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTc5OjM="
+  },
+  {
+    "id": "mus-norsk-80",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem hadde en stor hit med «To fulle menn» i 1987?",
+    "options": [
+      "deLillos",
+      "Raga Rockers",
+      "Jokke & Valentinerne",
+      "Oslo Ess"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTgwOjI="
+  },
+  {
+    "id": "mus-norsk-81",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk DJ og produsent fra Bergen ga ut «Alone» i 2016?",
+    "options": [
+      "Alan Walker",
+      "Kygo",
+      "Seeb",
+      "Matoma"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTgxOjA="
+  },
+  {
+    "id": "mus-norsk-82",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hva heter den norske DJ-en som slo gjennom med «Firestone» i 2014?",
+    "options": [
+      "Todd Terje",
+      "Cashmere Cat",
+      "Kygo",
+      "Alan Walker"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTgyOjI="
+  },
+  {
+    "id": "mus-norsk-83",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk artist vant Spellemannprisen for «Don’t Kill My Vibe» og «Strangers»?",
+    "options": [
+      "Dagny",
+      "Aurora",
+      "Astrid S",
+      "Sigrid"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTgzOjM="
+  },
+  {
+    "id": "mus-norsk-84",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem sang «Runaway» i 2015 og har laget musikk til «Frost 2»?",
+    "options": [
+      "Ane Brun",
+      "Aurora",
+      "Susanne Sundfør",
+      "Sigrid"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTg0OjE="
+  },
+  {
+    "id": "mus-norsk-85",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk rapduo hadde en megahit med «Styggen på ryggen» i 2014?",
+    "options": [
+      "OnklP & De Fjerne Slektningene",
+      "Klovner i Kamp",
+      "Madcon",
+      "Karpe"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTg1OjA="
+  },
+  {
+    "id": "mus-norsk-86",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk duo ga ut «PAF.no» i 2022 og vant en rekke Spellemannpriser?",
+    "options": [
+      "Madcon",
+      "Karpe",
+      "Nico & Vinz",
+      "Ylvis"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTg2OjE="
+  },
+  {
+    "id": "mus-norsk-87",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem hadde en global hit med «Am I Wrong» i 2013?",
+    "options": [
+      "Donkeyboy",
+      "Paperboys",
+      "Nico & Vinz",
+      "Madcon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTg3OjI="
+  },
+  {
+    "id": "mus-norsk-88",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk duo ga ut «Stonehenge» og «Jan Egeland»?",
+    "options": [
+      "Ylvis",
+      "KLM",
+      "Brevik & Co",
+      "Raske Menn"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTg4OjA="
+  },
+  {
+    "id": "mus-norsk-89",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem sang «Beggin’» i 2007?",
+    "options": [
+      "Karpe",
+      "Warlocks",
+      "Madcon",
+      "Tommy Tee"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTg5OjI="
+  },
+  {
+    "id": "mus-norsk-90",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilket norsk band ga ut «Ompa til du dør» i 2001?",
+    "options": [
+      "Kvelertak",
+      "Turboneger",
+      "Motorpsycho",
+      "Kaizers Orchestra"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTkwOjM="
+  },
+  {
+    "id": "mus-norsk-91",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem sang «Idyll» i 1996?",
+    "options": [
+      "Di Derre",
+      "Trang Fødsel",
+      "Postgirobygget",
+      "CC Cowboys"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTkxOjI="
+  },
+  {
+    "id": "mus-norsk-92",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilket band med Jo Nesbø som vokalist hadde en hit med «Jenter» i 1995?",
+    "options": [
+      "deLillos",
+      "Di Derre",
+      "Vamp",
+      "Postgirobygget"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTkyOjE="
+  },
+  {
+    "id": "mus-norsk-93",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem ga ut «Tir n’a Noir» i 1993?",
+    "options": [
+      "Bjørn Eidsvåg",
+      "Vamp",
+      "CC Cowboys",
+      "Hellbillies"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTkzOjE="
+  },
+  {
+    "id": "mus-norsk-94",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk artist sang «Eg ser»?",
+    "options": [
+      "Ole Paus",
+      "Halvdan Sivertsen",
+      "Jan Eggum",
+      "Bjørn Eidsvåg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTk0OjM="
+  },
+  {
+    "id": "mus-norsk-95",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem sang «Kjærlighetsvisa» i 1987?",
+    "options": [
+      "Lillebjørn Nilsen",
+      "Øystein Sunde",
+      "Bjørn Eidsvåg",
+      "Halvdan Sivertsen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTk1OjM="
+  },
+  {
+    "id": "mus-norsk-96",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem ga ut «Tanta til Beate» og «God natt Oslo»?",
+    "options": [
+      "Øystein Sunde",
+      "Finn Kalvik",
+      "Lillebjørn Nilsen",
+      "Ole Paus"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTk2OjI="
+  },
+  {
+    "id": "mus-norsk-97",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk gitarist og humorist er kjent for låter som «Kjekt å ha» og «Jaktprat»?",
+    "options": [
+      "Øystein Sunde",
+      "Eldar Vågan",
+      "Trond-Viggo Torgersen",
+      "Lillebjørn Nilsen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTk3OjA="
+  },
+  {
+    "id": "mus-norsk-98",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvem ga ut «Ambitions» i 2009?",
+    "options": [
+      "Röyksopp",
+      "Highasakite",
+      "a-ha",
+      "Donkeyboy"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTk4OjM="
+  },
+  {
+    "id": "mus-norsk-99",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilken norsk elektronika-duo fra Tromsø ga ut «Eple» i 2001?",
+    "options": [
+      "Madrugada",
+      "Bel Canto",
+      "Röyksopp",
+      "Kings of Convenience"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTk5OjI="
+  },
+  {
+    "id": "mus-norsk-100",
+    "category": "Musikk",
+    "subcategory": "Norsk musikk",
+    "question": "Hvilket norsk band med Sivert Høyem som vokalist ga ut «Majesty» og «The Kids Are On High Street»?",
+    "options": [
+      "Seigmen",
+      "Minor Majority",
+      "Bigbang",
+      "Madrugada"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLW5vcnNrLTEwMDoz"
+  },
+  {
+    "id": "mus-euro-76",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem vant Eurovision Song Contest for Norge i 1985 med «La det swinge»?",
+    "options": [
+      "Alexander Rybak",
+      "Jahn Teigen",
+      "Bobbysocks",
+      "Secret Garden"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tNzY6Mg=="
+  },
+  {
+    "id": "mus-euro-77",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem spilte fiolin i duoen Secret Garden da de vant Eurovision i 1995?",
+    "options": [
+      "Hanne Krogh",
+      "Bettan",
+      "Fionnuala Sherry",
+      "Rolf Løvland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tNzc6Mg=="
+  },
+  {
+    "id": "mus-euro-78",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Med hvilken sang vant Alexander Rybak Eurovision Song Contest i 2009?",
+    "options": [
+      "Oah",
+      "That’s How You Write a Song",
+      "Funny Little World",
+      "Fairytale"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tNzg6Mw=="
+  },
+  {
+    "id": "mus-euro-79",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken svensk gruppe vant Eurovision i 1974 med «Waterloo»?",
+    "options": [
+      "ABBA",
+      "Carola",
+      "Charlotte Perrelli",
+      "Herreys"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tNzk6MA=="
+  },
+  {
+    "id": "mus-euro-80",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem vant Eurovision for Sverige både i 2012 og 2023?",
+    "options": [
+      "Måns Zelmerlöw",
+      "Loreen",
+      "Carola",
+      "Benjamin Ingrosso"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tODA6MQ=="
+  },
+  {
+    "id": "mus-euro-81",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision Song Contest i 2024 med artisten Nemo og låten «The Code»?",
+    "options": [
+      "Frankrike",
+      "Ukraina",
+      "Sveits",
+      "Kroatia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tODE6Mg=="
+  },
+  {
+    "id": "mus-euro-82",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket finsk hardrock-band vant Eurovision i 2006 med «Hard Rock Hallelujah»?",
+    "options": [
+      "Nightwish",
+      "The Rasmus",
+      "Lordi",
+      "Blind Channel"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tODI6Mg=="
+  },
+  {
+    "id": "mus-euro-83",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem vant Eurovision for Østerrike i 2014 med «Rise Like a Phoenix»?",
+    "options": [
+      "Cesár Sampson",
+      "Conchita Wurst",
+      "Udo Jürgens",
+      "Teya & Salena"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tODM6MQ=="
+  },
+  {
+    "id": "mus-euro-84",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken norsk duo deltok i Eurovision i 2022 med «Give That Wolf a Banana»?",
+    "options": [
+      "KEiiNO",
+      "Marcus & Martinus",
+      "Subwoolfer",
+      "Gåte"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tODQ6Mg=="
+  },
+  {
+    "id": "mus-euro-85",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken norsk artist deltok i Eurovision i 2023 med «Queen of Kings»?",
+    "options": [
+      "Alessandra",
+      "TIX",
+      "Ulrikke Brandstorp",
+      "Margaret Berger"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tODU6MA=="
+  },
+  {
+    "id": "mus-euro-86",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem vant Eurovision for Italia i 2021 med «Zitti e buoni»?",
+    "options": [
+      "Måneskin",
+      "Mahmood",
+      "Diodato",
+      "Marco Mengoni"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tODY6MA=="
+  },
+  {
+    "id": "mus-euro-87",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land vant Eurovision i 2022 med Kalush Orchestra og «Stefania»?",
+    "options": [
+      "Spania",
+      "Ukraina",
+      "Sverige",
+      "Storbritannia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tODc6MQ=="
+  },
+  {
+    "id": "mus-euro-88",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem sang «Mil etter mil» for Norge i Eurovision i 1978 og fikk 0 poeng?",
+    "options": [
+      "Finn Kalvik",
+      "Anita Skorgan",
+      "Tor Endresen",
+      "Jahn Teigen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tODg6Mw=="
+  },
+  {
+    "id": "mus-euro-89",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken verdensstjerne vant Eurovision for Sveits i 1988 med «Ne partez pas sans moi»?",
+    "options": [
+      "Céline Dion",
+      "Patricia Kaas",
+      "Vanessa Paradis",
+      "Lara Fabian"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tODk6MA=="
+  },
+  {
+    "id": "mus-euro-90",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket land har vunnet Eurovision Song Contest flest ganger sammen med Sverige (7 seire hver)?",
+    "options": [
+      "Nederland",
+      "Irland",
+      "Frankrike",
+      "Storbritannia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tOTA6MQ=="
+  },
+  {
+    "id": "mus-euro-91",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem vant Eurovision for Danmark i 2013 med «Only Teardrops»?",
+    "options": [
+      "Grethe og Jørgen Ingmann",
+      "Emmelie de Forest",
+      "Olsen Brothers",
+      "Rasmussen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tOTE6MQ=="
+  },
+  {
+    "id": "mus-euro-92",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem vant Eurovision for Tyskland i 2010 med «Satellite»?",
+    "options": [
+      "Michael Schulte",
+      "Nicole",
+      "Stefan Raab",
+      "Lena"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tOTI6Mw=="
+  },
+  {
+    "id": "mus-euro-93",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken norsk gruppe vant telefonstemmene i Eurovision 2019 med «Spirit in the Sky»?",
+    "options": [
+      "Gåte",
+      "Wig Wam",
+      "KEiiNO",
+      "Subwoolfer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tOTM6Mg=="
+  },
+  {
+    "id": "mus-euro-94",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem representerte Norge i Eurovision 2021 med «Fallen Angel»?",
+    "options": [
+      "Agnete",
+      "Mørland",
+      "Ulrikke Brandstorp",
+      "TIX"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tOTQ6Mw=="
+  },
+  {
+    "id": "mus-euro-95",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "I hvilket land ble den aller første Eurovision Song Contest arrangert i 1956?",
+    "options": [
+      "Sveits",
+      "Italia",
+      "Frankrike",
+      "Tyskland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tOTU6MA=="
+  },
+  {
+    "id": "mus-euro-96",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken irsk artist er den eneste som har vunnet Eurovision tre ganger (to som artist, én som låtskriver)?",
+    "options": [
+      "Johnny Logan",
+      "Ronan Keating",
+      "Linda Martin",
+      "Dana"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tOTY6MA=="
+  },
+  {
+    "id": "mus-euro-97",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvem vant Eurovision for Nederland i 2019 med «Arcade»?",
+    "options": [
+      "The Common Linnets",
+      "Anouk",
+      "Joost Klein",
+      "Duncan Laurence"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tOTc6Mw=="
+  },
+  {
+    "id": "mus-euro-98",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken norsk artist deltok i Eurovision i 2013 med «I Feed You My Love» og kom på 4. plass?",
+    "options": [
+      "Margaret Berger",
+      "Stella Mwangi",
+      "Maria Haukaas Storeng",
+      "Tone Damli"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tOTg6MA=="
+  },
+  {
+    "id": "mus-euro-99",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilket år deltok Australia for første gang i Eurovision Song Contest?",
+    "options": [
+      "2010",
+      "2015",
+      "2012",
+      "2018"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tOTk6MQ=="
+  },
+  {
+    "id": "mus-euro-100",
+    "category": "Musikk",
+    "subcategory": "Eurovision",
+    "question": "Hvilken svensk artist vant Eurovision i 1991 med «Fångad av en stormvind»?",
+    "options": [
+      "Loreen",
+      "Måns Zelmerlöw",
+      "Charlotte Perrelli",
+      "Carola"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "bXVzLWV1cm8tMTAwOjM="
   }
 ]

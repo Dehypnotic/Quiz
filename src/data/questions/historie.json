@@ -2798,5 +2798,2805 @@
     ],
     "addedAt": "2026-11-25",
     "answerToken": "aGlzdC1vcHAtNTA6MQ=="
+  },
+  {
+    "id": "hist-ant-51",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte muren i Nord-England som romerne bygde for å holde skotske stammer ute?",
+    "options": [
+      "Antoninus’ mur",
+      "Hadrians mur",
+      "Offas dike",
+      "Aurelians mur"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNTE6MQ=="
+  },
+  {
+    "id": "hist-ant-52",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken gresk filosof skrev «Staten» og grunnla Akademiet i Athen?",
+    "options": [
+      "Sokrates",
+      "Platon",
+      "Aristoteles",
+      "Epikur"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNTI6MQ=="
+  },
+  {
+    "id": "hist-ant-53",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den første skriftformen i Mesopotamia, der man trykket tegn inn i leirtavler?",
+    "options": [
+      "Hieroglyfer",
+      "Kileskrift",
+      "Runer",
+      "Alfabetet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNTM6MQ=="
+  },
+  {
+    "id": "hist-ant-54",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken norsk vikingkonge døde i slaget ved Stamford Bridge i England i 1066?",
+    "options": [
+      "Olav Tryggvason",
+      "Harald Hardråde",
+      "Magnus Berrføtt",
+      "Olav den hellige"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNTQ6MQ=="
+  },
+  {
+    "id": "hist-ant-55",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte greske øya der den minoiske sivilisasjonen blomstret i bronsealderen?",
+    "options": [
+      "Rhodos",
+      "Kreta",
+      "Santorini",
+      "Mykonos"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNTU6MQ=="
+  },
+  {
+    "id": "hist-ant-56",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken romersk general krysset elven Rubicon i år 49 f.Kr. med ordene «Terningen er kastet»?",
+    "options": [
+      "Augustus",
+      "Julius Cæsar",
+      "Markus Antonius",
+      "Crassus"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNTY6MQ=="
+  },
+  {
+    "id": "hist-ant-57",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het de europeiske krigerne i middelalderen som kjempet til hest i tung rustning og fulgte ridderkodeksen?",
+    "options": [
+      "Vikinger",
+      "Riddere",
+      "Samuraier",
+      "Hoplitter"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNTc6MQ=="
+  },
+  {
+    "id": "hist-ant-58",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken religiøs orden av krigermunker ble opprettet under korstogene og senere oppløst i 1312?",
+    "options": [
+      "Jesuittene",
+      "Tempelridderne",
+      "Fransiskanerne",
+      "Benediktinerne"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNTg6MQ=="
+  },
+  {
+    "id": "hist-ant-59",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte egyptiske dronningen som styrte som kvinnelig farao på 1400-tallet f.Kr.?",
+    "options": [
+      "Kleopatra",
+      "Hatshepsut",
+      "Nefertiti",
+      "Meritamen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNTk6MQ=="
+  },
+  {
+    "id": "hist-ant-60",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilket slag i 1030 regnes som gjennombruddet for kristendommen i Norge?",
+    "options": [
+      "Slaget ved Svolder",
+      "Slaget på Stiklestad",
+      "Slaget i Hafrsfjord",
+      "Slaget ved Fimreite"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNjA6MQ=="
+  },
+  {
+    "id": "hist-ant-61",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het de berømte, lange krigsskipene som vikingene brukte til å krysse havet og seile opp elver?",
+    "options": [
+      "Karaveller",
+      "Langskip (vikingskip)",
+      "Galeier",
+      "Kogger"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNjE6MQ=="
+  },
+  {
+    "id": "hist-ant-62",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken gresk matematiker er kjent for setningen om rettvinklede trekanter (a² + b² = c²)?",
+    "options": [
+      "Euklid",
+      "Pytagoras",
+      "Arkimedes",
+      "Thales"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNjI6MQ=="
+  },
+  {
+    "id": "hist-ant-63",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den romerske provinsen som i dag tilsvarer omtrent Frankrike?",
+    "options": [
+      "Hispania",
+      "Gallia",
+      "Britannia",
+      "Germania"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNjM6MQ=="
+  },
+  {
+    "id": "hist-ant-64",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvem var den første kongen i det forente England (eller kjent som «den store» etter å ha forsvart Wessex mot vikingene)?",
+    "options": [
+      "Vilhelm Erobreren",
+      "Alfred den store",
+      "Edvard Bekjenneren",
+      "Athelstan"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNjQ6MQ=="
+  },
+  {
+    "id": "hist-ant-65",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den store pesten på 500-tallet i Østromerriket, oppkalt etter keiseren?",
+    "options": [
+      "Svartedauden",
+      "Justinians pest",
+      "Antoninske pest",
+      "Kopper"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNjU6MQ=="
+  },
+  {
+    "id": "hist-ant-66",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilket rike i Sør-Amerika hadde hovedstaden Cusco?",
+    "options": [
+      "Aztekerriket",
+      "Inkariket",
+      "Mayariket",
+      "Olmekerne"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNjY6MQ=="
+  },
+  {
+    "id": "hist-ant-67",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den japanske krigerklassen i middelalderen som fulgte æreskodeksen Bushido?",
+    "options": [
+      "Ninjaer",
+      "Samuraier",
+      "Shoguner",
+      "Ronin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNjc6MQ=="
+  },
+  {
+    "id": "hist-ant-68",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken by i dagens Italia var sentrum for renessansens begynnelse på 1300- og 1400-tallet under Medici-familien?",
+    "options": [
+      "Roma",
+      "Firenze",
+      "Venezia",
+      "Milano"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNjg6MQ=="
+  },
+  {
+    "id": "hist-ant-69",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het det store slaget i år 732 der Karl Martell stoppet den islamske fremrykningen i Vest-Europa?",
+    "options": [
+      "Slaget ved Hastings",
+      "Slaget ved Poitiers (Tours)",
+      "Slaget ved Agincourt",
+      "Slaget ved Crécy"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNjk6MQ=="
+  },
+  {
+    "id": "hist-ant-70",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken norsk konge ble kalt «den gode» og var sønn av Olav den hellige?",
+    "options": [
+      "Magnus Berrføtt",
+      "Magnus den gode",
+      "Håkon den gode",
+      "Harald Gille"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNzA6MQ=="
+  },
+  {
+    "id": "hist-ant-71",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het de berømte lekene som ble holdt i antikkens Hellas hvert fjerde år til ære for Zevs?",
+    "options": [
+      "De pytiske leker",
+      "De olympiske leker",
+      "De nemeiske leker",
+      "De istmiske leker"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNzE6MQ=="
+  },
+  {
+    "id": "hist-ant-72",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken by var hovedstad i Det vestromerske riket i det meste av dets historie?",
+    "options": [
+      "Milano",
+      "Roma",
+      "Ravenna",
+      "Napoli"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNzI6MQ=="
+  },
+  {
+    "id": "hist-ant-73",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte romerske diktatoren og generalen som erobret Gallia?",
+    "options": [
+      "Pompeius",
+      "Julius Cæsar",
+      "Sulla",
+      "Marius"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNzM6MQ=="
+  },
+  {
+    "id": "hist-ant-74",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken oppfinnelse fra Kina på 100-tallet e.Kr. revolusjonerte skriving og bokproduksjon i verden?",
+    "options": [
+      "Trykkpressen",
+      "Papiret",
+      "Pergamentet",
+      "Papyrus"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNzQ6MQ=="
+  },
+  {
+    "id": "hist-ant-75",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte islamske lærde og legen fra Persia (ca. 980–1037) som skrev «Medisinens kanon»?",
+    "options": [
+      "Averroës",
+      "Avicenna (Ibn Sina)",
+      "Al-Khwarizmi",
+      "Ibn Battuta"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNzU6MQ=="
+  },
+  {
+    "id": "hist-1800-51",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilken fransk keiser og nevø av Napoleon Bonaparte styrte Frankrike fra 1852 til 1870?",
+    "options": [
+      "Ludvig XVIII",
+      "Napoleon III",
+      "Ludvig Filip",
+      "Charles X"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTUxOjE="
+  },
+  {
+    "id": "hist-1800-52",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble slaveriet forbudt i det britiske imperiet (Slavery Abolition Act)?",
+    "options": [
+      "1807",
+      "1833",
+      "1865",
+      "1888"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTUyOjE="
+  },
+  {
+    "id": "hist-1800-53",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den berømte amerikanske gullrushet som startet i 1848–1849?",
+    "options": [
+      "Klondike-gullrushet",
+      "Gullrushet i California",
+      "Gullrushet i Alaska",
+      "Gullrushet i Australia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTUzOjE="
+  },
+  {
+    "id": "hist-1800-54",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble den første verdensutstillingen («The Great Exhibition») holdt i Crystal Palace i London?",
+    "options": [
+      "1837",
+      "1851",
+      "1867",
+      "1889"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTU0OjE="
+  },
+  {
+    "id": "hist-1800-55",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvem var den første kansleren i det samlede Tyskland i 1871?",
+    "options": [
+      "Vilhelm I",
+      "Otto von Bismarck",
+      "Friedrich Ebert",
+      "Paul von Hindenburg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTU1OjE="
+  },
+  {
+    "id": "hist-1800-56",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble første verdenskrig avsluttet (våpenhvilen 11. november)?",
+    "options": [
+      "1917",
+      "1918",
+      "1919",
+      "1920"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTU2OjE="
+  },
+  {
+    "id": "hist-1800-57",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den tyske ubåt-taktikken under første og andre verdenskrig der ubåter angrep i grupper?",
+    "options": [
+      "Blitzkrieg",
+      "Ulvekobbel (Wolfpack)",
+      "Maginotlinjen",
+      "Schlieffen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTU3OjE="
+  },
+  {
+    "id": "hist-1800-58",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilken britisk general ledet de allierte styrkene til seier ved El Alamein i Nord-Afrika i 1942?",
+    "options": [
+      "Dwight D. Eisenhower",
+      "Bernard Montgomery",
+      "George S. Patton",
+      "Douglas MacArthur"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTU4OjE="
+  },
+  {
+    "id": "hist-1800-59",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den franske forsvarslinjen av bunkere langs grensen til Tyskland før andre verdenskrig?",
+    "options": [
+      "Siegfriedlinjen",
+      "Maginotlinjen",
+      "Gustavlinjen",
+      "Atlanterhavsvollen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTU5OjE="
+  },
+  {
+    "id": "hist-1800-60",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble kvinner i USA garantert stemmerett i hele landet (19. grunnlovstillegg)?",
+    "options": [
+      "1913",
+      "1920",
+      "1928",
+      "1933"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTYwOjE="
+  },
+  {
+    "id": "hist-1800-61",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het det berømte slaget i Stillehavet i juni 1942 som ble vendepunktet mot Japan?",
+    "options": [
+      "Iwo Jima",
+      "Slaget ved Midway",
+      "Guadalcanal",
+      "Okinawa"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTYxOjE="
+  },
+  {
+    "id": "hist-1800-62",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilken norsk motstandsmann og krigshelt ledet Kompani Linge og ble hedret med statue i Oslo?",
+    "options": [
+      "Max Manus",
+      "Martin Linge (og Gunnar Sønsteby)",
+      "Jens Christian Hauge",
+      "Leif Tronstad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTYyOjE="
+  },
+  {
+    "id": "hist-1800-63",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble den første jernbanelinjen i Norge (Hovedbanen mellom Christiania og Eidsvoll) åpnet?",
+    "options": [
+      "1830",
+      "1854",
+      "1875",
+      "1890"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTYzOjE="
+  },
+  {
+    "id": "hist-1800-64",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvem var keiser i Tyskland under første verdenskrig (abdiserte i 1918)?",
+    "options": [
+      "Vilhelm I",
+      "Vilhelm II",
+      "Fredrik III",
+      "Franz Josef"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTY0OjE="
+  },
+  {
+    "id": "hist-1800-65",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den berømte evakueringen av over 330 000 allierte soldater fra Frankrike til England i mai–juni 1940?",
+    "options": [
+      "Normandie",
+      "Dunkerque (Dunkirk)",
+      "Calais",
+      "Dieppe"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTY1OjE="
+  },
+  {
+    "id": "hist-1800-66",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble Eiffeltårnet i Paris åpnet til verdensutstillingen?",
+    "options": [
+      "1879",
+      "1889",
+      "1899",
+      "1900"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTY2OjE="
+  },
+  {
+    "id": "hist-1800-67",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvem var den siste tsaren i Russland (avsatt i 1917)?",
+    "options": [
+      "Aleksander III",
+      "Nikolaj II",
+      "Peter den store",
+      "Ivan IV"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTY3OjE="
+  },
+  {
+    "id": "hist-1800-68",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den tyske krigsoperasjonen da Tyskland invaderte Sovjetunionen i juni 1941?",
+    "options": [
+      "Operasjon Overlord",
+      "Operasjon Barbarossa",
+      "Operasjon Weserübung",
+      "Operasjon Seelöwe"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTY4OjE="
+  },
+  {
+    "id": "hist-1800-69",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble Norge selvstendig fra Sverige (unionsoppløsningen)?",
+    "options": [
+      "1814",
+      "1905",
+      "1914",
+      "1945"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTY5OjE="
+  },
+  {
+    "id": "hist-1800-70",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den kjente britiske statsministeren som sa «Peace for our time» etter Münchenavtalen i 1938?",
+    "options": [
+      "Winston Churchill",
+      "Neville Chamberlain",
+      "Stanley Baldwin",
+      "David Lloyd George"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTcwOjE="
+  },
+  {
+    "id": "hist-1800-71",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilken norsk by ble hovedsete for den norske regjeringen i eksil under andre verdenskrig?",
+    "options": [
+      "Stockholm",
+      "London",
+      "Washington",
+      "Edinburgh"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTcxOjE="
+  },
+  {
+    "id": "hist-1800-72",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble det første moderne sommer-OL arrangert i Athen?",
+    "options": [
+      "1892",
+      "1896",
+      "1900",
+      "1904"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTcyOjE="
+  },
+  {
+    "id": "hist-1800-73",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvem var den berømte norske motstandsmannen med kodenavnet «Kjakan» (Norges høyest dekorerte borger)?",
+    "options": [
+      "Max Manus",
+      "Gunnar Sønsteby",
+      "Gregers Gram",
+      "Knut Haugland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTczOjE="
+  },
+  {
+    "id": "hist-1800-74",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket land var det første i verden som ga kvinner allmenn stemmerett i 1893?",
+    "options": [
+      "Norge",
+      "New Zealand",
+      "Australia",
+      "Finland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTc0OjE="
+  },
+  {
+    "id": "hist-1800-75",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den kjente rettssaken i Tyskland etter andre verdenskrig der nazistiske ledere ble stilt for retten?",
+    "options": [
+      "Berlin-prosessene",
+      "Nürnbergprosessene",
+      "München-prosessene",
+      "Frankfurt-prosessene"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTc1OjE="
+  },
+  {
+    "id": "hist-ny-51",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Europarådet» grunnlagt (med Norge som ett av de ti stiftende landene)?",
+    "options": [
+      "1945",
+      "1949",
+      "1957",
+      "1960"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS01MTox"
+  },
+  {
+    "id": "hist-ny-52",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den første kvinnelige statsministeren i India (1966–1977 og 1980–1984)?",
+    "options": [
+      "Sonia Gandhi",
+      "Indira Gandhi",
+      "Pratibha Patil",
+      "Mamata Banerjee"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS01Mjox"
+  },
+  {
+    "id": "hist-ny-53",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble Koreakrigen utkjempet (startåret)?",
+    "options": [
+      "1948",
+      "1950",
+      "1953",
+      "1956"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS01Mzox"
+  },
+  {
+    "id": "hist-ny-54",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvem var USAs president da månelandingen fant sted i juli 1969?",
+    "options": [
+      "Lyndon B. Johnson",
+      "Richard Nixon",
+      "John F. Kennedy",
+      "Gerald Ford"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS01NDox"
+  },
+  {
+    "id": "hist-ny-55",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Apollo 13»-ferden rammet av en eksplosjon på vei til månen («Houston, we have a problem»)?",
+    "options": [
+      "1968",
+      "1970",
+      "1972",
+      "1974"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS01NTox"
+  },
+  {
+    "id": "hist-ny-56",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den norske oljeplattformen som kantret i Nordsjøen i mars 1980 og tok livet av 123 mennesker?",
+    "options": [
+      "Statfjord A",
+      "Alexander L. Kielland",
+      "Ekofisk Bravo",
+      "Sleipner A"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS01Njox"
+  },
+  {
+    "id": "hist-ny-57",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble den første kvinnelige presidenten i et europeisk land valgt (Vigdís Finnbogadóttir på Island)?",
+    "options": [
+      "1975",
+      "1980",
+      "1985",
+      "1990"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS01Nzox"
+  },
+  {
+    "id": "hist-ny-58",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den berømte studentdemonstrasjonen i Beijing i 1989 som ble slått ned av militæret?",
+    "options": [
+      "Kulturrevolusjonen",
+      "Den himmelske freds plass (Tiananmen)",
+      "Paraplybevegelsen",
+      "Det store spranget"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS01ODox"
+  },
+  {
+    "id": "hist-ny-59",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Internett»-protokollen TCP/IP eller World Wide Web gjort offentlig tilgjengelig for alle (1991/1993)?",
+    "options": [
+      "1985",
+      "1991 (WWW lansert offentlig)",
+      "1997",
+      "2000"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS01OTox"
+  },
+  {
+    "id": "hist-ny-60",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvem var Storbritannias statsminister fra 1997 til 2007?",
+    "options": [
+      "John Major",
+      "Tony Blair",
+      "Gordon Brown",
+      "David Cameron"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS02MDox"
+  },
+  {
+    "id": "hist-ny-61",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Eurotunnelen» (Chunnel) mellom England og Frankrike åpnet?",
+    "options": [
+      "1989",
+      "1994",
+      "1999",
+      "2002"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS02MTox"
+  },
+  {
+    "id": "hist-ny-62",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het det første klonede pattedyret som ble født i Skottland i 1996?",
+    "options": [
+      "Polly",
+      "Sauen Dolly",
+      "Molly",
+      "Bella"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS02Mjox"
+  },
+  {
+    "id": "hist-ny-63",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble Nelson Mandela løslatt fra fengsel i Sør-Afrika?",
+    "options": [
+      "1988",
+      "1990",
+      "1992",
+      "1994"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS02Mzox"
+  },
+  {
+    "id": "hist-ny-64",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilken naturkatastrofe i Det indiske hav 2. juledag 2004 tok livet av over 220 000 mennesker?",
+    "options": [
+      "Syklonen Nargis",
+      "Jordskjelvet og tsunamien i Asia",
+      "Tyfonen Haiyan",
+      "Krakatau-utbruddet"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS02NDox"
+  },
+  {
+    "id": "hist-ny-65",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvem ble valgt til USAs president i 2016?",
+    "options": [
+      "Hillary Clinton",
+      "Donald Trump",
+      "Barack Obama",
+      "Joe Biden"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS02NTox"
+  },
+  {
+    "id": "hist-ny-66",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Parisavtalen» om klima vedtatt av FNs medlemsland?",
+    "options": [
+      "2012",
+      "2015",
+      "2018",
+      "2020"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS02Njox"
+  },
+  {
+    "id": "hist-ny-67",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den svenske aktivisten som startet «Skolstrejk för klimatet» i 2018?",
+    "options": [
+      "Malala Yousafzai",
+      "Greta Thunberg",
+      "Emma Watson",
+      "Amina"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS02Nzox"
+  },
+  {
+    "id": "hist-ny-68",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «NMT-450» (det første nordiske mobilnettet) åpnet?",
+    "options": [
+      "1975",
+      "1981",
+      "1988",
+      "1993"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS02ODox"
+  },
+  {
+    "id": "hist-ny-69",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvem var Frankrikes president fra 2017 (og gjenvalgt i 2022)?",
+    "options": [
+      "François Hollande",
+      "Emmanuel Macron",
+      "Nicolas Sarkozy",
+      "Jacques Chirac"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS02OTox"
+  },
+  {
+    "id": "hist-ny-70",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år døde dronning Elizabeth II av Storbritannia?",
+    "options": [
+      "2020",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS03MDox"
+  },
+  {
+    "id": "hist-ny-71",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den sovjetiske romstasjonen som var i bane fra 1986 til 2001?",
+    "options": [
+      "Salyut",
+      "Mir",
+      "ISS",
+      "Skylab"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS03MTox"
+  },
+  {
+    "id": "hist-ny-72",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Menneskerettighetserklæringen» vedtatt av FN?",
+    "options": [
+      "1945",
+      "1948",
+      "1951",
+      "1955"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS03Mjox"
+  },
+  {
+    "id": "hist-ny-73",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvem var statsminister i Norge under 22. juli-angrepene i 2011?",
+    "options": [
+      "Erna Solberg",
+      "Jens Stoltenberg",
+      "Kjell Magne Bondevik",
+      "Thorbjørn Jagland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS03Mzox"
+  },
+  {
+    "id": "hist-ny-74",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble Google grunnlagt (av Larry Page og Sergey Brin)?",
+    "options": [
+      "1994",
+      "1998",
+      "2001",
+      "2004"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS03NDox"
+  },
+  {
+    "id": "hist-ny-75",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble den første iPad-en lansert av Apple?",
+    "options": [
+      "2007",
+      "2010",
+      "2012",
+      "2014"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS03NTox"
+  },
+  {
+    "id": "hist-opp-51",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant kulepennen (den moderne versjonen i 1938)?",
+    "options": [
+      "Johan Vaaler",
+      "László Bíró",
+      "John J. Loud",
+      "Marcel Bich"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNTE6MQ=="
+  },
+  {
+    "id": "hist-opp-52",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant stetoskopet i 1816?",
+    "options": [
+      "Louis Pasteur",
+      "René Laennec",
+      "Edward Jenner",
+      "Joseph Lister"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNTI6MQ=="
+  },
+  {
+    "id": "hist-opp-53",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant sikkerhetsbeltet (trepunktsbeltet) for Volvo i 1959, og ga patentet gratis til alle bilprodusenter?",
+    "options": [
+      "Henry Ford",
+      "Nils Bohlin",
+      "Karl Benz",
+      "Ferdinand Porsche"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNTM6MQ=="
+  },
+  {
+    "id": "hist-opp-54",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppdaget sirkulasjonen av blod i menneskekroppen på 1600-tallet?",
+    "options": [
+      "Hippokrates",
+      "William Harvey",
+      "Andreas Vesalius",
+      "Galenos"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNTQ6MQ=="
+  },
+  {
+    "id": "hist-opp-55",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «borrelåsen» (Velcro) i 1941 etter å ha sett borrer feste seg i pelsen på hunden sin?",
+    "options": [
+      "George de Mestral",
+      "Wallace Carothers",
+      "Roy Plunkett",
+      "Charles Goodyear"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNTU6MA=="
+  },
+  {
+    "id": "hist-opp-56",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppdaget Australia for europeerne (østkysten) i 1770?",
+    "options": [
+      "Abel Tasman",
+      "James Cook",
+      "Willem Janszoon",
+      "Matthew Flinders"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNTY6MQ=="
+  },
+  {
+    "id": "hist-opp-57",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant mikroskopet (og var den første til å se bakterier) på 1600-tallet?",
+    "options": [
+      "Robert Hooke",
+      "Antonie van Leeuwenhoek",
+      "Galileo Galilei",
+      "Isaac Newton"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNTc6MQ=="
+  },
+  {
+    "id": "hist-opp-58",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «Post-it»-lappene (limet ved et uhell) hos 3M?",
+    "options": [
+      "Spencer Silver (og Art Fry)",
+      "George Eastman",
+      "Edwin Land",
+      "Chester Carlson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNTg6MA=="
+  },
+  {
+    "id": "hist-opp-59",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem formulerte de tre bevegelseslovene?",
+    "options": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Johannes Kepler"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNTk6MQ=="
+  },
+  {
+    "id": "hist-opp-60",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvilken norsk oppdager og arkeolog fant bevis for norrøne bosetninger på Newfoundland (L’Anse aux Meadows) i 1960?",
+    "options": [
+      "Thor Heyerdahl",
+      "Helge Ingstad (og Anne Stine Ingstad)",
+      "Roald Amundsen",
+      "Fridtjof Nansen"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNjA6MQ=="
+  },
+  {
+    "id": "hist-opp-61",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «dynamon» (elektromagnetisk induksjon) i 1831, som gjorde det mulig å lage strøm?",
+    "options": [
+      "Alessandro Volta",
+      "Michael Faraday",
+      "Georg Ohm",
+      "James Clerk Maxwell"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNjE6MQ=="
+  },
+  {
+    "id": "hist-opp-62",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «mikrobølgeovnen» ved et uhell i 1945 da en sjokolade smeltet i lommen hans?",
+    "options": [
+      "Thomas Edison",
+      "Percy Spencer",
+      "Nikola Tesla",
+      "Clarence Birdseye"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNjI6MQ=="
+  },
+  {
+    "id": "hist-opp-63",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «Kodak»-kameraet og gjorde fotografering tilgjengelig for folk flest på slutten av 1800-tallet?",
+    "options": [
+      "Louis Daguerre",
+      "George Eastman",
+      "Edwin Land",
+      "Nicéphore Niépce"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNjM6MQ=="
+  },
+  {
+    "id": "hist-opp-64",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppdaget at man kunne vulkanisere gummi (slik at den tålte varme og kulde til bildekk)?",
+    "options": [
+      "John Boyd Dunlop",
+      "Charles Goodyear",
+      "Édouard Michelin",
+      "Harvey Firestone"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNjQ6MQ=="
+  },
+  {
+    "id": "hist-opp-65",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «punktskriften» (Braille) for blinde i 1824?",
+    "options": [
+      "Helen Keller",
+      "Louis Braille",
+      "Valentin Haüy",
+      "Samuel Gridley Howe"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNjU6MQ=="
+  },
+  {
+    "id": "hist-opp-66",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «dieselmotoren»?",
+    "options": [
+      "Karl Benz",
+      "Rudolf Diesel",
+      "Nikolaus Otto",
+      "Gottlieb Daimler"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNjY6MQ=="
+  },
+  {
+    "id": "hist-opp-67",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem var den første kvinnen som fløy solo over Atlanterhavet i 1932?",
+    "options": [
+      "Bessie Coleman",
+      "Amelia Earhart",
+      "Harriet Quimby",
+      "Valentina Teresjkova"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNjc6MQ=="
+  },
+  {
+    "id": "hist-opp-68",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem var den første kvinnen i verdensrommet i 1963?",
+    "options": [
+      "Sally Ride",
+      "Valentina Teresjkova",
+      "Svetlana Savitskaja",
+      "Mae Jemison"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNjg6MQ=="
+  },
+  {
+    "id": "hist-opp-69",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «datamaskinmusen» på 1960-tallet?",
+    "options": [
+      "Steve Jobs",
+      "Douglas Engelbart",
+      "Bill Gates",
+      "Alan Kay"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNjk6MQ=="
+  },
+  {
+    "id": "hist-opp-70",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppdaget det periodiske system for grunnstoffene i 1869?",
+    "options": [
+      "John Dalton",
+      "Dmitrij Mendelejev",
+      "Antoine Lavoisier",
+      "Niels Bohr"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNzA6MQ=="
+  },
+  {
+    "id": "hist-opp-71",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «luftputebåten» (hovercraft) på 1950-tallet?",
+    "options": [
+      "Frank Whittle",
+      "Christopher Cockerell",
+      "Igor Sikorsky",
+      "Barnes Wallis"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNzE6MQ=="
+  },
+  {
+    "id": "hist-opp-72",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem ledet den britiske ekspedisjonen «Endurance» til Antarktis (1914–1917), berømt for sin utrolige overlevelseshistorie?",
+    "options": [
+      "Robert Falcon Scott",
+      "Ernest Shackleton",
+      "Roald Amundsen",
+      "Douglas Mawson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNzI6MQ=="
+  },
+  {
+    "id": "hist-opp-73",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «støvsugeren» (eller den første bærbare elektriske støvsugeren «Hoover»)?",
+    "options": [
+      "James Murray Spangler (solgt til Hoover)",
+      "Thomas Edison",
+      "James Dyson",
+      "Electrolux"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNzM6MA=="
+  },
+  {
+    "id": "hist-opp-74",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppdaget «radioaktiviteten» i 1896 (før Marie Curie forsket videre på det)?",
+    "options": [
+      "Wilhelm Röntgen",
+      "Henri Becquerel",
+      "Ernest Rutherford",
+      "Pierre Curie"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNzQ6MQ=="
+  },
+  {
+    "id": "hist-opp-75",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «jeans» (dongeribukser med kobbernagler) sammen med Jacob Davis i 1873?",
+    "options": [
+      "Henry Lee",
+      "Levi Strauss",
+      "Calvin Klein",
+      "Ralph Lauren"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNzU6MQ=="
+  },
+  {
+    "id": "hist-ant-76",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den romerske keiseren som gjorde kristendommen til tillatt religion i Romerriket i år 313?",
+    "options": [
+      "Nero",
+      "Konstantin den store",
+      "Augustus",
+      "Diokletian"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNzY6MQ=="
+  },
+  {
+    "id": "hist-ant-77",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken norsk vikingkonge grunnla byen Nidaros (Trondheim) i år 997?",
+    "options": [
+      "Harald Hårfagre",
+      "Olav Tryggvason",
+      "Olav den hellige",
+      "Håkon den gode"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNzc6MQ=="
+  },
+  {
+    "id": "hist-ant-78",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte greske historikeren som ofte kalles «historiens far»?",
+    "options": [
+      "Tukydid",
+      "Herodot",
+      "Plutark",
+      "Xenofon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNzg6MQ=="
+  },
+  {
+    "id": "hist-ant-79",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilket år erobret muslimske styrker Den iberiske halvøy (Spania og Portugal) fra vestgoterne?",
+    "options": [
+      "570",
+      "711",
+      "800",
+      "1095"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtNzk6MQ=="
+  },
+  {
+    "id": "hist-ant-80",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte egyptiske dronningen som var gift med farao Akhenaton og kjent for sin vakre byste?",
+    "options": [
+      "Kleopatra",
+      "Nefertiti",
+      "Hatshepsut",
+      "Isis"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtODA6MQ=="
+  },
+  {
+    "id": "hist-ant-81",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken engelsk konge ble kalt «Løvehjerte» og deltok i det tredje korstoget?",
+    "options": [
+      "Johan uten land",
+      "Rikard I (Rikard Løvehjerte)",
+      "Henrik II",
+      "Edvard I"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtODE6MQ=="
+  },
+  {
+    "id": "hist-ant-82",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het de to brødrene som ifølge romersk mytologi grunnla byen Roma?",
+    "options": [
+      "Kain og Abel",
+      "Romulus og Remus",
+      "Castor og Pollux",
+      "Hektor og Paris"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtODI6MQ=="
+  },
+  {
+    "id": "hist-ant-83",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken berømt hunerkonge invaderte store deler av Europa på 400-tallet og ble kalt «Guds svøpe»?",
+    "options": [
+      "Djengis-khan",
+      "Attila",
+      "Alarik",
+      "Teoderik"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtODM6MQ=="
+  },
+  {
+    "id": "hist-ant-84",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den spanske erobreren som styrtet Aztekerriket i Mexico i 1519–1521?",
+    "options": [
+      "Francisco Pizarro",
+      "Hernán Cortés",
+      "Vasco Núñez de Balboa",
+      "Juan Ponce de León"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtODQ6MQ=="
+  },
+  {
+    "id": "hist-ant-85",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvem erobret Inkariket i Peru på 1530-tallet?",
+    "options": [
+      "Hernán Cortés",
+      "Francisco Pizarro",
+      "Ferdinand Magellan",
+      "Pedro de Valdivia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtODU6MQ=="
+  },
+  {
+    "id": "hist-ant-86",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte greske legen... nei, hva het den greske filosofen som levde i en tønne og ba Aleksander den store om å flytte seg ut av solen?",
+    "options": [
+      "Sokrates",
+      "Diogenes",
+      "Epikur",
+      "Zeno"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtODY6MQ=="
+  },
+  {
+    "id": "hist-ant-87",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilket år ble «Svartedauden»... nei, hvilket år ble «Slaget ved Svolder» utkjempet der Olav Tryggvason falt?",
+    "options": [
+      "872",
+      "1000 (eller 999)",
+      "1030",
+      "1066"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtODc6MQ=="
+  },
+  {
+    "id": "hist-ant-88",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den kjente engelske poeten og forfatteren fra 1300-tallet som skrev «Canterbury-fortellingene»?",
+    "options": [
+      "William Shakespeare",
+      "Geoffrey Chaucer",
+      "John Milton",
+      "Thomas Malory"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtODg6MQ=="
+  },
+  {
+    "id": "hist-ant-89",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken italiensk bystat var en mektig sjømakt og handelsrepublikk i middelalderen med en «Doge» som leder?",
+    "options": [
+      "Roma",
+      "Venezia",
+      "Milano",
+      "Napoli"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtODk6MQ=="
+  },
+  {
+    "id": "hist-ant-90",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het det første kjente navnet på dagens Frankrike før frankerne tok over?",
+    "options": [
+      "Hispania",
+      "Gallia",
+      "Lusitania",
+      "Helvetia"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtOTA6MQ=="
+  },
+  {
+    "id": "hist-ant-91",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken kinesisk filosof levde rundt 500 f.Kr. og la grunnlaget for konfutsianismen?",
+    "options": [
+      "Laozi",
+      "Konfucius",
+      "Sunzi",
+      "Mencius"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtOTE6MQ=="
+  },
+  {
+    "id": "hist-ant-92",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte romerske bygningen i Roma med en enorm betongkuppel og et åpent hull i taket (Oculus)?",
+    "options": [
+      "Colosseum",
+      "Pantheon",
+      "Circus Maximus",
+      "Caracallas termer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtOTI6MQ=="
+  },
+  {
+    "id": "hist-ant-93",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken norsk konge bygde Håkonshallen i Bergen på 1200-tallet?",
+    "options": [
+      "Olav Kyrre",
+      "Håkon Håkonsson",
+      "Magnus Lagabøte",
+      "Sverre Sigurdsson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtOTM6MQ=="
+  },
+  {
+    "id": "hist-ant-94",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte skotske frihetskjemperen som beseiret engelskmennene ved Stirling Bridge i 1297?",
+    "options": [
+      "Robert the Bruce",
+      "William Wallace",
+      "Rob Roy",
+      "Macbeth"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtOTQ6MQ=="
+  },
+  {
+    "id": "hist-ant-95",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken syv underverker i antikken er den eneste som fortsatt står i dag?",
+    "options": [
+      "Kolossen på Rhodos",
+      "Kheopspyramiden i Giza",
+      "Babylons hengende hager",
+      "Fyrtårnet på Faros"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtOTU6MQ=="
+  },
+  {
+    "id": "hist-ant-96",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte greske skuespillforfatteren som skrev «Kong Ødipus»?",
+    "options": [
+      "Aiskylos",
+      "Sofokles",
+      "Evripides",
+      "Aristofanes"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtOTY6MQ=="
+  },
+  {
+    "id": "hist-ant-97",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilket år startet den protestantiske reformasjonen da Martin Luther offentliggjorde sine 95 teser i Wittenberg?",
+    "options": [
+      "1492",
+      "1517",
+      "1536",
+      "1555"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtOTc6MQ=="
+  },
+  {
+    "id": "hist-ant-98",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het den berømte arabiske reisende fra Marokko på 1300-tallet som reiste lenger enn Marco Polo?",
+    "options": [
+      "Ibn Sina",
+      "Ibn Battuta",
+      "Al-Idrisi",
+      "Averroës"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtOTg6MQ=="
+  },
+  {
+    "id": "hist-ant-99",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hvilken norsk konge regjerte lengst i Norges middelalder (46 år, 1217–1263)?",
+    "options": [
+      "Harald Hårfagre",
+      "Håkon Håkonsson",
+      "Magnus Lagabøte",
+      "Sverre Sigurdsson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtOTk6MQ=="
+  },
+  {
+    "id": "hist-ant-100",
+    "category": "Historie",
+    "subcategory": "Antikken & middelalderen",
+    "question": "Hva het de berømte, rikt utsmykkede kirkene bygget av tre i Norge i middelalderen?",
+    "options": [
+      "Steinkirker",
+      "Stavkirker",
+      "Katedraler",
+      "Klostre"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1hbnQtMTAwOjE="
+  },
+  {
+    "id": "hist-1800-76",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble den første moderne jernbanen åpnet i England (Stockton and Darlington Railway)?",
+    "options": [
+      "1804",
+      "1825",
+      "1848",
+      "1860"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTc2OjE="
+  },
+  {
+    "id": "hist-1800-77",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den berømte boken som Karl Marx og Friedrich Engels ga ut i 1848?",
+    "options": [
+      "Kapitalen",
+      "Det kommunistiske manifest",
+      "Nasjonalrikdommen",
+      "Samfunnspakten"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTc3OjE="
+  },
+  {
+    "id": "hist-1800-78",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble Suezkanalen i Egypt åpnet for skipstrafikk?",
+    "options": [
+      "1859",
+      "1869",
+      "1879",
+      "1889"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTc4OjE="
+  },
+  {
+    "id": "hist-1800-79",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvem var den første statsministeren i det samlede Italia i 1861?",
+    "options": [
+      "Giuseppe Garibaldi",
+      "Camillo di Cavour",
+      "Giuseppe Mazzini",
+      "Viktor Emanuel II"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTc5OjE="
+  },
+  {
+    "id": "hist-1800-80",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble «Kieltraktaten» undertegnet, der Danmark måtte avstå Norge til kongen av Sverige?",
+    "options": [
+      "1807",
+      "1814 (januar)",
+      "1815",
+      "1821"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTgwOjE="
+  },
+  {
+    "id": "hist-1800-81",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den berømte amerikanske generalen som ledet de allierte styrkene i Europa under andre verdenskrig (og senere ble president)?",
+    "options": [
+      "Douglas MacArthur",
+      "Dwight D. Eisenhower",
+      "George S. Patton",
+      "Omar Bradley"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTgxOjE="
+  },
+  {
+    "id": "hist-1800-82",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble «Folkeforbundet» (forløperen til FN) opprettet?",
+    "options": [
+      "1918",
+      "1920 (1919/1920)",
+      "1925",
+      "1930"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTgyOjE="
+  },
+  {
+    "id": "hist-1800-83",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den kjente britiske jagerflytypen som spilte en avgjørende rolle i slaget om Storbritannia i 1940?",
+    "options": [
+      "Messerschmitt",
+      "Spitfire",
+      "Mustang",
+      "Zero"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTgzOjE="
+  },
+  {
+    "id": "hist-1800-84",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilken dato i 1945 overga Japan seg formelt, noe som avsluttet andre verdenskrig?",
+    "options": [
+      "15. august / 2. september 1945",
+      "8. mai 1945",
+      "6. august 1945",
+      "1. oktober 1945"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTg0OjA="
+  },
+  {
+    "id": "hist-1800-85",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den tyske feltmarskalken som fikk kallenavnet «Ørkenreven» under kampene i Nord-Afrika?",
+    "options": [
+      "Heinz Guderian",
+      "Erwin Rommel",
+      "Erich von Manstein",
+      "Friedrich Paulus"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTg1OjE="
+  },
+  {
+    "id": "hist-1800-86",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble den første moderne bilen med bensinmotor patentert av Karl Benz?",
+    "options": [
+      "1876",
+      "1886",
+      "1896",
+      "1903"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTg2OjE="
+  },
+  {
+    "id": "hist-1800-87",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den berømte britiske forfatteren og statsmannen som fikk Nobelprisen i litteratur i 1953?",
+    "options": [
+      "George Orwell",
+      "Winston Churchill",
+      "Bertrand Russell",
+      "T.S. Eliot"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTg3OjE="
+  },
+  {
+    "id": "hist-1800-88",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilken by i Japan ble rammet av den andre atombomben 9. august 1945?",
+    "options": [
+      "Tokyo",
+      "Nagasaki",
+      "Osaka",
+      "Kyoto"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTg4OjE="
+  },
+  {
+    "id": "hist-1800-89",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den norske skøyta som fraktet norske motstandsfolk og flyktninger mellom Shetland og Norge under andre verdenskrig?",
+    "options": [
+      "Milorg",
+      "Shetlandsgjengen (blant annet «Hitra»)",
+      "Kompani Linge",
+      "XU"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTg5OjE="
+  },
+  {
+    "id": "hist-1800-90",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble «Gulltransporten» gjennomført for å redde Norges Banks gullbeholdning unna tyskerne?",
+    "options": [
+      "1939",
+      "1940",
+      "1942",
+      "1944"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTkwOjE="
+  },
+  {
+    "id": "hist-1800-91",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvem var den første presidenten i Tyskland etter første verdenskrig (Weimarrepublikken)?",
+    "options": [
+      "Paul von Hindenburg",
+      "Friedrich Ebert",
+      "Gustav Stresemann",
+      "Konrad Adenauer"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTkxOjE="
+  },
+  {
+    "id": "hist-1800-92",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het det berømte slaget på vestfronten i 1916 som varte i over fire måneder og kostet over én million soldater livet eller skader?",
+    "options": [
+      "Marne",
+      "Slaget ved Somme (og Verdun)",
+      "Ypres",
+      "Gallipoli"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTkyOjE="
+  },
+  {
+    "id": "hist-1800-93",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble den amerikanske grunnloven undertegnet?",
+    "options": [
+      "1776",
+      "1787",
+      "1789",
+      "1791"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTkzOjE="
+  },
+  {
+    "id": "hist-1800-94",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den berømte franske generalen som ledet «Frie Frankrike» under andre verdenskrig og senere ble president?",
+    "options": [
+      "Philippe Pétain",
+      "Charles de Gaulle",
+      "Georges Clemenceau",
+      "Georges Pompidou"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTk0OjE="
+  },
+  {
+    "id": "hist-1800-95",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble det norske flagget (med blått kors) innført slik vi kjenner det i dag (tegnet av Fredrik Meltzer)?",
+    "options": [
+      "1814",
+      "1821",
+      "1844",
+      "1905"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTk1OjE="
+  },
+  {
+    "id": "hist-1800-96",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den berømte norske polarskuta som både Fridtjof Nansen, Otto Sverdrup og Roald Amundsen brukte?",
+    "options": [
+      "Gjøa",
+      "Fram",
+      "Maud",
+      "Kon-Tiki"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTk2OjE="
+  },
+  {
+    "id": "hist-1800-97",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år brøt den russiske revolusjonen ut (både februar- og oktoberrevolusjonen)?",
+    "options": [
+      "1905",
+      "1917",
+      "1918",
+      "1922"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTk3OjE="
+  },
+  {
+    "id": "hist-1800-98",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den kjente amerikanske krigsskip-typen eller slaget i 1862 der to panserskip («Monitor» og «Merrimack») møttes for første gang?",
+    "options": [
+      "Gettysburg",
+      "Slaget ved Hampton Roads",
+      "Antietam",
+      "Vicksburg"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTk4OjE="
+  },
+  {
+    "id": "hist-1800-99",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hvilket år ble «Krystallnatten» (pogromer mot jøder i Tyskland) gjennomført?",
+    "options": [
+      "1933",
+      "1938",
+      "1941",
+      "1943"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTk5OjE="
+  },
+  {
+    "id": "hist-1800-100",
+    "category": "Historie",
+    "subcategory": "1800-tallet & verdenskrigene",
+    "question": "Hva het den norske kongen som nektet å godta Quisling og sa nei til tyske krav på Elverum i april 1940?",
+    "options": [
+      "Kong Olav V",
+      "Kong Haakon VII",
+      "Kong Harald V",
+      "Oscar II"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC0xODAwLTEwMDox"
+  },
+  {
+    "id": "hist-ny-76",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Apollo 11» skutt opp og landet på månen?",
+    "options": [
+      "1967",
+      "1969",
+      "1971",
+      "1972"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS03Njox"
+  },
+  {
+    "id": "hist-ny-77",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den kjente amerikanske presidenten som ble valgt i 1980 og sa «Mr. Gorbachev, tear down this wall!»?",
+    "options": [
+      "Jimmy Carter",
+      "Ronald Reagan",
+      "George H.W. Bush",
+      "Richard Nixon"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS03Nzox"
+  },
+  {
+    "id": "hist-ny-78",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «apartheid» formelt avskaffet i Sør-Afrika før valget i 1994?",
+    "options": [
+      "1985",
+      "Tidlig på 1990-tallet (1990–1994)",
+      "1976",
+      "1999"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS03ODox"
+  },
+  {
+    "id": "hist-ny-79",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den kjente norske statsministeren som var leder for Verdenskommisjonen for miljø og utvikling (Brundtlandkommisjonen)?",
+    "options": [
+      "Odvar Nordli",
+      "Gro Harlem Brundtland",
+      "Kåre Willoch",
+      "Thorbjørn Jagland"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS03OTox"
+  },
+  {
+    "id": "hist-ny-80",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Youtube» grunnlagt?",
+    "options": [
+      "2001",
+      "2005",
+      "2008",
+      "2010"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS04MDox"
+  },
+  {
+    "id": "hist-ny-81",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den berømte amerikanske musikkfestivalen i august 1969 som samlet over 400 000 mennesker?",
+    "options": [
+      "Monterey Pop",
+      "Woodstock",
+      "Coachella",
+      "Altamont"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS04MTox"
+  },
+  {
+    "id": "hist-ny-82",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Kina» medlem av Verdens handelsorganisasjon (WTO)?",
+    "options": [
+      "1995",
+      "2001",
+      "2008",
+      "2012"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS04Mjox"
+  },
+  {
+    "id": "hist-ny-83",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvem var statsminister i Storbritannia da Storbritannia formelt forlot EU i januar 2020?",
+    "options": [
+      "David Cameron",
+      "Boris Johnson",
+      "Theresa May",
+      "Rishi Sunak"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS04Mzox"
+  },
+  {
+    "id": "hist-ny-84",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble den første vellykkede hjertetransplantasjonen gjennomført (av Christiaan Barnard i Sør-Afrika)?",
+    "options": [
+      "1957",
+      "1967",
+      "1977",
+      "1987"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS04NDox"
+  },
+  {
+    "id": "hist-ny-85",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den kjente russiske opposisjonspolitikeren som døde i en straffekoloni i Arktis i februar 2024?",
+    "options": [
+      "Boris Nemtsov",
+      "Aleksej Navalnyj",
+      "Mikhail Khodorkovskij",
+      "Garri Kasparov"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS04NTox"
+  },
+  {
+    "id": "hist-ny-86",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Wikipedia» lansert?",
+    "options": [
+      "1998",
+      "2001",
+      "2004",
+      "2007"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS04Njox"
+  },
+  {
+    "id": "hist-ny-87",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvem var den første kvinnelige kansleren i Tyskland?",
+    "options": [
+      "Ursula von der Leyen",
+      "Angela Merkel",
+      "Annegret Kramp-Karrenbauer",
+      "Annalena Baerbock"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS04Nzox"
+  },
+  {
+    "id": "hist-ny-88",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Facebook» lansert av Mark Zuckerberg ved Harvard?",
+    "options": [
+      "2001",
+      "2004",
+      "2006",
+      "2008"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS04ODox"
+  },
+  {
+    "id": "hist-ny-89",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den kjente pakistanske jenta som vant Nobels fredspris i 2014 for sin kamp for jenters rett til utdanning?",
+    "options": [
+      "Benazir Bhutto",
+      "Malala Yousafzai",
+      "Shirin Ebadi",
+      "Nadia Murad"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS04OTox"
+  },
+  {
+    "id": "hist-ny-90",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Oljekrisen» utløst av OPEC-landene, noe som førte til bilfrie søndager i Norge?",
+    "options": [
+      "1968",
+      "1973",
+      "1979",
+      "1986"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS05MDox"
+  },
+  {
+    "id": "hist-ny-91",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvem ble valgt til USAs president i 2020?",
+    "options": [
+      "Donald Trump",
+      "Joe Biden",
+      "Kamala Harris",
+      "Barack Obama"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS05MTox"
+  },
+  {
+    "id": "hist-ny-92",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble den aller første SMS-en sendt («Merry Christmas»)?",
+    "options": [
+      "1988",
+      "1992",
+      "1996",
+      "1999"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS05Mjox"
+  },
+  {
+    "id": "hist-ny-93",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den kjente romfergen som eksploderte kort tid etter oppskytning i januar 1986?",
+    "options": [
+      "Columbia",
+      "Challenger",
+      "Discovery",
+      "Atlantis"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS05Mzox"
+  },
+  {
+    "id": "hist-ny-94",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Schengen-samarbeidet» (passfrihet) operativt i Norge?",
+    "options": [
+      "1995",
+      "2001",
+      "2005",
+      "2010"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS05NDox"
+  },
+  {
+    "id": "hist-ny-95",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den berømte amerikanske økonomen eller aktivisten? Nei – hva het det kjente skipet som satte seg fast i Suezkanalen i mars 2021?",
+    "options": [
+      "Emma Maersk",
+      "Ever Given",
+      "MSC Gülsün",
+      "Symphony of the Seas"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS05NTox"
+  },
+  {
+    "id": "hist-ny-96",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «ChatGPT» lansert av OpenAI?",
+    "options": [
+      "2020",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS05Njox"
+  },
+  {
+    "id": "hist-ny-97",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hva het den kjente svenske diplomaten som var FNs generalsekretær fra 1953 til han omkom i en flyulykke i 1961?",
+    "options": [
+      "Trygve Lie",
+      "Dag Hammarskjöld",
+      "U Thant",
+      "Kurt Waldheim"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS05Nzox"
+  },
+  {
+    "id": "hist-ny-98",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Netflix» startet (opprinnelig som utleie av DVD-er i posten)?",
+    "options": [
+      "1994",
+      "1997",
+      "2002",
+      "2007"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS05ODox"
+  },
+  {
+    "id": "hist-ny-99",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvilket år ble «Eurovision»... nei, hvilket år ble «Berlinmuren» åpnet (9. november)?",
+    "options": [
+      "1987",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS05OTox"
+  },
+  {
+    "id": "hist-ny-100",
+    "category": "Historie",
+    "subcategory": "Nyere historie (etter 1945)",
+    "question": "Hvem ble kronet til konge av Storbritannia i mai 2023?",
+    "options": [
+      "Prins William",
+      "Kong Charles III",
+      "Kong Georg VII",
+      "Prins Harry"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1ueS0xMDA6MQ=="
+  },
+  {
+    "id": "hist-opp-76",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «kalkulatoren» eller den første mekaniske regnemaskinen på 1640-tallet?",
+    "options": [
+      "Isaac Newton",
+      "Blaise Pascal",
+      "Gottfried Leibniz",
+      "René Descartes"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNzY6MQ=="
+  },
+  {
+    "id": "hist-opp-77",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «telegrafen» – nei, hvem oppfant «barometeret» for å måle lufttrykk i 1643?",
+    "options": [
+      "Galileo Galilei",
+      "Evangelista Torricelli",
+      "Blaise Pascal",
+      "Robert Boyle"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNzc6MQ=="
+  },
+  {
+    "id": "hist-opp-78",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «glidelåsen» (den moderne utgaven i 1913)?",
+    "options": [
+      "Levi Strauss",
+      "Gideon Sundbäck",
+      "Isaac Singer",
+      "Whitcomb Judson"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNzg6MQ=="
+  },
+  {
+    "id": "hist-opp-79",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppdaget «elektromagnetismen» i 1820 da han så at en strømførende ledning påvirket en kompassnål?",
+    "options": [
+      "Michael Faraday",
+      "Hans Christian Ørsted",
+      "André-Marie Ampère",
+      "Georg Ohm"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtNzk6MQ=="
+  },
+  {
+    "id": "hist-opp-80",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «fyrstikken» (sikkerhetsfyrstikken) på 1840- og 1850-tallet i Sverige?",
+    "options": [
+      "Alfred Nobel",
+      "Gustaf Erik Pasch (og Johan Edvard Lundström)",
+      "Carl Wilhelm Scheele",
+      "Jöns Jacob Berzelius"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtODA6MQ=="
+  },
+  {
+    "id": "hist-opp-81",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «nylon» i 1935 hos DuPont?",
+    "options": [
+      "Leo Baekeland",
+      "Wallace Carothers",
+      "Roy Plunkett",
+      "Stephanie Kwolek"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtODE6MQ=="
+  },
+  {
+    "id": "hist-opp-82",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «teflon» ved et uhell i 1938?",
+    "options": [
+      "Wallace Carothers",
+      "Roy Plunkett",
+      "Percy Spencer",
+      "George de Mestral"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtODI6MQ=="
+  },
+  {
+    "id": "hist-opp-83",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «kevlaret» (skuddsikre vester) på 1960-tallet?",
+    "options": [
+      "Marie Curie",
+      "Stephanie Kwolek",
+      "Rosalind Franklin",
+      "Grace Hopper"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtODM6MQ=="
+  },
+  {
+    "id": "hist-opp-84",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «kompilatoren» og var en pioner innen programmeringsspråk (COBOL)?",
+    "options": [
+      "Ada Lovelace",
+      "Grace Hopper",
+      "Margaret Hamilton",
+      "Hedy Lamarr"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtODQ6MQ=="
+  },
+  {
+    "id": "hist-opp-85",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvilken berømt Hollywood-skuespillerinne fra 1940-tallet var også oppfinner og utviklet frekvenshopping-teknologi (grunnlaget for Wi-Fi og Bluetooth)?",
+    "options": [
+      "Ingrid Bergman",
+      "Hedy Lamarr",
+      "Audrey Hepburn",
+      "Grace Kelly"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtODU6MQ=="
+  },
+  {
+    "id": "hist-opp-86",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «termometeret» med kvikksølv (og ga navn til temperaturskalaen)?",
+    "options": [
+      "Anders Celsius",
+      "Daniel Gabriel Fahrenheit",
+      "Lord Kelvin",
+      "Galileo Galilei"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtODY6MQ=="
+  },
+  {
+    "id": "hist-opp-87",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «hundregraderskalaen» for temperatur i 1742?",
+    "options": [
+      "Daniel Gabriel Fahrenheit",
+      "Anders Celsius",
+      "Lord Kelvin",
+      "Carl von Linné"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtODc6MQ=="
+  },
+  {
+    "id": "hist-opp-88",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «jetmotoren» (uavhengig av Hans von Ohain) i Storbritannia på 1930-tallet?",
+    "options": [
+      "Orville Wright",
+      "Frank Whittle",
+      "Chuck Yeager",
+      "Howard Hughes"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtODg6MQ=="
+  },
+  {
+    "id": "hist-opp-89",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «helikopteret» (den første masseproduserte modellen) i 1939?",
+    "options": [
+      "Leonardo da Vinci",
+      "Igor Sikorsky",
+      "Frank Whittle",
+      "Ferdinand von Zeppelin"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtODk6MQ=="
+  },
+  {
+    "id": "hist-opp-90",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «luftskipet» (styrbare ballonger med stiv ramme) rundt år 1900?",
+    "options": [
+      "Brødrene Montgolfier",
+      "Ferdinand von Zeppelin",
+      "Santos-Dumont",
+      "Brødrene Wright"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtOTA6MQ=="
+  },
+  {
+    "id": "hist-opp-91",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «hermetikkboksen» av blikk i 1810?",
+    "options": [
+      "Nicolas Appert",
+      "Peter Durand",
+      "Louis Pasteur",
+      "Clarence Birdseye"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtOTE6MQ=="
+  },
+  {
+    "id": "hist-opp-92",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «dypfrysing» av mat i kommersiell skala på 1920-tallet?",
+    "options": [
+      "Percy Spencer",
+      "Clarence Birdseye",
+      "Willis Carrier",
+      "John Gorrie"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtOTI6MQ=="
+  },
+  {
+    "id": "hist-opp-93",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «klimaanlegget» (air condition) i 1902?",
+    "options": [
+      "Thomas Edison",
+      "Willis Carrier",
+      "Nikola Tesla",
+      "James Watt"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtOTM6MQ=="
+  },
+  {
+    "id": "hist-opp-94",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «grammofonen» (med flate plater i stedet for fonografens ruller) i 1887?",
+    "options": [
+      "Thomas Edison",
+      "Emile Berliner",
+      "Guglielmo Marconi",
+      "Alexander Graham Bell"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtOTQ6MQ=="
+  },
+  {
+    "id": "hist-opp-95",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «kaffefilteret» av papir i 1908?",
+    "options": [
+      "Melitta Bentz",
+      "Alfonso Bialetti",
+      "Angelo Moriondo",
+      "Luigi Bezzera"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtOTU6MA=="
+  },
+  {
+    "id": "hist-opp-96",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «moka-kannen» (den åttekantede italienske kaffekannen) i 1933?",
+    "options": [
+      "Melitta Bentz",
+      "Alfonso Bialetti",
+      "Achille Gaggia",
+      "Ernesto Illy"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtOTY6MQ=="
+  },
+  {
+    "id": "hist-opp-97",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «heisen» med sikkerhetsbrems i 1852 (som gjorde skyskrapere mulig)?",
+    "options": [
+      "Henry Bessemer",
+      "Elisha Otis",
+      "Gustave Eiffel",
+      "Andrew Carnegie"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtOTc6MQ=="
+  },
+  {
+    "id": "hist-opp-98",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «kryssordet» (publisert i New York World i desember 1913)?",
+    "options": [
+      "Ernő Rubik",
+      "Arthur Wynne",
+      "Alfred Mosher Butts",
+      "Howard Garns"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtOTg6MQ=="
+  },
+  {
+    "id": "hist-opp-99",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «Rubiks kube» i 1974?",
+    "options": [
+      "Arthur Wynne",
+      "Ernő Rubik",
+      "John Conway",
+      "Martin Gardner"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtOTk6MQ=="
+  },
+  {
+    "id": "hist-opp-100",
+    "category": "Historie",
+    "subcategory": "Oppfinnelser & oppdagelser",
+    "question": "Hvem oppfant «bankautomaten» (minibanken) på slutten av 1960-tallet?",
+    "options": [
+      "John Shepherd-Barron",
+      "Alan Turing",
+      "Gordon Moore",
+      "Tim Berners-Lee"
+    ],
+    "addedAt": "2026-11-25",
+    "answerToken": "aGlzdC1vcHAtMTAwOjA="
   }
 ]
