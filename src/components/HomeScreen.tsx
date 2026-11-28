@@ -35,7 +35,7 @@ interface HomeScreenProps {
   resumableSession: ActiveSessionInfo | null;
   onResume: () => void;
   onDismissResume: () => void;
-  onHost: (name: string, fixedRoomCode?: string) => void;
+  onHost: (name: string, fixedRoomCode?: string, groupName?: string) => void;
   onJoin: (roomCode: string, name: string) => void;
 }
 
@@ -94,6 +94,7 @@ export function HomeScreen({
   });
   const [addingNewName, setAddingNewName] = useState(() => loadSavedNames().length === 0);
   const [roomCode, setRoomCode] = useState('');
+  const [groupNameInput, setGroupNameInput] = useState('');
   const [showHistory, setShowHistory] = useState(false);
   const [history, setHistory] = useState<QuizHistoryEntry[]>(() => loadHistory());
   const [savedGroups, setSavedGroups] = useState<SavedGroup[]>(() => loadSavedGroups());
@@ -122,7 +123,7 @@ export function HomeScreen({
     persistSavedNames(nextNames, trimmedName);
 
     if (mode === 'host') {
-      onHost(trimmedName);
+      onHost(trimmedName, undefined, groupNameInput.trim() || undefined);
     } else if (roomCode.trim()) {
       onJoin(roomCode.trim().toUpperCase(), trimmedName);
     }
@@ -212,13 +213,14 @@ export function HomeScreen({
               if (selectedGroupFilter !== 'ALL') {
                 for (const entry of filtered) {
                   entry.players.forEach((p, idx) => {
-                    const key = p.name.trim().toLowerCase();
+                    const key = p.playerId || p.name.trim().toLowerCase();
                     const prev = marathonMap.get(key) ?? {
                       name: p.name,
                       wins: 0,
                       totalScore: 0,
                       games: 0,
                     };
+                    prev.name = p.name;
                     prev.wins += idx === 0 ? 1 : 0;
                     prev.totalScore += p.totalScore;
                     prev.games += 1;
@@ -462,6 +464,22 @@ export function HomeScreen({
             </div>
           )}
 
+          {mode === 'host' && (
+            <div>
+              <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">
+                Selskapsnavn <span className="font-normal normal-case text-slate-500">(valgfritt – deles med alle)</span>
+              </label>
+              <input
+                type="text"
+                maxLength={30}
+                placeholder="F.eks. Torsdagsgjengen"
+                value={groupNameInput}
+                onChange={(e) => setGroupNameInput(e.target.value)}
+                className="w-full rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3 text-base text-white placeholder:text-slate-600 focus:border-indigo-500 focus:outline-none"
+              />
+            </div>
+          )}
+
           <div>
             <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">
               Ditt navn
@@ -600,7 +618,7 @@ export function HomeScreen({
                     <button
                       type="button"
                       disabled={connecting}
-                      onClick={() => onHost(g.myPlayerName, g.roomCode)}
+                      onClick={() => onHost(g.myPlayerName, g.roomCode, g.name)}
                       className="flex items-center justify-center gap-1.5 rounded-xl border border-emerald-500/40 bg-emerald-500/15 py-2 text-xs font-bold text-emerald-300 transition hover:bg-emerald-500/25 active:scale-95 disabled:opacity-50"
                     >
                       <Play className="h-3.5 w-3.5" />

@@ -13,18 +13,100 @@ export function generateRoomCode(length = 4): string {
   return code;
 }
 
-export function getOrCreatePlayerId(): string {
-  const key = 'selskapsquiz_player_id';
-  const existing = localStorage.getItem(key) ?? sessionStorage.getItem(key);
-  if (existing) {
-    localStorage.setItem(key, existing);
-    return existing;
+const PLAYER_ID_KEY = 'selskapsquiz_player_id';
+const OPEN_TABS_KEY = 'selskapsquiz_open_tabs';
+const TAB_ID_KEY = 'selskapsquiz_tab_id';
+const TAB_TTL_MS = 10_000;
+
+function generateUuid(): string {
+  return typeof crypto !== 'undefined' && 'randomUUID' in crypto
+    ? crypto.randomUUID()
+    : `p-${Math.random().toString(36).slice(2, 10)}`;
+}
+
+function readOpenTabs(): Record<string, { playerId: string; ts: number }> {
+  try {
+    const raw = localStorage.getItem(OPEN_TABS_KEY);
+    if (!raw) return {};
+    const parsed = JSON.parse(raw) as Record<string, { playerId: string; ts: number }>;
+    const now = Date.now();
+    const fresh: Record<string, { playerId: string; ts: number }> = {};
+    for (const [tid, info] of Object.entries(parsed)) {
+      if (info && typeof info.playerId === 'string' && now - info.ts < TAB_TTL_MS) {
+        fresh[tid] = info;
+      }
+    }
+    return fresh;
+  } catch {
+    return {};
   }
-  const id =
-    typeof crypto !== 'undefined' && 'randomUUID' in crypto
-      ? crypto.randomUUID()
-      : `p-${Math.random().toString(36).slice(2, 10)}`;
-  localStorage.setItem(key, id);
+}
+
+let tabHeartbeatStarted = false;
+
+function registerTabPlayerId(tabId: string, playerId: string): void {
+  const write = () => {
+    try {
+      const tabs = readOpenTabs();
+      tabs[tabId] = { playerId, ts: Date.now() };
+      localStorage.setItem(OPEN_TABS_KEY, JSON.stringify(tabs));
+    } catch {
+      // ignore
+    }
+  };
+  write();
+  if (!tabHeartbeatStarted) {
+    tabHeartbeatStarted = true;
+    window.setInterval(write, 3000);
+    const unregister = () => {
+      try {
+        const tabs = readOpenTabs();
+        delete tabs[tabId];
+        localStorage.setItem(OPEN_TABS_KEY, JSON.stringify(tabs));
+      } catch {
+        // ignore
+      }
+    };
+    window.addEventListener('pagehide', unregister);
+    window.addEventListener('beforeunload', unregister);
+  }
+}
+
+export function getOrCreatePlayerId(): string {
+  let tabId = sessionStorage.getItem(TAB_ID_KEY);
+  if (!tabId) {
+    tabId = generateUuid();
+    sessionStorage.setItem(TAB_ID_KEY, tabId);
+  }
+
+  // 1. If this tab already has a playerId (e.g. page refresh), keep it
+  const tabPlayerId = sessionStorage.getItem(PLAYER_ID_KEY);
+  if (tabPlayerId) {
+    registerTabPlayerId(tabId, tabPlayerId);
+    return tabPlayerId;
+  }
+
+  // 2. Otherwise check if the primary localStorage playerId is free (not held by another open tab)
+  const storedId = localStorage.getItem(PLAYER_ID_KEY);
+  const openTabs = readOpenTabs();
+  const isStoredInUseByOtherTab =
+    Boolean(storedId) &&
+    Object.entries(openTabs).some(
+      ([tid, info]) => tid !== tabId && info.playerId === storedId
+    );
+
+  let id: string;
+  if (storedId && !isStoredInUseByOtherTab) {
+    id = storedId;
+  } else {
+    id = generateUuid();
+    if (!storedId) {
+      localStorage.setItem(PLAYER_ID_KEY, id);
+    }
+  }
+
+  sessionStorage.setItem(PLAYER_ID_KEY, id);
+  registerTabPlayerId(tabId, id);
   return id;
 }
 

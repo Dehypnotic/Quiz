@@ -7,7 +7,7 @@ import { LobbyScreen } from './components/LobbyScreen';
 import { QuestionScreen } from './components/QuestionScreen';
 import { RevealScreen } from './components/RevealScreen';
 import { RoundSummaryScreen } from './components/RoundSummaryScreen';
-import { findSavedGroupByRoomCode } from './data/groupStorage';
+import { findSavedGroupByRoomCode, saveGroup } from './data/groupStorage';
 import { saveHistoryEntry } from './data/historyStorage';
 import { useQuizEngine } from './game/useQuizEngine';
 
@@ -40,6 +40,18 @@ export function App() {
   }, [state?.phase, state?.roomCode]);
 
   useEffect(() => {
+    if (!state || !state.groupName) return;
+    const me = state.players.find((p) => p.id === myPlayerId);
+    if (!me) return;
+    saveGroup({
+      name: state.groupName,
+      roomCode: state.roomCode,
+      myPlayerName: me.name,
+      memberNames: state.players.map((p) => p.name),
+    });
+  }, [myPlayerId, state]);
+
+  useEffect(() => {
     if (!state || state.phase !== 'final' || !state.finishedAt) return;
     const ranked = [...state.players].sort(
       (a, b) => b.totalScore - a.totalScore || a.totalCorrectMs - b.totalCorrectMs
@@ -49,10 +61,11 @@ export function App() {
       id: `${state.roomCode}-${state.finishedAt}`,
       finishedAt: new Date(state.finishedAt).toISOString(),
       roomCode: state.roomCode,
-      groupName: savedGroup?.name,
+      groupName: state.groupName ?? savedGroup?.name,
       roundsCount: state.settings.roundsCount,
       categories: state.usedCategories,
       players: ranked.map((p) => ({
+        playerId: p.id,
         name: p.name,
         totalScore: p.totalScore,
         totalCorrectMs: p.totalCorrectMs,

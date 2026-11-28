@@ -41,6 +41,7 @@ const DEFAULT_SETTINGS: GameSettings = {
 
 interface InternalHostState {
   roomCode: string;
+  groupName: string | null;
   phase: PublicGameState['phase'];
   settings: GameSettings;
   players: Player[];
@@ -65,6 +66,7 @@ interface InternalHostState {
 function serializeHostState(s: InternalHostState): Omit<SerializedHostState, 'savedAt'> {
   return {
     roomCode: s.roomCode,
+    groupName: s.groupName,
     phase: s.phase,
     settings: s.settings,
     players: s.players,
@@ -93,6 +95,7 @@ function deserializeHostState(
 ): InternalHostState {
   return {
     roomCode: rawHost.roomCode,
+    groupName: rawHost.groupName ?? null,
     phase: rawHost.phase,
     settings: rawHost.settings,
     players: rawHost.players.map((p) =>
@@ -167,6 +170,7 @@ export function useQuizEngine() {
 
       return {
         roomCode: s.roomCode,
+        groupName: s.groupName,
         phase: s.phase,
         settings: s.settings,
         players: s.players,
@@ -620,7 +624,7 @@ export function useQuizEngine() {
 
   // Public actions
   const startHosting = useCallback(
-    (hostName: string, fixedRoomCode?: string) => {
+    (hostName: string, fixedRoomCode?: string, groupName?: string) => {
       hostSessionRef.current?.destroy();
       guestSessionRef.current?.destroy();
       hostSessionRef.current = null;
@@ -635,6 +639,7 @@ export function useQuizEngine() {
         onReady(roomCode) {
           const initial: InternalHostState = {
             roomCode,
+            groupName: groupName?.trim() || null,
             phase: 'lobby',
             settings: { ...DEFAULT_SETTINGS },
             players: [

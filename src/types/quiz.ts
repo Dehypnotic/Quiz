@@ -90,6 +90,7 @@ export interface PublicQuestionView {
  */
 export interface PublicGameState {
   roomCode: string;
+  groupName?: string | null;
   phase: GamePhase;
   settings: GameSettings;
   players: Player[];

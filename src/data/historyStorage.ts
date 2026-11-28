@@ -1,4 +1,5 @@
 export interface HistoryPlayerResult {
+  playerId?: string;
   name: string;
   totalScore: number;
   totalCorrectMs: number;

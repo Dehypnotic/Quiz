@@ -21,6 +21,7 @@ export interface ActiveSessionInfo {
 
 export interface SerializedHostState {
   roomCode: string;
+  groupName?: string | null;
   phase: PublicGameState['phase'];
   settings: GameSettings;
   players: Player[];
