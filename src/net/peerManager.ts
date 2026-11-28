@@ -1,7 +1,7 @@
 import mqtt, { type MqttClient } from 'mqtt';
 import type { ClientMessage, HostMessage } from '../types/quiz';
 
-const BROKER_URL = 'wss://broker.hivemq.com:8884/mqtt';
+const BROKER_URL = 'wss://test.mosquitto.org:8081/mqtt';
 const TOPIC_PREFIX = 'selskapsquiz/v1/';
 const CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 
