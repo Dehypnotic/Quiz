@@ -1,7 +1,7 @@
 import mqtt, { type MqttClient } from 'mqtt';
 import type { ClientMessage, HostMessage } from '../types/quiz';
 
-const BROKER_URL = 'wss://broker.emqx.io:8084/mqtt';
+const BROKER_URL = 'wss://broker.hivemq.com:8884/mqtt';
 const TOPIC_PREFIX = 'selskapsquiz/v1/';
 const CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 
@@ -174,8 +174,9 @@ export function createHostSession(callbacks: {
   const client: MqttClient = mqtt.connect(BROKER_URL, {
     clientId: makeClientId(`sq-host-${roomCode}`),
     clean: true,
+    keepalive: 25,
     reconnectPeriod: 2000,
-    connectTimeout: 8000,
+    connectTimeout: 10000,
   });
 
   const onVisible = () => {
@@ -276,8 +277,9 @@ export function createGuestSession(params: {
   const client: MqttClient = mqtt.connect(BROKER_URL, {
     clientId: makeClientId(`sq-guest-${cleanCode}`),
     clean: true,
+    keepalive: 25,
     reconnectPeriod: 2000,
-    connectTimeout: 8000,
+    connectTimeout: 10000,
   });
 
   const sendJoin = () => {
@@ -290,16 +292,23 @@ export function createGuestSession(params: {
     client.publish(toHostTopic, JSON.stringify(joinMsg), { qos: 1 });
   };
 
+  const joinRetryInterval = window.setInterval(() => {
+    if (!joined && !destroyed && client.connected) {
+      sendJoin();
+    }
+  }, 3000);
+
   const joinTimeout = window.setTimeout(() => {
     if (!joined && !destroyed) {
       destroyed = true;
+      window.clearInterval(joinRetryInterval);
       client.end(true);
       params.onError(
         `Fant ikke rom "${cleanCode}", eller verten svarte ikke. Sjekk koden og prøv igjen.`
       );
       params.onDisconnected();
     }
-  }, 8000);
+  }, 12000);
 
   client.on('connect', () => {
     if (destroyed) return;
@@ -322,6 +331,7 @@ export function createGuestSession(params: {
         joined = true;
         isConnected = true;
         window.clearTimeout(joinTimeout);
+        window.clearInterval(joinRetryInterval);
         params.onConnected();
       }
       params.onMessage(msg);
@@ -364,9 +374,12 @@ export function createGuestSession(params: {
 
   client.on('error', (err) => {
     if (destroyed) return;
-    if (!joined) {
+    if (!joined && /not authorized/i.test(err.message || '')) {
+      destroyed = true;
       window.clearTimeout(joinTimeout);
-      params.onError(err.message || 'Kunne ikke koble til rommet.');
+      window.clearInterval(joinRetryInterval);
+      client.end(true);
+      params.onError('Tilkoblingen ble avvist av meldingsserveren. Prøv igjen.');
       params.onDisconnected();
     }
   });
@@ -383,6 +396,7 @@ export function createGuestSession(params: {
     destroy() {
       destroyed = true;
       window.clearTimeout(joinTimeout);
+      window.clearInterval(joinRetryInterval);
       document.removeEventListener('visibilitychange', onVisible);
       window.removeEventListener('online', triggerReconnect);
       releaseWakeLock();
