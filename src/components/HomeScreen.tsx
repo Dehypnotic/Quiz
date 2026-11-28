@@ -387,62 +387,38 @@ export function HomeScreen({
           </p>
         </div>
 
-        {resumableSession && (() => {
-          const otherHostOpen = isOtherHostTabActive(resumableSession);
-          const isLobby = resumableSession.phase === 'lobby';
-          const showJoinLabel = isLobby || otherHostOpen;
-          return (
-            <div className="mb-5 flex items-center justify-between gap-3 rounded-2xl border border-emerald-500/40 bg-emerald-500/10 p-3.5">
-              <div className="min-w-0">
-                <p className="text-xs font-bold uppercase tracking-wider text-emerald-300">
-                  {isLobby ? 'Ny quiz funnet' : 'Pågående quiz funnet'}
-                </p>
-                <p className="truncate text-sm font-semibold text-white">
-                  Rom {resumableSession.roomCode}
-                  {!otherHostOpen && (
-                    <>
-                      {' '}
-                      • {resumableSession.playerName}{' '}
-                      {resumableSession.role === 'host' ? '(Vert)' : ''}
-                    </>
-                  )}
-                </p>
-              </div>
-              <div className="flex shrink-0 items-center gap-1.5">
-                <button
-                  type="button"
-                  disabled={connecting}
-                  onClick={() => {
-                    if (otherHostOpen) {
-                      onJoin(
-                        resumableSession.roomCode,
-                        name.trim() || 'Spiller'
-                      );
-                    } else {
-                      onResume();
-                    }
-                  }}
-                  className="inline-flex items-center gap-1.5 rounded-xl bg-emerald-500 px-3 py-2 text-xs font-bold text-slate-950 transition hover:bg-emerald-400 active:scale-95 disabled:opacity-50"
-                >
-                  {showJoinLabel ? (
-                    <Users className="h-3.5 w-3.5" />
-                  ) : (
-                    <RotateCcw className="h-3.5 w-3.5" />
-                  )}
-                  {showJoinLabel ? 'Bli med' : 'Gjenoppta'}
-                </button>
-                <button
-                  type="button"
-                  onClick={onDismissResume}
-                  className="rounded-xl border border-slate-700 bg-slate-800/80 p-2 text-slate-400 hover:text-white"
-                  title="Avvis"
-                >
-                  <X className="h-3.5 w-3.5" />
-                </button>
-              </div>
+        {resumableSession && !isOtherHostTabActive(resumableSession) && (
+          <div className="mb-5 flex items-center justify-between gap-3 rounded-2xl border border-emerald-500/40 bg-emerald-500/10 p-3.5">
+            <div className="min-w-0">
+              <p className="text-xs font-bold uppercase tracking-wider text-emerald-300">
+                Pågående quiz funnet
+              </p>
+              <p className="truncate text-sm font-semibold text-white">
+                Rom {resumableSession.roomCode} • {resumableSession.playerName}{' '}
+                {resumableSession.role === 'host' ? '(Vert)' : ''}
+              </p>
             </div>
-          );
-        })()}
+            <div className="flex shrink-0 items-center gap-1.5">
+              <button
+                type="button"
+                disabled={connecting}
+                onClick={onResume}
+                className="inline-flex items-center gap-1.5 rounded-xl bg-emerald-500 px-3 py-2 text-xs font-bold text-slate-950 transition hover:bg-emerald-400 active:scale-95 disabled:opacity-50"
+              >
+                <RotateCcw className="h-3.5 w-3.5" />
+                Gjenoppta
+              </button>
+              <button
+                type="button"
+                onClick={onDismissResume}
+                className="rounded-xl border border-slate-700 bg-slate-800/80 p-2 text-slate-400 hover:text-white"
+                title="Avvis"
+              >
+                <X className="h-3.5 w-3.5" />
+              </button>
+            </div>
+          </div>
+        )}
 
         <div className="mb-6 grid grid-cols-2 gap-2 rounded-2xl bg-slate-900 p-1.5 border border-slate-800">
           <button
