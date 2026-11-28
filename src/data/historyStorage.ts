@@ -8,6 +8,7 @@ export interface QuizHistoryEntry {
   id: string;
   finishedAt: string;
   roomCode: string;
+  groupName?: string;
   roundsCount: number;
   categories: string[];
   players: HistoryPlayerResult[];

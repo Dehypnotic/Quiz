@@ -620,7 +620,7 @@ export function useQuizEngine() {
 
   // Public actions
   const startHosting = useCallback(
-    (hostName: string) => {
+    (hostName: string, fixedRoomCode?: string) => {
       hostSessionRef.current?.destroy();
       guestSessionRef.current?.destroy();
       hostSessionRef.current = null;
@@ -631,6 +631,7 @@ export function useQuizEngine() {
 
       const session = createHostSession({
         hostPlayerId: myPlayerId,
+        roomCode: fixedRoomCode?.trim().toUpperCase() || undefined,
         onReady(roomCode) {
           const initial: InternalHostState = {
             roomCode,
@@ -757,6 +758,7 @@ export function useQuizEngine() {
   const startGame = useCallback(() => {
     const s = hostStateRef.current;
     if (!s || role !== 'host') return;
+    clearTimer();
     s.usedQuestionIds = new Set();
     s.usedCategories = new Set();
     s.finishedAt = null;
@@ -810,8 +812,7 @@ export function useQuizEngine() {
     guestSessionRef.current?.destroy();
     guestSessionRef.current = null;
     hostStateRef.current = null;
-    clearActiveSession();
-    setResumableSession(null);
+    setResumableSession(loadActiveSession());
     setPublicState(null);
     setRole('none');
     setConnectionStatus('idle');

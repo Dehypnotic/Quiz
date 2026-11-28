@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { LogOut } from 'lucide-react';
 import { CategoryPickScreen } from './components/CategoryPickScreen';
 import { FinalResultsScreen } from './components/FinalResultsScreen';
@@ -7,6 +7,7 @@ import { LobbyScreen } from './components/LobbyScreen';
 import { QuestionScreen } from './components/QuestionScreen';
 import { RevealScreen } from './components/RevealScreen';
 import { RoundSummaryScreen } from './components/RoundSummaryScreen';
+import { findSavedGroupByRoomCode } from './data/groupStorage';
 import { saveHistoryEntry } from './data/historyStorage';
 import { useQuizEngine } from './game/useQuizEngine';
 
@@ -32,16 +33,23 @@ export function App() {
     dismissResumableSession,
     transferHost,
   } = useQuizEngine();
+  const [confirmLeave, setConfirmLeave] = useState(false);
+
+  useEffect(() => {
+    setConfirmLeave(false);
+  }, [state?.phase, state?.roomCode]);
 
   useEffect(() => {
     if (!state || state.phase !== 'final' || !state.finishedAt) return;
     const ranked = [...state.players].sort(
       (a, b) => b.totalScore - a.totalScore || a.totalCorrectMs - b.totalCorrectMs
     );
+    const savedGroup = findSavedGroupByRoomCode(state.roomCode);
     saveHistoryEntry({
       id: `${state.roomCode}-${state.finishedAt}`,
       finishedAt: new Date(state.finishedAt).toISOString(),
       roomCode: state.roomCode,
+      groupName: savedGroup?.name,
       roundsCount: state.settings.roundsCount,
       categories: state.usedCategories,
       players: ranked.map((p) => ({
@@ -84,14 +92,36 @@ export function App() {
           )}
         </div>
 
-        <button
-          type="button"
-          onClick={leaveGame}
-          className="inline-flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-semibold text-slate-400 hover:bg-slate-800 hover:text-white"
-        >
-          <LogOut className="h-3.5 w-3.5" />
-          Forlat
-        </button>
+        {confirmLeave ? (
+          <div className="flex items-center gap-1.5">
+            <button
+              type="button"
+              onClick={() => {
+                setConfirmLeave(false);
+                leaveGame();
+              }}
+              className="rounded-lg bg-rose-600 px-2.5 py-1 text-xs font-bold text-white hover:bg-rose-500"
+            >
+              Bekreft forlat
+            </button>
+            <button
+              type="button"
+              onClick={() => setConfirmLeave(false)}
+              className="rounded-lg px-2 py-1 text-xs font-semibold text-slate-400 hover:bg-slate-800 hover:text-white"
+            >
+              Avbryt
+            </button>
+          </div>
+        ) : (
+          <button
+            type="button"
+            onClick={() => setConfirmLeave(true)}
+            className="inline-flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-semibold text-slate-400 hover:bg-slate-800 hover:text-white"
+          >
+            <LogOut className="h-3.5 w-3.5" />
+            Forlat
+          </button>
+        )}
       </header>
 
       {(connectionStatus === 'disconnected' || connectionStatus === 'connecting') && (
@@ -116,6 +146,7 @@ export function App() {
       {state.phase === 'lobby' && (
         <LobbyScreen
           state={state}
+          myPlayerId={myPlayerId}
           isHost={isHost}
           onUpdateSettings={updateSettings}
           onStartGame={startGame}
@@ -183,7 +214,9 @@ export function App() {
       {state.phase === 'final' && (
         <FinalResultsScreen
           state={state}
+          myPlayerId={myPlayerId}
           isHost={isHost}
+          onStartNewGame={startGame}
           onRestart={restartToLobby}
           onTransferHost={transferHost}
         />

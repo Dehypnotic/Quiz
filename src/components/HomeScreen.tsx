@@ -13,6 +13,11 @@ import {
 } from 'lucide-react';
 import type { ActiveSessionInfo } from '../data/sessionStorage';
 import {
+  deleteSavedGroup,
+  loadSavedGroups,
+  type SavedGroup,
+} from '../data/groupStorage';
+import {
   clearHistory,
   deleteHistoryEntry,
   formatHistoryDate,
@@ -29,7 +34,7 @@ interface HomeScreenProps {
   resumableSession: ActiveSessionInfo | null;
   onResume: () => void;
   onDismissResume: () => void;
-  onHost: (name: string) => void;
+  onHost: (name: string, fixedRoomCode?: string) => void;
   onJoin: (roomCode: string, name: string) => void;
 }
 
@@ -45,10 +50,18 @@ export function HomeScreen({
   onJoin,
 }: HomeScreenProps) {
   const [mode, setMode] = useState<'join' | 'host'>('join');
-  const [name, setName] = useState('');
+  const [name, setName] = useState(() => {
+    try {
+      return localStorage.getItem('selskapsquiz_player_name') ?? '';
+    } catch {
+      return '';
+    }
+  });
   const [roomCode, setRoomCode] = useState('');
   const [showHistory, setShowHistory] = useState(false);
   const [history, setHistory] = useState<QuizHistoryEntry[]>(() => loadHistory());
+  const [savedGroups, setSavedGroups] = useState<SavedGroup[]>(() => loadSavedGroups());
+  const [selectedGroupFilter, setSelectedGroupFilter] = useState<string>('ALL');
   const [copiedId, setCopiedId] = useState<string | null>(null);
 
   useEffect(() => {
@@ -62,11 +75,17 @@ export function HomeScreen({
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!name.trim()) return;
+    const trimmedName = name.trim();
+    if (!trimmedName) return;
+    try {
+      localStorage.setItem('selskapsquiz_player_name', trimmedName);
+    } catch {
+      // ignore
+    }
     if (mode === 'host') {
-      onHost(name.trim());
+      onHost(trimmedName);
     } else if (roomCode.trim()) {
-      onJoin(roomCode.trim().toUpperCase(), name.trim());
+      onJoin(roomCode.trim().toUpperCase(), trimmedName);
     }
   };
 
@@ -121,16 +140,119 @@ export function HomeScreen({
           </div>
         ) : (
           <div className="space-y-3 pb-8">
-            {history.map((entry) => (
+            {(() => {
+              const groupNames = [
+                ...new Set(
+                  history
+                    .map((e) => e.groupName)
+                    .filter((n): n is string => Boolean(n))
+                ),
+              ];
+              const filtered =
+                selectedGroupFilter === 'ALL'
+                  ? history
+                  : history.filter((e) => e.groupName === selectedGroupFilter);
+
+              const marathonMap = new Map<
+                string,
+                { name: string; wins: number; totalScore: number; games: number }
+              >();
+              if (selectedGroupFilter !== 'ALL') {
+                for (const entry of filtered) {
+                  entry.players.forEach((p, idx) => {
+                    const key = p.name.trim().toLowerCase();
+                    const prev = marathonMap.get(key) ?? {
+                      name: p.name,
+                      wins: 0,
+                      totalScore: 0,
+                      games: 0,
+                    };
+                    prev.wins += idx === 0 ? 1 : 0;
+                    prev.totalScore += p.totalScore;
+                    prev.games += 1;
+                    marathonMap.set(key, prev);
+                  });
+                }
+              }
+              const marathonRows = [...marathonMap.values()].sort(
+                (a, b) => b.wins - a.wins || b.totalScore - a.totalScore
+              );
+
+              return (
+                <>
+                  {groupNames.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5">
+                      <button
+                        type="button"
+                        onClick={() => setSelectedGroupFilter('ALL')}
+                        className={`rounded-full px-3 py-1 text-xs font-bold transition ${
+                          selectedGroupFilter === 'ALL'
+                            ? 'bg-indigo-600 text-white'
+                            : 'border border-slate-800 bg-slate-900 text-slate-400 hover:text-white'
+                        }`}
+                      >
+                        Alle
+                      </button>
+                      {groupNames.map((gName) => (
+                        <button
+                          key={gName}
+                          type="button"
+                          onClick={() => setSelectedGroupFilter(gName)}
+                          className={`rounded-full px-3 py-1 text-xs font-bold transition ${
+                            selectedGroupFilter === gName
+                              ? 'bg-indigo-600 text-white'
+                              : 'border border-slate-800 bg-slate-900 text-slate-400 hover:text-white'
+                          }`}
+                        >
+                          {gName}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+
+                  {marathonRows.length > 0 && (
+                    <div className="rounded-2xl border border-amber-500/30 bg-amber-500/10 p-4 space-y-2">
+                      <p className="text-xs font-bold uppercase tracking-wider text-amber-300">
+                        Maratontabell • {selectedGroupFilter} ({filtered.length} quizer)
+                      </p>
+                      <div className="space-y-1.5">
+                        {marathonRows.map((row, idx) => (
+                          <div
+                            key={row.name}
+                            className="flex items-center justify-between rounded-xl bg-slate-950/70 px-3 py-2 text-xs"
+                          >
+                            <span className="font-bold text-white">
+                              {idx + 1}. {row.name}
+                            </span>
+                            <span className="text-slate-300">
+                              <span className="font-extrabold text-amber-300">
+                                {row.wins} {row.wins === 1 ? 'seier' : 'seire'}
+                              </span>{' '}
+                              • {row.totalScore} p
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {filtered.map((entry) => (
               <div
                 key={entry.id}
                 className="rounded-2xl border border-slate-800 bg-slate-900/90 p-4 space-y-3"
               >
                 <div className="flex items-start justify-between gap-2">
                   <div>
-                    <p className="text-xs font-bold text-indigo-300">
-                      {formatHistoryDate(entry.finishedAt)}
-                    </p>
+                    <div className="flex items-center gap-2">
+                      <p className="text-xs font-bold text-indigo-300">
+                        {formatHistoryDate(entry.finishedAt)}
+                      </p>
+                      {entry.groupName && (
+                        <span className="rounded-md bg-indigo-500/20 px-1.5 py-0.5 text-[10px] font-bold text-indigo-200">
+                          {entry.groupName}
+                        </span>
+                      )}
+                    </div>
                     <p className="mt-0.5 text-[11px] text-slate-400">
                       {entry.categories.length > 0
                         ? entry.categories.join(' • ')
@@ -182,6 +304,9 @@ export function HomeScreen({
                 </div>
               </div>
             ))}
+                </>
+              );
+            })()}
           </div>
         )}
       </div>
@@ -235,6 +360,67 @@ export function HomeScreen({
                 <X className="h-3.5 w-3.5" />
               </button>
             </div>
+          </div>
+        )}
+
+        {savedGroups.length > 0 && (
+          <div className="mb-5 space-y-2">
+            <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+              Dine selskaper
+            </p>
+            {savedGroups.map((g) => (
+              <div
+                key={g.id}
+                className="rounded-2xl border border-slate-800 bg-slate-900/90 p-3.5 space-y-2.5"
+              >
+                <div className="flex items-start justify-between gap-2">
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <span className="truncate text-sm font-bold text-white">
+                        {g.name}
+                      </span>
+                      <span className="rounded-md bg-indigo-500/20 px-1.5 py-0.5 text-[10px] font-extrabold tracking-wider text-indigo-300">
+                        {g.roomCode}
+                      </span>
+                    </div>
+                    <p className="mt-0.5 truncate text-[11px] text-slate-400">
+                      Deg: {g.myPlayerName}
+                      {g.memberNames.length > 0
+                        ? ` • ${g.memberNames.join(', ')}`
+                        : ''}
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setSavedGroups(deleteSavedGroup(g.id))}
+                    className="rounded-lg p-1 text-slate-500 hover:bg-slate-800 hover:text-rose-400"
+                    title="Slett selskap"
+                  >
+                    <Trash2 className="h-3.5 w-3.5" />
+                  </button>
+                </div>
+                <div className="grid grid-cols-2 gap-2">
+                  <button
+                    type="button"
+                    disabled={connecting}
+                    onClick={() => onJoin(g.roomCode, g.myPlayerName)}
+                    className="flex items-center justify-center gap-1.5 rounded-xl bg-indigo-600 py-2 text-xs font-bold text-white transition hover:bg-indigo-500 active:scale-95 disabled:opacity-50"
+                  >
+                    <Users className="h-3.5 w-3.5" />
+                    Bli med
+                  </button>
+                  <button
+                    type="button"
+                    disabled={connecting}
+                    onClick={() => onHost(g.myPlayerName, g.roomCode)}
+                    className="flex items-center justify-center gap-1.5 rounded-xl border border-emerald-500/40 bg-emerald-500/15 py-2 text-xs font-bold text-emerald-300 transition hover:bg-emerald-500/25 active:scale-95 disabled:opacity-50"
+                  >
+                    <Play className="h-3.5 w-3.5" />
+                    Start som vert
+                  </button>
+                </div>
+              </div>
+            ))}
           </div>
         )}
 

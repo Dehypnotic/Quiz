@@ -51,47 +51,58 @@ export function pickQueuedQuestions(
   queue: QuestionQueueMap,
   excludeIds: Set<string>
 ): Question[] {
-  const notUsedThisGame = candidates.filter((q) => !excludeIds.has(q.id));
-  const pool = notUsedThisGame.length > 0 ? notUsedThisGame : candidates;
-
-  const bySubcategory = new Map<string, Question[]>();
-  for (const q of pool) {
-    const list = bySubcategory.get(q.subcategory);
-    if (list) {
-      list.push(q);
-    } else {
-      bySubcategory.set(q.subcategory, [q]);
-    }
-  }
-
-  const buckets = shuffleArray(
-    [...bySubcategory.values()].map((list) =>
-      list
-        .map((q) => ({
-          q,
-          lastPlayed: queue[q.id] ?? 0,
-          rand: Math.random(),
-        }))
-        .sort((a, b) =>
-          a.lastPlayed !== b.lastPlayed ? a.lastPlayed - b.lastPlayed : a.rand - b.rand
-        )
-        .map((entry) => entry.q)
-    )
-  );
-
-  const picked: Question[] = [];
-  let roundIdx = 0;
-  while (picked.length < count) {
-    let addedInPass = false;
-    for (const bucket of buckets) {
-      if (picked.length >= count) break;
-      if (roundIdx < bucket.length) {
-        picked.push(bucket[roundIdx]);
-        addedInPass = true;
+  const pickFromPool = (pool: Question[], limit: number): Question[] => {
+    const bySubcategory = new Map<string, Question[]>();
+    for (const q of pool) {
+      const list = bySubcategory.get(q.subcategory);
+      if (list) {
+        list.push(q);
+      } else {
+        bySubcategory.set(q.subcategory, [q]);
       }
     }
-    if (!addedInPass) break;
-    roundIdx++;
+
+    const buckets = shuffleArray(
+      [...bySubcategory.values()].map((list) =>
+        list
+          .map((q) => ({
+            q,
+            lastPlayed: queue[q.id] ?? 0,
+            rand: Math.random(),
+          }))
+          .sort((a, b) =>
+            a.lastPlayed !== b.lastPlayed ? a.lastPlayed - b.lastPlayed : a.rand - b.rand
+          )
+          .map((entry) => entry.q)
+      )
+    );
+
+    const result: Question[] = [];
+    let roundIdx = 0;
+    while (result.length < limit) {
+      let addedInPass = false;
+      for (const bucket of buckets) {
+        if (result.length >= limit) break;
+        if (roundIdx < bucket.length) {
+          result.push(bucket[roundIdx]);
+          addedInPass = true;
+        }
+      }
+      if (!addedInPass) break;
+      roundIdx++;
+    }
+    return result;
+  };
+
+  const notUsedThisGame = candidates.filter((q) => !excludeIds.has(q.id));
+  let picked = pickFromPool(notUsedThisGame, count);
+
+  // If unused questions in this game ran out, top up from previously asked candidates
+  if (picked.length < count && candidates.length > picked.length) {
+    const pickedIds = new Set(picked.map((q) => q.id));
+    const fallbackPool = candidates.filter((q) => !pickedIds.has(q.id));
+    const extras = pickFromPool(fallbackPool, count - picked.length);
+    picked = [...picked, ...extras];
   }
 
   return shuffleArray(picked);

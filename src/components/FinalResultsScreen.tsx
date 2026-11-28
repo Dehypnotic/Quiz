@@ -1,19 +1,24 @@
 import { useState } from 'react';
-import { Check, Copy, RotateCcw, Trophy } from 'lucide-react';
+import { Check, Copy, Play, RotateCcw, Trophy } from 'lucide-react';
 import { formatHistoryEntryAsText } from '../data/historyStorage';
 import type { PublicGameState } from '../types/quiz';
+import { SaveGroupButton } from './SaveGroupButton';
 import { TransferHostCard } from './TransferHostCard';
 
 interface FinalResultsScreenProps {
   state: PublicGameState;
+  myPlayerId: string;
   isHost: boolean;
+  onStartNewGame: () => void;
   onRestart: () => void;
   onTransferHost: (targetPlayerId: string) => void;
 }
 
 export function FinalResultsScreen({
   state,
+  myPlayerId,
   isHost,
+  onStartNewGame,
   onRestart,
   onTransferHost,
 }: FinalResultsScreenProps) {
@@ -118,24 +123,34 @@ export function FinalResultsScreen({
         )}
       </button>
 
+      <SaveGroupButton state={state} myPlayerId={myPlayerId} />
+
       {isHost ? (
         <div className="space-y-3">
+          <button
+            type="button"
+            onClick={onStartNewGame}
+            className="flex w-full items-center justify-center gap-2 rounded-2xl bg-emerald-500 py-4 text-base font-extrabold text-slate-950 shadow-lg transition active:scale-[0.99]"
+          >
+            <Play className="h-5 w-5" />
+            Start ny konkurranse nå
+          </button>
+          <button
+            type="button"
+            onClick={onRestart}
+            className="flex w-full items-center justify-center gap-2 rounded-2xl border border-slate-700 bg-slate-900 py-3.5 text-sm font-bold text-slate-200 transition hover:bg-slate-800 active:scale-[0.99]"
+          >
+            <RotateCcw className="h-4 w-4" />
+            Tilbake til lobby (endre oppsett)
+          </button>
           <TransferHostCard
             players={state.players}
             onTransferHost={onTransferHost}
           />
-          <button
-            type="button"
-            onClick={onRestart}
-            className="flex w-full items-center justify-center gap-2 rounded-2xl bg-emerald-500 py-4 text-base font-extrabold text-slate-950 shadow-lg transition active:scale-[0.99]"
-          >
-            <RotateCcw className="h-5 w-5" />
-            Spill en ny runde (tilbake til lobby)
-          </button>
         </div>
       ) : (
         <p className="text-center text-xs text-slate-400">
-          Venter på at verten starter et nytt spill...
+          Venter på at verten starter en ny konkurranse...
         </p>
       )}
     </div>

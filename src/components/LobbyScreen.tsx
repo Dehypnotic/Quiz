@@ -2,10 +2,12 @@ import { useEffect, useState } from 'react';
 import QRCode from 'qrcode';
 import { Check, Copy, Crown, Mic, Smartphone, Users } from 'lucide-react';
 import type { GameSettings, PublicGameState } from '../types/quiz';
+import { SaveGroupButton } from './SaveGroupButton';
 import { TransferHostCard } from './TransferHostCard';
 
 interface LobbyScreenProps {
   state: PublicGameState;
+  myPlayerId: string;
   isHost: boolean;
   onUpdateSettings: (patch: Partial<GameSettings>) => void;
   onStartGame: () => void;
@@ -14,6 +16,7 @@ interface LobbyScreenProps {
 
 export function LobbyScreen({
   state,
+  myPlayerId,
   isHost,
   onUpdateSettings,
   onStartGame,
@@ -99,14 +102,15 @@ export function LobbyScreen({
             </div>
           ))}
         </div>
-        {isHost && (
-          <div className="mt-3">
+        <div className="mt-3 space-y-2.5">
+          <SaveGroupButton state={state} myPlayerId={myPlayerId} />
+          {isHost && (
             <TransferHostCard
               players={state.players}
               onTransferHost={onTransferHost}
             />
-          </div>
-        )}
+          )}
+        </div>
       </div>
 
       <div className="rounded-3xl border border-slate-800 bg-slate-900/90 p-5 space-y-4">
@@ -155,52 +159,52 @@ export function LobbyScreen({
         <div className="grid grid-cols-3 gap-2">
           <div>
             <label className="mb-1 block text-xs text-slate-400">Runder</label>
-            <select
+            <input
+              type="number"
+              inputMode="numeric"
+              min={1}
+              max={50}
               disabled={!isHost}
               value={state.settings.roundsCount}
-              onChange={(e) => onUpdateSettings({ roundsCount: Number(e.target.value) })}
-              className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-sm font-semibold text-white"
-            >
-              {[1, 2, 3, 4, 5, 6].map((n) => (
-                <option key={n} value={n}>
-                  {n}
-                </option>
-              ))}
-            </select>
+              onChange={(e) => {
+                const val = Math.max(1, Math.min(50, Number(e.target.value) || 1));
+                onUpdateSettings({ roundsCount: val });
+              }}
+              className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-center text-sm font-semibold text-white focus:border-indigo-500 focus:outline-none disabled:opacity-60"
+            />
           </div>
           <div>
             <label className="mb-1 block text-xs text-slate-400">Spm / runde</label>
-            <select
+            <input
+              type="number"
+              inputMode="numeric"
+              min={1}
+              max={50}
               disabled={!isHost}
               value={state.settings.questionsPerRound}
-              onChange={(e) =>
-                onUpdateSettings({ questionsPerRound: Number(e.target.value) })
-              }
-              className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-sm font-semibold text-white"
-            >
-              {[2, 3, 4].map((n) => (
-                <option key={n} value={n}>
-                  {n}
-                </option>
-              ))}
-            </select>
+              onChange={(e) => {
+                const val = Math.max(1, Math.min(50, Number(e.target.value) || 1));
+                onUpdateSettings({ questionsPerRound: val });
+              }}
+              className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-center text-sm font-semibold text-white focus:border-indigo-500 focus:outline-none disabled:opacity-60"
+            />
           </div>
           <div>
             <label className="mb-1 block text-xs text-slate-400">Tid (sek)</label>
-            <select
+            <input
+              type="number"
+              inputMode="numeric"
+              min={5}
+              max={120}
+              step={5}
               disabled={!isHost}
               value={state.settings.timeLimitSeconds}
-              onChange={(e) =>
-                onUpdateSettings({ timeLimitSeconds: Number(e.target.value) })
-              }
-              className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-sm font-semibold text-white"
-            >
-              {[10, 15, 20, 30].map((n) => (
-                <option key={n} value={n}>
-                  {n}s
-                </option>
-              ))}
-            </select>
+              onChange={(e) => {
+                const val = Math.max(5, Math.min(120, Number(e.target.value) || 5));
+                onUpdateSettings({ timeLimitSeconds: val });
+              }}
+              className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-center text-sm font-semibold text-white focus:border-indigo-500 focus:outline-none disabled:opacity-60"
+            />
           </div>
         </div>
       </div>
