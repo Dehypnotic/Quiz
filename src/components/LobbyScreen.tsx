@@ -118,95 +118,118 @@ export function LobbyScreen({
           Spilloppsett
         </h2>
 
-        <div>
-          <label className="mb-2 block text-xs text-slate-400">Sosial modus</label>
-          <div className="grid grid-cols-2 gap-2">
-            <button
-              type="button"
-              disabled={!isHost}
-              onClick={() => onUpdateSettings({ socialMode: 'quizmaster' })}
-              className={`flex flex-col items-start gap-1 rounded-2xl border p-3 text-left transition ${
-                state.settings.socialMode === 'quizmaster'
-                  ? 'border-indigo-500 bg-indigo-500/15 text-white'
-                  : 'border-slate-800 bg-slate-950/50 text-slate-400'
-              }`}
-            >
-              <Mic className="h-4 w-4 text-indigo-400" />
-              <span className="text-sm font-bold">Oppleser</span>
-              <span className="text-[11px] leading-tight text-slate-400">
-                Én leser høyt per runde
-              </span>
-            </button>
-            <button
-              type="button"
-              disabled={!isHost}
-              onClick={() => onUpdateSettings({ socialMode: 'simultaneous' })}
-              className={`flex flex-col items-start gap-1 rounded-2xl border p-3 text-left transition ${
-                state.settings.socialMode === 'simultaneous'
-                  ? 'border-indigo-500 bg-indigo-500/15 text-white'
-                  : 'border-slate-800 bg-slate-950/50 text-slate-400'
-              }`}
-            >
-              <Smartphone className="h-4 w-4 text-indigo-400" />
-              <span className="text-sm font-bold">Alle samtidig</span>
-              <span className="text-[11px] leading-tight text-slate-400">
-                Alle ser spørsmålet likt
-              </span>
-            </button>
-          </div>
-        </div>
+        {!isHost ? (
+          <p className="text-sm leading-relaxed text-slate-300">
+            <span className="font-bold text-white">
+              {state.players.find((p) => p.isHost)?.name ?? 'Verten'}
+            </span>{' '}
+            har valgt{' '}
+            {state.settings.socialMode === 'simultaneous'
+              ? 'at alle ser spørsmålet likt'
+              : 'oppleser-modus (én leser høyt per runde)'}
+            , og at quizen foregår over{' '}
+            <span className="font-semibold text-white">
+              {state.settings.roundsCount}{' '}
+              {state.settings.roundsCount === 1 ? 'runde' : 'runder'}
+            </span>{' '}
+            med{' '}
+            <span className="font-semibold text-white">
+              {state.settings.questionsPerRound} spørsmål
+            </span>{' '}
+            hver og{' '}
+            <span className="font-semibold text-white">
+              {state.settings.timeLimitSeconds} sekunders
+            </span>{' '}
+            betenkningstid.
+          </p>
+        ) : (
+          <>
+            <div>
+              <label className="mb-2 block text-xs text-slate-400">Sosial modus</label>
+              <div className="grid grid-cols-2 gap-2">
+                <button
+                  type="button"
+                  onClick={() => onUpdateSettings({ socialMode: 'quizmaster' })}
+                  className={`flex flex-col items-start gap-1 rounded-2xl border p-3 text-left transition ${
+                    state.settings.socialMode === 'quizmaster'
+                      ? 'border-indigo-500 bg-indigo-500/15 text-white'
+                      : 'border-slate-800 bg-slate-950/50 text-slate-400'
+                  }`}
+                >
+                  <Mic className="h-4 w-4 text-indigo-400" />
+                  <span className="text-sm font-bold">Oppleser</span>
+                  <span className="text-[11px] leading-tight text-slate-400">
+                    Én leser høyt per runde
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => onUpdateSettings({ socialMode: 'simultaneous' })}
+                  className={`flex flex-col items-start gap-1 rounded-2xl border p-3 text-left transition ${
+                    state.settings.socialMode === 'simultaneous'
+                      ? 'border-indigo-500 bg-indigo-500/15 text-white'
+                      : 'border-slate-800 bg-slate-950/50 text-slate-400'
+                  }`}
+                >
+                  <Smartphone className="h-4 w-4 text-indigo-400" />
+                  <span className="text-sm font-bold">Alle samtidig</span>
+                  <span className="text-[11px] leading-tight text-slate-400">
+                    Alle ser spørsmålet likt
+                  </span>
+                </button>
+              </div>
+            </div>
 
-        <div className="grid grid-cols-3 gap-2">
-          <div>
-            <label className="mb-1 block text-xs text-slate-400">Runder</label>
-            <input
-              type="number"
-              inputMode="numeric"
-              min={1}
-              max={50}
-              disabled={!isHost}
-              value={state.settings.roundsCount}
-              onChange={(e) => {
-                const val = Math.max(1, Math.min(50, Number(e.target.value) || 1));
-                onUpdateSettings({ roundsCount: val });
-              }}
-              className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-center text-sm font-semibold text-white focus:border-indigo-500 focus:outline-none disabled:opacity-60"
-            />
-          </div>
-          <div>
-            <label className="mb-1 block text-xs text-slate-400">Spm / runde</label>
-            <input
-              type="number"
-              inputMode="numeric"
-              min={1}
-              max={50}
-              disabled={!isHost}
-              value={state.settings.questionsPerRound}
-              onChange={(e) => {
-                const val = Math.max(1, Math.min(50, Number(e.target.value) || 1));
-                onUpdateSettings({ questionsPerRound: val });
-              }}
-              className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-center text-sm font-semibold text-white focus:border-indigo-500 focus:outline-none disabled:opacity-60"
-            />
-          </div>
-          <div>
-            <label className="mb-1 block text-xs text-slate-400">Tid (sek)</label>
-            <input
-              type="number"
-              inputMode="numeric"
-              min={5}
-              max={120}
-              step={5}
-              disabled={!isHost}
-              value={state.settings.timeLimitSeconds}
-              onChange={(e) => {
-                const val = Math.max(5, Math.min(120, Number(e.target.value) || 5));
-                onUpdateSettings({ timeLimitSeconds: val });
-              }}
-              className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-center text-sm font-semibold text-white focus:border-indigo-500 focus:outline-none disabled:opacity-60"
-            />
-          </div>
-        </div>
+            <div className="grid grid-cols-3 gap-2">
+              <div>
+                <label className="mb-1 block text-xs text-slate-400">Runder</label>
+                <input
+                  type="number"
+                  inputMode="numeric"
+                  min={1}
+                  max={50}
+                  value={state.settings.roundsCount}
+                  onChange={(e) => {
+                    const val = Math.max(1, Math.min(50, Number(e.target.value) || 1));
+                    onUpdateSettings({ roundsCount: val });
+                  }}
+                  className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-center text-sm font-semibold text-white focus:border-indigo-500 focus:outline-none"
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-xs text-slate-400">Spm / runde</label>
+                <input
+                  type="number"
+                  inputMode="numeric"
+                  min={1}
+                  max={50}
+                  value={state.settings.questionsPerRound}
+                  onChange={(e) => {
+                    const val = Math.max(1, Math.min(50, Number(e.target.value) || 1));
+                    onUpdateSettings({ questionsPerRound: val });
+                  }}
+                  className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-center text-sm font-semibold text-white focus:border-indigo-500 focus:outline-none"
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-xs text-slate-400">Tid (sek)</label>
+                <input
+                  type="number"
+                  inputMode="numeric"
+                  min={5}
+                  max={120}
+                  step={5}
+                  value={state.settings.timeLimitSeconds}
+                  onChange={(e) => {
+                    const val = Math.max(5, Math.min(120, Number(e.target.value) || 5));
+                    onUpdateSettings({ timeLimitSeconds: val });
+                  }}
+                  className="w-full rounded-xl border border-slate-800 bg-slate-950 px-3 py-2.5 text-center text-sm font-semibold text-white focus:border-indigo-500 focus:outline-none"
+                />
+              </div>
+            </div>
+          </>
+        )}
       </div>
 
       {isHost ? (
