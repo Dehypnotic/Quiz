@@ -5,6 +5,7 @@ import {
   Copy,
   History,
   Play,
+  Plus,
   RotateCcw,
   Sparkles,
   Trash2,
@@ -38,6 +39,39 @@ interface HomeScreenProps {
   onJoin: (roomCode: string, name: string) => void;
 }
 
+const SAVED_NAMES_KEY = 'selskapsquiz_saved_names_v1';
+const LAST_NAME_KEY = 'selskapsquiz_player_name';
+
+function loadSavedNames(): string[] {
+  try {
+    const raw = localStorage.getItem(SAVED_NAMES_KEY);
+    const parsed = raw ? (JSON.parse(raw) as unknown) : [];
+    const list = Array.isArray(parsed)
+      ? parsed.filter((n): n is string => typeof n === 'string' && n.trim().length > 0)
+      : [];
+    const last = localStorage.getItem(LAST_NAME_KEY)?.trim();
+    if (last && !list.some((n) => n.toLowerCase() === last.toLowerCase())) {
+      return [last, ...list];
+    }
+    return list;
+  } catch {
+    return [];
+  }
+}
+
+function persistSavedNames(names: string[], activeName: string): void {
+  try {
+    localStorage.setItem(SAVED_NAMES_KEY, JSON.stringify(names));
+    if (activeName) {
+      localStorage.setItem(LAST_NAME_KEY, activeName);
+    } else {
+      localStorage.removeItem(LAST_NAME_KEY);
+    }
+  } catch {
+    // ignore
+  }
+}
+
 export function HomeScreen({
   totalQuestions,
   categoryCount,
@@ -50,13 +84,15 @@ export function HomeScreen({
   onJoin,
 }: HomeScreenProps) {
   const [mode, setMode] = useState<'join' | 'host'>('join');
+  const [savedNames, setSavedNames] = useState<string[]>(() => loadSavedNames());
   const [name, setName] = useState(() => {
     try {
-      return localStorage.getItem('selskapsquiz_player_name') ?? '';
+      return localStorage.getItem(LAST_NAME_KEY) ?? loadSavedNames()[0] ?? '';
     } catch {
       return '';
     }
   });
+  const [addingNewName, setAddingNewName] = useState(() => loadSavedNames().length === 0);
   const [roomCode, setRoomCode] = useState('');
   const [showHistory, setShowHistory] = useState(false);
   const [history, setHistory] = useState<QuizHistoryEntry[]>(() => loadHistory());
@@ -77,16 +113,32 @@ export function HomeScreen({
     e.preventDefault();
     const trimmedName = name.trim();
     if (!trimmedName) return;
-    try {
-      localStorage.setItem('selskapsquiz_player_name', trimmedName);
-    } catch {
-      // ignore
-    }
+    const nextNames = [
+      trimmedName,
+      ...savedNames.filter((n) => n.toLowerCase() !== trimmedName.toLowerCase()),
+    ];
+    setSavedNames(nextNames);
+    setAddingNewName(false);
+    persistSavedNames(nextNames, trimmedName);
+
     if (mode === 'host') {
       onHost(trimmedName);
     } else if (roomCode.trim()) {
       onJoin(roomCode.trim().toUpperCase(), trimmedName);
     }
+  };
+
+  const handleDeleteSelectedName = () => {
+    const nextNames = savedNames.filter(
+      (n) => n.toLowerCase() !== name.trim().toLowerCase()
+    );
+    const nextActive = nextNames[0] ?? '';
+    setSavedNames(nextNames);
+    setName(nextActive);
+    if (nextNames.length === 0) {
+      setAddingNewName(true);
+    }
+    persistSavedNames(nextNames, nextActive);
   };
 
   const handleCopyEntry = async (entry: QuizHistoryEntry) => {
@@ -363,67 +415,6 @@ export function HomeScreen({
           </div>
         )}
 
-        {savedGroups.length > 0 && (
-          <div className="mb-5 space-y-2">
-            <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
-              Dine selskaper
-            </p>
-            {savedGroups.map((g) => (
-              <div
-                key={g.id}
-                className="rounded-2xl border border-slate-800 bg-slate-900/90 p-3.5 space-y-2.5"
-              >
-                <div className="flex items-start justify-between gap-2">
-                  <div className="min-w-0">
-                    <div className="flex items-center gap-2">
-                      <span className="truncate text-sm font-bold text-white">
-                        {g.name}
-                      </span>
-                      <span className="rounded-md bg-indigo-500/20 px-1.5 py-0.5 text-[10px] font-extrabold tracking-wider text-indigo-300">
-                        {g.roomCode}
-                      </span>
-                    </div>
-                    <p className="mt-0.5 truncate text-[11px] text-slate-400">
-                      Deg: {g.myPlayerName}
-                      {g.memberNames.length > 0
-                        ? ` • ${g.memberNames.join(', ')}`
-                        : ''}
-                    </p>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => setSavedGroups(deleteSavedGroup(g.id))}
-                    className="rounded-lg p-1 text-slate-500 hover:bg-slate-800 hover:text-rose-400"
-                    title="Slett selskap"
-                  >
-                    <Trash2 className="h-3.5 w-3.5" />
-                  </button>
-                </div>
-                <div className="grid grid-cols-2 gap-2">
-                  <button
-                    type="button"
-                    disabled={connecting}
-                    onClick={() => onJoin(g.roomCode, g.myPlayerName)}
-                    className="flex items-center justify-center gap-1.5 rounded-xl bg-indigo-600 py-2 text-xs font-bold text-white transition hover:bg-indigo-500 active:scale-95 disabled:opacity-50"
-                  >
-                    <Users className="h-3.5 w-3.5" />
-                    Bli med
-                  </button>
-                  <button
-                    type="button"
-                    disabled={connecting}
-                    onClick={() => onHost(g.myPlayerName, g.roomCode)}
-                    className="flex items-center justify-center gap-1.5 rounded-xl border border-emerald-500/40 bg-emerald-500/15 py-2 text-xs font-bold text-emerald-300 transition hover:bg-emerald-500/25 active:scale-95 disabled:opacity-50"
-                  >
-                    <Play className="h-3.5 w-3.5" />
-                    Start som vert
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
-
         <div className="mb-6 grid grid-cols-2 gap-2 rounded-2xl bg-slate-900 p-1.5 border border-slate-800">
           <button
             type="button"
@@ -475,15 +466,68 @@ export function HomeScreen({
             <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">
               Ditt navn
             </label>
-            <input
-              type="text"
-              maxLength={20}
-              placeholder="Hva heter du?"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              className="w-full rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3.5 text-lg text-white placeholder:text-slate-600 focus:border-indigo-500 focus:outline-none"
-              required
-            />
+            {savedNames.length > 0 && !addingNewName ? (
+              <div className="flex items-center gap-2">
+                <select
+                  value={name}
+                  onChange={(e) => {
+                    setName(e.target.value);
+                    persistSavedNames(savedNames, e.target.value);
+                  }}
+                  className="min-w-0 flex-1 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3.5 text-base font-semibold text-white focus:border-indigo-500 focus:outline-none"
+                >
+                  {savedNames.map((n) => (
+                    <option key={n} value={n}>
+                      {n}
+                    </option>
+                  ))}
+                </select>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setAddingNewName(true);
+                    setName('');
+                  }}
+                  className="inline-flex h-[52px] shrink-0 items-center gap-1 rounded-2xl border border-slate-800 bg-slate-900 px-3 text-xs font-bold text-indigo-300 hover:bg-slate-800 hover:text-white"
+                  title="Nytt navn"
+                >
+                  <Plus className="h-4 w-4" />
+                  Ny
+                </button>
+                <button
+                  type="button"
+                  onClick={handleDeleteSelectedName}
+                  className="inline-flex h-[52px] shrink-0 items-center justify-center rounded-2xl border border-slate-800 bg-slate-900 px-3 text-slate-400 hover:bg-slate-800 hover:text-rose-400"
+                  title="Slett valgt navn"
+                >
+                  <Trash2 className="h-4 w-4" />
+                </button>
+              </div>
+            ) : (
+              <div className="flex items-center gap-2">
+                <input
+                  type="text"
+                  maxLength={20}
+                  placeholder="Hva heter du?"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  className="min-w-0 flex-1 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3.5 text-lg text-white placeholder:text-slate-600 focus:border-indigo-500 focus:outline-none"
+                  required
+                />
+                {savedNames.length > 0 && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setAddingNewName(false);
+                      setName(savedNames[0] ?? '');
+                    }}
+                    className="h-[52px] shrink-0 rounded-2xl border border-slate-800 bg-slate-900 px-3 text-xs font-semibold text-slate-400 hover:bg-slate-800 hover:text-white"
+                  >
+                    Avbryt
+                  </button>
+                )}
+              </div>
+            )}
           </div>
 
           {error && (
@@ -504,6 +548,70 @@ export function HomeScreen({
                 : 'Bli med i rommet'}
           </button>
         </form>
+
+        {savedGroups.length > 0 && (
+          <div className="mt-6 space-y-2">
+            <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+              Dine selskaper
+            </p>
+            {savedGroups.map((g) => {
+              const others = g.memberNames.filter(
+                (m) => m.toLowerCase() !== g.myPlayerName.toLowerCase()
+              );
+              return (
+                <div
+                  key={g.id}
+                  className="rounded-2xl border border-slate-800 bg-slate-900/90 p-3.5 space-y-2.5"
+                >
+                  <div className="flex items-start justify-between gap-2">
+                    <div className="min-w-0">
+                      <div className="flex items-center gap-2">
+                        <span className="truncate text-sm font-bold text-white">
+                          {g.name}
+                        </span>
+                        <span className="rounded-md bg-indigo-500/20 px-1.5 py-0.5 text-[10px] font-extrabold tracking-wider text-indigo-300">
+                          {g.roomCode}
+                        </span>
+                      </div>
+                      <p className="mt-0.5 truncate text-[11px] text-slate-400">
+                        Deg: {g.myPlayerName}
+                        {others.length > 0 ? ` • Med: ${others.join(', ')}` : ''}
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => setSavedGroups(deleteSavedGroup(g.id))}
+                      className="rounded-lg p-1 text-slate-500 hover:bg-slate-800 hover:text-rose-400"
+                      title="Slett selskap"
+                    >
+                      <Trash2 className="h-3.5 w-3.5" />
+                    </button>
+                  </div>
+                  <div className="grid grid-cols-2 gap-2">
+                    <button
+                      type="button"
+                      disabled={connecting}
+                      onClick={() => onJoin(g.roomCode, g.myPlayerName)}
+                      className="flex items-center justify-center gap-1.5 rounded-xl bg-indigo-600 py-2 text-xs font-bold text-white transition hover:bg-indigo-500 active:scale-95 disabled:opacity-50"
+                    >
+                      <Users className="h-3.5 w-3.5" />
+                      Bli med
+                    </button>
+                    <button
+                      type="button"
+                      disabled={connecting}
+                      onClick={() => onHost(g.myPlayerName, g.roomCode)}
+                      className="flex items-center justify-center gap-1.5 rounded-xl border border-emerald-500/40 bg-emerald-500/15 py-2 text-xs font-bold text-emerald-300 transition hover:bg-emerald-500/25 active:scale-95 disabled:opacity-50"
+                    >
+                      <Play className="h-3.5 w-3.5" />
+                      Start som vert
+                    </button>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
 
         <div className="mt-5 text-center">
           <button
