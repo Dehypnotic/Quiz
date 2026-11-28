@@ -41,6 +41,10 @@ export function SaveGroupButton({ state, myPlayerId }: SaveGroupButtonProps) {
     setEditing(false);
   };
 
+  if (state.groupName?.trim()) {
+    return null;
+  }
+
   if (saved && !editing) {
     return (
       <div className="flex items-center justify-between gap-2 rounded-2xl border border-emerald-500/30 bg-emerald-500/10 px-3.5 py-2.5 text-xs">

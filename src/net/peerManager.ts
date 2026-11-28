@@ -149,6 +149,7 @@ export interface HostSession {
   roomCode: string;
   sendToPlayer: (playerId: string, msg: HostMessage) => void;
   broadcast: (buildMsg: (playerId: string) => HostMessage) => void;
+  publishStatus: (open: boolean, phase?: string) => void;
   destroy: () => void;
 }
 
@@ -163,6 +164,7 @@ export function createHostSession(callbacks: {
 }): HostSession {
   const roomCode = callbacks.roomCode ?? generateRoomCode(4);
   const toHostTopic = `${TOPIC_PREFIX}${roomCode}/to-host`;
+  const statusTopic = `${TOPIC_PREFIX}${roomCode}/status`;
   const knownPlayerIds = new Set<string>(
     (callbacks.initialKnownPlayerIds ?? []).filter((id) => id !== callbacks.hostPlayerId)
   );
@@ -177,6 +179,12 @@ export function createHostSession(callbacks: {
     keepalive: 25,
     reconnectPeriod: 2000,
     connectTimeout: 10000,
+    will: {
+      topic: statusTopic,
+      payload: JSON.stringify({ open: false }),
+      qos: 1,
+      retain: true,
+    },
   });
 
   const onVisible = () => {
@@ -195,6 +203,11 @@ export function createHostSession(callbacks: {
       }
       if (!readyFired) {
         readyFired = true;
+        client.publish(
+          statusTopic,
+          JSON.stringify({ open: true, phase: 'lobby' }),
+          { qos: 1, retain: true }
+        );
         callbacks.onReady(roomCode);
       }
     });
@@ -241,11 +254,28 @@ export function createHostSession(callbacks: {
         );
       }
     },
+    publishStatus(open, phase) {
+      if (destroyed || !client.connected) return;
+      client.publish(
+        statusTopic,
+        JSON.stringify({ open, phase }),
+        { qos: 1, retain: true }
+      );
+    },
     destroy() {
       destroyed = true;
       document.removeEventListener('visibilitychange', onVisible);
       releaseWakeLock();
-      client.end(true);
+      if (client.connected) {
+        client.publish(
+          statusTopic,
+          JSON.stringify({ open: false }),
+          { qos: 1, retain: true },
+          () => client.end(true)
+        );
+      } else {
+        client.end(true);
+      }
     },
   };
 }
@@ -402,5 +432,52 @@ export function createGuestSession(params: {
       releaseWakeLock();
       client.end(true);
     },
+  };
+}
+
+export function watchRoomsStatus(
+  roomCodes: string[],
+  onStatus: (roomCode: string, open: boolean) => void
+): () => void {
+  const uniqueCodes = [...new Set(roomCodes.map((c) => c.trim().toUpperCase()).filter(Boolean))];
+  if (uniqueCodes.length === 0) return () => {};
+
+  let destroyed = false;
+  const client: MqttClient = mqtt.connect(BROKER_URL, {
+    clientId: makeClientId('sq-watch'),
+    clean: true,
+    keepalive: 25,
+    reconnectPeriod: 3000,
+    connectTimeout: 10000,
+  });
+
+  client.on('connect', () => {
+    if (destroyed) return;
+    for (const code of uniqueCodes) {
+      client.subscribe(`${TOPIC_PREFIX}${code}/status`, { qos: 1 });
+    }
+  });
+
+  client.on('message', (topic, payload) => {
+    if (destroyed) return;
+    const match = topic.match(/^selskapsquiz\/v1\/([^/]+)\/status$/);
+    if (!match) return;
+    const code = match[1];
+    try {
+      const text = payload.toString().trim();
+      if (!text) {
+        onStatus(code, false);
+        return;
+      }
+      const parsed = JSON.parse(text) as { open?: boolean };
+      onStatus(code, Boolean(parsed.open));
+    } catch {
+      onStatus(code, false);
+    }
+  });
+
+  return () => {
+    destroyed = true;
+    client.end(true);
   };
 }

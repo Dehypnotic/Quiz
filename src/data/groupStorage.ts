@@ -29,10 +29,15 @@ export function findSavedGroupByRoomCode(roomCode: string): SavedGroup | undefin
 export function saveGroup(input: Omit<SavedGroup, 'id' | 'savedAt'>): SavedGroup {
   const existing = loadSavedGroups();
   const code = input.roomCode.trim().toUpperCase();
-  const idx = existing.findIndex((g) => g.roomCode.toUpperCase() === code);
+  const cleanName = input.name.trim() || `Selskap ${code}`;
+  const idx = existing.findIndex(
+    (g) =>
+      g.name.trim().toLowerCase() === cleanName.toLowerCase() ||
+      g.roomCode.toUpperCase() === code
+  );
   const entry: SavedGroup = {
     id: idx >= 0 ? existing[idx].id : `grp-${Date.now()}`,
-    name: input.name.trim() || `Selskap ${code}`,
+    name: cleanName,
     roomCode: code,
     myPlayerName: input.myPlayerName.trim() || 'Spiller',
     memberNames: [...new Set(input.memberNames.map((n) => n.trim()).filter(Boolean))],
@@ -40,7 +45,15 @@ export function saveGroup(input: Omit<SavedGroup, 'id' | 'savedAt'>): SavedGroup
   };
   const next =
     idx >= 0
-      ? [entry, ...existing.filter((_, i) => i !== idx)]
+      ? [
+          entry,
+          ...existing.filter(
+            (g, i) =>
+              i !== idx &&
+              g.name.trim().toLowerCase() !== cleanName.toLowerCase() &&
+              g.roomCode.toUpperCase() !== code
+          ),
+        ]
       : [entry, ...existing].slice(0, MAX_GROUPS);
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(next));

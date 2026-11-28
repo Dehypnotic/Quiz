@@ -16,6 +16,7 @@ import {
   isOtherHostTabActive,
   type ActiveSessionInfo,
 } from '../data/sessionStorage';
+import { watchRoomsStatus } from '../net/peerManager';
 import {
   deleteSavedGroup,
   loadSavedGroups,
@@ -98,9 +99,11 @@ export function HomeScreen({
   const [addingNewName, setAddingNewName] = useState(() => loadSavedNames().length === 0);
   const [roomCode, setRoomCode] = useState('');
   const [groupNameInput, setGroupNameInput] = useState('');
+  const [addingNewGroup, setAddingNewGroup] = useState(false);
   const [showHistory, setShowHistory] = useState(false);
   const [history, setHistory] = useState<QuizHistoryEntry[]>(() => loadHistory());
   const [savedGroups, setSavedGroups] = useState<SavedGroup[]>(() => loadSavedGroups());
+  const [activeRooms, setActiveRooms] = useState<Record<string, boolean>>({});
   const [selectedGroupFilter, setSelectedGroupFilter] = useState<string>('ALL');
   const [copiedId, setCopiedId] = useState<string | null>(null);
 
@@ -112,6 +115,20 @@ export function HomeScreen({
       setMode('join');
     }
   }, []);
+
+  const savedCodesKey = savedGroups.map((g) => g.roomCode).join(',');
+  useEffect(() => {
+    if (savedGroups.length === 0) return;
+    return watchRoomsStatus(
+      savedGroups.map((g) => g.roomCode),
+      (code, open) => {
+        setActiveRooms((prev) =>
+          prev[code] === open ? prev : { ...prev, [code]: open }
+        );
+      }
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [savedCodesKey]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -126,10 +143,32 @@ export function HomeScreen({
     persistSavedNames(nextNames, trimmedName);
 
     if (mode === 'host') {
-      onHost(trimmedName, undefined, groupNameInput.trim() || undefined);
+      const cleanGroup = groupNameInput.trim();
+      const matchedGroup = cleanGroup
+        ? savedGroups.find(
+            (g) => g.name.trim().toLowerCase() === cleanGroup.toLowerCase()
+          )
+        : undefined;
+      onHost(
+        trimmedName,
+        matchedGroup?.roomCode,
+        cleanGroup || undefined
+      );
     } else if (roomCode.trim()) {
       onJoin(roomCode.trim().toUpperCase(), trimmedName);
     }
+  };
+
+  const handleDeleteSelectedGroup = () => {
+    const cleanGroup = groupNameInput.trim().toLowerCase();
+    const target = savedGroups.find(
+      (g) => g.name.trim().toLowerCase() === cleanGroup
+    );
+    if (!target) return;
+    const next = deleteSavedGroup(target.id);
+    setSavedGroups(next);
+    setGroupNameInput('');
+    setAddingNewGroup(false);
   };
 
   const handleDeleteSelectedName = () => {
@@ -472,14 +511,66 @@ export function HomeScreen({
               <label className="mb-1.5 block text-xs font-semibold uppercase tracking-wider text-slate-400">
                 Selskapsnavn <span className="font-normal normal-case text-slate-500">(valgfritt – deles med alle)</span>
               </label>
-              <input
-                type="text"
-                maxLength={30}
-                placeholder="F.eks. Torsdagsgjengen"
-                value={groupNameInput}
-                onChange={(e) => setGroupNameInput(e.target.value)}
-                className="w-full rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3 text-base text-white placeholder:text-slate-600 focus:border-indigo-500 focus:outline-none"
-              />
+              {savedGroups.length > 0 && !addingNewGroup ? (
+                <div className="flex items-center gap-2">
+                  <select
+                    value={groupNameInput}
+                    onChange={(e) => setGroupNameInput(e.target.value)}
+                    className="min-w-0 flex-1 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3.5 text-base font-semibold text-white focus:border-indigo-500 focus:outline-none"
+                  >
+                    <option value="">— Uten selskap (tilfeldig kode) —</option>
+                    {savedGroups.map((g) => (
+                      <option key={g.id} value={g.name}>
+                        {g.name} ({g.roomCode})
+                      </option>
+                    ))}
+                  </select>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setAddingNewGroup(true);
+                      setGroupNameInput('');
+                    }}
+                    className="inline-flex h-[52px] shrink-0 items-center gap-1 rounded-2xl border border-slate-800 bg-slate-900 px-3 text-xs font-bold text-indigo-300 hover:bg-slate-800 hover:text-white"
+                    title="Nytt selskapsnavn"
+                  >
+                    <Plus className="h-4 w-4" />
+                    Ny
+                  </button>
+                  <button
+                    type="button"
+                    disabled={!groupNameInput.trim()}
+                    onClick={handleDeleteSelectedGroup}
+                    className="inline-flex h-[52px] shrink-0 items-center justify-center rounded-2xl border border-slate-800 bg-slate-900 px-3 text-slate-400 hover:bg-slate-800 hover:text-rose-400 disabled:opacity-40"
+                    title="Slett valgt selskap"
+                  >
+                    <Trash2 className="h-4 w-4" />
+                  </button>
+                </div>
+              ) : (
+                <div className="flex items-center gap-2">
+                  <input
+                    type="text"
+                    maxLength={30}
+                    placeholder="F.eks. Torsdagsgjengen"
+                    value={groupNameInput}
+                    onChange={(e) => setGroupNameInput(e.target.value)}
+                    className="min-w-0 flex-1 rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3.5 text-base text-white placeholder:text-slate-600 focus:border-indigo-500 focus:outline-none"
+                  />
+                  {savedGroups.length > 0 && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setAddingNewGroup(false);
+                        setGroupNameInput('');
+                      }}
+                      className="h-[52px] shrink-0 rounded-2xl border border-slate-800 bg-slate-900 px-3 text-xs font-semibold text-slate-400 hover:bg-slate-800 hover:text-white"
+                    >
+                      Avbryt
+                    </button>
+                  )}
+                </div>
+              )}
             </div>
           )}
 
@@ -579,6 +670,7 @@ export function HomeScreen({
               const others = g.memberNames.filter(
                 (m) => m.toLowerCase() !== g.myPlayerName.toLowerCase()
               );
+              const isHostWaiting = Boolean(activeRooms[g.roomCode.toUpperCase()]);
               return (
                 <div
                   key={g.id}
@@ -593,6 +685,12 @@ export function HomeScreen({
                         <span className="rounded-md bg-indigo-500/20 px-1.5 py-0.5 text-[10px] font-extrabold tracking-wider text-indigo-300">
                           {g.roomCode}
                         </span>
+                        {isHostWaiting && (
+                          <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/15 px-2 py-0.5 text-[10px] font-bold text-emerald-300">
+                            <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-400" />
+                            Vert venter
+                          </span>
+                        )}
                       </div>
                       <p className="mt-0.5 truncate text-[11px] text-slate-400">
                         Deg: {g.myPlayerName}
@@ -608,21 +706,23 @@ export function HomeScreen({
                       <Trash2 className="h-3.5 w-3.5" />
                     </button>
                   </div>
-                  <div className="grid grid-cols-2 gap-2">
-                    <button
-                      type="button"
-                      disabled={connecting}
-                      onClick={() => onJoin(g.roomCode, g.myPlayerName)}
-                      className="flex items-center justify-center gap-1.5 rounded-xl bg-indigo-600 py-2 text-xs font-bold text-white transition hover:bg-indigo-500 active:scale-95 disabled:opacity-50"
-                    >
-                      <Users className="h-3.5 w-3.5" />
-                      Bli med
-                    </button>
+                  <div className={isHostWaiting ? 'grid grid-cols-2 gap-2' : ''}>
+                    {isHostWaiting && (
+                      <button
+                        type="button"
+                        disabled={connecting}
+                        onClick={() => onJoin(g.roomCode, g.myPlayerName)}
+                        className="flex items-center justify-center gap-1.5 rounded-xl bg-indigo-600 py-2 text-xs font-bold text-white transition hover:bg-indigo-500 active:scale-95 disabled:opacity-50"
+                      >
+                        <Users className="h-3.5 w-3.5" />
+                        Bli med
+                      </button>
+                    )}
                     <button
                       type="button"
                       disabled={connecting}
                       onClick={() => onHost(g.myPlayerName, g.roomCode, g.name)}
-                      className="flex items-center justify-center gap-1.5 rounded-xl border border-emerald-500/40 bg-emerald-500/15 py-2 text-xs font-bold text-emerald-300 transition hover:bg-emerald-500/25 active:scale-95 disabled:opacity-50"
+                      className="flex w-full items-center justify-center gap-1.5 rounded-xl border border-emerald-500/40 bg-emerald-500/15 py-2 text-xs font-bold text-emerald-300 transition hover:bg-emerald-500/25 active:scale-95 disabled:opacity-50"
                     >
                       <Play className="h-3.5 w-3.5" />
                       Start som vert

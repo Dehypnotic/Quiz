@@ -199,6 +199,7 @@ export function useQuizEngine() {
   const syncAll = useCallback(
     (s: InternalHostState, delayHostMs = 0) => {
       saveSerializedHostState(serializeHostState(s));
+      hostSessionRef.current?.publishStatus(true, s.phase);
 
       hostSessionRef.current?.broadcast((playerId) => ({
         type: 'state_sync',
