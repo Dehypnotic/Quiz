@@ -16,6 +16,8 @@ export interface ActiveSessionInfo {
   role: 'host' | 'guest';
   roomCode: string;
   playerName: string;
+  phase?: PublicGameState['phase'];
+  hostTabId?: string;
   savedAt: number;
 }
 
@@ -46,10 +48,30 @@ export interface SerializedHostState {
 
 export function saveActiveSession(info: Omit<ActiveSessionInfo, 'savedAt'>): void {
   try {
-    const payload: ActiveSessionInfo = { ...info, savedAt: Date.now() };
+    const currentTabId = sessionStorage.getItem('selskapsquiz_tab_id') ?? undefined;
+    const payload: ActiveSessionInfo = {
+      ...info,
+      hostTabId: info.role === 'host' ? (info.hostTabId ?? currentTabId) : undefined,
+      savedAt: Date.now(),
+    };
     localStorage.setItem(ACTIVE_SESSION_KEY, JSON.stringify(payload));
   } catch {
     // Ignore storage quota errors
+  }
+}
+
+export function isOtherHostTabActive(info: ActiveSessionInfo): boolean {
+  if (info.role !== 'host' || !info.hostTabId) return false;
+  try {
+    const myTabId = sessionStorage.getItem('selskapsquiz_tab_id');
+    if (myTabId && info.hostTabId === myTabId) return false;
+    const raw = localStorage.getItem('selskapsquiz_open_tabs');
+    if (!raw) return false;
+    const tabs = JSON.parse(raw) as Record<string, { playerId: string; ts: number }>;
+    const hostTab = tabs[info.hostTabId];
+    return Boolean(hostTab && Date.now() - hostTab.ts < 10_000);
+  } catch {
+    return false;
   }
 }
 
@@ -66,6 +88,8 @@ export function loadActiveSession(): ActiveSessionInfo | null {
     if (parsed.role === 'host') {
       const hostRaw = localStorage.getItem(HOST_STATE_KEY);
       if (!hostRaw) return null;
+      const hostParsed = JSON.parse(hostRaw) as SerializedHostState;
+      parsed.phase = hostParsed.phase;
     }
     return parsed;
   } catch {

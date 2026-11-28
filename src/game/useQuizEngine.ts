@@ -7,6 +7,7 @@ import {
 } from '../data/questionQueueStorage';
 import {
   clearActiveSession,
+  isOtherHostTabActive,
   loadActiveSession,
   loadSerializedHostState,
   saveActiveSession,
@@ -730,6 +731,12 @@ export function useQuizEngine() {
         onMessage(msg) {
           if (msg.type === 'state_sync') {
             setPublicState(msg.state);
+            saveActiveSession({
+              role: 'guest',
+              roomCode: msg.state.roomCode,
+              playerName: playerName.trim(),
+              phase: msg.state.phase,
+            });
           } else if (msg.type === 'host_handover') {
             startHostFromRestoredState(msg.hostState);
           } else if (msg.type === 'error') {
@@ -836,7 +843,7 @@ export function useQuizEngine() {
       return;
     }
 
-    if (saved.role === 'guest') {
+    if (saved.role === 'guest' || isOtherHostTabActive(saved)) {
       joinRoom(saved.roomCode, saved.playerName);
       return;
     }
